@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+  <name>test</name>
+  <caption></caption>
+  <tocfile></tocfile>
+  <indexfile></indexfile>
+  <defaultfile></defaultfile>
+  <homefile></homefile>
+  <jump1filename></jump1filename>
+  <jump1text></jump1text>
+  <jump2filename></jump2filename>
+  <jump2text></jump2text>
+  <flags type="number">1074267424</flags>
+  <navpanewidth type="number">0</navpanewidth>
+  <buttons type="number">12294</buttons>
+  <windowplacement>
+    <left type="number">5</left>
+    <top type="number">5</top>
+    <right type="number">512</right>
+    <bottom type="number">384</bottom>
+  </windowplacement>
+  <windowstyle type="number">0</windowstyle>
+  <windowstyleex type="number">0</windowstyleex>
+  <expandedstate type="number">0</expandedstate>
+  <defaulttab type="number">0</defaulttab>
+  <tabposition type="number">0</tabposition>
+  <showwindow type="number">1</showwindow>
+</window>

@@ -1,0 +1,73 @@
+/*Created with Adobe RoboHelp*/
+/*TOC Styling*/
+div.pdf-toc-body {}
+h1.pdf-toc-title {
+  font-family: Verdana;
+  font-size: 10pt;
+}
+a.pdf-toc-level-1 {
+  font-family: Verdana;
+  font-size: 10pt;
+  padding-bottom: 6pt;
+  text-decoration: none;
+}
+a.pdf-toc-level-2 {
+  font-family: Verdana;
+  font-size: 10pt;
+  padding-bottom: 6pt;
+  text-decoration: none;
+}
+a.pdf-toc-level-3 {
+  font-family: Verdana;
+  font-size: 10pt;
+  padding-bottom: 6pt;
+  text-decoration: none;
+}
+a.pdf-toc-level-4 {
+  font-family: Verdana;
+  font-size: 10pt
+}
+a.pdf-toc-level-5 {
+  font-family: Verdana;
+  font-size: 10pt
+}
+a.pdf-toc-level-6 {
+  font-family: Verdana;
+  font-size: 10pt
+}
+/*Index Styling*/
+div.book-idx-body {}
+h1.book-idx-title {
+  font-family: Verdana;
+  font-size: 10pt
+}
+div.book-idx-unit {}
+p.book-idx-keyword {
+  font-family: Verdana;
+  font-size: 10pt
+}
+span.book-idx-name {
+  font-family: Verdana;
+  font-size: 10pt
+}
+a.book-idx-link {
+  font-family: Verdana;
+  font-size: 10pt
+}
+div.book-idx-child {}
+/*Glossary Styling*/
+div.book-glo-body {}
+h1.book-glo-title {
+  font-family: Verdana;
+  font-size: 10pt
+}
+div.book-glo-unit {}
+p.book-glo-term {
+  font-family: Verdana;
+  font-size: 10pt;
+  font-weight: bold
+}
+p.book-glo-definition {
+  font-family: Verdana;
+  font-size: 10pt
+}

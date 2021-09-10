@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Word Output</title>
+  <meta name="rh-index-keywords" content="Printed Documents" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Word Output</h1>
+  <p>There are some big changes in the generation of printed documents, the key one being you don&#39;t need to have Microsoft Word installed on your computer. The DOCX file created does not use any of the proprietary features of Microsoft Word meaning it can be read in any program that can read a DOCX file.</p>
+  <h2>Creating a Word Output</h2>
+  <div data-conref="../assets/snippets/New_Outputs_Old_Types..hts"> </div>
+  <h2>Preset Configuration</h2>
+  <p>The settings appear in six groups as below.</p>
+  <h3>General</h3>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/word_preset_01.png" /></p>
+  <div data-conref="../assets/snippets/Path.hts"> </div>
+  <h4 class="null">Language</h4>
+  <p>The language should be set for the Table of Contents, Index and Glossary page.</p>
+  <h4 class="null">Post Generation Script</h4>
+  <p>You can select a script to run after the document has been generated.</p>
+  <h3>Content</h3>
+  <p><img alt="" border="0" src="../assets/images/outputs/word_preset_02.png" style="border: none;" /></p>
+  <p>Most of the options here are obvious but be aware of a change from Classic versions. Previously in all versions of RoboHelp, the content has been limited by design to just those topics in the print layout TOC rather than all topics in the project not excluded by a condition expression as in online outputs. Now all outputs are based on the TOC used so any change to the TOC will also affect the print output. You can create a separate TOC if required.</p>
+  <p class="Normal-Single Tighter_Items"><strong>Include All Referenced Topics</strong> sets whether or not topics not in the TOC but with links from topics in the TOC will also get included.</p>
+  <p>Classic versions of RoboHelp had an option to limit the depth of the TOC in printed outputs. That is not available in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. After generating your Word document, in Word you can right click alongside the TOC and select Edit Field and click the Table of Contents button. You can then set the level to your requirements. Other editors will have similar functionality.</p>
+  <h3>Metadata</h3>
+  <p><img src="../assets/images/outputs/word_preset_05.png" /></p>
+  <p>Enter any metadata that you required in the Word document.</p>
+  <p>Variables can be included in the Title. Place the cursor where you want the variable and press CTRL + 1.</p>
+  <h3>Layout</h3>
+  <p><img alt="" border="0" src="../assets/images/outputs/word_preset_03.png" style="border: none; cursor: nesw-resize;" /></p>
+  <p>Here you can apply a Master Page to your document. See Style Hierarchy and Headers and Footers below for information on how that will affect your document.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> Any headers and footers in master page will not appear in your printed document. Headers and footers come only from a Word template.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> ships with a Book master page that is linked to book.css. The styles in that css control the appearance of the Index and the Glossary.<br />
+    If you want to use master pages with your Word output<br />
+    - You can use the supplied master page and leave the topic css files to apply to the topics<br />
+    - You can use your own master page and link both your own css and book.css to it.<br />
+    With either of those options make sure your own css does not override what is in book.css.<br />
+    You can also copy the book.css styles into your own css and apply just that to the master page.</p>
+  <h3>Word</h3>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/word_preset_04.png" /></p>
+  <p>Here you can apply a Word template to your document that will be used for mapping.</p>
+  <p>What you see under In Word Output will depend on whether you have selected a Master Page and/or a Word Template or left both blank.</p>
+  <p>See Style Hierarchy and Headers and Footers below for information on how that will affect your document.</p>
+  <h4>Tables</h4>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> can map to tables that appear in Word&#39;s Table Design ribbon.</p>
+  <p>The tables supplied with Word have three Table Style Options check boxes preselected as shown below. Any tables you create and save in Word will start with the same three check boxes selected.</p>
+  <p>When generating a Word output <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> also applies the three check boxes shown below and in most cases the mapped tables will look correct in the generated Word document.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> If when designing you tables in Word you change the check boxes selected, after generating from <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> to Word, you will need to open the document and change the selections to match those in your Word template.</p>
+  <p><img src="../assets/images/outputs/word_tables01.png" /></p>
+  <div data-conref="../assets/snippets/Publish.hts"> </div>
+  <h2>Style Hierarchy and Headers and Footers</h2>
+  <h4>Project uses one CSS file that you want for the printed output.</h4>
+  <p>Leave the Master Page and Word template fields blank. The project CSS styles will be in the Style Mapping options.</p>
+  <p>If you want headers and footers, then you must use a Word template with the required header and footer set up.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> The same header and footer will appear on all pages of the document including your cover page and so on. They will be part of all front and back matter.</p>
+  <p>Under Style Mapping the default will be mapped to the Word template style if that style is part of the template. You can change that to the style from the CSS.</p>
+  <h4>Project uses multiple CSS files.</h4>
+  <p>If the topics are not all using the same CSS and if no master page and no template is selected in the Word settings, the CSS files will be merged and will follow cascading rules. Thus if the first CSS states that H1 is a red font at 24pt and second states H1 is a blue font at 24pt and the third states it is a green font at 18pt italic, the document H1 style will be green 18pt italic.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> As this can be unpredictable, it is recommended that where multiple CSS files are used in the various topics, that you either use a Master Page with a linked CSS file or a Word template.</p>
+  <h4>Project uses one CSS file but you want different styles in the printed output.</h4>
+  <p>You can use a master page with a CSS file attached and/or you can use a Word template.</p>
+  <h5>Master Pages</h5>
+  <p>Using a master page you can quickly change the styles by taking your topic CSS and creating a print version, mystyles_print.css for example. You can then quickly redefine the styles as required.</p>
+  <p>You can use existing master pages. Note that any headers and footers in them will not appear in the output.</p>
+  <h5>Word Templates</h5>
+  <p>A Word template is required if the printed output is to have headers and footers.</p>
+  <p>The template can be set up to have all the styles you require and in Style Mapping, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will default to what is in the template if there is a matching style. You can change that to the CSS style.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> If you are using a template solely to get headers and footers, create a new template to minimize the number of default styles in it.</p>
+  <h4>Different Headers and Footers Required?</h4>
+  <p>You will need to create a document with or without a single header and footer, then split your document into sections and set the headers and footers as required for each section.</p>
+  <h4>Style Mapping</h4>
+  <p>Under Style Mapping, you will see how <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> has mapped topics and you can change that as required.</p>
+  <div data-conref="../assets/snippets/Generation.hts"> </div>
+  <h2>Viewing the Output</h2>
+  <p>Click the view icon on the Output Presets toolbar. The document will open in whichever program has been associated with the DOCX format.</p>
+  <h2>Demo</h2>
+  <p>Adobe Community Professional Peter Grainge has put more information on his site. </p>
+  <p><a href="https://www.grainge.org/pages/authoring/printing/new_ui_output/frameless/index.htm" target="_blank">Click here</a><span><span> </span>to see how more about printed documentation works in RoboHelp 2020.<span> </span></span><a href="https://www.grainge.org/zips/Word_and_PDF_Project.zip">Click here</a><span><span> </span>to download a zipped copy of project set up with the Word and PDF outputs so that you can try it out.</span></p>
+  <p> </p>
+</body>
+</html>

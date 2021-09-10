@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>About RoboHelp</title>
+  <content>
+    <toc>
+      <path>../../toc/Main_Toc.toc</path>
+      <name>Main_Toc</name>
+    </toc>
+    <index type="boolean">true</index>
+    <masterpage>
+      <path>../../contents/assets/masterpages/Print General.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <type>kb</type>
+  <outputPath>C:/Users/kum/Documents/My RoboHelp Projects/outputs/About RoboHelp/Salesforce</outputPath>
+  <name>Salesforce</name>
+  <starterPage>About_RoboHelp.htm</starterPage>
+  <kbtype>
+    <displayName>Salesforce Knowledge Base</displayName>
+    <name>salesforce</name>
+  </kbtype>
+  <kbtarget>
+    <salesforce>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <draft type="boolean">true</draft>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <publishprofile>salesforce</publishprofile>
+      <recordtype>0125g000000M7ixAAC</recordtype>
+      <removetitle type="boolean">true</removetitle>
+    </salesforce>
+    <zendesk>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <draft type="boolean">true</draft>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">true</usejs>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </zendesk>
+    <zoho>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <removetitle type="boolean">true</removetitle>
+      <useflattoc type="boolean">false</useflattoc>
+      <draft type="boolean">true</draft>
+    </zoho>
+    <servicenow>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usetags type="boolean">true</usetags>
+      <draft type="boolean">true</draft>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </servicenow>
+    <aem>
+      <aemuseinlinestyles type="boolean">false</aemuseinlinestyles>
+      <removetitle type="boolean">true</removetitle>
+      <usecomponents type="boolean">false</usecomponents>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">false</usejs>
+    </aem>
+    <publishstatus type="array">
+      <publishstatusitem>
+        <path>C:/Users/kum/Documents/My RoboHelp Projects/Adobe RoboHelp 2020/Samples/About RoboHelp/toc/Main_Toc.toc</path>
+        <data type="array">
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>About Adobe RoboHelp</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About Adobe RoboHelp</name>
+            <id>aW50cm9kdWN0aW9uL2Fib3V0X3JvYm9oZWxwLmh0bUAjQGEkQWJvdXQgQWRvYmUgUm9ib0hlbHA=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>What&#39;s in Adobe RoboHelp?</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>What&#39;s in Adobe RoboHelp?</name>
+            <id>aW50cm9kdWN0aW9uLzIwMjAuaHRtQCNAYSRXaGF0J3MgaW4gQWRvYmUgUm9ib0hlbHA/</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>What&#39;s in Adobe RoboHelp 2019?</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>What&#39;s in Adobe RoboHelp 2019?</name>
+            <id>aW50cm9kdWN0aW9uLzIwMTkuaHRtQCNAYSRXaGF0J3MgaW4gQWRvYmUgUm9ib0hlbHAgMjAxOT8=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>The User Interface</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>The User Interface</name>
+            <id>VGhlIFVzZXIgSW50ZXJmYWNlQCNAYSRUaGUgVXNlciBJbnRlcmZhY2U=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>The User Interface</tocPathitem>
+              <tocPathitem>The User Interface</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>The User Interface</name>
+            <id>dXNlcl9pbnRlcmZhY2UvdWkuaHRtQCNAYSRUaGUgVXNlciBJbnRlcmZhY2UvVGhlIFVzZXIgSW50ZXJmYWNl</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>The User Interface</tocPathitem>
+              <tocPathitem>Working on Topics</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Working on Topics</name>
+            <id>dXNlcl9pbnRlcmZhY2Uvd29ya2luZ19vbl90b3BpY3MuaHRtQCNAYSRUaGUgVXNlciBJbnRlcmZhY2UvV29ya2luZyBvbiBUb3BpY3M=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>The User Interface</tocPathitem>
+              <tocPathitem>Contents Panel</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Contents Panel</name>
+            <id>dXNlcl9pbnRlcmZhY2UvY29udGVudHNfcGFuZWwuaHRtQCNAYSRUaGUgVXNlciBJbnRlcmZhY2UvQ29udGVudHMgUGFuZWw=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>The User Interface</tocPathitem>
+              <tocPathitem>Preferences</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Preferences</name>
+            <id>dXNlcl9pbnRlcmZhY2UvcHJlZmVyZW5jZXMuaHRtQCNAYSRUaGUgVXNlciBJbnRlcmZhY2UvUHJlZmVyZW5jZXM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Upgrading from Classic Versions</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Upgrading from Classic Versions</name>
+            <id>VXBncmFkaW5nIGZyb20gQ2xhc3NpYyBWZXJzaW9uc0AjQGEkVXBncmFkaW5nIGZyb20gQ2xhc3NpYyBWZXJzaW9ucw==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Upgrading from Classic Versions</tocPathitem>
+              <tocPathitem>Upgrading from Classic Versions</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Upgrading from Classic Versions</name>
+            <id>aW50cm9kdWN0aW9uL3VwZ3JhZGluZy5odG1AI0BhJFVwZ3JhZGluZyBmcm9tIENsYXNzaWMgVmVyc2lvbnMvVXBncmFkaW5nIGZyb20gQ2xhc3NpYyBWZXJzaW9ucw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Authoring</name>
+            <id>QXV0aG9yaW5nQCNAYSRBdXRob3Jpbmc=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Broken Links</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Broken Links</name>
+            <id>YXV0aG9yaW5nL2Jyb2tlbl9saW5rcy5odG1AI0BhJEF1dGhvcmluZy9Ccm9rZW4gTGlua3M=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Browse Sequences</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Browse Sequences</name>
+            <id>YXV0aG9yaW5nL2Jyb3dzZV9zZXF1ZW5jZXMuaHRtQCNAYSRBdXRob3JpbmcvQnJvd3NlIFNlcXVlbmNlcw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Cross References and Hyperlinks</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Cross References and Hyperlinks</name>
+            <id>YXV0aG9yaW5nL2Nyb3NzX3JlZnNfYW5kX2xpbmtzLmh0bUAjQGEkQXV0aG9yaW5nL0Nyb3NzIFJlZmVyZW5jZXMgYW5kIEh5cGVybGlua3M=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Dropdowns and Expanding Text</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Dropdowns and Expanding Text</name>
+            <id>YXV0aG9yaW5nL2Ryb3Bkb3ducy5odG1AI0BhJEF1dGhvcmluZy9Ecm9wZG93bnMgYW5kIEV4cGFuZGluZyBUZXh0</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Find and Replace</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Find and Replace</name>
+            <id>YXV0aG9yaW5nL2ZpbmRfYW5kX3JlcGxhY2UuaHRtQCNAYSRBdXRob3JpbmcvRmluZCBhbmQgUmVwbGFjZQ==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Images, Videos and Captivate</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Images, Videos and Captivate</name>
+            <id>YXV0aG9yaW5nL2ltYWdlc19hbmRfdmlkZW9zLmh0bUAjQGEkQXV0aG9yaW5nL0ltYWdlcywgVmlkZW9zIGFuZCBDYXB0aXZhdGU=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Importing/Linking Word/ Fm Docs</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Importing/Linking Word/ Fm Docs</name>
+            <id>YXV0aG9yaW5nL2ltcG9ydGluZ19saW5raW5nLmh0bUAjQGEkQXV0aG9yaW5nL0ltcG9ydGluZy9MaW5raW5nIFdvcmQvIEZtIERvY3M=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Lists and Autonumbering</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Lists and Autonumbering</name>
+            <id>YXV0aG9yaW5nL2xpc3RzLmh0bUAjQGEkQXV0aG9yaW5nL0xpc3RzIGFuZCBBdXRvbnVtYmVyaW5n</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Master Pages</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Master Pages</name>
+            <id>YXV0aG9yaW5nL21hc3Rlcl9wYWdlcy5odG1AI0BhJEF1dGhvcmluZy9NYXN0ZXIgUGFnZXM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Merged Help</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Merged Help</name>
+            <id>YXV0aG9yaW5nL21lcmdlZF9oZWxwLmh0bUAjQGEkQXV0aG9yaW5nL01lcmdlZCBIZWxw</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Microcontent</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Microcontent</name>
+            <id>YXV0aG9yaW5nL21pY3JvY29udGVudC5odG1AI0BhJEF1dGhvcmluZy9NaWNyb2NvbnRlbnQ=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Project Settings</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Project Settings</name>
+            <id>YXV0aG9yaW5nL3Byb2plY3Rfc2V0dGluZ3MuaHRtQCNAYSRBdXRob3JpbmcvUHJvamVjdCBTZXR0aW5ncw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Resource Linking</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Resource Linking</name>
+            <id>YXV0aG9yaW5nL3Jlc291cmNlX2xpbmtpbmcuaHRtQCNAYSRBdXRob3JpbmcvUmVzb3VyY2UgTGlua2luZw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Scripts</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Scripts</name>
+            <id>YXV0aG9yaW5nL3NjcmlwdHMuaHRtQCNAYSRBdXRob3JpbmcvU2NyaXB0cw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>See Also and Related Topics</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>See Also and Related Topics</name>
+            <id>YXV0aG9yaW5nL3NlZV9hbHNvLmh0bUAjQGEkQXV0aG9yaW5nL1NlZSBBbHNvIGFuZCBSZWxhdGVkIFRvcGljcw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Snippets</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Snippets</name>
+            <id>YXV0aG9yaW5nL3NuaXBwZXRzLmh0bUAjQGEkQXV0aG9yaW5nL1NuaXBwZXRz</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Source Control</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Source Control</name>
+            <id>YXV0aG9yaW5nL3NvdXJjZV9jb250cm9sLmh0bUAjQGEkQXV0aG9yaW5nL1NvdXJjZSBDb250cm9s</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Tables</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Tables</name>
+            <id>YXV0aG9yaW5nL3RhYmxlcy5odG1AI0BhJEF1dGhvcmluZy9UYWJsZXM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Topic List</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Topic List</name>
+            <id>YXV0aG9yaW5nL3RvcGljX2xpc3QuaHRtQCNAYSRBdXRob3JpbmcvVG9waWMgTGlzdA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Translations</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Translations</name>
+            <id>YXV0aG9yaW5nL3RyYW5zbGF0aW9ucy5odG1AI0BhJEF1dGhvcmluZy9UcmFuc2xhdGlvbnM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Authoring</tocPathitem>
+              <tocPathitem>Variables</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Variables</name>
+            <id>YXV0aG9yaW5nL3ZhcmlhYmxlcy5odG1AI0BhJEF1dGhvcmluZy9WYXJpYWJsZXM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>TOC, Index and Glossary</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>TOC, Index and Glossary</name>
+            <id>VE9DLCBJbmRleCBhbmQgR2xvc3NhcnlAI0BhJFRPQywgSW5kZXggYW5kIEdsb3NzYXJ5</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>TOC, Index and Glossary</tocPathitem>
+              <tocPathitem>The Table of Contents</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>The Table of Contents</name>
+            <id>dG9jX2luZGV4X2dsb3NzYXJ5L3RvYy5odG1AI0BhJFRPQywgSW5kZXggYW5kIEdsb3NzYXJ5L1RoZSBUYWJsZSBvZiBDb250ZW50cw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>TOC, Index and Glossary</tocPathitem>
+              <tocPathitem>The Index</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>The Index</name>
+            <id>dG9jX2luZGV4X2dsb3NzYXJ5L2luZGV4Lmh0bUAjQGEkVE9DLCBJbmRleCBhbmQgR2xvc3NhcnkvVGhlIEluZGV4</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>TOC, Index and Glossary</tocPathitem>
+              <tocPathitem>The Glossary</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>The Glossary</name>
+            <id>dG9jX2luZGV4X2dsb3NzYXJ5L2dsb3NzYXJ5Lmh0bUAjQGEkVE9DLCBJbmRleCBhbmQgR2xvc3NhcnkvVGhlIEdsb3NzYXJ5</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Reports</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Reports</name>
+            <id>UmVwb3J0c0AjQGEkUmVwb3J0cw==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Reports</tocPathitem>
+              <tocPathitem>Reports</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Reports</name>
+            <id>cmVwb3J0cy9yZXBvcnRzLmh0bUAjQGEkUmVwb3J0cy9SZXBvcnRz</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Project Reviews</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Project Reviews</name>
+            <id>UHJvamVjdCBSZXZpZXdzQCNAYSRQcm9qZWN0IFJldmlld3M=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Project Reviews</tocPathitem>
+              <tocPathitem>Reviewing Topics</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Reviewing Topics</name>
+            <id>cmV2aWV3aW5nL3Jldmlld2luZy5odG1AI0BhJFByb2plY3QgUmV2aWV3cy9SZXZpZXdpbmcgVG9waWNz</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Single Sourcing, Tags and Expressions</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Single Sourcing, Tags and Expressions</name>
+            <id>U2luZ2xlIFNvdXJjaW5nLCBUYWdzIGFuZCBFeHByZXNzaW9uc0AjQGEkU2luZ2xlIFNvdXJjaW5nLCBUYWdzIGFuZCBFeHByZXNzaW9ucw==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Single Sourcing, Tags and Expressions</tocPathitem>
+              <tocPathitem>Single Sourcing. Tags and Expressions</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Single Sourcing. Tags and Expressions</name>
+            <id>c2luZ2xlX3NvdXJjaW5nL3NpbmdsZV9zb3VyY2luZy5odG1AI0BhJFNpbmdsZSBTb3VyY2luZywgVGFncyBhbmQgRXhwcmVzc2lvbnMvU2luZ2xlIFNvdXJjaW5nLiBUYWdzIGFuZCBFeHByZXNzaW9ucw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Outputs</name>
+            <id>T3V0cHV0c0AjQGEkT3V0cHV0cw==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Outputs General</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Outputs General</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2dlbmVyYWwuaHRtQCNAYSRPdXRwdXRzL091dHB1dHMgR2VuZXJhbA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Chatbot Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Chatbot Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2NoYXRib3QuaHRtQCNAYSRPdXRwdXRzL0NoYXRib3QgT3V0cHV0</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Content Only Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Content Only Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2NvbnRlbnRfb25seS5odG1AI0BhJE91dHB1dHMvQ29udGVudCBPbmx5IE91dHB1dA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>eBook Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>eBook Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2Vib29rLmh0bUAjQGEkT3V0cHV0cy9lQm9vayBPdXRwdXQ=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Frameless Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Frameless Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2ZyYW1lbGVzcy5odG1AI0BhJE91dHB1dHMvRnJhbWVsZXNzIE91dHB1dA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Frameless With Chat Pod</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Frameless With Chat Pod</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2ZyYW1lbGVzc193aXRoX2NoYXRfcG9kLmh0bUAjQGEkT3V0cHV0cy9GcmFtZWxlc3MgV2l0aCBDaGF0IFBvZA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Knowledge Base Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Knowledge Base Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2tub3dsZWRnZV9iYXNlLmh0bUAjQGEkT3V0cHV0cy9Lbm93bGVkZ2UgQmFzZSBPdXRwdXQ=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Microhelp Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Microhelp Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX21pY3JvaGVscC5odG1AI0BhJE91dHB1dHMvTWljcm9oZWxwIE91dHB1dA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Microsoft HTML Output - CHMs</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Microsoft HTML Output - CHMs</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX2NobS5odG1AI0BhJE91dHB1dHMvTWljcm9zb2Z0IEhUTUwgT3V0cHV0IC0gQ0hNcw==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Mobile App Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Mobile App Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX21vYmlsZV9hcHBzLmh0bUAjQGEkT3V0cHV0cy9Nb2JpbGUgQXBwIE91dHB1dA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>PDF Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>PDF Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX3BkZi5odG1AI0BhJE91dHB1dHMvUERGIE91dHB1dA==</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Responsive HTML5 Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Responsive HTML5 Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX3Jlc3BvbnNpdmUuaHRtQCNAYSRPdXRwdXRzL1Jlc3BvbnNpdmUgSFRNTDUgT3V0cHV0</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>WebHelp Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>WebHelp Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX3dlYmhlbHAuaHRtQCNAYSRPdXRwdXRzL1dlYkhlbHAgT3V0cHV0</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Word Output</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Word Output</name>
+            <id>b3V0cHV0cy9vdXRwdXRzX3dvcmQuaHRtQCNAYSRPdXRwdXRzL1dvcmQgT3V0cHV0</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Publishing</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Publishing</name>
+            <id>b3V0cHV0cy9wdWJsaXNoaW5nLmh0bUAjQGEkT3V0cHV0cy9QdWJsaXNoaW5n</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Calling Context Sensitive Help</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Calling Context Sensitive Help</name>
+            <id>b3V0cHV0cy9jYWxsaW5nX2NzaF9oZWxwLmh0bUAjQGEkT3V0cHV0cy9DYWxsaW5nIENvbnRleHQgU2Vuc2l0aXZlIEhlbHA=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Command Line Generation</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Command Line Generation</name>
+            <id>b3V0cHV0cy9jb21tYW5kX2xpbmUuaHRtQCNAYSRPdXRwdXRzL0NvbW1hbmQgTGluZSBHZW5lcmF0aW9u</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Dynamic Content Filtering</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Dynamic Content Filtering</name>
+            <id>b3V0cHV0cy9keW5hbWljX2NvbnRlbnQuaHRtQCNAYSRPdXRwdXRzL0R5bmFtaWMgQ29udGVudCBGaWx0ZXJpbmc=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>Mapping</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Mapping</name>
+            <id>b3V0cHV0cy9tYXBwaW5nLmh0bUAjQGEkT3V0cHV0cy9NYXBwaW5n</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Outputs</tocPathitem>
+              <tocPathitem>The Skin Editor</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>The Skin Editor</name>
+            <id>b3V0cHV0cy9za2luX2VkaXRvci5odG1AI0BhJE91dHB1dHMvVGhlIFNraW4gRWRpdG9y</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Bits and Pieces</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Bits and Pieces</name>
+            <id>Qml0cyBhbmQgUGllY2VzQCNAYSRCaXRzIGFuZCBQaWVjZXM=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Bits and Pieces</tocPathitem>
+              <tocPathitem>Bits and Pieces</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Bits and Pieces</name>
+            <id>Yml0c19hbmRfcGllY2VzL2JpdHNfYW5kX3BpZWNlcy5odG1AI0BhJEJpdHMgYW5kIFBpZWNlcy9CaXRzIGFuZCBQaWVjZXM=</id>
+            <lastPublished>Sun May 16 2021 08:15:52 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+        </data>
+      </publishstatusitem>
+    </publishstatus>
+  </kbtarget>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>salesforce</name>
+    </serversStatusitem>
+  </serversStatus>
+  <republish type="boolean">false</republish>
+  <generateMapFiles type="boolean">true</generateMapFiles>
+  <generateBRS type="boolean">true</generateBRS>
+</preset>
