@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Initialize scheduling</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.3.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Prepare for next year"/>
+</head>
+
+<body>
+
+
+
+<h1><a name="Initialize_next_year" id="Initialize_next_year"></a>Initialize 
+ next year</h1>
+ <p>The student and school class information 
+ for the next school year is distinct from the corresponding information 
+ for this school year.  Each year, when you are ready to start scheduling, 
+ you must first run the initialize next year process.  This process 
+ performs the following functions based on the options selected as part 
+ of this process:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Sets the school year status to This Year Only for students attending 
+	 the school this year in the school’s highest grade.  Each student’s 
+	 exit date (retirement/transfer date), exit description, and destination 
+	 school (if applicable) is set to the defaults set by the school.  Students 
+	 in the highest grade in the school are assumed to be leaving the school 
+	 at the end of this year, and those who aren’t leaving can be adjusted 
+	 manually after the process is completed.   </li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Advances each student’s grade next year based on the progression 
+	 of grades set by the school.  This year’s grade is not changed.</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Each student’s homeroom next year can be removed (set to not assigned) 
+	 or it may be set to the same homeroom as this year (if the list of 
+	 homerooms is copied from this year to next year).  Similarly, 
+	 each student’s advisor group can be removed or set the same as this 
+	 year.</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Each student’s course selections can be erased (to remove last 
+	 year’s course selections) or retained (if applicable, as in a situation 
+	 where initialize is run again).</li>
+</ul>
+<p> </p>
+<p>To access Initialize next year choose Scheduling next year &gt; Prepare 
+ for next year. Select the GO button  on the Initialize next year 
+ card.</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-card.png" alt="" style=" border:none; width:100%; max-width:253px;" border="0"/></p>
+<p> </p>
+<p>You&#39;ll see the Initialize next year screen:</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-main.png" alt="" style=" border:none; width:100%; max-width:710px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>Set the options as required for your school (explained below), and then 
+ select the INITIALIZE button.   </p>
+<p> </p>
+<p>Once the initialize process is completed, you&#39;ll see the most recent 
+ Initialize details in the bottom bar.   </p>
+<p> </p>
+<p>If you attempt to initialize again, you will see this warning  message. 
+ Type WIPE NEXT YEAR to enable the INITIALIZE button, otherwise select 
+ CANCEL.</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-message.png" alt="" style=" border:none; width:100%; max-width:642px;" border="0"/></p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Graduating_students" id="Graduating_students"></a>Graduating 
+ students</p>
+<p>The Graduating students card will default the highest grade in your 
+ school, the exit date (based on your school’s calendar), and an exit description 
+ for your school type (elementary vs secondary) and province.  Any 
+ of these fields may be changed, and if all students in the highest grade 
+ are going to the same school, the destination school may be selected. 
+ Students in the highest grade (or higher) will have their edsembli status 
+ changed to ‘this year only’ and their exit date and reason will be set 
+ to the values set here.  Here is an example of the card:</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-grad-card.png" alt="" style=" border:none; width:100%; max-width:591px;" border="0"/></p>
+<p> </p>
+<p>Students who are in the highest grade who are already ‘This year only’ 
+ or ‘Withdrawn’ will be excluded so that they will retain entered exit 
+ dates and descriptions.</p>
+<p> </p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Progression_of_grades" id="Progression_of_grades"></a>Progression 
+ of grades</p>
+<p>The Progression of grades card will be collapsed by default.  Expand 
+ the card to see the grade progression.  The students in the grade 
+ in the left column (this year grade) will be advanced to the grade in 
+ the right column (next year grade).  The progression of grades is 
+ based on the sort order in the table of grades.  Here is an example 
+ of the card:</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-progression-card.png" alt="" style=" border:none; width:100%; max-width:591px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Next_year_homerooms" id="Next_year_homerooms"></a>Next 
+ year homerooms</p>
+<p>Some schools retain similar homerooms from year to year, and some prefer 
+ to have the list of homerooms completely empty.  If you prefer to 
+ have an empty homeroom list, select the last option “Delete next year 
+ homerooms &amp; set students’ next year homerooms to not assigned”.  More 
+ commonly, the homerooms from this year are copied to next year (by selecting 
+ the first option “Copy this year homerooms to next year”).</p>
+<p> </p>
+<p>When the homerooms are copied (e.g. the table containing the homerooms 
+ is copied), the students’ homerooms may be either:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>set to the same homeroom as the current homeroom using the option 
+	 “Copy students’ this year homerooms to next year homerooms”, or  </li>
+	<li>cleared out (set to not assigned) using the option “Set students’ 
+	 next year homerooms to not assigned”. This is the recommended option 
+	 for elementary school who schedule using the assigned classes feature 
+	 in homerooms.</li>
+</ul>
+<p> </p>
+<p>Here is an example of the card:</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-nyhomeroom-card.png" alt="" style=" border:none; width:100%; max-width:591px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>The next year homerooms assigned to students during the initial process 
+ are typically reassigned later in the scheduling process.</p>
+<p> </p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Next_year_advisor_groups" id="Next_year_advisor_groups"></a>Next 
+ year advisor groups</p>
+<p>School s that don&#39;t use advisor groups may ignore this setting.</p>
+<p> </p>
+<p>Some schools retain similar advisor groups from year to year, and some 
+ prefer to have the list of advisor groups completely empty.  If you 
+ prefer to have an empty advisor group list, select the last option “Delete 
+ next year advisor groups &amp; set students’ next year advisor groups 
+ to not assigned”.  More commonly, the advisor groups from this year 
+ are copied to next year (by selecting the first option “Copy this year 
+ advisor groups to next year”).</p>
+<p> </p>
+<p>When the advisor groups are copied (e.g. the table containing the advisor 
+ groups is copied), the students’ advisor groups may be either:</p>
+<p> </p>
+<p>set to the same advisor group as the current advisor group using the 
+ option “Copy students’ this year advisor groups to next year advisor groups”, 
+ or  </p>
+<p> </p>
+<p>cleared out (set to not assigned) using the option “Set students’ next 
+ year advisor groups to not assigned”.</p>
+<p> </p>
+<p>Here is an example of the card:</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-nyadvisor-card.png" alt="" style=" border:none; width:100%; max-width:723px;" border="0"/></p>
+<p> </p>
+<p>The next year advisor groups assigned to students during the initial 
+ process may be reassigned later in the scheduling process.</p>
+<p> </p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Course_selections" id="Course_selections"></a>Course 
+ selections</p>
+<p style="font-style: italic;">This card applies to secondary schools only.</p>
+<p> </p>
+<p>The initialize next year process is recommended to be run prior to the 
+ entry of the course selections for students.  For that reason, it 
+ will  default ‘erase all course selections for all students’ to ensure 
+ that all course selections from the previous school year are removed.</p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-coursesel-card.png" alt="" style=" border:none; width:100%; max-width:723px;" border="0"/></p>
+<p> </p>
+<p>Two other options exist to handle unique situations that may apply for 
+ some schools.</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>If the school has course selections already recorded for new students 
+	 who are not already in the school (school year status is next year 
+	 only), but all other students still have their previous year’s courses, 
+	 use the option “Retain course selections for next year only students 
+	 &amp; erase courses for all others”.</li>
+	<li>If the school needs to initialize again and all the students already 
+	 have their course selections recorded, use the option “Retain all 
+	 course selections as entered”.</li>
+</ul>
+<p> </p>
+<p> </p>
+<p class="Blue" style="font-weight: bold;"><a name="Course_expiry_effective_dates" id="Course_expiry_effective_dates"></a>Course 
+ expiry/effective dates</p>
+<p>Sometimes courses are no longer applicable for the forthcoming school 
+ year, and these courses have been expired by the board/division/district 
+ in the codes table. Similarly, the codes table may contain new codes that 
+ should be added to your school&#39;s list of courses.  These options 
+ allow the school&#39;s list of course to contain only the relevant courses 
+ based on the effective and expiry dates of the codes. Expiry date must 
+ be specified to match the dates set in the codes (e.g. August 30, 2019 
+ would mean that any codes expired on August 30 or earlier would not be 
+ copied into the school&#39;s next year&#39;s courses table).</p>
+<p> </p>
+<p> </p>
+<p><img src="assets/images/sched-initialize-courseexpeff-card.png" alt="" style=" border:none; width:100%; max-width:723px;" border="0"/></p>
+<h3><br/>
+</h3>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>

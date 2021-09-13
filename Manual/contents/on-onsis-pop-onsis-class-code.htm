@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Populate OnSIS class code</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.2.0_13";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; October secondary school"/>
+</head>
+<body>
+
+
+<h1>Populate OnSIS class code</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p>(Secondary Only) Changes have been made to help populate the OnSIS Class Code field in the secondary class list, course segment and student class enrolment batch files. OnSIS requires the same class code to be used in subsequent submissions, and sometimes, changes in the schools makes it hard for the application to keep the same class and groupings as was first reported to OnSIS in the previous submission.</p>
+<p> </p>
+<p>A new field called OnSIS Class Code was added to the classes file for every class. This field will be initially blank (meaning Maplewood will automatically figure out the class groupings), however it can get populated based on the information in OnSIS using a new file option called &quot;Populate OnSIS Class Code (after current submission has been signed off)&quot;. This new option is the last option on Maplewood&#39;s OnSIS interface for the October and March submissions only. Although this is an optional step, we strongly advise schools to use this feature to minimize class, course segment and student class enrolment errors in the subsequent submission. Here&#39;s how this option is used:</p>
+<p> </p>
+<p>After October has been signed off and before submitting any changes for the March submission, in OnSIS, request the Course Segment Extract for October. Once the extract is saved, go into Maplewood, choose the October submission period, and then browse for the extract using the new Populate OnSIS Class Code option. Once this file has been processed, the OnSIS Class code field in the classes file will be populate with the name of the class submitted to OnSIS in October (for sem 1 and full year courses).</p>
+<p> </p>
+<p>Repeat this step after March has been signed off and before submitting any changes for the June submission. In OnSIS, request the Course Segment Extract for March. Once the extract is saved, go into Maplewood, choose the March submission period, and then browse for the extract using the new Populate OnSIS Class Code option. Once this file has been processed, the OnSIS Class Code field in the classes file will be populate with the name of the class submitted to OnSIS in March (for sem 2 and newly added full year courses).</p>
+<p> </p>
+<p>Now, when Maplewood creates the class list, course segment, and student class enrolment batch files, classes will be grouped based on the classes with the same OnSIS Class Code in the classes file. Since schools should not normally need to change the OnSIS Class code in the classes file, the field will be disabled so that it doesn&#39;t get inadvertently changed. Those responsible for OnSIS submissions may edit this field in the classes file by editing the class and pressing ALT and M to unlock the field. It will return to locked by selecting ALT and M again.</p>
+<p>With these new features, if the user adds a new class after the count date, and enters an OnSIS Class Code of an existing group (that was submitted on the count date), the new classes will be sent as a new segment (sent as an ADD) to the existing group.</p>
+<p> </p>
+<p>For Example, the Semester 1 classes KGLDNa and KGLFNa are grouped together during the submission process for the October 31st count date. When the user imports the OnSIS Class Code into Maplewood (AFTER the October 31st Sign off) then both classes will have an OnSIS Class Code of KGLDNA-GROUPED assigned. If a new class (KGLGNa) is added after the count date, and the user groups this class with KGLDNa and KGLFNa, the user will be prompted with a message asking the user if they would like to add the existing OnSIS Class Code KGLDNA-GROUPED to the new class (KGLGNa). If the user answers YES, when the March 31st submission files are created (e.g. Course Segment File), the following will appear:</p>
+<p> </p>
+<p>- &lt;CLASS&gt;</p>
+<p>&lt;ACTION&gt;UPDATE&lt;/ACTION&gt;</p>
+<p>&lt;CLASS_CODE&gt;KGLDNA-GROUPED&lt;/CLASS_CODE&gt;</p>
+<p>&lt;CLASS_START_DATE&gt;2011/09/06&lt;/CLASS_START_DATE&gt;</p>
+<p>&lt;CLASS_END_DATE&gt;2012/02/02&lt;/CLASS_END_DATE&gt;</p>
+<p>&lt;CLASS_TYPE&gt;S&lt;/CLASS_TYPE&gt;</p>
+<p>&lt;LANGUAGE_TYPE&gt;E&lt;/LANGUAGE_TYPE&gt;</p>
+<p>&lt;CLASSROOM_TYPE&gt;1&lt;/CLASSROOM_TYPE&gt;</p>
+<p>- &lt;SEGMENT&gt;</p>
+<p>&lt;ACTION&gt;ADD&lt;/ACTION&gt;</p>
+<p>&lt;MINISTRY_DFND_CRS&gt;KGLGN&lt;/MINISTRY_DFND_CRS&gt;</p>
+<p>&lt;CREDIT_VALUE&gt;0.00&lt;/CREDIT_VALUE&gt;</p>
+<p>&lt;LANGUAGE_TYPE&gt;E&lt;/LANGUAGE_TYPE&gt;</p>
+<p>&lt;/SEGMENT&gt;</p>
+<p>&lt;/CLASS&gt;</p>
+<p> </p>
+<p>Note: Users are not required to import the OnSIS Class Code. If OnSIS Class Code does not exist for a class in the classes file, then program will perform the automatic grouping process as it always has (and will exclude those with the OnSIS Class Code assigned from the grouping).</p>
+<p> </p>
+<p>A warning will appear on a printout at the end of the file creation process for both the Class List and Course Segment files, informing the user of all classes from the previous submission that do not have an OnSIS Class Code. Schools choosing not to implement the OnSIS Class Code, can ignore these warnings.</p>
+
+</body></html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Analyze conflicts</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "15.8.0_2";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Analyze master timetable" />
+</head>
+<body>
+  <h1>Analyze conflicts</h1>
+  <hr align="center" style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" />
+  <p>After a group of classes are scheduled, and the students are loaded into timetables (using <a href="sched-load-students.htm">load students</a>), some students may have timetable conflicts. A conflict exists if the student is unable to be assigned to a requested scheduled course.</p>
+  <p>While the timetable is being created, it is important to analyze the conflicts after each group of classes is scheduled and the load students process has run. The Analyze conflicts tool is step 3 in the scheduling process that is repeated for small groups of classes:</p>
+  <p>Rather than looking at student conflicts, one at a time, the most efficient way to analyze the resulting timetables is to use the Analyze conflicts option. This option helps identify the courses that have large numbers of students unable to get assigned into classes.</p>
+  <p>To analyze conflicts choose Scheduling next year &gt; Analyze master timetable.</p>
+  <p><img alt="" border="0" src="assets/images/analyze-conflicts-card.png" style="border: none; width: 100%; max-width: 202px;" /></p>
+  <p> </p>
+  <p>Select GO on the Analyze conflicts card and the following screen will appear:</p>
+  <p><img alt="" border="0" src="assets/images/analyze-conflicts-main.png" style="border: none; width: 100%; max-width: 858px;" /></p>
+  <p>For every course with at least 1 scheduled class, the following information is provided:</p>
+  <p><span style="color: #007fff; font-weight: bold;">Scheduled classes</span>: the number of class sections that have been scheduled.</p>
+  <p><span style="color: #007fff; font-weight: bold;">Preferred requests</span>: the number of students requesting the course as a preferred course selection.</p>
+  <p><span style="color: #007fff; font-weight: bold;">Unassigned students</span>: the number of students who were not able to get assigned into a class of the course.</p>
+  <p><span style="color: #007fff; font-weight: bold;">Percent unassigned</span>: the percent of students requesting the course who are unassigned.  This is the number of unassigned students divided by the number of preferred request multiplied by 100. For example, if a course has 50 requests with 10 students not assigned a class, it would show 20% unassigned.</p>
+  <p><span style="color: #007fff; font-weight: bold;">Unscheduled classes</span>: the number of class sections that have not yet been scheduled. If there are classes not yet scheduled, then unassigned students will decrease when these classes are scheduled. Typically, if there are unscheduled classes, you can ignore these courses.</p>
+  <p> </p>
+  <p>By default, the courses with the greatest number of unassigned students are listed first, but the list may be by any column order by selecting the column title. If the course has 0 unscheduled classes, and a high number of unassigned students, it may indicate a ‘problem’ course. Here’s a suggested approach for these ‘problem’ courses to see if there is a better placement in the schedule which would allow more students to get assigned into a class:</p>
+  <ol style="list-style: decimal;">
+    <li>Select the icon to change from hiding to showing class info:<br />
+      <br />
+      <img alt="" border="0" src="assets/images/analyze-conflicts-1.png" style="border: none; width: 100%; max-width: 720px;" />
+    </li>
+    <li>
+      <p>The grid will change to list each class, along with occupancy (number of students in the class).<br />
+        <br />
+        <img alt="" border="0" src="assets/images/analyze-conflicts-2.png" style="border: none; width: 100%; max-width: 788px;" />
+      </p>
+    </li>
+    <li>Select (row click) the class with the lowest occupancy.  This will provide a quick link to schedule the class (using the Master builder – Manual tool). This is where you can identify if there is a different placement that would have fewer student conflicts. The automatic master builder is limited to working within the constraints placed on the class such as locking a class to a specific semester. It will also indicate if there is a better location for students if a different teacher or room can be assigned.</li>
+  </ol>
+  <p> </p>
+  <p>Below the Analyze conflicts card, you may see an Unscheduled classes card. Detailed information is not provided for courses that have no classes scheduled yet. They are omitted from the Analyze conflicts card, however, they are listed in the Unscheduled classes card, which is collapsed by default.  When you are done the scheduling process, there should be no unscheduled classes.  Expand the card to confirm that there are no unscheduled classes.</p>
+  <p><img alt="" border="0" src="assets/images/analyze-conflicts-3.png" style=" border:none; width:100%; max-width:714px;" /></p>
+</body>
+</html>

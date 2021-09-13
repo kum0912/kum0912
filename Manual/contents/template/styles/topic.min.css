@@ -1,0 +1,10 @@
+ol.Decimal {
+    list-style-type: decimal;
+}
+ul.Disc {
+    list-style-type: disc;
+}
+p {}
+ul.Square {
+    list-style-type: square;
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Add incident</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "14.1.0_1";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Incidents &gt; Add an incident" />
+</head>
+<body>
+  <h1>Add incident</h1>
+  <hr align="center" style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" />
+  <p>When you add an incident from the main menu you will need to select the student. When you add an incident from the student records screen you will be adding the incident directly to the record of the student involved.</p>
+  <p> </p>
+  <p>To add an incident choose Incident &gt; Student incidents and select GO from the Add incident card.</p>
+  <p><img alt="" border="0" src="assets/images/add-incident-card.png" style="border: none; width: 100%; max-width: 202px;" /></p>
+  <p> </p>
+  <p>The Add incident screen will appear:</p>
+  <p><img alt="" border="0" src="assets/images/add-incident.png" style="border: none; width: 100%; max-width: 503px;" /></p>
+  <p>  </p>
+  <h2><a id="Enter_incident_details"></a>Enter incident details</h2>
+  <p>Enter incident details.</p>
+  <p style="font-style: italic;">Note: Before you can select students, you&#39;ll have to populate the required location field. Choose from the drop down list of fields that were created under <a href="../setup/setup-define-location.htm" style="font-style: italic;">Setup &gt; Incidents &gt; Locations</a>.</p>
+  <p> </p>
+  <p><span style="font-weight: bold; color: #007fff;">Date</span>: Enter or select the date the incident occurred.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Location</span> (mandatory in Ontario only): Windows shows “Other” but we should show “None selected” if empty.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Time</span>: Enter or select the time, it is required in Ontario only.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Time frame:</span> This is optional (can be set to None-selected.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Reported by</span>: Select from the drop down list from the Person types you set up using <a href="../setup/setup-define-person.htm">Setup &gt; Incidents &gt; Person types</a>. It will also include an option “Other” that is not in the setup table. This is an optional field.</p>
+  <p>How it works:</p>
+  <p>* If ‘reported by’ is a person type table entry, then look at the ‘role’ defined in the table to filter the “Name” field to show just those staff members with that role.  (e.g. if selecting reported by Teacher, and teacher is defined as role T, then show the names of all the staff with role T.</p>
+  <p>* if ‘reported by’ is ‘Other’ (e.g. not a table entry), then show 4 additional fields:  Title, Given name, Surname, Phone number.</p>
+  <p> </p>
+  <h2><a id="Students_involved"></a> Students involved</h2>
+  <p>Next select the students involved by using the Add icon. The standard Search student form will appear.</p>
+  <p><img alt="" border="0" src="assets/images/add-student.png" style="border: none; width: 100%; max-width: 495px;" /></p>
+  <p>Check the boxes beside the applicable students.</p>
+  <p style="font-style: italic;">Hint: If more than one student is involved, checking the box, and performing another search will keep the original student selection in memory. Make your selections and click SELECT.</p>
+  <h2><a id="Edit_student_incident_details"></a> Edit student incident details</h2>
+  <p>Once you have selected all of the students involved it&#39;s time to enter incident details. Row click and select Edit.</p>
+  <p> </p>
+  <p><a id="Delete_student"></a> If you need to remove a student from the incident, select the Delete icon. You will be asked for confirmation.</p>
+  <p><img alt="" border="0" src="assets/images/stu-involved.png" style="border: none; width: 100%; max-width: 678px;" /></p>
+  <p> </p>
+  <p>The Edit student form will appear.</p>
+  <p><img alt="" border="0" src="assets/images/enter-student-incident.png" style="border: none; width: 100%; max-width: 675px;" /></p>
+  <p><span style="font-weight: bold;">Details</span> has the following fields:</p>
+  <p><span style="font-weight: bold; color: #007fff;">Student incident note</span>: There is no character limit.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Parental contact</span>: Y/N check box (default all Y/N fields as unchecked during add process).  If Y, then show Contact date and Contact time.  Default today’s date and time.  These fields are optional and so there should be some way to have no date or time (confirm with Rick that they can be empty).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Weapon involved</span>: Y/N check box  (if Y, show Type of weapon (drop down field – show title and onsis code); if N, hide Type of weapon).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Police involved</span>: Y/N check box (if Y, show Officer name (alphanumeric field) and Badge number (alphanumeric field; if N, then hide fields).</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Student details</span> (at time of incident) has the following fields:</p>
+  <p><span style="font-weight: bold; color: #007fff;">Grade</span>:  Default the student’s grade (this year). Field is editable (select from school’s table of grades).  Note:  Windows allows non-grades to be entered but then gives error upon save.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Room number</span>: Default the room portion of the student’s homeroom (this year).  Alphanumeric field can be edited (4 chr max).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Designation</span>: Default the designation portion of the student’s homeroom (this year). Alphanumeric field can be edited (4 chr max).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Teacher</span>: Default the teacher portion of the student’s homeroom (this year).  If more than one teacher is assigned to the homeroom, use the Teacher (not additional teacher field).  This field is editable (select from school’s list of staff members).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Date of first incident letter</span>:  Default nothing (can be left blank).</p>
+  <h2><a id="Infractions"></a> Infractions</h2>
+  <h3><a id="Add_an_infraction"></a> Add an infraction</h3>
+  <p>Infraction details (sub-header) has the Infractions card which lists the infractions (what the student did wrong). Once you have added an infraction, Consequence, Suspension/expulsion program, and Appeal/outcome cards will be available.</p>
+  <p> </p>
+  <p>To add an infraction use the Add icon on the Add infraction card.</p>
+  <p><img alt="" border="0" src="assets/images/add-infraction.png" style="border: none; width: 100%; max-width: 713px;" /></p>
+  <p><span style="font-weight: bold; color: #007fff;">Infraction</span>: Select an Infraction from the drop down list you set up under <a href="../setup/setup-define-infractions.htm">Setup &gt; Incidents &gt; Infractions</a>.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Primary infraction</span>: If this is the first or Primary infraction, then the Primary infraction check box will be checked.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Violent incident</span><span style="color: #007fff;">:</span><span style="font-weight: bold; color: #007fff;"> </span>Default checked or unchecked based on default in Infraction table (e.g. selecting infraction ‘Using a weapon to cause or to threaten bodily harm to another person (E02)’ should default Yes</p>
+  <p>The student’s primary infraction is listed first.  Subsequent infractions can be listed in any order (order of entry would be best if possible).</p>
+  <p><img alt="" border="0" src="assets/images/infractions-card.png" style="border: none; width: 100%; max-width: 573px;" /></p>
+  <p> </p>
+  <h3><a id="Edit_an_infraction"></a> Edit an infraction</h3>
+  <p>To edit an Infraction simply row click and the Edit infraction card will appear.</p>
+  <p><img alt="" border="0" src="assets/images/edit-infraction.png" style="border: none; width: 100%; max-width: 516px;" /></p>
+  <p>To delete an infraction simply select the Delete icon. You will be asked for confirmation.</p>
+  <h2><a id="Consequence"></a>Consequence</h2>
+  <p>The Consequences card lists the consequences (what happens to the student as a result of their infractions). The Consequence card will not be visible until you have added an infraction to the Infractions card.</p>
+  <h3><a id="Add_a_consequence"></a>Add a consequence</h3>
+  <p>To add a consequence use the Add icon on the Consequence card.</p>
+  <p><img alt="" border="0" src="assets/images/add-consequence.png" style="border: none; width: 100%; max-width: 575px;" /></p>
+  <p> </p>
+  <p>The following fields are on the add/edit consequence interface:</p>
+  <p><span style="font-weight: bold; color: #007fff;">Consequence</span>: Select from the drop down field of options you set up under <a href="../setup/setup-define-conseq.htm">Setup &gt; Incidents &gt; Consequences</a>. The values should include both the title of the consequence (French title if using in French and title if it exists) AND the ministry code e.g. Suspension (4).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Primary consequence</span>: Yes/no check box.  </p>
+  <ul style="list-style: disc;">
+    <li>student can have only 1 primary consequence and they must have 1 flagged as primary consequence.</li>
+    <li>* If adding the first consequence for the student, it should default Primary consequence = Y.  </li>
+    <li>* If adding a second or subsequent consequence for the student, it should default N.  If it is changed from N to Y, then it must change the original primary consequence to No.  </li>
+    <li>* if adding the first consequence for the student, it should default the consequence defined for the primary infraction (e.g. infraction table has a default consequence for each infraction).</li>
+  </ul>
+  <p><span style="font-weight: bold; color: #007fff;">Imposed by</span>:  Drop down options from the list of Person types that you set up under <a href="../setup/setup-define-person.htm">Setup &gt; Incidents &gt; Person types</a>, however it will only include those values that have the field ‘Able to suspend/expel’ set to Yes.  (there is no “Other” option like in the ‘reported by’ field).  E.g. here are some examples of the person type table showing this field:</p>
+  <p>* If ‘Imposed by’ has a role (example 2 above), then look at the ‘role’ defined in the table to filter the “Name” field to show just those staff members with that role.  (e.g. if selecting reported by Teacher, and teacher is defined as role T, then show the names of all the staff with role T).</p>
+  <p>* if ‘Imposed by’ has no role (example 1 above), then show 4 additional fields:  Title, Given name, Surname, Phone number.</p>
+  <p>*‘Imposed by’ field is optional outside Ontario. Ontario has these business rules:</p>
+  <p>(Ontario only) – ‘Imposed by’ is required if consequence is a suspension or expulsion (based on consequence table where ‘suspension type’ is anything other than ‘none’ as explained in R24)</p>
+  <p>(Ontario only) – if consequence type is expelled (code 4 or 5), Imposed by must be the board (code 1).  (Technical note using onsis file terminology:  INFRACTION_OUTCOME_TYPE = 4 or 5 must have INFRACTION_AUTHORITY_TYPE = 1)</p>
+  <p> </p>
+  <p><span style="font-weight: bold; color: #007fff;">Search</span>: You can add a staff member not listed by performing a Staff search.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Phone number</span>: Enter the contact phone number for the Imposed by person.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Resolved</span>:  Y/N field (default unchecked)</p>
+  <p><span style="font-weight: bold; color: #007fff;">Resolved date</span>: date field – enabled if Resolved = Y, hide if Resolved = N</p>
+  <p>Suspension/expulsion details (sub-header): hide if the consequence assigned to student is setup where the Suspension type is none (see example below).  Show if the suspension type is anything other than ‘none’ – e.g. one of the 4 suspension expulsion /mandatory elective options.  Here is an example of the fields when setting up consequences in the table.</p>
+  <p> </p>
+  <p style="font-weight: bold;">Suspension/expulsion details</p>
+  <p><span style="font-weight: bold; color: #007fff;">Effective date</span>:  date field.  Default today’s date.  Date cannot be before the incident date.  Must be before the end date.  If date is outside school calendar, set ‘Automatically calculated ...’ to No and disable it (auto calculation cannot function for any dates outside of the school year). Toast message “Duration cannot be automatically calculated for dates outside the school year”.</p>
+  <p><span style="font-weight: bold; color: #007fff;">End date</span>:  date field.  Cannot be before the effective date.  Field may be automatically calculated if ‘Automatically calculate weekday duration’ = Y. If date is outside school calendar, set ‘Automatically calculated ...’ to No and disable it (auto calculation cannot function for any dates outside of the school year).  Toast message “Duration cannot be automatically calculated for dates outside the school year”.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Duration</span>:  numeric field (can be up to 3 characters max, 0 – 999, or #.## such as 2.25).  Field is automatically calculated if ‘Automatically calculate weekday duration’ = Y and both effective and end dates are recorded.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Automatically calculate weekday duration</span>:  Y/N field.  If set to Yes, entering either the end date or the duration will automatically calculate the other field.  For example, if an end date is entered, the duration is automatically calculated.  If the duration is entered, the end date is automatically calculated.  Field is automatically set to No if effective or end dates are outside school calendar.  </p>
+  <p><span style="font-weight: bold; color: #007fff;">Include exam days</span>:  Y/N to indicate whether exam days are counted in the calculation of the duration or end date.  This field is enabled when ‘automatically calculate weekday duration’ is set to Yes.</p>
+  <p> </p>
+  <p>Select SAVE when you have finished. This will prompt a dialogue message:</p>
+  <p>Student’s attendance may need to be updated.  Open the student’s record in a new window?</p>
+  <p>                                        NO THANKS     OPEN STUDENT’S RECORD</p>
+  <p> </p>
+  <p>R26.  Row click the consequence to access the edit infraction interface. (Details on the edit interface are in R27)</p>
+  <p> </p>
+  <p>The student’s primary consequence is listed first. Subsequent consequences can be in any order (order of entry would be best if possible).</p>
+  <p> </p>
+  <p>Edit consequence interface includes the discard icon, many fields (detailed in R27), CANCEL and SAVE buttons.</p>
+  <p> </p>
+  <h3><a id="Edit_a_consequence"></a> Edit a consequence</h3>
+  <p>To edit a consequence simply row click and the Edit consequence card will appear.</p>
+  <p><img alt="" border="0" src="assets/images/edit-consequence.png" style="border: none; width: 100%; max-width: 613px;" /></p>
+  <p>To delete a consequence simply select the Delete icon. You will be asked for confirmation.</p>
+  <p> </p>
+  <h2><a id="Suspension_expulsion_program"></a> Suspension/expulsion program</h2>
+  <p>The Suspension/expulsion program card details information about the program applied to the student. This section only appears for Ontario.</p>
+  <p>This section only appears if the student has a consequence that is a suspension or expulsion (based on consequence table where ‘suspension type’ is anything other than ‘none’</p>
+  <p><img alt="" border="0" src="assets/images/susp-exp-card.png" style="border: none; width: 100%; max-width: 542px;" /></p>
+  <p>Card will have an ADD icon if no program assigned to the student, an Edit icon if info exists.  </p>
+  <p>Default collapse card if no program assigned to the student.  If expanded, and no program, show empty state message such as “Student has no program. Use the add icon to add the student’s program info.”</p>
+  <ul style="list-style: disc;">
+    <li>If a Suspension/Expulsion Program is reported, then Program Status must also be entered</li>
+    <li>If a Suspension/Expulsion Program = ‘Both Academic and Non-academic’, then a Non-academic Program must be selected (NOTE: you can select more than one value)</li>
+    <li>If a Suspension/Expulsion Program = ‘Academic only’, then a Non-academic Program must be disabled/hidden.</li>
+    <li>If a student is suspended for less than 11 days and greater than or equal to 6 days, you must have a Suspension/Expulsion Program type indicated (‘Academic only’ or ‘Both Academic and Non-academic’)  </li>
+    <li>If a student is suspended for more than 11 days or is expelled then only &#39;Academic and Non-Academic&#39; program should be available in the drop down.</li>
+    <li>Students suspended for 5 days or less can enroll in a suspension/expulsion program but is not mandatory; therefore, no warning message will be generated.</li>
+    <li>If a student has multiple values assigned for ‘Non-academic program(s)’, list them together (e.g. value1, value2).</li>
+  </ul>
+  <p> </p>
+  <h3><a id="Add_suspension_expulsion_program"></a> Add suspension/expulsion program</h3>
+  <p>To add a program select the edit icon. The add suspension/expulsion program form will appear.</p>
+  <p><img alt="" border="0" src="assets/images/susp-exp-add.png" style="border: none; width: 100%; max-width: 491px;" /></p>
+  <p> </p>
+  <p>Specify details by using these fields:</p>
+  <p><span style="font-weight: bold; color: #007fff;">Suspension/expulsion program</span>:  drop down field with the following values:</p>
+  <p>- Not assigned   (rename to ‘None selected’ if easy)</p>
+  <p>- Academic only</p>
+  <p>- Both academic and non-academic  </p>
+  <p>- Non-academic only</p>
+  <p>Default “None selected”.  If user changes from a program to ‘none selected’, clear out the values in non-academic program and program status fields.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Non-academic program(s)</span>:  drop down field – allow multi-select of values.  </p>
+  <p>-Disable field if program=‘not assigned’ OR ‘Academic only’.  </p>
+  <p>-At least one value is required if program = ‘Both academic &amp; non academic’  OR ‘Non-academic only’ (make field mandatory in this situation).</p>
+  <p> </p>
+  <p><span style="color: #007fff; font-weight: bold;">Program status</span>:  drop down field (only one single value can be selected).  </p>
+  <p>-Disable field if program=‘not assigned’. Required if program ‘Academic only’ OR ‘Both academic &amp; non academic’ OR ‘Non-academic only’ (make field mandatory in this situation).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Note</span>:  There is no limit to characters in this optional field with no limit.</p>
+  <p>Select SAVE when you have finished adding fields.</p>
+  <p> </p>
+  <h3><a id="Edit_a_suspension_expulsion_program"></a> Edit a suspension/expulsion program</h3>
+  <p>To edit a suspension/expulsion program simply select the Edit icon and the Edit suspension/expulsion program card will appear.</p>
+  <p><img alt="" border="0" src="assets/images/susp-exp-edit.png" style=" border:none; width:100%; max-width:491px;" /></p>
+  <p>Select SAVE when you have finished adding fields.</p>
+  <p> </p>
+  <h2><a id="Appeal_outcome"></a> Appeal/outcome</h2>
+  <p>This section only appears if the student has a consequence that is a suspension or expulsion (based on consequence table where ‘suspension type’ is anything other than ‘none’.</p>
+  <p><img alt="" border="0" src="assets/images/appeal-coutcome-card.png" style="border: none; width: 100%; max-width: 542px;" /></p>
+  <p>Card will have an ADD icon if no appeal/outcome info assigned to the student (Appeal initiated = N), an Edit icon if info exists (Appeal intiated = Y).  </p>
+  <p> </p>
+  <h3><a id="Add_appeal_outcome"></a> Add appeal/outcome</h3>
+  <p>To add an appeal/outcome select the edit icon.</p>
+  <p><img alt="" border="0" src="assets/images/appeal-coutcome-add.png" style="border: none; width: 100%; max-width: 491px;" /></p>
+  <p>Specify details by using these fields:</p>
+  <p><span style="font-weight: bold; color: #007fff;">Appeal initiated</span>: Y/N check box. If N, then disable all fields (clear out values if data previously entered).</p>
+  <p><span style="font-weight: bold; color: #007fff;">Appeal date</span>: date field. Mandatory. Must be after incident date.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Decision date</span>: date field. Optional. Must be after appeal date.</p>
+  <p><span style="font-weight: bold; color: #007fff;">Outcome</span>: drop down field. Optional.</p>
+  <p><span style="font-weight: bold; color: #007fff;">New duration</span>: 3 character field (e.g. 0 to 999 or #.## like 2.25).  Field enabled if outcome = ‘Reduced suspension’ OR ‘Reduced – expelled for school.</p>
+  <p>Select SAVE when you have finished adding fields.</p>
+  <p> </p>
+  <h3><a id="Edit_appeal_outcome"></a> Edit appeal/outcome</h3>
+  <p>To edit an appeal/outcome simply select the Edit icon and the Edit appeal/outcome card will appear.</p>
+  <p><img alt="" border="0" src="assets/images/susp-exp-edit.png" style="border: none; width: 100%; max-width: 491px;" /></p>
+  <p>Select SAVE when you have finished adding fields.</p>
+</body>
+</html>

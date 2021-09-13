@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Load students</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "15.7.0_2";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Assign students to classes" />
+</head>
+<body>
+  <h1>Scheduling next year &gt; Assign students to classes &gt; Load students</h1>
+  <p> </p>
+  <p>This tool generates next year’s timetables for students by assigning students into specific class sections of the courses that the student requested.  Students are randomly loaded into classes based on the semester/term and period/day information assigned to each class.   </p>
+  <p> </p>
+  <p>Every time you run load students, the timetables will be analyzed to ensure that there are no significant problems before scheduling another group of classes. The following processes are repeated multiple times to build the best timetable for the students and the school.</p>
+  <p> </p>
+  <p>Choose Scheduling &gt; Assign students to classes then select Go on the Load students card.</p>
+  <p> </p>
+  <p><img alt="" border="0" src="assets/images/load-students-card.png" style=" border:none; width:100%; max-width:226px;" /></p>
+  <p> </p>
+  <p>The main Load students page will appear with two options to consider:</p>
+  <p> </p>
+  <p><img alt="" border="0" src="assets/images/load-students-main.png" style=" border:none; width:100%; max-width:576px;" /></p>
+  <p> </p>
+  <p>Once you set options, select the LOAD STUDENTS button in the bottom bar.</p>
+  <p> </p>
+  <p><span style="font-weight: bold; color: #007fff;">Limit class size to set maximum</span>: Check this option off if you do not want to overload classes. Each class has a setting for the number of seats (the capacity of the room). If you check this option, then students will not be assigned into classes if they are full.   </p>
+  <p> </p>
+  <p>If you check this option, then students will have conflicts (unable to enrol into a requested course) if the class fits into the student’s timetable but the class is full. The Course conflict analysis report will identify these students as conflicts, and if a large number of students are unable to enrol, you may consider running Master builder – manual on the class section with the fewest number of students to see if there is a better location for the class.  </p>
+  <p> </p>
+  <p><span style="font-style: italic;">Hint: if you uncheck this option, carefully examine the actual class size after each load. For example, if most classes have a class size of 30 seats, and you allow classes to be overloaded, after each load, look at the classes table and sort classes by occupancy. Classes that are overloaded are actually assigned into a very good period. Look at the other class sections of the course and consider running Master builder – manual on the classes that have low occupancy.</span>  </p>
+  <p> </p>
+  <p><span style="color: #007fff; font-weight: bold;">Substitute conflicting preferred course selections with alternate courses</span>: Each student’s preferred course selection has an optional check box for “Can this course be substituted with an alternate?”. If this is set to yes for a student’s preferred course, and the load students tool is run with the substitute question set to yet, then the load students tool may generate a different timetable for the student. The student’s timetable will be generated as usual, however, if a preferred course cannot be scheduled due to a conflict (or the class is overloaded), it will attempt to create a timetable using the student’s alternate course selection instead.</p>
+  <p> </p>
+  <p>After the LOAD STUDENTS process is complete, the students will have some/all of their classes in their next year’s timetable. See <a href="sched-az-conflicts.htm">Analyze student timetables/conflicts</a> for the next steps.</p>
+</body>
+</html>

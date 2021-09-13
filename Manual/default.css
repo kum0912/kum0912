@@ -1,0 +1,103 @@
+/*Created with Adobe RoboHelp 2015.*/
+h1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	font-family: Arial, sans-serif;
+}
+h2 {
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+}
+h3 {
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+}
+h4 {
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: Arial;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: Arial;
+}
+p {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Arial, sans-serif;
+}
+a {
+	color: #0000ff;
+	display: inline;
+	font-family: Arial;
+	text-decoration: underline;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+a.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Arial;
+	font-size: 12pt;
+}
+p.Blue {
+	color: #007fff;
+	font-size: 14pt;
+	font-weight: bold;
+	margin-top: 6pt;
+	margin-bottom: 10.5pt;
+}
+table.SimpleGridBlack {
+	padding: 0px;
+	border-top: Solid 1px #000000;
+	border-left: Solid 1px #000000;
+	x-border-spacing: 0px;
+	x-row-pat-count: 2;
+	font-family: Arial;
+}
+body {
+	font-size: 12pt;
+	x-next-page: page-with-header;
+	font-family: Arial;
+}
+table.SimpleGridBlack td {padding-left: 10px;padding-right: 10px;padding-top: 0px;padding-bottom: 0px;
+}
+table.SimpleGridBlack tr:nth-child(odd) td {border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;font-family: "Times New Roman";font-size: 12pt;
+}
+table.SimpleGridBlack tr:nth-child(even) td {border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;
+}

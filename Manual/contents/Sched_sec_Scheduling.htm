@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Part II: Scheduling</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.1.0_3";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Secondary"/>
+</head>
+
+<body>
+
+
+
+<h1>Scheduling next year - Secondary - Part II: Scheduling</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<h2> </h2>
+<p><a href="#Overview">Overview</a></p>
+<p><a href="#Suggested_approach_to_scheduling_the_school">Suggested approach 
+ to scheduling the school</a></p>
+<p style="margin-left: 40px;"><a href="#1._Schedule_classes">1. Schedule 
+ classes</a></p>
+<p style="margin-left: 40px;"><a href="#2._Assign_student_to_classes">2. 
+ Assign students to classes</a></p>
+<p style="margin-left: 40px;"><a href="#3._Analyze_master_timetable">3. 
+ Analyze master timetable</a></p>
+<p style="margin-left: 40px;"><a href="#4._Repeat_steps_1_to_3">4. Repeat 
+ steps 1-3</a></p>
+<p style="margin-left: 40px;"><a href="#5._Check_for_unscheduled_classes">5. 
+ Check for unscheduled classes</a></p>
+<p style="margin-left: 40px;"><a href="#6._Assign_rooms_and_teachers">6. 
+ Assign rooms and teachers</a></p>
+<p style="margin-left: 40px;"><a href="#7._Add_any_other_classes_">7. Add 
+ any other classes</a></p>
+<p style="margin-left: 40px;"><a href="#8._Proceed_to_Part_III:__Ending_steps">8. 
+ Proceed to Part III: Ending steps</a></p>
+<p> </p>
+<p> </p>
+<h2><a id="Overview"></a>Overview</h2>
+<p>Once <a href="Sched_sec_Beginning_steps.htm">Part I: Beginning steps</a> 
+ are completed, it is time to start scheduling the rest of the classes. 
+ Scheduling means finding the best placements for each class. The best 
+ placement is the semester/term and day/period patterns where the teacher 
+ and room are available, and the fewest number of student conflicts exist. 
+ </p>
+<p> </p>
+<p>The automatic scheduling tool (Master builder - Automatic) cannot schedule 
+ a class into a placement where the teacher is teaching another class or 
+ where the room is occupied by another class (unless the classes are intentionally 
+ <a href="Scheduling_important_concepts.htm#Grouped_classes">grouped</a>). 
+ This means that there is the potential for a better placement that would 
+ reduce student conflicts, but the teacher and/or room are occupied. The 
+ analysis tools will help identify classes with many student conflicts. 
+ That&#39;s when the manual scheduling tool (Master builder - Manual) will 
+ help you determine if there is a better placement if a different teacher 
+ or room where assigned to the problem class. Hint: read the overview section 
+ of <a href="sched-master-builder-manual.htm">Master builder - Manual</a> 
+ for a better understanding of the information used to determine the best 
+ placement for a class.</p>
+<p> </p>
+<p>There are 3 steps to scheduling classes into their best placement.  Typically, 
+ a school will schedule a small group of classes, repeating the 3 steps 
+ until satisfied with the schedule for that small group of classes.  Then 
+ another small group of classes are scheduled, again repeating the 3 steps 
+ until satisfied. These 3 steps are repeated for small groups until all 
+ classes are done:<br/>
+<br/>
+</p>
+<p><img src="assets/images/scheduling.jpg" alt="" style=" border:none; width:100%; max-width:568px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>Before scheduling classes, give some consideration to what small groups 
+ of classes may be scheduled and in what order.  The classes that 
+ are scheduled early in process have a lower change of introducing student 
+ conflicts, while classes scheduled later in the process will have fewer 
+ placements as they need to work around the previously placed classes. 
+  Here are some small class group considerations:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Classes that have limited room options with high demands (e.g. 
+	 classes that must be scheduled into a single gym or  computer 
+	 lab or  science lab).</li>
+	<li>Courses that have only 1 class (aka single section classes). </li>
+	<li>Senior level classes where students have compulsory courses in 
+	 order to be accepted into post-secondary programs.</li>
+</ul>
+<p> </p>
+<p>Here are some example groups:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Group 1 = all classes starting with PE (if all physical education 
+	 classes start with PE)</li>
+	<li>Group 2 = all single section classes</li>
+	<li>Group 3 = all grade 12 classes</li>
+	<li>Group 4 = all grade 11 classes</li>
+	<li>Group 5 = all grade 10 classes</li>
+	<li>Group 6 = all grade 9 classes </li>
+</ul>
+<p> </p>
+<p>The school is &#39;scheduled&#39; when:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>all classes have semester/term patterns and day/period patterns</li>
+	<li>all classes have a teacher </li>
+	<li>all classes have a room</li>
+	<li>the final load students has been run and the majority of students 
+	 have timetables (resolving individual student conflicts may still 
+	 be needed).</li>
+</ul>
+<p> </p>
+<h2><a id="Suggested_approach_to_scheduling_the_school"></a>Suggested 
+ approach to scheduling the school</h2>
+<p> </p>
+<h3><a id="1._Schedule_classes"></a>1. Schedule classes</h3>
+<p>Use <a href="sched-master-builder-auto.htm">Scheduling next year &gt; 
+ Schedule classes &gt; Master builder - Automatic</a> to schedule a small 
+ group of classes. </p>
+<p> </p>
+<p>This step may be repeated after step 3. If step 3 identifies &#39;problem&#39; 
+ classes, it will provide a quick link to <a href="sched-master-builder-manual.htm">Master 
+ builder - Manual</a> which provides all the information to help you decide 
+ where to schedule the class, including the number of conflicts that would 
+ be generated in each potential placement. Manual placement may highlight 
+ a better location not available in the automatic mode because the teacher 
+ and/or room were unavailable. </p>
+<p> </p>
+<p>If any class has a change to its schedule, you must go to step 2 so 
+ that the students timetables will reflect the changes.</p>
+<p> </p>
+<h3><a id="2._Assign_student_to_classes"></a>2. Assign student to classes</h3>
+<p>Run <a href="sched-load-students.htm">Scheduling next year &gt; Assign 
+ students to classes &gt; Load students</a>. This process automatically 
+ creates individual student timetables based on the master timetable and 
+ the student&#39;s course selections. <span style="font-weight: bold;">This 
+ step must be run after any changes to class schedules.</span></p>
+<p> </p>
+<h3><a id="3._Analyze_master_timetable"></a>3. Analyze master timetable</h3>
+<p>Run <a href="sched-az-conflicts.htm">Scheduling next year &gt; Analyze 
+ master timetable &gt; Analyze conflicts</a> to identify &#39;problem&#39; classes. 
+ These classes might have a better placement if analyzed further using 
+ <a href="sched-master-builder-manual.htm">Master builder -manual</a> which 
+ is accessed using the Schedule option that appears when you select a class. 
+ </p>
+<p> </p>
+<p>Another tool to analyze the master timetable is available using <a href="sched-tt-specific-group.htm">Scheduling 
+ next year &gt; Schedule classes &gt; Timetable of specific group</a>. 
+ Here are some examples of how this may help:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>By looking at the total number of students in each period, you 
+	 can sense whether the timetable is balanced. For example, typically 
+	 all students in grade 9 have full timetables (no spares), and these 
+	 students typically only take grade 9 subjects. After scheduling the 
+	 grade 9 classes you can see the number of students in each period. 
+	 Looking at the nominal class size, you will see the theoretical number 
+	 of students in the class assuming classes are perfectly loaded without 
+	 conflicts (e.g. 2 classes with 42 students requesting the course would 
+	 show 21 students per class).The numbers should be fairy even across 
+	 the periods. If one period has too few students, and another period 
+	 has too many students, consider analyzing the impact of moving classes 
+	 around by using Master builder - Manual on a class in an over-loaded 
+	 period to see if it can be moved to an under-loaded period).  <br/>
+	</li>
+	<li><span>By l</span>ooking at the actual class size, you can identify 
+	 classes that are overloaded (if load students (step 2) was not limited 
+	 to the maximum class size).  In this case, the overloaded classes 
+	 are scheduled in a great spot, so consider analyzing the impact of 
+	 moving the under-loaded class to a better location (using Master builder 
+	 - Manual).</li>
+</ul>
+<p> </p>
+<p>Remember that you may use <a href="shed-snapshots.htm">Scheduling next 
+ year &gt; Classes &gt; Snapshots</a> to create a snapshot of the master 
+ timetable at any point while experimenting with schedule changes. Snapshots 
+ may be restored allowing you to return to the master schedule to the way 
+ it was when the snapshot was created. If a snapshot is restored, you must 
+ run load students (step 2) again.</p>
+<p> </p>
+<p>If any classes are rescheduled based on the analysis of the master timetable, 
+ you have done step 1 (schedule classes) again, so proceed to step 2 after 
+ all class changes are finished.</p>
+<p> </p>
+<p>After scheduling this group of classes, create a <a href="shed-snapshots.htm">Snapshot</a> 
+ when you are satisfied with the master timetable, then proceed to step 
+ 4.</p>
+<p> </p>
+<h3><a id="4._Repeat_steps_1_to_3"></a>4. Repeat steps 1 to 3</h3>
+<p>Repeat steps 1, 2 and 3 for the next group of classes.  This step 
+ is repeated until all groups of classes are scheduled.</p>
+<p> </p>
+<h3><a id="5._Check_for_unscheduled_classes"></a>5. Check for unscheduled 
+ classes</h3>
+<p>Run <a href="sched-unsched-classes.htm">Scheduling next year &gt; Schedule 
+ Classes &gt; Unscheduled classes</a> to see if there are any classes that 
+ are not yet scheduled. Students cannot be assigned into these classes. 
+ If classes are found, you may select the class to access the schedule 
+ option which will open <a href="sched-master-builder-manual.htm">Master 
+ builder - Manual</a>, for the class.</p>
+<p> </p>
+<p>If any classes are scheduled here, return to step 2 so that students 
+ will get scheduled into these classes.</p>
+<p> </p>
+<h3><a id="6._Assign_rooms_and_teachers"></a>6. Assign rooms and teachers</h3>
+<p>Every class should have a teacher and a room.  Use <a href="../setup/setup-class-classes.htm">Scheduling 
+ next year &gt; Classes &gt; Classes</a> to access the list of classes. 
+ Sort by the teacher or room column to find classes with without teachers 
+ or rooms.</p>
+ <p> </p>
+<p>In order to avoid creating teacher or room conflicts, we suggest that 
+ these classes are assigned teachers and/or rooms using the features in 
+ <a href="sched-master-builder-manual.htm">Master builder - Manual</a> 
+ where you can clearly see available teachers and rooms for the selected 
+ class. When the class is presented in Master builder - Manual, select 
+ the block that is identified as &quot;current placement&quot; (make sure 
+ you don&#39;t select any other placement so that you don&#39;t accidently reschedule 
+ the class necessitating the return to step 2). This will open the scheduling 
+ tools as shown below. Select the &#39;Available teachers&#39; or &#39;Available rooms&#39; 
+ field to see teachers and rooms that available for this class during this 
+ placement. If you select a teacher or room, icons appear to view the teacher&#39;s 
+ timetable and to see room information.  Check the Set as new teacher 
+ for class or Set as new room for class, then select the X in the Scheduling 
+ tools card (or the CLOSE button on the master builder form and then select 
+ the SAVE button when prompted. </p>
+<p> </p>
+<p><img src="assets/images/mabu-manual1.png" alt="" style=" border:none; width:100%; max-width:917px;" border="0"/>.</p>
+<p> </p>
+<p> </p>
+<p>Repeat this process until all real classes have teachers and rooms (placeholder 
+ classes like spares don&#39;t require this info).</p>
+<p> </p>
+<p>Another option for assigning teachers and rooms is to use the options 
+ <a href="sched-class-available-teachers.htm">Scheduling next year &gt; 
+ Classes &gt; Available teachers</a> or <a href="sched-class-available-rooms.htm">Available 
+ rooms</a> to identify what&#39;s available for a specific semester/term/day/period. 
+ </p>
+<p> </p>
+<p>Manual changes to teachers and rooms that are done without the use of 
+ the scheduling tools have the potential to introduce teacher or room conflicts. 
+ A conflict is when the teacher is scheduled to teach 2 or more non-grouped 
+ classes at the same time, or a room is occupied by 2 or more non-grouped 
+ classes at the same time.  Confirm that there are no teacher conflicts 
+ by running <a href="sched-teacher-conflicts.htm">Scheduling next year 
+ &gt; Analyze master timetable &gt; Teacher conflicts</a>. Confirm that 
+ there are no room conflicts by running <a href="sched-room-conflicts.htm">Scheduling 
+ next year &gt; Analyze master timetable &gt; Room conflicts</a>.</p>
+<p> </p>
+<p>Use <a href="sched-teacher-master-timetable.htm">Scheduling next year 
+ &gt; Classes &gt; Teacher master timetable</a> and <a href="sched-room-master-timetable.htm">Room 
+ master timetable</a> to review all timetables quickly.</p>
+<p> </p>
+<h3><a id="7._Add_any_other_classes_"></a>7. Add any other classes </h3>
+<p>Sometimes, schools like to add other classes into the student&#39;s timetables 
+ after the timetabling is completed. For example, if every student has 
+ a blank in period 3 for lunch, some schools add a placeholder lunch class 
+ into the timetable.  There are tools that may assist with the mass 
+ addition or removal of classes that may be available to assist with this 
+ functionality.</p>
+<p> </p>
+<p>These tools may also assist K-12 schools where the elementary students 
+ do not have course selections and so their classes are added after the 
+ secondary students are scheduled.</p>
+<p> </p>
+<p><a href="../students/assign-timetables-addclass.htm">Scheduling next 
+ year &gt; Assign students to classes &gt; Add classes</a></p>
+<p><a href="../students/assign-timetables-delclass.htm">Scheduling next 
+ year &gt; Assign students to classes &gt; Delete classes</a></p>
+<p><a href="../students/assign-timetables-cleartt.htm">Scheduling next 
+ year &gt; Assign students to classes &gt; Clear timetables</a></p>
+<p> </p>
+<p>Note: if step 2 is run again, all timetable changes made using the above 
+ tools will be lost.</p>
+<p> </p>
+<h3><a id="8._Proceed_to_Part_III:__Ending_steps"></a>8. Proceed to Part 
+ III:  Ending steps</h3>
+<p style="font-style: normal;">The school is &#39;scheduled&#39; when:</p>
+<p style="font-style: normal;"> </p>
+<ul style="list-style: disc; font-style: normal;">
+	<li style="font-style: normal;">all classes have semester/term patterns 
+	 and day/period patterns</li>
+	<li style="font-style: normal;">all classes have a teacher </li>
+	<li style="font-style: normal;">all classes have a room</li>
+	<li style="font-style: normal;">the final load students has been run 
+	 and the majority of students have timetables (resolving individual 
+	 student conflicts may still be needed).</li>
+</ul>
+<p style="font-style: normal;"> </p>
+<p style="font-style: normal;">At this point, proceed to <a href="Sched_sec_Ending_steps.htm" style="font-style: normal;">Part 
+ III: Ending steps</a>.</p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>

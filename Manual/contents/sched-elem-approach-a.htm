@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Elem Scheduling Approach A</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.2.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Elementary"/>
+</head>
+
+<body>
+
+
+<h2><a id="Approach_A"></a>Approach A:  Classes are created using 
+ the ASSIGNED CLASSES feature in homerooms </h2>
+<p style="font-weight: normal;">Elementary schools typically have all students 
+ in a homeroom taking all or the majority of  the classes at the same 
+ time with the same teacher. Each homeroom can have a list of assigned 
+ classes (e.g. the students in that homeroom can be automatically assigned 
+ to the classes when the student is placed in that homeroom). If a homeroom 
+ has multiple grade levels, each grade can have a distinct list of classes 
+ (e.g. a grade 2/3 homeroom can have a list of classes for the grade 2 
+ students and a list of classes for the grade 3 students). If student changes 
+ homerooms during the school year, where report card information is the 
+ same between homerooms, the report card information can optionally be 
+ transferred with the student so that any new teachers will have access 
+ to the information recorded by the previous teachers.  Approach A 
+ uses the functionality found when editing a homeroom, and selecting the 
+ <a href="../setup/setup-class-hmrm.htm#Assigned_classes">ASSIGNED CLASSES</a> 
+ tab. </p>
+<h3>A1. Prepare for next year</h3>
+<p>The scheduling process beings with running the ‘initialize next year’ 
+ process.  This process duplicates the school information from this 
+ year, into the next year.  This makes re-entering last year&#39;s homerooms, 
+ advisor groups, courses, classes, and semester/term/day/period information 
+ unnecessary if they will be similar for the next year.  It also advances 
+ the students’ next year grades.  </p>
+<p> </p>
+<p><img src="assets/images/elemoverview1.png" alt="" style=" border:none; width:100%; max-width:432px;" border="0"/></p>
+<p> </p>
+<p>Run the<a href="sched-initialize-scheduling.htm"> initialize next year</a> 
+ option.  We suggest that you use the option &quot;Set students&#39; next 
+ year homerooms to not assigned&quot; so that no timetables are automatically 
+ assigned to students until their homerooms are assigned.</p>
+<p> </p>
+<p><img src="assets/images/elemoverview_6.png" alt="" style=" border:none; width:100%; max-width:618px;" border="0"/></p>
+<p> </p>
+<p>Update the <a href="../setup/setup-class-sem-term-day-pd.htm">semester/term/day/period</a> 
+ info if needed.</p>
+<h3>A2. Remove all elementary level classes</h3>
+<p>Classes from the previous school year are automatically copied over 
+ to the next year&#39;s classes.  Since these classes will be all recreated 
+ for the new school year, last year&#39;s elementary classes need to be removed. 
+ </p>
+<h3>A3. Set up homerooms and their assigned classes</h3>
+<p>i. The homeroom should be adjusted to match next year&#39;s needs using 
+ <a href="../setup/setup-class-hmrm.htm">Scheduling next year &gt; Homerooms 
+ &gt; Homerooms</a>. This may include:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Adding new homerooms</li>
+	<li>Removing homerooms no longer needed</li>
+	<li>Editing homerooom teacher(s)</li>
+	<li>Editing room and designation info</li>
+</ul>
+<p> </p>
+<p>ii. Edit each homeroom and use the <a href="../setup/setup-class-hmrm.htm#Assigned_classes">ASSIGNED 
+ CLASSES</a> tab to create all the classes that the students in this homeroom 
+ will need. Here is an example of a homeroom with the assigned classes 
+ defined. When a student in grade 5 next year is assigned to homeroom 5 
+ - 114, their timetable will automatically get DRA5a, ENG5a, etc. </p>
+<p> </p>
+<p> <img src="assets/images/elemoverview7.png" alt="" style=" border:none; width:100%; max-width:1430px;" border="0"/></p>
+<p> </p>
+<h3>A4. Assign students to homerooms</h3>
+<p>Once the homerooms are set up correctly, the students should be assigned 
+ into their next year&#39;s homerooms. There are many different options to 
+ assist in assigning the student&#39;s next year&#39;s homerooms using Scheduling 
+ next year &gt; Homerooms. These options are more convenient than editing 
+ each student, one at a time, and there should be one method that works 
+ well for your school.  Descriptions of each option is provided on 
+ the card.</p>
+<p><a href="../students/assign-homeroomsgd.htm">By grade</a> </p>
+<p><a href="../students/assign-homerooms-pd.htm">By period</a></p>
+<p><a href="../students/assign-homerooms-class.htm">By class</a></p>
+<p><a href="../students/assign-homerooms-hmrm.htm">By homeroom</a></p>
+<p><a href="../students/assign-homerooms-random.htm">By random group</a></p>
+<p><a href="../students/assign-homerooms-ind-gd.htm">Individual by grade</a></p>
+<p><a href="../students/assign-homerooms-ind-hmrm.htm">Individual by homeroom</a></p>
+<p> </p>
+<p>If printed lists of the students in a homeroom are needed, use the <a href="../students/stu-reports-clist-hmrm.htm">Homeroom lists</a> card 
+ to generate those reports. Once the students are assigned into homeroom, 
+ they will have the auto-assign classes added to their next year timetables.</p>
+<h3><img src="assets/images/elemoverview3.png" alt="" style=" border:none; width:100%; max-width:1407px;" border="0"/></h3>
+<h3>A5. Define class schedule</h3>
+<p>Step 3 would have created classes that are accessible using <a href="../setup/setup-class-classes.htm">Scheduling 
+ next year &gt; Classes &gt; Classes</a>. The actual schedule (when the 
+ class is taught) was not defined in step 3 so it should be defined now. 
+ Often the actual schedule of when the subjects are taught is not formally 
+ recorded in the SIS, allowing the teachers to teach subjects based on 
+ their own schedules.  Sometimes, classes are formally scheduled to 
+ avoid teacher and room conflicts (e.g. physical education, French, music). 
+ When classes are formally scheduled, the schedule is determined manually 
+ by the school and then it is entered into the SIS.</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Classes not formally scheduled into periods may be assigned a <a href="../setup/setup-class-sem-term-day-pd.htm#Unique_class_schedules">floater 
+	 pattern</a> (a user-defined day/period pattern that has no periods 
+	 selected). A semester/term pattern must be assigned (typically something 
+	 representing full year).</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Classes scheduled into periods may be assigned to semester/term/day/period 
+	 patterns (e.g. full year, period 1) but often the schedule is random 
+	 and creating unique patterns would be time-consuming.  In the 
+	 set up of the class, it may be flagged as requiring a <a href="../setup/setup-class-classes.htm#Special_schedule">special 
+	 schedule</a> which then allows the user to select the specific semesters/terms 
+	 and days/periods unique to that class.</li>
+</ul>
+<p> </p>
+<p>If new rooms are added to the school next year, or rooms are no longer 
+ available, adjust the table of rooms using <a href="../setup/setup-class-rm-printrm-tt.htm">Scheduling 
+ next year &gt; Classes &gt; Rooms</a>.</p>
+<p> </p>
+<p>Once the classes are set up, see an overall view of the teacher and 
+ room timetables using the  <a href="sched-teacher-master-timetable.htm">Teacher 
+ master timetable</a> and <a href="sched-room-master-timetable.htm">Room 
+ master timetable</a> cards.</p>
+<p> </p>
+<p><img src="assets/images/elemoverview2.png" alt="" style=" border:none; width:100%; max-width:862px;" border="0"/></p>
+<p> </p>
+<h3>A6. Assign other classes to students</h3>
+<p>With the &#39;assigned classes&#39; feature set up for homerooms (as described 
+ above), students will already have classes in their timetables based on 
+ their homerooms. If the students take additional classes (e.g. if the 
+ homeroom students break out into different classes for rotary subjects), 
+  or if the &#39;assigned classes&#39; feature is not used, these class assignment 
+ tools may assist:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li><a href="../students/assign-timetables-addclass.htm">Add classes</a></li>
+	<li><a href="../students/assign-timetables-delclass.htm">Delete classes</a></li>
+</ul>
+<p> </p>
+<p><img src="assets/images/elemoverview4.png" alt="" style=" border:none; width:100%; max-width:646px;" border="0"/></p>
+<p> </p>
+<p>Note: clear timetables is not recommended because it will clear out 
+ the auto-assigned classes and they will not be re-added unless the student&#39;s 
+ homerooms were to be changed.</p>
+<h4>A7. Advisor groups </h4>
+<p style="margin-left: 0px;">If advisor groups are used, they should be 
+ adjusted to match next year&#39;s needs using <a href="../setup/setup-class-advisors.htm">Scheduling 
+ next year &gt; Advisor groups &gt; Advisor groups</a>. Advisor groups 
+ are similar to homerooms where a room and teacher(s) is/are assigned to 
+ the advisor group. The name of the group can be anything the school wants. 
+ Some schools use advisor groups to indicate the guidance councilor assigned 
+ to the student. Some schools have students meet regularly in groups where 
+ the students meet with an advisory teacher to discuss general school related 
+ topics.</p>
+<p style="margin-left: 0px;"> </p>
+<p style="margin-left: 0px;">If advisor groups change from year to year, 
+ there are many different options to assist in assigning the student&#39;s 
+ next year&#39;s advisor groups. These options are more convenient than editing 
+ each student, one at a time, and there should be one method that works 
+ well for your school.  Descriptions of each option is provided on 
+ the card.</p>
+<p style="margin-left: 0px;"> </p>
+<p><a href="../students/advisor-group-by-grade.htm">By grade</a></p>
+<p><a href="../students/advisor-group-by-class.htm">By class</a></p>
+<p><a href="../students/advisor-group-by-advisor-group.htm">By advisor 
+ group</a></p>
+<p><a href="../students/advisor-group-ind-by-grade.htm">Individual by grade</a></p>
+<p><a href="../students/advisor-group-ind-by-homeroom.htm">Individual by 
+ homeroom</a></p>
+<p> </p>
+<p>If printed lists of the students in a advisor group needed, use the 
+ <a href="../students/stu-reports-clist-advisor.htm">Advisor group lists</a> 
+ card to generate those reports.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 0px;"><img src="assets/images/elemoverview5.png" alt="" style=" border:none; width:100%; max-width:1393px;" border="0"/></p>
+<h4>A8. Print timetables</h4>
+<p>Printing timetables for <a href="../students/stu-reports-tt-stu-tt.htm">students</a>, 
+ <a href="sched-print-teacher-tt.htm">teachers</a>, <a href="sched-print-room-timetable.htm">rooms</a> 
+ is often not necessary in elementary schools, but the option is available 
+ if needed. <a href="../students/stu-reports-clist-class.htm">Class lists</a> 
+ are also available.</p>
+<p> </p>
+<p> </p>
+<p><img src="assets/images/elemoverview8.png" alt="" style=" border:none; width:100%; max-width:860px;" border="0"/></p>
+<h3>A9. Year-end roll over</h3>
+<p>The board/division/district is responsible for the actual <a href="Transfer_to_current.htm">Transfer 
+ to current</a> process, however schools should make sure that they have 
+ run the <a href="Archive_attendance___achievement.htm">Archive attendance 
+ &amp; achievement process</a>. This process may be done at any time during 
+ the scheduling process, as long as it is run after the current school 
+ year is done and no further attendance or report card data is being entered. 
+  </p>
+<p> </p>
+<p><img src="assets/images/elemoverview9.png" alt="" style=" border:none; width:100%; max-width:219px;" border="0"/></p>
+<p> </p>
+<p>Typically the roll over is done over the summer, before the students 
+ start school again in the fall. It cannot be run before the current school 
+ year is finished (e.g. it cannot be done in June), nor can it be run when 
+ the school still needs the current year&#39;s info for reporting and other 
+ processes.</p>
+<p> </p>
+<p>The transfer to current process takes all the &#39;next year&#39; info and copies 
+ it into &#39;this year&#39;. This info includes:</p>
+<ul style="list-style: disc;">
+	<li>courses</li>
+	<li>classes</li>
+	<li>rooms</li>
+	<li>timetables</li>
+	<li>students&#39; grades, homerooms and advisor groups</li>
+</ul>
+<p> </p>
+<p>Student who are no longer returning to the school become past students, 
+ and all other students are assigned the school year status of &#39;this year 
+ and next year&#39;.</p>
+<p> </p>
+<p style="font-style: italic;">Once the school has transferred to current, 
+ there should be no further use of the Scheduling next year options.  All 
+ changes to data need to be done to the &#39;this year&#39; info.</p>
+
+</body></html>

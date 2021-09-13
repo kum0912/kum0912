@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Other info</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.2.0_8";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; October secondary school"/>
+</head>
+
+<body>
+
+
+<h1>OnSIS &gt; Submission period &gt; Other info</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p> </p>
+<p>The Other info option will appear for the following submission periods:</p>
+<p>  </p>
+<ul style="list-style: disc;">
+	<li>October secondary school</li>
+	<li>March secondary school</li>
+	<li>June secondary school</li>
+</ul>
+<p> </p>
+<p>This option is used to create batch files, using the CREATE button. 
+ The batch file is uploaded to OnSIS through the OnSIS web site.  Once 
+ OnSIS processes the batch file, a results file is created. The results 
+ file is downloaded from OnSIS and is then processed using the PROCESS 
+ RESULTS button.  </p>
+<p> </p>
+<p>This section describes the Other info batch files. See the OnSIS <a href="on-onsis-important-concepts.htm">Important concepts</a> section 
+ for info on <a href="on-onsis-important-concepts.htm">Updating data in 
+ OnSIS using the ‘Create/Upload/Process’ cycle</a>.  </p>
+<p> </p>
+<p>The file or files in this option provide additional information required 
+ as part of a school’s OnSIS submission.  For secondary schools, this 
+ includes students who are not enrolled in the school but have earned their 
+ diploma during the submission period (e.g. by completing volunteer hours 
+ or SHSM certificates after earning all the required credits in a previous 
+ submission or earning the required credits during summer school and the 
+ home school grants the diploma).   </p>
+<p> </p>
+<p>In March, OnSIS collects info about the courses that a student has selected 
+ for the next school year (aka student option sheets) along with the list 
+ of all the courses that students may make their selections from (aka the 
+ course calendar).</p>
+<p> </p>
+<p>Follow the links below for the file specifications.</p>
+<p> </p>
+<p style="margin-left: 40px;"><a href="#Diplomas_for_non-enrolled_students_batch_file_">Diplomas 
+ for non-enrolled students batch file</a></p>
+<p style="margin-left: 40px;"><a href="#Course_calendar_and_student_option_sheets_batch_file_">Course 
+ calendar and student option sheets batch file</a> (March publicly funded 
+ schools only)</p>
+<p> </p>
+<p>Select the CREATE button on the Other info card.</p>
+<p> </p>
+<p><img src="assets/images/onsis-other-card.png" alt="" style=" border:none; width:100%; max-width:206px;" border="0"/></p>
+<p>   </p>
+<p>The text is slightly different for the March secondary school submission.</p>
+<p> </p>
+<p><img src="assets/images/onsis-other-card1.png" alt="" style=" border:none; width:100%; max-width:206px;" border="0"/></p>
+<p>`</p>
+<p>This is the form that appears when the CREATE button is selected for 
+ the March submission:</p>
+<p> </p>
+<p> <img src="assets/images/onsis-other-main.png" alt="" style=" border:none; width:100%; max-width:866px;" border="0"/></p>
+<p> </p>
+<p>The OnSIS batch file options are detailed below. Prior to selecting 
+ the CREATE BATCH FILE option, determine whether other options on the form 
+ should be selected.   </p>
+<p> </p>
+<p>Purge:  Y/N field. See <a href="on-onsis-important-concepts.htm#Purge_check_boxes">Important 
+ concepts – Purge check boxes</a> for more info.</p>
+<p> </p>
+<p><span style="color: #007fff;">Purge and pre-populate all non-enrolled 
+ student info: Y/N field. If set to yes, it will include a command in the 
+ batch file that instructs OnSIS to purge and prepopulate all data for</span> 
+ students who were submitted to OnSIS but these students did not actively 
+ attend school during this submission period.  This will purge and 
+ pre-populate diploma info, and option sheets for these non-enrolled students. 
+ It will also purge the SHSM program and certification info, and since 
+ this SHSM info is on the <a href="on-onsis-student-info.htm">Student info 
+ card</a>, it is important to remember to resubmit this file if you check 
+ this setting.  </p>
+<p> </p>
+<p><span style="color: #007fff;">Save results to CSV file (aka Also create 
+ CSV file)</span>: Y/N field. If set to Yes, the CREATE BATCH FILE option 
+ will create the requested batch file(s) and the contents of the batch 
+ file(s) will also appear in a comma delimited file (same file name as 
+ the XML batch file but with a CSV extension). Some boards/schools generate 
+ these csv files to perform data analysis on the information sent to OnSIS.</p>
+<p> </p>
+<h2><a name="Diplomas_for_non-enrolled_students_batch_file_" id="Diplomas_for_non-enrolled_students_batch_file_"></a>Diplomas 
+ for non-enrolled students batch file</h2>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Default file name</span>: 
+ S13_######_NonEnrolStuDiploma_yyyymmdd_hhmm.xml</p>
+<p> </p>
+<p>The diplomas for non-enrolled students batch file contains information 
+ about students who have been granted a diploma during the submission period, 
+ but the student is not part of the school’s submission (e.g. the student 
+ is not in the student school enrolment file, therefore the student is 
+ considered “non-enrolled”). A non-enrolled student may be granted a diploma 
+ by their home school upon completion of summer school or completion of 
+ community hours.  Past students will be included if a diploma is 
+ granted during this submission period.  Diploma info, including community 
+ involvement hours and the Ontario scholarship flag are all recorded in 
+ the Achievement &gt; Graduation requirements option of the student’s record.</p>
+<p> </p>
+<p>The fields collected by OnSIS are detailed below.</p>
+<p> </p>
+<table class="SimpleGridBlack" style=" vertical-align:top; width:100%; max-width:900px;" cellspacing="0px">
+	<colgroup><col style="width: 34.594%;"/>
+	<col style="width: 7.564%;"/>
+	<col style="width: 57.842%;"/>
+	</colgroup><tbody><tr class="t1Row" style="height: 22px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt; color: #007fff; 
+			 font-weight: bold;">Char. column values are M-Mandatory, O-Optional, 
+		 R-Repeatable</p></td>
+		
+	</tr>
+	<tr class="t2Row" style="height: 21px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt;"> </p></td>
+		
+	</tr>
+	<tr class="t1Row" style="height: 22px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Element</b></p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Char</b></p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Description</b></p></td>
+	</tr>
+	<tr class="t2Row" style="height: 21px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p> </p></td>
+		
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT</p>
+		<p> </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>OR</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>No 
+		 data required, as it is just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 165px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/ACTION</p>
+		<p> </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><span class="NormalTextRun SCXW175287229 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">ADD will appear for all students if 
+		 no Extract file is used.  If an Extract file is used, 
+		 ADD will appear if the student is not in the Extract file, UPDATE 
+		 will appear if the student information is different from the Extract 
+		 file, and DELETE will appear if the student is in the Extract 
+		 file but is no longer in the school’s data.  </span><span class="EOP SCXW175287229 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; 
+		 widows: 2; -webkit-text-stroke-width: 0px; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-size: 8pt; line-height: 14.0292px; font-family: Verdana, Verdana_MSFontService, sans-serif;"> </span></p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/</p>
+		<p>GRADE_TYPE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>The 
+		 grade of the student. If the student is a past student, the last 
+		 grade attended will be used.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 115px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/</p>
+		<p>MAIN_SCHOOL_FLAG</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"> </td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">T 
+		 (True) will appear if this school is the student&#39;s main school 
+		 (holder of OSR) = this school (student&#39;s record &gt; Enrolment 
+		 &gt; Enrolment register info). F (False) will appear if the student&#39;s 
+		 main school = another school in this board, or school in another 
+		 board. 
+		<br/> </td>
+	</tr>
+	<tr class="t1Row" style="height: 183px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/LITERACY_STATUS_TYPE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>The 
+		 student’s Ontario secondary school literacy test status (student’s 
+		 record &gt; Achievement &gt; Graduation requirements &gt; Other 
+		 requirements card).  </p>
+		<p> </p>
+		<p>1 = Successful in English</p>
+		<p>2 = Successful in French</p>
+		<p>3 = Not applicable</p>
+		<p>4 = Adjudication</p>
+		<p>6 = OLC/CCL (literacy course)</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><span class="NormalTextRun SCXW218488767 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">SCHOOL_SUBMISSION/</span><span class="SCXW218488767 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; 
+		 -webkit-tap-highlight-color: transparent; white-space: pre	 ! important ;"> </span><span class="LineBreakBlob BlobObject DragDrop SCXW218488767 BCX0" style="margin: 0px; 
+		 padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 font-variant-ligatures: normal; font-variant-caps: normal; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-size: 8pt; line-height: 14.0292px; font-family: Verdana, Verdana_MSFontService, sans-serif;"><br class="SCXW218488767 BCX0" style="margin: 0px; padding: 0px; user-select: text; 
+		 -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 white-space: pre	 ! important ;"/>
+		</span> <span class="NormalTextRun SCXW218488767 BCX0" style="margin: 0px; 
+						 padding: 0px; user-select: text; -webkit-user-drag: none; 
+						 -webkit-tap-highlight-color: transparent; background-color: inherit;">SCHOOL/STUDENT/ 
+		 STUDENT_NON_ENROLMENT/</span> 
+		<br/><span class="NormalTextRun SCXW218488767 BCX0" style="margin: 0px; padding: 0px; user-select: text; 
+								 -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+								 background-color: inherit;">COMMUNITY_INVOLMENT_ACCU_HOURS</span><span class="EOP SCXW218488767 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 font-variant-ligatures: normal; font-variant-caps: normal; background-color: #ffffff; 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-size: 8pt; line-height: 14.0292px; font-family: Verdana, Verdana_MSFontService, sans-serif;"> </span></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">The 
+		 student’s community involvement accumulated hours (student’s record 
+		 &gt; Achievement &gt; Graduation requirements &gt; Other requirements 
+		 card). 
+		<br/> </td>
+	</tr>
+	<tr class="t1Row" style="height: 93px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/ONTARIO_SCHOLARSHIP_FLAG</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Y/N 
+		 flag indicating if student is recommended for an Ontario scholarship 
+		 (student’s record &gt; Achievement &gt; Graduation requirements 
+		 &gt; Diploma card).  </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 93px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><span class="NormalTextRun SCXW111139520 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">SCHOOL_SUBMISSION/</span><span class="SCXW111139520 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; 
+		 -webkit-tap-highlight-color: transparent; white-space: pre	 ! important ;"> </span><span class="LineBreakBlob BlobObject DragDrop SCXW111139520 BCX0" style="margin: 0px; 
+		 padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; 
+		 widows: 2; -webkit-text-stroke-width: 0px; background-color: rgba(198, 198, 198, 0.7); 
+		 text-decoration-style: initial; text-decoration-color: initial; 
+		 font-size: 8pt; line-height: 14.0292px; font-family: Verdana, Verdana_MSFontService, sans-serif;"><br class="SCXW111139520 BCX0" style="margin: 0px; padding: 0px; user-select: text; 
+		 -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 white-space: pre	 ! important ;"/>
+		</span> <span class="NormalTextRun SCXW111139520 BCX0" style="margin: 0px; 
+						 padding: 0px; user-select: text; -webkit-user-drag: none; 
+						 -webkit-tap-highlight-color: transparent; background-color: inherit;">SCHOOL/STUDENT/ 
+		 STUDENT_NON_ENROLMENT/ONTARIO_SCHOLARSHIP_DATE</span><span class="EOP SCXW111139520 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; 
+		 -webkit-tap-highlight-color: transparent; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+		 background-color: rgba(198, 198, 198, 0.7); text-decoration-style: initial; 
+		 text-decoration-color: initial; font-size: 8pt; line-height: 14.0292px; 
+		 font-family: Verdana, Verdana_MSFontService, sans-serif;"> </span></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><span class="NormalTextRun SCXW161613272 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">If student is flagged as an Ontario 
+		 scholar, the</span><span> </span><span class="NormalTextRun SCXW161613272 BCX0" style="margin: 0px; 
+													 padding: 0px; user-select: text; 
+													 -webkit-user-drag: none; 
+													 -webkit-tap-highlight-color: transparent; 
+													 background-color: inherit;">Ontario 
+		 scholarship date</span><span> </span><span class="NormalTextRun SCXW161613272 BCX0" style="margin: 0px; 
+														 padding: 0px; 
+														 user-select: text; 
+														 -webkit-user-drag: none; 
+														 -webkit-tap-highlight-color: transparent; 
+														 background-color: inherit;">(student’s 
+		 record &gt; Achievement &gt; Graduation requirements &gt; Diploma 
+		 card).</span> 
+		<br/> </td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/STUDENT_NON_ENROLMENT/DIPLOMA</p></td>
+		<td><p>OR</p>
+		<p>C</p></td>
+		<td><p>This is the outer tag for non-enrolled student with Diploma</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/STUDENT_NON_ENROLMENT/</p>
+		<p>DIPLOMA/ACTION</p>
+		<p> </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">NA</td>
+	</tr>
+	<tr class="t1Row" style="height: 219px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/STUDENT_NON_ENROLMENT/<br/>
+		DIPLOMA/TYPE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>C</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>The 
+		 diploma granted to the student (student’s record &gt; Achievement 
+		 &gt; Graduation requirements &gt; Diploma card).  </p>
+		<p> </p>
+		<p>1 = OSSD</p>
+		<p>2 = OSSD2 (pre-1999 requirements)</p>
+		<p>3 = SSSGD</p>
+		<p>4 = OSSD/SHSM</p>
+		<p>7 = OSSC</p>
+		<p>8 = C of A (certificate of accomplishment)</p>
+		<p>  </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 75px;">
+		<td style="border-right-width: 1px; border-bottom-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/STUDENT/ STUDENT_NON_ENROLMENT/<br/>
+		CERTIFICATE_ISSUED</p></td>
+		<td style="border-right-width: 1px; border-bottom-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><span class="NormalTextRun SCXW207509303 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">The date (</span><span class="NormalTextRun SCXW207509303 BCX0" style="margin: 0px; 
+															 padding: 0px; 
+															 user-select: text; 
+															 -webkit-user-drag: none; 
+															 -webkit-tap-highlight-color: transparent; 
+															 background-color: inherit;">/mm/dd) 
+		 the diploma was granted to the student</span><span> </span><span class="NormalTextRun SCXW207509303 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit;">(student’s record &gt; Achievement 
+		 &gt; Graduation requirements &gt; Diploma card).</span><span class="EOP SCXW207509303 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; 
+		 -webkit-tap-highlight-color: transparent; font-variant-ligatures: normal; 
+		 font-variant-caps: normal; background-color: #ffffff; text-decoration-style: initial; 
+		 text-decoration-color: initial; font-size: 8pt; line-height: 14.0292px; 
+		 font-family: Verdana, Verdana_MSFontService, sans-serif;"> </span> 
+		 
+		<br/> </td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<p> </p>
+<h2><a name="Course_calendar_and_student_option_sheets_batch_file_" id="Course_calendar_and_student_option_sheets_batch_file_"></a>Course 
+ calendar and student option sheets batch file</h2>
+<p style="font-style: italic;">Applies to the March secondary submission 
+ for publicly funded schools only</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Default file name</span>: 
+ S11_######_OptShtt_yyyymmdd_hhmm.xml</p>
+<p> </p>
+<p>Every March, OnSIS collects information regarding the courses offered 
+ at the school for the forthcoming school year (course calendar), along 
+ with the course options selected by the students. The course calendar 
+ uses the courses entered into the next year&#39;s courses file (Setup &gt; 
+ Class info &gt; Courses (next year)).  Each student&#39;s course options 
+ are taken from the student&#39;s course selections (student’s record &gt; 
+ Class info &gt; Course selections).  Only the student’s preferred 
+ courses are reported to OnSIS. Alternate courses are not reported.</p>
+<p> </p>
+<p>Sometimes schools create fictitious course codes for timetabling purposes. 
+ If a course is to be excluded from the OnSIS reporting, in the setup of 
+ the course (using Setup &gt; Class info &gt; Courses (next year)), check 
+ the box called “Exclude from OnSIS submission”.  It will also automatically 
+ exclude any courses that have a department defined with a ministry code 
+ of 0 (zero).  A warning message will appear on the printout after 
+ the batch file is created informing the user of all of the courses excluded 
+ from the batch file.</p>
+<p> </p>
+<p>The Ministry recognizes that students may register for programs in the 
+ spring, but the actual course codes the student will ultimately receive 
+ in their fall timetables are not always known this early in the planning 
+ process. For this reason, the Ministry has a list of placeholder courses 
+ that they will accept in the OnSIS batch files for course options only. 
+ The list of placeholder courses is part of the Ministry&#39;s reference tables. 
+ Here are some examples:</p>
+<p> </p>
+<p>ALP1X or ALP2X or ALP3X or ALP4X = Alternative Program, Grade 9 or 10 
+ or 11 or 12</p>
+<p> </p>
+<p>APR1X or APR2X or APR3X or APR4X = OYAP, Grade 9 or 10 or 11 or 12  </p>
+<p> </p>
+<p>COP1X or COP2X or COP3X or COP4X = CO-OP, Grade 9 or 10 or 11 or 12</p>
+<p> </p>
+<p>IBP1X or IBP2X or IBP3X or IBP4X = International Baccalaureate Program, 
+ Grade 9 or 10 or 11 or 12</p>
+<p> </p>
+<p>OOO4X = Dual Credit:  College-delivered, Apprenticeship  </p>
+<p> </p>
+<p>OTH1X or OTH2X or OTH3X or OTH4X = Other, Grade 9 or 10 or 11 or 12</p>
+<p> </p>
+<p>RCR1X or RCR2X or RCR3X or RCR4X = Credit Recovery, Grade 9 or 10 or 
+ 11 or 12</p>
+<p> </p>
+<p>REG1X or REG2X or REG3X or REG4X = Regional Program, Grade 9 or 10 or 
+ 11 or 12</p>
+<p> </p>
+<p>SCE1X or SCE2X or SCE3X or SCE4X = School to Career, Grade 9 or 10 or 
+ 11 or 12</p>
+<p> </p>
+<p>SLP1X or SLP2X or SLP3X or SLP4X = Supervised Alternative Learning (SAL), 
+ Grade 9 or 10 or 11 or 12</p>
+<p> </p>
+<p>SSR1X or SSR2X or SSR3X or SSR4X = Student Success, Grade 9 or 10 or 
+ 11 or 12  YYY4X = Dual Credit:  College Delivered, College Course. 
+   </p>
+<p> </p>
+<p>There is no extract option for this batch file.  The file sets 
+ the flag to automatically purge all previously submitted course calendar 
+ and student option information prior to processing the contents of the 
+ batch file.</p>
+<p> </p>
+<table class="SimpleGridBlack" style=" left:0px; top:4464px; width:100%; max-width:901px;" cellspacing="0px">
+	<colgroup><col style="width: 44.222%;"/>
+	<col style="width: 5.93%;"/>
+	<col style="width: 37.403%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td colspan="3" style="vertical-align: top;"><p style="font-weight: bold; 
+														 color: #007fff;">Char. 
+		 column values are M-Mandatory, O-Optional, R-Repeatable</p></td>
+		
+	</tr>
+	<tr class="t2Row">
+		<td colspan="3" style="vertical-align: top;"><p> </p></td>
+		
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Element</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Char</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td colspan="3" style="vertical-align: top;"><p> </p></td>
+		
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>DATA</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/ACADEMIC_YEAR</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>yyyy-yyyy - Based on the school 
+		 calendar (Setup &gt; School &gt; Calendar).  For example, 
+		 2019-2020 for a calendar that starts in September 2019 and ends 
+		 in June 2020.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SUBMISSION_PERIOD_TYPE</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Submission period type is either 
+		 OCTSEC1, MARSEC1, or JUNSEC1 for public secondary schools.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL</p></td>
+		<td style="vertical-align: top;"><p>MR</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/SCHOOL_NUMBER</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>School Number (Setup &gt; School 
+		 &gt; School info).  Only edsembli may change the school 
+		 number.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/CLEAR_PENDING_AREA</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>N, for No, will always appear.   </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/ Batch Files 
+		 Purge and Pre-Population XML Tags</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Y will always appear for the 
+		 purge tag, which will return all the course calendar and student 
+		 option sheet data to the original format when the submission period 
+		 first opened: CLEAR_OPTION_SHEET See <a href="on-onsis-important-concepts.htm#Purge_check_boxes">Purge 
+		 Flags</a> for further information.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td colspan="3" style="vertical-align: top;"><p>The COURSE_CALENDAR 
+		 information is repeated for each valid course code offered to 
+		 the students attending the school next year.  All courses 
+		 in the courses file (Scheduling, Modify Files, Courses) are included 
+		 unless the department assigned to the course has a Ministry number 
+		 of 0 (e.g. Unofficial Department). </p>
+		<p> </p></td>
+		
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Element</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Char.</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Description</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td colspan="3" style="vertical-align: top;"><p> </p></td>
+		
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/COURSE_CALENDAR</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/COURSE_CALENDAR/ACTION</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>DELETE will always appear.  This 
+		 will clear any previous course calendar information submitted 
+		 in previous uploads of this batch file.</p>
+		<p>  </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_ACADEMIC_YEAR</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Academic year for which the 
+		 course calendar represents.  It is in the format yyyy-yyyy 
+		 corresponding to next year&#39;s school calendar (it is 1 year ahead 
+		 of the current school&#39;s calendar).  E.g. in March 2020 
+		 submission, it would indicate 2020-2021.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE</p></td>
+		<td style="vertical-align: top;"><p>CR</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/ACTION</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>ADD will always appear.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/MINISTRY _DFND_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in next year&#39;s courses file (Scheduling, Modify Files, Courses).  If 
+		 the 5th character of the course code is 1 to 8 or L, this tag 
+		 will be empty and the course code will appear in the tag for locally 
+		 developed courses.  If the 5th character of the course 
+		 code is X, this tag will be empty and the course will appear in 
+		 the tag for placeholder courses. Refer to Ministry&#39;s documentation 
+		 for a listing of valid Ministry defined course codes.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/INSTITUTION_TYPE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>This is a 1 to 4 character 
+		 code that denotes which college or university institution the 
+		 student is attending for an enrolled dual credit course.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/LOCAL_ DEV_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in next year&#39;s courses file (Scheduling, Modify Files, Courses).  Empty 
+		 if the course is not locally developed.  Course codes 
+		 with the 5th character containing 1,2,3,4,5,6,7,8, or L are considered 
+		 locally developed.  If it is locally developed, the 
+		 first 5 characters of course code are used.  Refer to Ministry&#39;s 
+		 documentation for a listing of valid locally defined course codes 
+		 applicable for your school.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE /PLACE_HLDR_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in next year&#39;s courses file (Setup &gt; class info &gt; Courses 
+		 &gt; NEXT YEAR).  Empty if the course is not considered 
+		 a placeholder course.  Course codes with the 5th character 
+		 containing X are considered placeholder courses. See description 
+		 of placeholder courses at the top of this document.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/CRS_ IDENTIFIER</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>If the course code has more 
+		 than 5 characters, the 6th character of the course code will appear 
+		 in this tag.  This additional character allows duplicate 
+		 course codes to be added to the course calendar to represent different 
+		 courses a student may select.  E.g. CGC1D and CGC1DF 
+		 may be 2 different courses (with the later being taught in French).  The 
+		 course calendar will 2 courses:  CGC1D with the course 
+		 name Geography of Canada, and CTC1D with the identifier F and 
+		 the course name &quot;Geographie Canadienne&quot;.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE/SCHOOL _CRS_NAME</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>The title of the course (Setup 
+		 &gt; Class info &gt; Courses &gt; NEXT YEAR).</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /COURSE_CALENDAR/COURSE 
+		 _CALENDAR_COURSE /compulsory_IND_FLAG</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>F for False will always appear.  Although 
+		 the intent was to identify whether the course is offered as a 
+		 compulsory course, the compulsory indicator will depend upon the 
+		 student and therefore cannot be accurately determined for each 
+		 course.   </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td colspan="3" style="vertical-align: top;"><p>A student is included 
+		 in this file if they are registered for any courses next school 
+		 year.  A student&#39;s enrolment dates determine whether 
+		 the student is registered next year, however, if there are no 
+		 course selectionss entered for the student, the student will appear 
+		 in the warning messages indicating that he/she has been excluded 
+		 from the file. The student will appear with the E_OPTION_SHEET 
+		 tags if the student is part of the March student school enrolment 
+		 batch file, otherwise the student is considered non-enrolled and 
+		 he/she will appear with the NE_OPTION_SHEET tags.  </p>
+		<p> </p></td>
+		
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Element</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;">Char.</p></td>
+		<td style="vertical-align: top;"><p style="font-weight: bold;"> Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td colspan="3" style="vertical-align: top;"><p> </p></td>
+		
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT</p></td>
+		<td style="vertical-align: top;"><p>OR</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/OEN</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student’s OEN number (Enrolment 
+		 tab of student&#39;s record).</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/STUDENT_LEGAL_ 
+		 GIVEN_NAME</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student’s Given Name (Name 
+		 button on the Biographics tab of student&#39;s record)</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/STUDENT_LEGAL_ 
+		 SECOND_NAME</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student’s Middle Name (Name 
+		 button on the Biographics tab of student&#39;s record).</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/STUDENT_LEGAL_ 
+		 LAST_NAME</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student’s Legal Surname or 
+		 if empty then Student’s Surname (Name button on the Biographics 
+		 tab of student&#39;s record).  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/STUDENT_DOB</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student&#39;s Date of Birth yyyy/mm/dd 
+		 (Biographics tab of student&#39;s record).</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/GENDER_TYPE</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Gender (M for male and F for 
+		 female) (Biographics tab of student&#39;s record).</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/LANGUAGE_TYPE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>Student&#39;s first language (Enrolment 
+		 tab of student&#39;s record). This is the first language spoken by 
+		 the student.  First Languages table is accessed using 
+		 Students, Custom Fields/Tables, Enrolment Tables, First Languages.  The 
+		 OnSIS code must agree with the OnSIS reference table for LANGUAGE_TYPE.  This 
+		 tag is omitted if the student&#39;s MAIN_SCHOOL_FLAG is false (see 
+		 description below), however OnSIS will populate this field if 
+		 the student exists in OnSIS or if the student has not been entered 
+		 in OnSIS (by any school in the province), the value for Language 
+		 First Spoken will be set to the language of the school.  If 
+		 the language of the school is both “English and French, Language 
+		 First Spoken of the student will be set to English.   </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ STUDENT/STUDENT_MIN_NUMBER</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student&#39;s Ministry Number (Enrolment 
+		 tab of student&#39;s record).  The Ministry Number was assigned 
+		 to students before the OEN, and is no longer assigned to students.   </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Additional Mandatory Fields</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>There will be some additional 
+		 mandatory fields that must appear when attempting to UPDATE any 
+		 student data.  For example, the ENROLMENT_START_DATE 
+		  of the student is mandatory and will appear in the batch 
+		 file.  If an error is returned in any of these additional 
+		 fields, they may be ignored as OnSIS has identified the student 
+		 and will proceed to process the subsequent data.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td colspan="3" style="vertical-align: top;"><p>The E_OPTION_SHEET 
+		 information is repeated for each course option selected by a student 
+		 that is currently part of the March Submission student school 
+		 enrolment.  The &quot;E&quot; represents enrolled students.  Mandatory 
+		 and Elective course options are included, but Alternate courses 
+		 are not.  </p>
+		<p> </p></td>
+		
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION _SHEET/ACTION</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>ADD will always appear.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET /OPTION_SHEET_ACADEMIC_YEAR</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>yyyy-yyyy corresponding to 
+		 next year&#39;s school calendar (it is 1 year ahead of the current 
+		 school&#39;s calendar).  E.g. in March 2010 submission, 
+		 it would indicate 2010-2011.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET /OPTION_SHEET_GRADE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>The grade the student will 
+		 be in next school year.  It will add 1 to the current 
+		 year&#39;s grade (e.g. This Year&#39;s Grade) up to a maximum of grade 
+		 12.  If the student&#39;s grade is S or U, the option sheet 
+		 grade is set to P9.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET /E_OPTION_SHEET_COURSE</p></td>
+		<td style="vertical-align: top;"><p>CR</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET /E_OPTION_SHEET_COURSE /ACTION</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>ADD will always appear.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET /E_OPTION_SHEET_COURSE/ MINISTRY_DFND_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in the student&#39;s course selection (Student records &gt; Class 
+		 info&gt; Course selections).  If the 5th character of 
+		 the course code is 1 to 8 or L, this tag will be empty and the 
+		 course code will appear in the next tag for locally developed 
+		 courses.  Refer to Ministry&#39;s documentation for a listing 
+		 of valid Ministry defined course codes.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL_ 
+		 ENROLMENT/E_OPTION_SHEET/ E_OPTION_SHEET_COURSE/INSTITUTION_TYPE</p></td>
+		<td style="vertical-align: top;"><p>c</p></td>
+		<td style="vertical-align: top;"><p>This is a 1 to 4 character 
+		 code that denotes which college or university institution the 
+		 student is attending for an enrolled dual credit course.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL_ 
+		 ENROLMENT/E_OPTION_SHEET/ E_OPTION_SHEET_COURSE/ LOCAL_DEV_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>Empty if the course is not 
+		 locally developed.  Course codes with the 5th character 
+		 containing 1,2,3,4,5,6,7,8, or L are considered locally developed.  If 
+		 it is locally developed, the first 5 characters of course code 
+		 are used.  Refer to Ministry&#39;s documentation for a listing 
+		 of valid locally defined course codes applicable for your school. 
+		  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL_ 
+		 ENROLMENT/E_OPTION_SHEET/ E_OPTION_SHEET_COURSE/ PLACE_HLDR_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in the student&#39;s course selection (Student records &gt; Class 
+		 info &gt; Course selections).  Empty if the course is 
+		 not considered a placeholder course.  Course codes with 
+		 the 5th character containing X are considered placeholder courses. See 
+		 description of placeholder courses at the top of this document. 
+		  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL_ 
+		 ENROLMENT/E_OPTION_SHEET/ E_OPTION_SHEET_COURSE/ COURSE_TYPE</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>This tag is optional and is 
+		 therefore omitted.  The original intent was to populate 
+		 it based on 1 = compulsory, 2 = elective, 3 = other, however course 
+		 selections are not tracked as to whether or not they are compulsory 
+		 since it depends on whether the student has received credits for 
+		 their current classes.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/STUDENT_SCHOOL 
+		 _ENROLMENT/E_OPTION_SHEET/ E_OPTION_SHEET_COURSE/CRS _IDENTIFIER</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>If the course code has more 
+		 than 5 characters, the 6th character of the course code will appear 
+		 in this tag.   </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td colspan="3" style="vertical-align: top;"><p>   The 
+		 NE_OPTION_SHEET information is repeated for each course option 
+		 selected by a student that is not currently part of the March 
+		 Submission student school enrolment (e.g. typically students that 
+		 are pre-registered for the next school year).  The &quot;NE&quot; 
+		 represents non-enrolled students.  Mandatory and Elective 
+		 course options are included, but Alternate courses are not.  </p>
+		<p> </p></td>
+		
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET 
+		 /ACTION</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>N/A</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET 
+		 /OPTION_SHEET_ACADEMIC_ YEAR</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>yyyy-yyyy corresponding to 
+		 next year&#39;s school calendar (it is 1 year ahead of the current 
+		 school&#39;s calendar).  E.g. in March 2020 submission, 
+		 it would indicate 2020-2021.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 CURRENT_GRADE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>The student&#39;s current grade 
+		 (e.g. This Year&#39;s Grade). If the student&#39;s grade is S or U, then 
+		 P9 will appear in the file.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 OPTION_SHEET_GRADE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>The grade the student will 
+		 be in next school year.  It will add 1 to the current 
+		 year&#39;s grade (e.g. This Year&#39;s Grade) up to a maximum of grade 
+		 12.  If the student&#39;s grade is S or U, the option sheet 
+		 grade is set to P9.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 SPECIAL_ED_IND_FLAG</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>T  for True will 
+		 appear if the student will be considered a special education student 
+		 when they enroll in the school.  See the special education 
+		 batch file specifications for instructions on how to identify 
+		 a special education student.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>CR</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ ACTION</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>ADD will always appear.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ MINISTRY_DFND_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in the student&#39;s course selection (Student records &gt; Class 
+		 info &gt; Course selections).  If the 5th character 
+		 of the course code is 1 to 8 or L, this tag will be empty and 
+		 the course code will appear in the next tag for locally developed 
+		 courses.  Refer to Ministry&#39;s documentation for a listing 
+		 of valid Ministry defined course codes.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/INSTITUTION_TYPE</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>This is a 1 to 4 character 
+		 code that denotes which college or university institution the 
+		 student is attending for an enrolled dual credit course.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ LOCAL_DEV_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>Empty if the course is not 
+		 locally developed.  Course codes with the 5th character 
+		 containing 1,2,3,4,5,6,7,8, or L are considered locally developed.  If 
+		 it is locally developed, the first 5 characters of course code 
+		 are used.  Refer to Ministry&#39;s documentation for a listing 
+		 of valid locally defined course codes applicable for your school. 
+		  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ PLACE_HLDR_CRS</p></td>
+		<td style="vertical-align: top;"><p>C</p></td>
+		<td style="vertical-align: top;"><p>First 5 characters of course 
+		 code in the student&#39;s course selections (Student records &gt; 
+		 Class info &gt; Course selections).  Empty if the course 
+		 is not considered a placeholder course.  Course codes 
+		 with the 5th character containing X are considered placeholder 
+		 courses. See description of placeholder courses at the top 
+		 of this document.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ COURSE_TYPE_ID</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>This tag is optional and is 
+		 therefore omitted.  The original intent was to populate 
+		 it based on 1 = compulsory, 2 = elective, 3 = other, however course 
+		 selections are not tracked as to whether or not they are compulsory 
+		 since it depends on whether the student has received credits for 
+		 their current classes.  </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /STUDENT/NE_OPTION_SHEET/ 
+		 NE_OPTION_SHEET_COURSE/ CRS_IDENTIFIER  </p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>If the course code has more 
+		 than 5 characters, the 6th character of the course code will appear 
+		 in this tag. </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td colspan="3"> </td>
+		
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+
+</body></html>

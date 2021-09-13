@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="ProgId" content="FrontPage.Editor.Document"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Class semesters, terms, days and periods</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<style type="text/css">
+
+</style>
+<script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]></script>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.3.0_4";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Prepare for next year"/>
+</head>
+
+<body>
+
+
+<h1>Setup &gt; School &gt; Sem/term/day/period</h1>
+<h1>Scheduling next year &gt; Prepare for a new year &gt; Sem/term/day/period</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p><br/>
+</p>
+<p style="margin-left: 0px;"><a href="#Understanding_semester_term_sets_and_patterns">Understanding 
+ semester/term sets and patterns</a></p>
+<p style="margin-left: 0px;"><a href="#Understanding_day_period_sets_and_patterns">Understanding 
+ day/period sets and patterns</a></p>
+<p><a href="#Semester_term_setup">Semester/term setup</a></p>
+<p style="margin-left: 40px;"><a href="#Defining_number_of_semesters_terms">Defining 
+ number of semesters/terms</a></p>
+<p style="margin-left: 40px;"><a href="#Editing_semester_term_sets_and_patterns">Editing 
+ semester/term sets and patterns</a></p>
+<p><a href="#Day_period_setup">Day/period setup</a></p>
+<p style="margin-left: 40px;"><a href="#Defining_number_of_days_periods">Defining 
+ number of days/periods</a></p>
+<p style="margin-left: 40px;"><a href="#Editing_day_period_sets_and_patterns">Editing 
+ day/period sets and patterns</a></p>
+<p><a href="#Adding_new_sets_and_patterns">Adding new sets and patterns</a></p>
+<p><a href="#Removing_sets_or_patterns">Removing sets or patterns</a></p>
+<p style="margin-left: 40px;"><a href="#Removing_sets">Removing sets</a></p>
+<p style="margin-left: 40px;"><a href="#Removing_patterns">Removing patterns</a></p>
+<p><a href="#Defining_period_times">Defining period times</a></p>
+<p><a href="#Unique_class_schedules">Unique class schedules</a></p>
+<p><a href="#Notes_for_new_schools">Notes for new schools</a></p>
+<p> </p>
+<p> </p>
+<h2><a name="Overview" id="Overview"></a>Overview</h2>
+<p>The setup of a school’s semesters, terms, days and periods is generally 
+ is done during the initial set up of a new school and rarely needs to 
+ be revisited. The exception would be if a school makes changes to 
+ the core schedule (i.e. changes in any of the parameters that define when 
+ classes are taught):</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Number of semesters in the school year</li>
+	<li>Number of terms per semester</li>
+	<li>Number of days in the cycle</li>
+	<li>Number of periods per day</li>
+	<li>Start and end times of each period in each day</li>
+	<li>Changes to the tumble/rotation of classes</li>
+</ul>
+<p> </p>
+<p>Semesters/terms/days/ and/or periods setup is available for this year 
+ and next year. The existing set up is automatically copied to next 
+ year. Any changes that you make for the next school year will not impact 
+ the current year.</p>
+<p> </p>
+<p>There is a separate class for each time a course is taught to a different 
+ group of students. “When” each class is taught is called  the 
+ class schedule. The class schedule provides information that lets the 
+ class fit into the student and teacher timetables. In order for all 
+ the classes to fit into the timetables, classes have both Semester/Term 
+ Sets and Day/Period Sets with associated patterns.</p>
+<p> </p>
+<p>There are sets with patterns for when a class is taught with respect 
+ to the semesters/terms (duration), and there are sets with  patterns 
+ for when a class is taught with respect to the day and period (rotation).</p>
+<p> </p>
+<p>A set is a main grouping that contains all the appropriate possible 
+ patterns and is  a critical attribute if you plan to use any of the 
+ automatic scheduling features.  A set contains patterns, and when 
+ building a timetable, you indicate the appropriate set for a class and 
+ let the timetable building application determine the best pattern that 
+ belongs to that set or you can manually assign the desired pattern. Please 
+ see below <a href="#Understanding_day_period_sets_and_patterns">Understanding 
+ sets and patterns</a> for a more detailed explanation.</p>
+<p> </p>
+<p>From the main menu select Setup &gt; School. This will take you to the 
+ School section of the setup page where you will find the Semesters/terms/days/periods 
+ card. The board will not see this card.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd1.png" alt="" style=" border:none; width:100%; max-width:201px;" border="0"/></p>
+<p> </p>
+<p>Select either THIS YEAR or NEXT YEAR. </p>
+<p> </p>
+<p>Note: this card is also available from the Scheduling next year &gt; 
+ Prepare for next year. When accessed this way, the card will provide a 
+ GO button and it will only modify next year&#39;s sets and patterns.</p>
+<p> </p>
+<p>There are 2 tabs available corresponding to the different setup features.</p>
+<p> </p>
+<p><a href="#Semester_term_setup">Semester/term</a></p>
+<p><a href="#Day_period_setup">Day/Period</a></p>
+<p> </p>
+<p>Before using the setup application you should first understand the terminology 
+ and intended usage of the sets and patterns for semester/term and day/period. 
+ Here are some examples.</p>
+<p> </p>
+<h3><a name="Understanding_semester_term_sets_and_patterns" id="Understanding_semester_term_sets_and_patterns"></a>Understanding 
+ semester/term sets and patterns</h3>
+<p>This areas refers to the ‘duration of a class’. How long it lasts/spans 
+ during a school year. If a school has some full year classes (September 
+ to June), many classes that are taught for a single semester (half the 
+ year) and some classes that are taught for a quarter of the year (or half 
+ a semester), the school would typically be set up as 2 semesters, and 
+ 2 terms per semester.</p>
+<p> </p>
+<p>In this example there would be three Sets (Full Year, Semester and Term) 
+ each with their own unique and appropriate patterns. For example, 
+ the “Semester” set would have 2 patterns because there are 2 possible 
+ schedules: semester 1 or semester 2. Sample set and pattern names 
+ might be:</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Semester (main grouping)</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Patterns</span>: 
+ <span style="font-weight: bold;">Sem 1 and Sem 2 (possible times within 
+ the group when classes can be taught. Either Semester 1 or Semester 2)</span></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/semtermdaypd2.png" alt="" style=" border:none; width:100%; max-width:709px;" border="0"/></p>
+<p> </p>
+<p>The “Term” set would have 4 patterns because there are 4 possible schedules: 
+ semester 1/term 1, semester 1/term 2, semester 2/term 1, semester 2/term 
+ 2. Sample set and pattern names are often short but meaningful.</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Term</p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Patterns 
+ = Sem1Term1, Sem1Term2, Sem2Term1, Sem2Term2.</span></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/semtermdaypd3.png" alt="" style=" border:none; width:100%; max-width:748px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 0px;">The “Full year” set would have only 1 pattern 
+ because it has only 1 possible schedule. The set and pattern name can 
+ be the same or different, but both a set and a pattern must exist. If 
+ only 1 pattern exists, it will be automatically given to a class with 
+ this set.</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Full year</p>
+<p style="font-weight: bold; margin-left: 40px;">Pattern = Full year</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/semtermdaypd4.png" alt="" style=" border:none; width:100%; max-width:542px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<h3><a name="Understanding_day_period_sets_and_patterns" id="Understanding_day_period_sets_and_patterns"></a>Understanding 
+ day/period sets and patterns</h3>
+<p>This areas refers to the ‘rotation of a class’. How it tumbles 
+ or rotates within a cycle. In this example, the school has 4 periods 
+ each day and runs on a 2 day cycle. Most classes are assigned to 
+ a single period that is taught on both day 1 and day 2. However, the school 
+ has some classes that are taught every other day (alternating day classes) 
+ and some classes that are taught in for the morning or afternoon for a 
+ double period (i.e. morning co-op).</p>
+<p> </p>
+<p>For example, let’s set up for the classes that make up the majority 
+ of the classes, the regular rotation and we’ll call the set the Regular. 
+ This set would have 4 patterns (possibilities) because there are 4 possible 
+ schedules into which a class could fall: Period 1, or Period 2 or Period 
+ 3 or  to Period 4. Sample set and pattern names:</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Regular</p>
+<p style="font-weight: bold; margin-left: 40px;">Patterns:  Period 
+ 1, Period 2, Period 3, Period 4</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 0px;">For each pattern, all the periods for each 
+ of the days are presented (days in columns, periods in rows). For each 
+ day in the cycle, the periods, where this pattern is taught, are checked 
+ off as shown here:</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/semtermdaypd5.png" alt="" style=" border:none; width:100%; max-width:284px;" border="0"/></p>
+<p>  </p>
+<p>Once all the patterns are defined, they will appear like this (note: 
+ only Period 1 and Period 2 patterns are shown here):</p>
+<p> </p>
+<p><img src="assets/images/regperiodset.png" alt="" style=" border:none; width:100%; max-width:748px;" border="0"/></p>
+<p> </p>
+<p>The half day set would have 2 patterns because there are 2 possible 
+ schedules: mornings or afternoons. Sample set and pattern names are often 
+ short but meaningful.</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Half day</p>
+<p style="font-weight: bold; margin-left: 40px;">Patterns = AM, PM</p>
+<p style="margin-left: 40px;"> </p>
+<p>The alternate day set would have 8 patterns because the class may be 
+ taught in one of the 4 periods on day 1 or one of the four periods on 
+ day 2 (e.g. period 1 day 1 or period 1 day 2).</p>
+<p> </p>
+<p style="font-weight: bold; margin-left: 40px;">Set = Alt day</p>
+<p style="font-weight: bold; margin-left: 40px;">Patterns = P1D1, P2D1, 
+ P3D1, P4D1, P1D2, P2D2, P3D2, P4D2</p>
+<p style="font-weight: bold; margin-left: 40px;"> </p>
+<h2><a name="Semester_term_setup" id="Semester_term_setup"></a>Semester/term 
+ setup</h2>
+<p>All semester/term setup features are available from the SEMESTER/TERM 
+ tab shown below.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd8.png" alt="" style=" border:none; width:100%; max-width:665px;" border="0"/> 
+  </p>
+<h3><a name="Defining_number_of_semesters_terms" id="Defining_number_of_semesters_terms"></a>Defining 
+ number of semesters/terms</h3>
+<p>From the SEMESTER/TERM tab, you will see the current number of semesters 
+ and terms per semester on the Semester/term card.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd10.png" alt="" style=" border:none; width:100%; max-width:546px;" border="0"/></p>
+<p> </p>
+<p> If you have to change these numbers, use the Edit icon on the 
+ tool bar to adjust the numbers.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd9.png" alt="" style=" border:none; width:100%; max-width:404px;" border="0"/></p>
+<p> </p>
+<p style="font-style: italic; color: #000000;">Note: it is not possible 
+ to reduce the number of semesters or terms if patterns are defined using 
+ those semesters or terms that you want removed. </p>
+<h3><a name="Editing_semester_term_sets_and_patterns" id="Editing_semester_term_sets_and_patterns"></a>Editing 
+ semester/term sets and patterns</h3>
+<p>Once you understand semester/term sets and patterns, you will notice 
+ that the setup application, when set to the SEMESTER/TERM tab, will have 
+ a card for each set defined by the school. The set cards are located below 
+ the Semester/Term card. In the example below, the card titled ‘Semester’ 
+ is a set card.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd11.png" alt="" style=" border:none; width:100%; max-width:665px;" border="0"/></p>
+<p> </p>
+<p>Patterns associated with each each set card will be listed, and will 
+ also indicate in which semesters and terms this pattern is taught. For 
+ example, the Semester set has a pattern called Sem 1. Any classes assigned 
+ this pattern will be taught in Semester 1 Term 1 and Semester 1 Term 2.</p>
+<p> </p>
+<p>Use the Add icon on the set tool bar to add a new pattern to the set, 
+ or row click and select edit. You will see a similar screen to add or 
+ edit the pattern. This is an example of the edit interface where you can 
+ specify the name of the pattern, and the semester/terms where the pattern 
+ is taught.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd12a.png" alt="" style=" border:none; width:100%; max-width:309px;" border="0"/></p>
+<p> </p>
+<p>To edit the set name, use the Edit icon on the set card’s tool bar.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd13.png" alt="" style=" border:none; width:100%; max-width:746px;" border="0"/></p>
+<p> </p>
+<p>Editing the set will allow the name of the set to be edited as show 
+ below.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd14.png" alt="" style=" border:none; width:100%; max-width:290px;" border="0"/></p>
+<p> </p>
+<h2><a name="Day_period_setup" id="Day_period_setup"></a>Day/period setup</h2>
+<p>All day/period setup features are available from the DAY/PERIOD tab 
+ as shown below:</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd15.png" alt="" style=" border:none; width:100%; max-width:734px;" border="0"/></p>
+<p> </p>
+<p>The cards on each tab are detailed below.  </p>
+<h3><a name="Defining_number_of_days_periods" id="Defining_number_of_days_periods"></a>Defining 
+ number of days/periods</h3>
+<p>From the DAY/PERIOD tab, the current number of days per cycle and periods 
+ per day are shown on the Day/period card. If you need to change these 
+ numbers, use the Edit icon on the tool bar to adjust the numbers.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd16.png" alt="" style=" border:none; width:100%; max-width:701px;" border="0"/></p>
+<p> </p>
+<p><span style="font-style: italic;">Note: You can&#39;t reduce the number 
+ of days or periods if patterns are defined using those days or periods 
+ that you want removed.</span>   </p>
+<h3><a name="Editing_day_period_sets_and_patterns" id="Editing_day_period_sets_and_patterns"></a>Editing 
+ day/period sets and patterns</h3>
+<p>Once you understand day/period sets and patterns, you will notice that 
+ the setup application, when set to the DAY/PERIOD tab, will have a card 
+ for each set defined by the school. The set cards are located below the 
+ Day/Period and Period times cards. In the example below, the card titled 
+ ‘All day’ is a set card.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd18.png" alt="" style=" border:none; width:100%; max-width:740px;" border="0"/></p>
+<p> </p>
+<p>For each set card, the patterns associated with that card are listed, 
+ with a visual indication of which days and periods this pattern is taught 
+ in.  For example, the All  day set has a pattern called Day 
+ 1 &amp; 2. Any classes assigned this pattern will be taught in periods 
+ 1 &amp; 2, on days 1 and 2.</p>
+<p> </p>
+<p>Use the Add icon on the set tool bar (e.g. the card called All day shown 
+ above) to add a new pattern to the set, or select the row with the pattern 
+ that requires edit. This will take you to a similar screen to add or edit 
+ the pattern. This is an example of the edit interface where the name of 
+ the pattern, and the days/periods where the pattern is taught can be specified.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd19.png" alt="" style=" border:none; width:100%; max-width:281px;" border="0"/></p>
+<p> </p>
+<p>If the set name requires editing, use the Edit icon on the set card’s 
+ tool bar.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd20.png" alt="" style=" border:none; width:100%; max-width:502px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<h2><a name="Adding_new_sets_and_patterns" id="Adding_new_sets_and_patterns"></a>Adding 
+ new sets and patterns</h2>
+<p>The process of adding new sets and patterns is the same for Semester/Term 
+ and Day/Period information. The examples below show Semester/Term patterns 
+ and sets, but the same process applies to Day/Period sets and patterns.</p>
+<p> </p>
+<p>An Add floating action button (FAB) will appear on the lower right corner 
+ as soon as you access the Semester/Term/Day/Period setup application. 
+ The Add FAB on the SEMESTER/TERM tab will add a new semester/term set. 
+ The Add FAB on the DAY/PERIOD tab will add a new day/period set. Selecting 
+ the Add FAB and enter a set name.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd22.png" alt="" style=" border:none; width:100%; max-width:649px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>Once the set is created, a card will appear with that set name. Use 
+ the Add icon in the tool bar of the set card to add a new pattern. Each 
+ new pattern will have a name and then the semester/terms or day/periods 
+ where it is taught are selected. This is an example of adding a semester/term 
+ pattern for a school with 2 semesters, 2 terms:</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd24.png" alt="" style=" border:none; width:100%; max-width:308px;" border="0"/></p>
+<p> </p>
+<h2><a name="Removing_sets_or_patterns" id="Removing_sets_or_patterns"></a>Removing 
+ sets or patterns</h2>
+<p>The process of removing sets and patterns is the same for Semester/Term 
+ and Day/Period information. The examples below show Semester/Term patterns 
+ and sets, but the same process applies to Day/Period sets and patterns.</p>
+<p> </p>
+<p>Sets and patterns may not be removed if they are used by any class (in 
+ the current school year if in the setup of this year, or in the forthcoming 
+ school year if in the setup of next year). If the set or pattern is in 
+ use, a message will appear indicating the reason why it cannot be removed 
+ .</p>
+<h3><a name="Removing_sets" id="Removing_sets"></a>Removing sets</h3>
+<p>First, select the Edit icon on the set card’s tool bar.</p>
+<p> </p>
+<p>Upon selecting Edit above, the Delete icon will be located on the Edit 
+ set tool bar as shown below. Select this icon to remove the set.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd27.png" alt="" style=" border:none; width:100%; max-width:732px;" border="0"/></p>
+<h3><a name="Removing_patterns" id="Removing_patterns"></a>Removing patterns</h3>
+<p>Edit the pattern by selecting the row containing the pattern and selecting 
+ Delete.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd28.png" alt="" style=" border:none; width:100%; max-width:567px;" border="0"/></p>
+<h2><a name="Defining_period_times" id="Defining_period_times"></a>Defining 
+ period times</h2>
+<p>Be sure to accurately define period times, i.e. the period start and 
+ end. The period times may be different on each day in the school’s cycle, 
+ but often they are the same.</p>
+<p> </p>
+<p>The period times are used in any reports that require a count of the 
+ minutes of instruction for classes. These times are also used to determine 
+ a student’s current location by comparing where the student should be 
+ vs where the student actually is.</p>
+<p> </p>
+<p>In the setup application, select the DAY/PERIOD tab to see the Period 
+ times card (located below the Defined period times section which is collapsed 
+ in the example below).</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd30.png" alt="" style=" border:none; width:100%; max-width:733px;" border="0"/></p>
+<p> </p>
+<p>Use the Edit icon on the Period times card (shown above), to set the 
+ start and end times for each period. Times must be in chronological order, 
+ but the end time of one period may be the same as the start time for the 
+ next period, or the next period may be later to account for travel time 
+ between classes.</p>
+<p> </p>
+<p><img src="assets/images/semtermdaypd31.png" alt="" style=" border:none; width:100%; max-width:751px;" border="0"/></p>
+<p> </p>
+<p>Once you have defined the period times for day 1, those times may be 
+ copied to the other days by selecting the More icon on the edit period 
+ times card to access the All days alike option. You can also print by 
+ selecting Print from the More icon.</p>
+<p> </p>
+<p>If the period times are different between each day in the school’s cycle, 
+ use the tab strip to move to a different day to define unique start and 
+ end times for that day.</p>
+<h2><a name="Unique_class_schedules" id="Unique_class_schedules"></a>Unique 
+ class schedules</h2>
+<p><span style="font-weight: bold;">Classes without periods (floater classes)</span>: 
+ Many schools create a day/period set and pattern called Floater (or Unscheduled 
+ or Period X or any other meaningful name) for classes that are assigned 
+ into a semester/term, but are not scheduled into any period. These classes 
+ can have achievement data but they cannot have attendance stored because 
+ they have no period (something to consider for students with the &#39;by period&#39; 
+ attendance method).</p>
+<p> </p>
+<p><img src="assets/images/floater.png" alt="" style=" border:none; width:100%; max-width:749px;" border="0"/></p>
+<p> </p>
+<p><span style="font-weight: bold;">Multiple schedules (multiple occurrences)</span>: 
+ Each class’ schedule is defined in the class. There may be times where 
+ a class has a unique situation where they require more than 1 schedule 
+ to accurately indicate when a class is taught. For example, if a class 
+ is taught all year long, but it changes from period 1 to period 2, it 
+ is possible to set up 2 schedules in the class without the need to create 
+ a unique set/pattern. Multiple schedules for 1 class are sometimes referred 
+ to as occurrences.</p>
+<p> </p>
+<p style="font-weight: normal;">Schedule 1:  Semester/Sem 1, Regular/Period 
+ 1</p>
+<p style="font-weight: normal;">Schedule 2:  Semester/Sem 2, Regular/Period 
+ 2</p>
+<p> </p>
+<p><span style="font-weight: bold;">Special schedule</span>: There are 
+ also times where the definition of sets and patterns is simply not practical 
+ for a school. This is often the case where a timetable is manually created 
+ without any formal patterns. For these situations, the class’ schedule 
+ may be defined directly in the setup of the class rather than creating 
+ a unique pattern here.  In the set up of the class, it may be flagged 
+ as requiring a special schedule which then allows the user to select the 
+ specific semesters/terms and days/periods unique to that class. These 
+ classes will be automatically listed in a card called Special Schedule 
+ located at the bottom of the semester/term and day/period setup page. 
+ Patterns cannot be added/edited here.  Note: Any automatic timetabling 
+ tools cannot schedule these types of classes.</p>
+<p> </p>
+<p> </p>
+<h2><a name="Notes_for_new_schools" id="Notes_for_new_schools"></a>Notes 
+ for new schools</h2>
+<p>When adding a new class is created, the class schedule will default 
+ the first set alphabetically, and when selecting sets and patterns from 
+ drop down lists, the names will be listed in alphabetical order.  For 
+ this reason, some schools add numbers in front of the set and pattern 
+ names to force a specific order, while most schools leave the names as 
+ they want.</p>
+<p> </p>
+<p>Typically, new schools will have sets and patterns automatically created 
+ as data is imported from other sources, however the names of the sets 
+ and patterns may be changed to better suit the terminology used in the 
+ schools. See <a href="#Editing_semester_term_sets_and_patterns">Editing 
+ semester/term sets and patterns</a> or <a href="#Editing_day_period_sets_and_patterns">Editing 
+ day/period sets and patterns</a> for additional information.</p>
+<p> </p>
+
+</body></html>

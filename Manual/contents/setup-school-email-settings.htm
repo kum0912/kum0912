@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Email settings</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "16.2.0_7";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Setup &gt; School" />
+</head>
+<body>
+  <h1>Setup &gt; School &gt; Email settings</h1>
+  <hr align="center" style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" />
+  <p>The Email Settings tab is required to define the SMTP emails settings used by edsembli SIS as well as Report Builder. The tab should only be available if the school has edsembli SIS installed or is running edsembli Enterprise. The settings are stored in the edsembli SIS settings table and can be defined at the school level or Central Office. When the settings are defined in central office those values should be propagated to each school.</p>
+  <p style="color: #000000;"> </p>
+  <p style="color: rgb(0, 0, 0);">Enter the SMTP Server (Simple Mail Transfer Protocol) that is used to send and receive mail messages. User-level client mail applications typically use SMTP only for sending messages to a mail server for relaying.</p>
+  <p style="color: rgb(0, 0, 0);"> </p>
+  <p style="color: rgb(0, 0, 0);"><span style="color: #000000;">Information about how email is handled is set up here:</span></p>
+  <ul class="Disc">
+    <li style="color: rgb(0, 0, 0);">SMPT server</li>
+    <li style="color: rgb(0, 0, 0);">Client domain</li>
+    <li style="color: rgb(0, 0, 0);">User name and password</li>
+    <li style="color: rgb(0, 0, 0);">Reply address</li>
+  </ul>
+  <p class="Blue" style="color: #000000;"> </p>
+  <p><span style="color: #000000;">The User Name is the remote desktop User Name they use to connect to our servers. Then the password which is also the password they use to connect to our servers through remote desktop. Check that the email works by clicking the Test button and entering the email.</span></p>
+  <p> </p>
+  <p>From the main menu select Setup &gt; School. This will take you to the School section.  </p>
+  <p> </p>
+  <p><img alt="" border="0" src="assets/images/board-email-card.png" style=" border:none; width:100%; max-width:201px;" /></p>
+  <p> </p>
+  <p>Select GO on the card to open the Email settings page.</p>
+  <p> </p>
+  <p><img alt="" border="0" src="assets/images/school-email-main.png" style="border: none; width: 100%; max-width: 939px;" /></p>
+  <p> </p>
+  <h2><a id="Edit_email_settings"></a> Edit email settings</h2>
+  <p><img alt="" border="0" src="assets/images/board-email-edit.png" style="border: none; width: 100%; max-width: 942px;" /></p>
+  <ul class="Disc">
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">SMPT server:</span> Text box. An SMTP server is the machine that takes care of the whole email delivery process.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Client domain</span>: Text box. A domain is a form of a computer network in which all user accounts, computers, printers and other security principals, are registered with a central database located on one or more clusters of central computers known as domain controllers.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Use SSL</span>: Checkbox. SSL certificates (Secure socket layers) are used to create an encrypted channel between the client and the server. Transmission of such data as credit card details, account login information, any other sensitive information has to be encrypted to prevent eavesdropping.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Port</span>: Text box. A computer port is a connection point or interface between a computer and an external or internal device. Internal ports may connect such devices as hard drives. Ports allow computers to access external devices such as printers.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Apply to all schools check box</span>: Check box if you want all schools in the board to have these settings.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Overwrite existing valued check box</span>: Disabled until Apply to all schools check box is checked.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">User name</span>: Enter up to 50 characters in this text box.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Password</span>: Enter up to 50 characters in this text box. use the CHANGE PASSWORD button.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Apply to all schools check box</span>: Check box if you want all schools in the board to have these settings.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Overwrite existing valued check box</span>: Disabled until Apply to all schools check box is checked.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Reply address</span>: Enter up to 255 characters in this email address box.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Apply to all schools check box</span>: Check box if you want all schools in the board to have these settings.</span></li>
+    <li><span style="line-height:1.5;"><span style="color: #007fff;">Overwrite existing valued check box</span>: Disabled until Apply to all schools check box is checked.</span></li>
+  </ul>
+  <p> </p>
+  <p>The Apply to all schools check boxes have direct impact on what schools are allowed to view and edit. If Apply to all schools check boxes are checked schools will not have access to edit. If Apply to all schools check boxes are not checked schools will have access to edit.  </p>
+  <p> </p>
+  <p>To access Email settings, select the Menu icon in the left corner, then select Setup, School.</p>
+  <p> </p>
+  <p>This will take you to the Email settings card.  </p>
+  <p> </p>
+  <p>Click the GO button on the card to access the Email settings page.</p>
+  <p> </p>
+  <p>There are 4 scenarios for what you could see on the Setup card.  </p>
+  <p> </p>
+  <p><strong>SCENARIO 1. ONLY THE USER NAME AND PASSWORD FIELDS ARE VISIBLE.</strong>  </p>
+  <p>This scenario would occur when the board settings look like this:</p>
+  <p><img alt="" border="0" src="assets/images/school-board-emailsc1.png" style="border: none; width: 100%; max-width: 843px;" /></p>
+  <p>Apply to all schools check boxes are set to Yes, or checked for all options. This means the school does not have rights.</p>
+  <p> </p>
+  <p>The App bar has a back arrow and heading Setup – Email settings. The second heading line is the board name. The right side will have a time remaining display, a notification icon, an account holder information icon. A standard help icon links to Setup\School_Email_settings.htm. To the right you will see an Add your help icon and a more menu with standard options and an edit icon.</p>
+  <p> </p>
+  <p>This card displays the following fields:</p>
+  <ul class="Disc">
+    <li>User name  </li>
+    <li>Password  </li>
+  </ul>
+  <p> </p>
+  <p>The bottom app bar has a CLOSE button.  </p>
+  <p> </p>
+  <p>Use the edit icon to see the edit email settings card.  </p>
+  <ul class="Disc">
+    <li>User name - text box editable</li>
+    <li>Password - text box not editable</li>
+  </ul>
+  <p> </p>
+  <p>CHANGE PASSWORD button show this Change password box:</p>
+  <p> </p>
+  <p><strong>SCENARIO 2. THE USER NAME AND PASSWORD FIELDS ARE VISIBLE. THE REPLY ADDRESS IS VISIBLE.</strong></p>
+  <p>This scenario would occur when the board settings look like this:</p>
+  <p><img alt="" border="0" src="assets/images/school-board-emailsc2.png" style=" border:none; width:100%; max-width:848px;" /></p>
+  <p>SMPT server client domain Apply to all schools checkbox is set to Yes, or checked for the SMPT Server, Client domain, Use SSL and Port. This means the school does not have rights.</p>
+  <p> </p>
+  <p>User name and Password Apply to all schools checkbox is set to Yes, or checked for the SMPT Server, Client domain, Use SSL and Port. This means the school does not have rights.</p>
+  <p> </p>
+  <p>Reply address Apply to all school checkbox is set to No, or unchecked for Reply address. This means the school has rights.</p>
+  <p> </p>
+  <p>The App bar has a back arrow and heading Setup – email settings. The second heading line is the board name. The right side will have a time remaining display, a notification icon, an account holder information icon. A standard help icon links to Setup\School_Email_settings.htm. To the right you will see an Add your help icon and a more menu with standard options and an edit icon.</p>
+  <p> </p>
+  <p>This card displays the following fields:</p>
+  <ul class="Disc">
+    <li>User name  </li>
+    <li>Password  </li>
+    <li>Reply address</li>
+  </ul>
+  <p> </p>
+  <p>The bottom app bar has a CLOSE button.  </p>
+  <p> </p>
+  <p>Use the edit icon to see this Edit email settings card.  </p>
+  <ul class="Disc">
+    <li>User name - text box editable</li>
+    <li>Password - text box not editable</li>
+  </ul>
+  <p> </p>
+  <p>CHANGE PASSWORD button show this Change password box:</p>
+  <p> </p>
+  <p>Clicking CANCEL or SAVE returns you to Edit email settings</p>
+  <p> </p>
+  <p>Reply address – text box editable</p>
+  <p> </p>
+  <p>TEST button lets you send an email to try the settings.</p>
+  <p> </p>
+  <p>Test SMTP connection card appears.</p>
+  <p> </p>
+  <p>Main app bar heading says Test SMTP connection and has an X to close.</p>
+  <p>Instructional line says To test the connection, enter an email address and click the SEND button.</p>
+  <p> </p>
+  <p>Email address entry line is a text box allowing special characters.</p>
+  <p> </p>
+  <p>The bottom app bar has CANCEL and SEND buttons.</p>
+  <p> </p>
+  <p>CANCEL returns you to Edit screen.</p>
+  <p> </p>
+  <p>SEND delivers the email to specified address.  </p>
+  <p> </p>
+  <p>Click OK to return to Edit screen.</p>
+  <p> </p>
+  <p><strong>SCENARIO 3. THE USER NAME AND PASSWORD FIELDS ARE VISIBLE. THE SMPT SERVER, CLIENT DOMAIN, USE SSL AND PORT FIELDS ARE VISIBLE.</strong></p>
+  <p>This scenario would occur when the board settings look like this:</p>
+  <p><img alt="" border="0" src="assets/images/school-board-emailsc3.png" style="border: none; width: 100%; max-width: 848px;" /></p>
+  <p>Apply to all schools checkbox is set to No, or unchecked for the SMPT Server, Client domain, Use SSL and Port. This means the school has rights.</p>
+  <p> </p>
+  <p>Apply to all school checkbox is set to Yes, or checked for Reply address. This means the school does not have rights.</p>
+  <p> </p>
+  <p>The App bar has a back arrow and heading Setup – Email settings. The second heading line is the board name. The right side will have a time remaining display, a notification icon, an account holder information icon. A standard help icon links to Setup\School_Email_settings.htm. To the right you will see an Add your help icon and a more menu with standard options and an edit icon.</p>
+  <p> </p>
+  <p>This card displays the following fields:</p>
+  <ul class="Disc">
+    <li>User name  </li>
+    <li>Password  </li>
+    <li>SMPT Server</li>
+    <li>Client domain</li>
+    <li>Use SSL</li>
+    <li>Port</li>
+  </ul>
+  <p> </p>
+  <p>The bottom app bar has a CLOSE button.  </p>
+  <p> </p>
+  <p>Use the edit icon to see this Edit email settings card.  </p>
+  <ul class="Disc">
+    <li>User name - text box editable</li>
+    <li>Password - text box not editable</li>
+  </ul>
+  <p> </p>
+  <p>CHANGE PASSWORD button show this Change password box:</p>
+  <p> </p>
+  <p>Clicking CANCEL or SAVE returns you to Edit email settings.</p>
+  <ul class="Disc">
+    <li>SMPT Server – text box</li>
+    <li>Client domain – text box</li>
+    <li>Use SSL – check box</li>
+    <li>Port – text box</li>
+  </ul>
+  <p> </p>
+  <p><strong>SCENARIO 4. THE USER NAME AND PASSWORD FIELDS ARE VISIBLE. THE SMPT SERVER, CLIENT DOMAIN, USE SSL AND PORT FIELDS ARE VISIBLE. THE REPLY ADDRESS IS VISIBLE.</strong></p>
+  <p>This scenario would occur when the board settings look like this:</p>
+  <p><img alt="" border="0" src="assets/images/school-board-emailsc4.png" style="border: none; width: 100%; max-width: 851px;" /></p>
+  <p>Apply to all schools checkbox is set to No, or unchecked for the SMPT Server, Client domain, Use SSL and Port. This means the school has rights.</p>
+  <p> </p>
+  <p>Apply to all school checkbox is set to No, or unchecked for Reply address. This means the school has rights.</p>
+  <p> </p>
+  <p>The App bar has a back arrow and heading Setup – Email settings. The second heading line is the board name. The right side will have a time remaining display, a notification icon, an account holder information icon. A standard help icon links to Setup\School_Email_settings.htm. To the right you will see an Add your help icon and a more menu with standard options and an edit icon.</p>
+  <p> </p>
+  <p>This card displays the following fields:</p>
+  <ul class="Disc">
+    <li>User name  </li>
+    <li>Password  </li>
+    <li>SMPT Server</li>
+    <li>Client domain</li>
+    <li>Use SSL</li>
+    <li>Port</li>
+    <li>Reply address</li>
+  </ul>
+  <p> </p>
+  <p>The bottom app bar has a CLOSE button.  </p>
+  <p> </p>
+  <p>Use the edit icon to see this Edit email settings card.  </p>
+  <ul class="Disc">
+    <li>User name - text box editable</li>
+    <li>Password - text box not editable</li>
+  </ul>
+  <p> </p>
+  <p>CHANGE PASSWORD button show this Change password box:</p>
+  <p> </p>
+  <p>Clicking CANCEL or SAVE returns you to Edit email settings.</p>
+  <ul class="Disc">
+    <li>SMPT Server – text box</li>
+    <li>Client domain – text box editable</li>
+    <li>Use SSL – check box editable</li>
+    <li>Port – text box editable</li>
+    <li>Reply address – text box editable</li>
+    <li>TEST button lets you send an email to try the settings.</li>
+  </ul>
+  <p> </p>
+  <p>Test SMTP connection card appears.</p>
+  <p> </p>
+  <p>Main app bar heading says Test SMTP connection and has an X to close.</p>
+  <p>Instructional line says: To test the connection, enter an email address and click the SEND button.</p>
+  <p> </p>
+  <p>Email address entry line is a text box allowing special characters.</p>
+  <p> </p>
+  <p>The bottom app bar has CANCEL and SEND buttons.</p>
+  <p> </p>
+  <p>CANCEL returns you to Edit screen.</p>
+  <p> </p>
+  <p>SEND delivers the email to specified address.</p>
+  <p> </p>
+  <p>Click OK to return to Edit screen.</p>
+</body>
+</html>

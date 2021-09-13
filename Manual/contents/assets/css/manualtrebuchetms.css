@@ -1,0 +1,216 @@
+/*Created with Adobe RoboHelp 2015.*/
+body {
+	font-family: "Trebuchet MS";
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12pt;
+
+}
+h1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	font-family: "Trebuchet MS";
+}
+li.h1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	font-family: "Trebuchet MS";
+}
+h2 {
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	font-size: 20pt;
+}
+li.h2 {
+	font-weight: bold;
+	font-size: 18.0pt;
+	font-family: "Trebuchet MS";
+}
+h3 {
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	font-size: 16pt;
+}
+li.h3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+	font-family: "Trebuchet MS";
+}
+h4 {
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	font-size: 14pt;
+}
+li.h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+	font-family: "Trebuchet MS";
+}
+h5 {
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	font-size: 12pt;
+}
+li.h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: "Trebuchet MS";
+}
+h6 {
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+}
+li.h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: "Trebuchet MS";
+}
+p {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: "Trebuchet MS";
+}
+li.p {
+	font-size: 12.0pt;
+	font-family: "Trebuchet MS";
+}
+a {
+	display: inline;
+	color: #2196f3;
+	text-decoration: underline;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+	font-family: "Trebuchet MS";
+}
+a.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	font-family: "Trebuchet MS";
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+	font-family: "Trebuchet MS";
+}
+ol,ul {
+	font-family: "Trebuchet MS";
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12pt;
+}
+p.Style1 {
+	font-size: 24pt;
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+}
+li.p-Style1 {
+	font-size: 24pt;
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+}
+p.Style2 {
+	font-size: 18pt;
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+}
+li.p-Style2 {
+	font-size: 18pt;
+	color: #ffffff;
+	font-family: "Trebuchet MS";
+}
+p.TealHeading {
+	color: #008080;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+li.p-TealHeading {
+	color: #008080;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+p.IndigoHeading {
+	color: #3d4fb2;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+li.p-IndigoHeading {
+	color: #3d4fb2;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+p.GreenHeading {
+	color: #008000;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+li.p-GreenHeading {
+	color: #008000;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+p.PurpleHeading {
+	color: #673ab7;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+li.p-PurpleHeading {
+	color: #673ab7;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+p.BlueHeading {
+	color: #2196f3;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+li.p-BlueHeading {
+	color: #2196f3;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+table.SimpleGridBlack {
+	padding: 0px;
+	border-top: Solid 1px #000000;
+	border-left: Solid 1px #000000;
+	x-border-spacing: 0px;
+}
+li.bullet {
+	font-family: "Trebuchet MS";
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12pt;
+}
+table.SimpleGridBlack td {padding-left: 10px;padding-right: 10px;padding-top: 0px;padding-bottom: 0px;
+
+}
+table.SimpleGridBlack tr:nth-child(odd) td {border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;font-family: "Times New Roman";font-size: 12pt;
+
+}
+table.SimpleGridBlack tr:nth-child(even) td {border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;
+
+}

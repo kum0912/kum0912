@@ -1,0 +1,2775 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="en-us"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Nominal role and Special education</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+
+
+
+
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "4.7.0_1";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Student reports &gt; Federal"/>
+</head>
+
+<body>
+
+
+<h1><span style="font-size: 24.0pt; line-height: 107%; font-family: &#39;Trebuchet MS&#39;, sans-serif; 
+			 mso-fareast-font-family: &#39;Times New Roman&#39;; mso-bidi-font-family: &#39;Times New Roman&#39;; 
+			 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Student 
+ reports &gt; Federal &gt; Nominal role &amp; Special education</span> 
+ </h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<h2>Overview</h2>
+<p>Indigenous and Northern Affairs Canada (INAC) has an annual Nominal 
+ Roll Student Census Report and a Special Education Program Report. Please 
+ note that INAC was formerly Aboriginal Affairs and Northern Development 
+ Canada (INAC).</p>
+<p> </p>
+<p>This feature can generate files to assist with this federal reporting 
+ to INAC. By creating XML files in the format required by INAC, these files 
+ may be submitted to their School Information System Export (SISE) application. 
+ A file containing nominal role information may be created from individual 
+ schools or centrally from the board/division. A file containing special 
+ education expenses may be created from individual schools only.</p>
+<p> </p>
+<p>INAC&#39;s Nominal Roll Report is used to create an information database 
+ for regions, districts and schools of eligible students living on reserve 
+ or on Crown land, in receipt of any education assistance from INAC. The 
+ students in the census must be attending a school that meets the elementary/secondary 
+ curriculum standards and fiscal framework of the Ministry of Education 
+ for the province/territory of residence.</p>
+<p> </p>
+<p>INAC’s Special Education Program Report identifies high cost special 
+ education expenses for students who are eligible for INAC funding. </p>
+<p> </p>
+<p>The following requirements must be met in order for a student to be 
+ considered Eligible and therefore included in XML files created by Maplewood.</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Student is enrolled in the school on September 30th of the current 
+	 school year. The student’s entry date(s) and exit/retirement date(s) 
+	 are used to determine whether the student is enrolled in the school 
+	 on the count date.</li>
+	<li>Student’s birthdate indicates that the student will be at least 
+	 four years of age and less than 21 years of age by December 31 of 
+	 the current school year. </li>
+	<li>Each province has a different field that must be set correctly 
+	 to indicate that the student is an eligible first nations student.</li>
+</ul>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">British 
+ Columbia, Manitoba</span>: The student’s Citizenship must be set to Native 
+ Ancestry </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Alberta</span>: 
+ The student’s Enrolment type must be set to the value 330 (Indian student 
+ for whom the Education School Authority receives payment of a tuition 
+ from the Government of Canada). Enrolment type is located on the Enrolment 
+ Reporting card available from the Enrolment, Student Enrolment menu of 
+ the student’s record.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Saskatchewan</span>: 
+ The student’s Aboriginal Status code is set to Inuit, Métis and/or treaty. 
+ Aboriginal status code is located on the Aboriginal card available from 
+ the Personal, Aboriginal menu of the student’s record.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Ontario</span>: 
+ The student’s Student Board Resident Status field must be set to code 
+ 02 (Native Education Authority.</p>
+<p style="margin-left: 40px;"> </p>
+<p>Prior to creating any files, please check that the above information 
+ is correctly specified for any students who are to be included in these 
+ reports. All fields in these files are noted in the charts following this 
+ documentation. Please review these charts to understand what information 
+ is included in the file. In particular, review the Nominal Role fields 
+ to ensure that the data is correctly set up.</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>To create a Nominal role report, choose Student reports &gt; Enrolment 
+	 and select RUN on the Nominal roll card. </li>
+	<li>To create a <a href="#Special_education">Special education report</a>, 
+	 choose Student reports &gt; Enrolment and select RUN on the Special 
+	 education card. </li>
+</ul>
+<p> </p>
+<p><img src="assets/images/inac2.png" alt="" style=" border:none; width:100%; max-width:485px;" border="0"/></p>
+<p> </p>
+<h2><a id="Nominal_role"></a>Nominal role</h2>
+<p>This is the Student reports - Nominal roll report. There are 2 tabs 
+ that each should be checked for accuracy before creating the file: SETUP 
+ and CONTACT INFO.</p>
+<p> </p>
+<p style="font-weight: bold;">SETUP</p>
+<p> </p>
+<p><img src="assets/images/inac3.png" alt="" style=" border:none; width:100%; max-width:630px;" border="0"/></p>
+<p>   </p>
+<p class="Blue">Setup</p>
+<p> </p>
+<p><span style="font-weight: bold;">Report</span> <span style="font-weight: bold;">info</span> 
+ - You&#39;ll see these fields.</p>
+<p> </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">INAC recipient 
+ number</span>: The INAC recipient number as assigned by INAC.</p>
+<p style="margin-left: 0px;"> </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">INAC school 
+ number</span>: (Only if created by a school) The INAC school number as 
+ assigned by INAC.</p>
+<p style="margin-left: 0px;"> </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">Recipient 
+ school type</span>: (Only if created centrally by the board/division) 
+ Select the school type from the possible values:</p>
+<p style="margin-left: 0px;"> </p>
+<p style="margin-left: 40px;">First Nation Chief and Council</p>
+<p style="margin-left: 40px;">Federal school</p>
+<p style="margin-left: 40px;">First Nation Education Authority</p>
+<p style="margin-left: 40px;">Provincial School Board/District/Ministry</p>
+<p style="margin-left: 0px;"> </p>
+<p><span style="font-style: italic;">Include only new entrants</span>: 
+ Y/N field to indicate whether the file should contain only those students 
+ whose entry date to this school is within the current school year.</p>
+<p> </p>
+<p><span style="font-weight: bold;">Equivalent INAC grade value </span>- 
+ You will see a list of all the grades in the table of grades defined by 
+ the school or board/division. For each grade in the list, the following 
+ fields are defined:</p>
+<p> </p>
+<p>Since the grade values defined by your school may not be the same as 
+ the values expected in the INAC report, select the equivalent INAC grade 
+ from the drop down list of valid INAC grades (1 to 12, JK, K, UE and US). 
+ For example, grade 8 in your table will be equivalent to grade 8 in the 
+ INAC report, but grade J in Maplewood will be equivalent to JK.</p>
+<p> </p>
+<p><span style="font-style: italic;">Exclude</span>: A Y/N field to indicate 
+ whether all students in this grade should be excluded from the report.</p>
+<p> </p>
+<p><span style="font-style: italic;">Attendance type offered</span>: The 
+ attendance type (full- time, part- time, half- time) of the students in 
+ the grade.</p>
+<p> </p>
+<p class="Blue">Contact info</p>
+<p>The CONTACT INFO tab contains contact information in the event that 
+ INAC needs additional information about the report. There are 3 contacts, 
+ each with their own cards: <span style="font-weight: bold;">Certifier</span> 
+ (mandatory), <span style="font-weight: bold;">Primary contact</span> (mandatory), 
+ and <span style="font-weight: bold;">Secondary contact</span> (optional). 
+ If the certifier is also either the primary or secondary contact, select 
+ Y to the ‘Same as certifier’ field on the cards to avoid re-entering data.</p>
+<p> </p>
+<p><img src="assets/images/inac4.png" alt="" style=" border:none; width:100%; max-width:797px;" border="0"/></p>
+<p> </p>
+<p>For each contact, enter the family name (i.e. surname), given name, 
+ job title, email address, and phone number (area code/phone/extension).</p>
+<p> </p>
+<p>Use the Search icon if the contact exists in the staff records. Once 
+ you select the staff member the information will be automatically copied 
+ to these INAC contact fields. </p>
+<p> </p>
+<p><span style="font-style: italic;">Note: this information will not be 
+ automatically updated if the staff record is subsequently changed.</span> 
+  </p>
+<p> </p>
+<p> </p>
+<h2><a id="Special_education"></a>Special education</h2>
+<p>The Special Education Program Report is designed to help eligible students 
+ identified with high-cost special needs to access quality programs and 
+ services that are culturally sensitive and reflective of generally accepted 
+ provincial/territorial standards. INAC&#39;s Special Education Program consists 
+ of two major components.</p>
+<p> </p>
+<p>Direct Services – these classroom and school-based services focus directly 
+ on meeting the First Nation student’s needs, such as student assessments 
+ and professional services (e.g. education psychologists, speech and language 
+ therapists, counsellors) for the student. At least 75% of AANDC&#39;s special 
+ education funding is used for direct services.</p>
+<p> </p>
+<p>Indirect Services – these services are provided to eligible First Nation 
+ recipients for the development of special education programs and services 
+ such as professional development for teachers, para-professionals and 
+ parents and research and development of special education approaches and 
+ programs.</p>
+<p> </p>
+<p>Services provided under the Special Education Program are based on the 
+ understanding that each First Nation student with special education needs 
+ is unique and requires a customized program to meet their individual needs 
+ in order to best support their success. </p>
+<p> </p>
+<p>When the RUN option is selected on the Special education card, the report 
+ settings will be presented for review. Please note that there are 
+ 2 tabs that each should be checked for accuracy before creating the file: 
+ SETUP and CONTACT INFO.</p>
+<p> </p>
+<p>When creating the report from the school, the SETUP tab will look like 
+ this:</p>
+<p> </p>
+<p><img src="assets/images/inac5.png" alt="" style=" border:none; width:100%; max-width:642px;" border="0"/></p>
+<p class="Blue"> </p>
+<p class="Blue">Setup</p>
+<p><span style="font-weight: bold;">Report info </span>- You&#39;ll see the 
+ following options.</p>
+<p> </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">INAC recipient 
+ number</span>: The INAC recipient number as assigned by INAC.</p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">INAC school 
+ number</span>: The INAC school number as assigned by INAC.</p>
+<p>Include only new entrants: <span style="font-weight: normal;">Y/N 
+ field to indicate whether the file should contain only those students 
+ whose entry date to this school is within the current school year.</span></p>
+<p> </p>
+<p><span style="font-weight: bold;">Administration expense</span> - You&#39;ll 
+ see the following options.</p>
+<p> </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">Expense 
+ amount</span>: </p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">Explanation</span>: 
+ A brief explanation of the expenses (maximum 50 characters in length).</p>
+<p style="margin-left: 0px;"><span style="font-style: italic;">Have you 
+ received all invoices from schools or other service providers?:</span></p>
+<p>A Y/N field to indicate if you have received all invoices.</p>
+<p> </p>
+<p class="Blue">Contact info</p>
+<p>The CONTACT INFO tab contains contact information in the event that 
+ INAC needs additional information about the report. There are 3 contacts, 
+ each with their own cards: Certifier (mandatory), Primary contact (mandatory), 
+ and Secondary contact (optional). If the certifier is also either the 
+ primary or secondary contact, select Y to the ‘Same as certifier’ field 
+ on the cards to avoid re-entering data.</p>
+<h4>Creating the report</h4>
+<p>Before creating the Nominal role report, please review the section titled 
+ Nominal role fields to ensure that you understand what data is used in 
+ this file. Similarly, before creating the Special education report, please 
+ review the section titled Special education fields.</p>
+<p> </p>
+<p><img src="assets/images/import-export.png" alt="" style=" border:none; width:100%; max-width:27px;" border="0"/>To 
+ create the report (e.g. create the XML file), select the Create icon that 
+ you will see in the bottom right corner.</p>
+<p> </p>
+<p>The XML file generated can uploaded to the INAC portal (School Information 
+ System Export (SISE) application), or it may be imported into an existing 
+ PDF where the information may be edited, if necessary.</p>
+<h4>Running this report centrally</h4>
+<p>The nominal role report can be run for multiple schools. When this report 
+ is run centrally (from the board/division), the Selected schools card 
+ (shown below) will be available.</p>
+<p> </p>
+<p>Each of the selected schools be included in the report. Please check/edit 
+ the INAC# for each of the schools in the report.</p>
+<p> </p>
+<p style="font-style: italic;">Note: the special education report can’t 
+ be generated centrally.</p>
+<li><p> </p></li>
+<hr align="center"/>
+<p class="MsoNormal"> </p>
+<h4><b style="font-weight: bold;"><b>Mutual Data for Nominal Roll and Special 
+ Education</b></b></h4>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.952%;"/>
+	<col style="width: 10.155%;"/>
+	<col style="width: 59.893%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p>Char, 
+		 column values are M-Mandatory, O-Optional, R-Repeatable</p>
+		 </td>
+		
+	</tr>
+	<tr class="t2Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>Data</p></td>
+		<td><p>M</p></td>
+		<td><p>Outer tag for all DCI information containing DCINumber and 
+		 DCIVersion which are hard coded according to ANNDC’s current XML 
+		 number and version.</p>
+		<p> </p>
+		<p>NR: DCINumber = 462572</p>
+		<p>SEP: DCINumber=471989</p>
+		<p> </p>
+		<p>NR: DCIVersion = 7</p>
+		<p>SEP: DCIVersion = 7</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.952%;"/>
+	<col style="width: 10.155%;"/>
+	<col style="width: 59.893%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Applicant</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>Applicant/</p>
+		<p>RecipientNumber</p></td>
+		<td><p>M</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC).</p>
+		<p>Within this form there is a field called ‘AANDC Recipient Number’ 
+		 which should be filled out by user prior to the creation of the 
+		 file. This field will be saved and can be updated when required.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Applicant/</p>
+		<p>Region</p></td>
+		<td><p>M</p></td>
+		<td><p>Help, Environment, Environment Information, Jurisdiction</p>
+		<p>Based on the information in this field will map the province 
+		 or territory to the following AANDC values.</p>
+		<p style="font-style: italic;">Note: If the jurisdiction is incorrect 
+		 please contact Maplewood Customer Support.</p>
+		<p>AANDC values:</p>
+		<p>Atlantic = 2</p>
+		<p>Quebec = 3</p>
+		<p>Ontario = 4</p>
+		<p>Manitoba = 5</p>
+		<p>Saskatchewan = 6</p>
+		<p>Alberta = 7</p>
+		<p>Yukon = 8</p>
+		<p>British Columbia = 9</p>
+		<p>Northwest Territories = 0</p>
+		<p>Nunavut = 10</p>
+		<p>All Of Canada = 13</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.809%;"/>
+	<col style="width: 10.191%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Year</p></td>
+		<td><p>M</p></td>
+		<td><p>YYYYYYYY  - Current School Year based on the school 
+		 calendar (File, School Setup, School Calendar).  For 
+		 example, 20122013 for a calendar that starts in September 2012 
+		 and ends in June 2013.</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.809%;"/>
+	<col style="width: 10.191%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Vendor</p></td>
+		<td><p>O</p></td>
+		<td><p>No data required, it is just a tag                                                                                  </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>Vendor/</p>
+		<p>Name</p></td>
+		<td><p>M</p></td>
+		<td><p>Vendor’s name edsembli.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Vendor/</p>
+		<p>Product</p></td>
+		<td><p>M</p></td>
+		<td><p>The program that produces the files is called INAC32.exe</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>Vendor/</p>
+		<p>Version</p></td>
+		<td><p>M</p></td>
+		<td><p>Version of INAC32.exe that was used to produce the xml file 
+		 will be sent in this tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Vendor/</p>
+		<p>Date</p></td>
+		<td><p>M</p></td>
+		<td><p>edsembli school date when the xml file was generated.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>Vendor/</p>
+		<p>ReferenceDataDate</p></td>
+		<td><p>M</p></td>
+		<td><p>Date of AANDC Reference data used for to produce the xml 
+		 file.</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" style="left: 0px; top: 6692px;" cellspacing="0px">
+	<colgroup><col style="width: 29.809%;"/>
+	<col style="width: 10.191%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row" style="height: 25px;">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 42px;">
+		<td><p>PrimaryContact</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 68px;">
+		<td><p>PrimaryContact/</p>
+		<p>Email</p></td>
+		<td><p>O</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC).</p>
+		<p>Contact Information (Button), Primary Contact</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 61px;">
+		<td><p>PrimaryContact/</p>
+		<p>ID</p></td>
+		<td><p>O</p></td>
+		<td><p>Unique identifier for the item. </p>
+		<p>Primary Contact = 1</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 56px;">
+		<td><p>PrimaryContact/ PhoneNumber</p></td>
+		<td><p>O</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 74px;">
+		<td><p>PrimaryContact/ PhoneNumber/</p>
+		<p>Number</p></td>
+		<td><p>M</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC).</p>
+		<p>Contact Information (Button), Primary Contact</p>
+		<p>Format +1 (222) 333-4444</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 81px;">
+		<td><p>PrimaryContact/ PhoneNumber/</p>
+		<p>Extension</p></td>
+		<td><p>O</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC).</p>
+		<p>Contact Information (Button),  Primary Contact</p>
+		<p>Max 4 digits</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 55px;">
+		<td><p>PrimaryContact/</p>
+		<p>FaxNumber</p></td>
+		<td><p>O</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 111px;">
+		<td><p>PrimaryContact/</p>
+		<p>FaxNumber/</p>
+		<p>Number</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab,  Fax</p>
+		<p>Format +1 (222) 333-4444</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 141px;">
+		<td><p>PrimaryContact/</p>
+		<p>FaxNumber/</p>
+		<p>Extension</p></td>
+		<td><p>O</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab,  Fax</p>
+		<p>Max 4 digits</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 57px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 133px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Line1</p></td>
+		<td><p>O</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, P.O. Box</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, P.O. Box</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 111px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Unit</p></td>
+		<td><p>O</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Building/Suite</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Building/Suite</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 109px;">
+		<td><p>PrimaryContact/ Addresses/</p>
+		<p>Mailing/</p>
+		<p>Street</p></td>
+		<td><p>O</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address Street</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Street</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 123px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>City</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, City/Town</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, City/Town</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 112px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>ProvinceState</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Province</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Province</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 93px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Country</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Country</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Country</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 167px;">
+		<td><p>PrimaryContact/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>PostalCode</p></td>
+		<td><p>O</p></td>
+		<td><p>(Report from School)</p>
+		<p style="color: #3d4fb2;">Setup, School Setup, School Info, Edit 
+		 address, Postal Code</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Postal Code</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 81px;">
+		<td><p>PrimaryContact/</p>
+		<p>FamilyName</p></td>
+		<td><p>M</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC).</p>
+		<p> Contact Info. (Button), Primary Contact</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 83px;">
+		<td><p>PrimaryContact/</p>
+		<p>GivenName</p></td>
+		<td><p>M</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC), 
+		 Contact Info. (Button),  Primary Contact</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 74px;">
+		<td><p>PrimaryContact/</p>
+		<p>Title</p></td>
+		<td><p>O</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC), 
+		 Contact Info. (Button),  Primary Contact</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 57px;">
+		<td><p>PrimaryContact/</p>
+		<p>HasSecondary</p></td>
+		<td><p>M</p></td>
+		<td><p>Student reports, Aboriginal Federal Funding Reports (AANDC), 
+		 Contact Info. (Button), Secondary Contact (if there is a secondary 
+		 contact then true otherwise false)</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.809%;"/>
+	<col style="width: 10.191%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Email</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button), Certifier</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>ID</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Certifier = 3</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>PhoneNumber</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>PhoneNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button), Certifier</p>
+		<p>Format +1 (222) 333-4444</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>PhoneNumber/</p>
+		<p>Extension</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button), Certifier</p>
+		<p>Max 4 digits.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>FaxNumber</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>FaxNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone, Fax</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab,  Fax</p>
+		<p>Format +1 (222) 333-4444</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>FaxNumber/</p>
+		<p>Extension</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone, Fax</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab,  Fax</p>
+		<p>Max 4 digits</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Line1</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, P.O. Box</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, P.O. Box</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Unit</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Building/Suite</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Building/Suite</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Street</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Street</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Street</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>City</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, City/Town</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, City/Town</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>ProvinceState</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Province</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Province</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Country</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Country</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Country</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>PostalCode</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Postal Code</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Postal Code</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>FamilyName</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button),  Certifier</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>GivenName</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button),  Certifier</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Certifier/</p>
+		<p>Title</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC), Contact Info. (Button),  Certifier</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char.</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>CertificationDate</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Date Export File is created.</p>
+		<p>Format: YYYY-MM-DD.</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>A school cannot be a recipient.</p>
+		<p>isRecipient = false</p>
+		<p> </p>
+		<p style="font-style: italic;">Note: A Board/School Division can 
+		 be a recipient.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Email</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit email</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Email</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>ID</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Located on AANDC Export Application 
+		 ‘AANDC School Number’ to be filled in by user. Field will be saved 
+		 and can be updated when need</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Website</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit website</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Website</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>PhoneNumber</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>PhoneNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Phone.</p>
+		<p>Format +1 (222) 333-4444.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>PhoneNumber/</p>
+		<p>Extension</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Phone.</p>
+		<p>Max 4 digits..</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>FaxNumber</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>FaxNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone, Fax</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Fax</p>
+		<p>Format +1 (222) 333-4444.</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>FaxNumber/</p>
+		<p>Extension</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit phone, Fax</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Fax</p>
+		<p>Max 4 digits.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Line1</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address P.O. Box</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, P.O. Box</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Unit</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Building/Suite</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Building/Suite</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Street</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Street</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Street</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>City</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, City/Town</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, City/Town</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>PrivinceState</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Province</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Province</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Country</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Country</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Country</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>PostalCode</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, Postal Code</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Postal Code</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Type</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Program Organization Type = 
+		 24 (Elementary/Secondary School) will be sent in this tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Name</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit address, School Name</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Division Name</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingPeriod</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>The reporting period that the 
+		 report is for.</p>
+		<p>Value = Annual.</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<h2><a name="Nominal_Roll" id="Nominal_Roll"></a>Nominal Roll</h2>
+<p style="font-weight: normal;"><b><span style="font-weight: normal;">Below 
+ is a chart of the areas that are included in the Nominal Roll census Report, 
+ and where the information can be found/populated in Maplewood.  AANDC 
+ refers to a student as a client, thus the reference to &#39;client&#39; in some 
+ of the field names.</span></b></p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations</p></td>
+		<td style="vertical-align: top;"><p>M;R</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>DeliveryOrganization</p></td>
+		<td style="vertical-align: top;"><p>M;R</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>DeliveryOrganization/</p>
+		<p>ID</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>Student reports, Aboriginal 
+		 Federal Funding Reports (AANDC),  ‘AANDC School Number’</p>
+		<p>This number is to be filled in by user. Field will be saved 
+		 and can be updated when needed.</p>
+		<p>This is a 4 digit number provided by AANDC.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Type</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Program Organization Type = 
+		 24 (Elementary/Secondary School) will be sent for this tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>Identification/</p>
+		<p>DeliveryOrganization/</p>
+		<p>Name</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>Setup, School Setup, School Info, Edit school information, School 
+		 Name</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Division Name</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" style="vertical-align: top;" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client</p></td>
+		<td><p>M;R</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>IRSNumber</p></td>
+		<td><p>M</p></td>
+		<td><p>Student Identifier Number: The Indian Registration number 
+		 is assigned to a student if the student is registered under the 
+		 Indian Act (i.e. status code = 1) as per the Student’s Status 
+		 Card; If the school/division does not have access to this number 
+		 then leave it blank and a number will be assigned by INAC.</p>
+		<p>For registered Indian students, the student name, date of birth 
+		 and gender must match the information listed in the Indian Registry 
+		 in order to be input into the Nominal Roll System. In Maplewood 
+		 this information can be found and entered within the Student&#39;s 
+		 Personal area.</p>
+		<p> </p>
+		<p>From the student record menu, Personal, Aboriginal, Indian Registry 
+		 Number.</p>
+		<p>First 3 digits populate the Band No.</p>
+		<p>4-8 digits populate the Family No.</p>
+		<p>9-10 digits populate the Child Position No.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>FamilyName</p></td>
+		<td><p>M</p></td>
+		<td><p>The legal family name as it appears on the student’s status 
+		 card or birth certificate and if applicable, the family name normally 
+		 used, i.e. the alias, in brackets.</p>
+		<p>Source: Student Status Card and School Register</p>
+		<p>In Maplewood this information will be pulled from the Personal 
+		 area.</p>
+		<p>From the student record menu, Personal, Name, Legal surname</p>
+		<p>If Legal Surname is blank then program will populate field with 
+		 data from the Surname field </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>GivenName</p></td>
+		<td><p>M</p></td>
+		<td><p>The given name as it appears on the student’s status card 
+		 or birth certificate and if applicable, the given name normally 
+		 used, i.e. the alias, in brackets.</p>
+		<p>From the student record menu, Personal, name, Given name</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>DateOfBirth</p></td>
+		<td><p>M</p></td>
+		<td><p>The student’s date of birth as it appears on the student’s 
+		 status card or birth certificate in the format: YYYYMMDD, e.g. 
+		 1999-04-18. This information is required for identification and 
+		 comparison purposes.</p>
+		<p>Source: Student Status Card, Birth Certificate or School Register</p>
+		<p> </p>
+		<p>From the student record menu, Personal, Demographics, Birthdate</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>Ancestry</p></td>
+		<td><p>M</p></td>
+		<td><p>From the student record menu, Personal, Aboriginal, FNMI 
+		 Declaration</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Min #</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>331 or  332</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0998.02</p></td>
+				<td><p>334</p></td>
+				<td><p>Inuit</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.03</p></td>
+				<td><p>333</p></td>
+				<td><p>Métis</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p> </p></td>
+				<td><p>Other</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>British Columbia: Student, Enrolment, Edit, Native Student</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p> </p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>true</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>Manitoba: Student, Enrolment, Edit, Aboriginal Tab, Aboriginal 
+		 Identity</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>MET#</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>090</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0998.02</p></td>
+				<td><p>300</p></td>
+				<td><p>Inuit</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.03</p></td>
+				<td><p>200</p></td>
+				<td><p>Métis</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p>050</p></td>
+				<td><p>Other</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>Nunavut: Student, Enrolment, Edit, Ethnicity</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>MET#</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>F</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0998.02</p></td>
+				<td><p>I</p></td>
+				<td><p>Inuit</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.03</p></td>
+				<td><p>M</p></td>
+				<td><p>Métis</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p>N</p></td>
+				<td><p>Other</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>Ontario: Student, Enrolment, Edit, Aboriginal Tab, Aboriginal 
+		 Self I</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Min #</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>02</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0998.02</p></td>
+				<td><p>04</p></td>
+				<td><p>Inuit</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.03</p></td>
+				<td><p>03</p></td>
+				<td><p>Métis</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p>00</p></td>
+				<td><p>Other</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>Saskatchewan: Student, Enrolment, Edit, Aboriginal Tab, Aboriginal 
+		 Status</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Min #</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.01</p></td>
+				<td><p>NS or TREATY</p></td>
+				<td><p>First Nations</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0998.02</p></td>
+				<td><p>INUIT</p></td>
+				<td><p>Inuit</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0998.03</p></td>
+				<td><p>MÉTIS</p></td>
+				<td><p>Métis</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p> </p></td>
+				<td><p>Other</p></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Identification/</p>
+		<p>Student/</p>
+		<p>Gender</p></td>
+		<td><p>M</p></td>
+		<td><p>The student’s gender as it appears on the student’s status 
+		 card or birth certificate.</p>
+		<p>M = Male / F = Female</p>
+		<p>From the student record menu, Personal, Dempgraphics, Gender</p>
+		<p> </p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30%;"/>
+	<col style="width: 10%;"/>
+	<col style="width: 60%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>ServiceProvision</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>ServiceProvision/</p>
+		<p>CompletedAsPlanned</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>If the student is no longer 
+		 enrolled on the count date, then the student will be sent as a 
+		 leaver.</p>
+		<p>With all leavers, a &#39;Completed As Planned&#39; requirement is sent.</p>
+		<p> </p>
+		<table class="SimpleGridBlack" style=" left:0px; top:88px; width:100%; max-width:241px;" cellspacing="0px">
+			<colgroup>	<col style="width: 38.144%;"/>
+				<col style="width: 61.856%;"/>
+			</colgroup>
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value in XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>02</p></td>
+				<td><p>Fully</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>03</p></td>
+				<td><p>Not at all</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p style="font-style: italic;">Note: If value of 03 is sent, then 
+		 a reason must be sent as well</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>ServiceProvision/</p>
+		<p>ReasonNotFullyProvided</p></td>
+		<td style="vertical-align: top;">O</td>
+		<td> </td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 29.806%;"/>
+	<col style="width: 10.185%;"/>
+	<col style="width: 59.816%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective</p>
+		<p> </p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p>
+		<p>Within this tag Accommodation or Transportation will be found</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID</p></td>
+		<td style="vertical-align: top;">O</td>
+		<td><p>If the student has an accommodation value as listed in ActivityID 
+		 below then ObjectiveID is set to</p>
+		<p>Accommodation ID = ACCOMM</p>
+		<p>Student, Enrolment, Edit, Aboriginal Tab, Accomodation</p>
+		<p>If the student has Transportation as listed in ActivityID below 
+		 then ObjectiveID is set to</p>
+		<p>Transportation ID = TRANS</p>
+		<p>From the student record menu, Transportation, Transportation 
+		 Type</p>
+		<p>And/or</p>
+		<p>Student, Custom fields, User Defined List Fields (title of list 
+		 field must be INAC Other Transportation or INAC Transp spelled 
+		 exactly as shown here.)</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td><p>No data required, as it is just a tag</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities/</p>
+		<p>SubmissionActivity/</p>
+		<p>ActivityID</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td><p>Accommodation:</p>
+		<p>Used to validate funding and perform cost-benefit analysis.</p>
+		<p>Source: Application for Accommodation Assistance</p>
+		<p> </p>
+		<p>From the student record menu, Personal, Aboriginal, Accommodation</p>
+		<p> </p>
+		<table class="SimpleGridBlack" style=" border-top-width:1px; width:100%; max-width:90.061%;" cellspacing="0px">
+			<colgroup><col style="width: 22.173%;"/>
+			<col style="width: 77.827%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td border-left-width:="" border-left-style:="" border-top-width:="" style="border-top-width: 1px;" bgcolor="#7FADD1"><p>Value 
+				 In XML</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-top-width: 1px; 
+					 border-right-width: 1px;" bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td border-left-width:="" border-left-style:=""><p>3425</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Group 
+				 Home</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td border-left-width:="" border-left-style:=""><p>1673.02</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Student 
+				 Residence</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td border-left-width:="" border-left-style:=""><p>1673.01</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Boarding 
+				 School</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td border-left-width:="" border-left-style:=""><p>1678.01</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Mandatory 
+				 Room and Board, Mandatory Private Home Placement</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td border-left-width:="" border-left-style:=""><p>1680</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>No 
+				 Accommodation Provided</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-bottom-width: 1px;"><p>1678.02</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Room 
+				 and Board (5 days)</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p>Transportation:</p>
+		<p> </p>
+		<p>The normal transportation received going to and from school 
+		 on a daily basis.  If there is a valid value in the 
+		 below fields then this tag is set to the value below.</p>
+		<p>Student records menu, Transportation, Transportation Type</p>
+		<p>And/Or</p>
+		<p>Student, Custom Fields, User Defined List Fields (title of list 
+		 field must be INAC Other Transportation or INAC Transp spelled 
+		 exactly as shown here.)</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px" style="width:100%; max-width:92.202%">
+			<colgroup><col style="width: 32.488%;"/>
+			<col style="width: 67.512%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>306</p></td>
+				<td><p>Daily</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities/</p>
+		<p>SubmissionActivity/</p>
+		<p>SubActivities</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities/</p>
+		<p>SubmissionActivity/</p>
+		<p>SubActivities/</p>
+		<p>Code</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities/</p>
+		<p>SubmissionActivity/</p>
+		<p>ExpenseSe</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Objectives/</p>
+		<p>Objective/</p>
+		<p>ObjectiveID/</p>
+		<p>SubmissionActivities/</p>
+		<p>ExpenseSet</p></td>
+		<td style="vertical-align: top;"> </td>
+		<td> </td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.296%;"/>
+	<col style="width: 9.85%;"/>
+	<col style="width: 59.854%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="border: Solid 1px #000000; vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>No data required, as it is just a 
+		 tag</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>No data required, as it is just a 
+		 tag</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>HCSE</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Indicate whether the student has 
+		 high cost special education needs.</p>
+		<p> </p>
+		<p>If Special Ed (on Enrolment tab) is selected, Student is Active, 
+		 has a Placement, placement date and Exceptionality --- then Maplewood 
+		 will set to true</p>
+		<p>If Special Ed (on Enrolment tab) is NOT selected - or one of 
+		 the above mentioned requirements are not met, then Maplewood will 
+		 set to false.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>BandOfResidence</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Enrolment, Aboriginal (tab), Band 
+		 of Residence</p>
+		<p style="font-style: italic;">Note: This is a user defined table. 
+		 Updates to this table can be made by going to the following area:</p>
+		<p>Students, Custom Fields/Tables, Aboriginal, Bands</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>LanguageOfInstruction</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>This is populated from a user-defined 
+		 list field created by the school using Student records menu, Custom 
+		 Fields, List Fields. The elements in the table should be as noted 
+		 in the grid below.</p>
+		<p>AC Language. If a shorter title is preferred, it can be INAC 
+		 Lng spelled exactly as shown here.The students may have this field 
+		 entered using the List Fields option on the Custom Fields tab 
+		 of the students’ records.</p>
+		<p> </p>
+		<p>The title of the list field must be IN</p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>EN</p></td>
+				<td><p>English</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>FR</p></td>
+				<td><p>French</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>NAI</p></td>
+				<td><p>First Nation</p></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>ExtendOfFirstNationLanguageInstruction</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>HomeLanguage</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>Residence</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>ReserveOfResidence</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>ElementarySecondaryProgram</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>FullTimeEquivalent</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>JurisdictionGrade</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>JurisdictionGrade/</p>
+		<p>Jurisdiction</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>JurisdictionGrade/</p>
+		<p>Grade</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; padding: 0in 0in 0in 0in; 
+			 padding-left: 0px; padding-right: 0px; vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>JurisdictionGrade/</p>
+		<p>AttendanceFactor</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 padding: 0in 0in 0in 0in; padding-left: 0px; padding-right: 0px; 
+			 vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>Clients/</p>
+		<p>Client/</p>
+		<p>Enrolment/</p>
+		<p>StudentEnrolment/</p>
+		<p>ProgramDeliveryMethod</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.381%;"/>
+	<col style="width: 9.597%;"/>
+	<col style="width: 60.022%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Email</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab, Email</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Email</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>PhoneNumber</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>PhoneNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab, Phone</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Phone.</p>
+		<p>Format +1 (222) 333-4444.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>FaxNumber</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>FaxNumber/</p>
+		<p>Number</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab, Fax</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Fax</p>
+		<p>Format +1 (222) 333-4444.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing</p></td>
+		<td style="vertical-align: top;"><p> </p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Street</p></td>
+		<td style="vertical-align: top;"><p>O</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab Street</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Street</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>City</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab City/Town</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, City/Town</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>ProvinceState</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab Province</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Province</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>Country</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab Country</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Country</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>Mailing/</p>
+		<p>PostalCode</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>(Report from School)</p>
+		<p>File, School Setup, School Information, School Info. Tab Postal 
+		 Code</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Division Info. 
+		 Tab, Postal Code</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Addresses/</p>
+		<p>StreetSameAsMailing</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Defaults to true</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.571%;"/>
+	<col style="width: 9.597%;"/>
+	<col style="width: 59.832%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Element</p></td>
+		<td bgcolor="#7FADD1"><p>Char</p></td>
+		<td bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>EducationDirector</p></td>
+		<td><p>M</p></td>
+		<td><p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>EducationDirector/</p>
+		<p>FamilyName</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>File, School Setup, School Information, Board Info (Division 
+		 Info) Tab, Contacts, Education Director, Surname</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Board Info (Division 
+		 Info) Tab, Director, Surname</p>
+		<p>Note: If information is blank - then school principal&#39;s information 
+		 will be sent</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>EducationDirector/</p>
+		<p>GivenName</p></td>
+		<td><p>M</p></td>
+		<td><p>(Report from School)</p>
+		<p>File, School Setup, School Information, Board Info (Division 
+		 Info) Tab, Contacts, Education Director, Given Name</p>
+		<p>Or</p>
+		<p>(Report from Central Office)</p>
+		<p>File, School Setup, Central Office Information, Board Info (Division 
+		 Info) Tab, Director, 1st Name</p>
+		<p>Note: If information is blank - then school principal&#39;s information 
+		 will be sent</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.762%;"/>
+	<col style="width: 9.619%;"/>
+	<col style="width: 59.619%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Principal</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Principal/</p>
+		<p>FamilyName</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, School 
+		 Information, School Info Tab, Principal, Surname</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>Principal/</p>
+		<p>GivenName</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, School 
+		 Information, School Info Tab, Principal, 1st Name</p>
+		<p> </p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.762%;"/>
+	<col style="width: 9.809%;"/>
+	<col style="width: 59.429%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProvincialCertification</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, School 
+		 Information, Configuration Tab. If Provincally Certified field 
+		 is checked, then Maplewood will set to True.</p>
+		<p> </p>
+		<p>Alberta: True if</p>
+		<p>School Authority Classification Type = Indian Affairs</p>
+		<p>And</p>
+		<p>Native Operation = Provincially Operated</p>
+		<p> </p>
+		<p>British Columbia, Manitoba, Nunavut, Ontario, Saskatchewan: 
+		 True if</p>
+		<p>Funding Type = Native</p>
+		<p>And</p>
+		<p>Native Operation = Provincially Operated</p>
+		<p> </p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 30.952%;"/>
+	<col style="width: 9.81%;"/>
+	<col style="width: 59.238%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramDeliveryMethods</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramDeliveryMethods/</p>
+		<p>DeliveryMethod</p></td>
+		<td style="vertical-align: top;"><p>M;R</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramDeliveryMethods/</p>
+		<p>DeliveryMethod/</p>
+		<p>Active</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Flag indicating if the Delivery 
+		 Method is used by the school.</p>
+		<p>File, School Setup, School Information, Configuration Tab, School 
+		 Delivery Method</p>
+		<p>Items that have been selected will have ‘true’ for active otherwise 
+		 they will have ‘false’</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramDeliveryMethods/</p>
+		<p>DeliveryMethod/</p>
+		<p>Method</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p> File, School Setup, School 
+		 Information, Configuration Tab, School Delivery Method</p>
+		<p> </p>
+		<table class="SimpleGridBlack" style=" left:0px; top:54px; width:100%; max-width:515px;" cellspacing="0px">
+			<colgroup><col width="111"/>
+			<col width="449"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0605</p></td>
+				<td><p>Classroom</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0608.01</p></td>
+				<td><p>Distance Education (correspondence courses, Independent 
+				 Learning Centre etc.)</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0608.02</p></td>
+				<td><p>Virtual (Internet)</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0610</p></td>
+				<td><p>Home Schooled</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0608.03</p></td>
+				<td><p>Blended: Classroom and Virtual (Internet)</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0608.04</p></td>
+				<td><p>Blended: Classroom and Distance Education</p></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 31.143%;"/>
+	<col style="width: 9.809%;"/>
+	<col style="width: 59.048%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Maplewood 
+		 Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramsOffered</p></td>
+		<td style="vertical-align: top;"><p>M;R</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramsOffered/</p>
+		<p>SchoolProgram</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramsOffered/</p>
+		<p>SchoolProgram/</p>
+		<p>Active</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Flag indicating if the School 
+		 Program is used by the school.</p>
+		<p>File, School Setup, School Information, Configuration Tab, School 
+		 Program Offered</p>
+		<p>Items that have been selected will have ‘true’ for active otherwise 
+		 they will have ‘false’</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProgramsOffered/</p>
+		<p>SchoolProgram/</p>
+		<p>Program</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, School 
+		 Information, Configuration Tab, School Program Offered</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0100</p></td>
+				<td><p>Regular</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>9999</p></td>
+				<td><p>Immersion</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>1000</p></td>
+				<td><p>Bilingual</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>2600</p></td>
+				<td><p>Alternative/Outreach</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>1501</p></td>
+				<td><p>Adult/Mature</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0308</p></td>
+				<td><p>Technical</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0399</p></td>
+				<td><p>Vocational</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>0309.01</p></td>
+				<td><p>Training for a Semiskilled Trade (Quebec only)</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>0309.02</p></td>
+				<td><p>Prework Training (Quebec only)</p></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 31.333%;"/>
+	<col style="width: 9.81%;"/>
+	<col style="width: 58.857%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered/</p>
+		<p>JurisdictionGrade</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>No data required, as it is 
+		 just a tag</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered/</p>
+		<p>JurisdictionGrade/</p>
+		<p>Jurisdiction</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Help, Environment, Environment 
+		 Information, Jurisdiction</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px">
+			<tbody><tr class="t1Row">
+				<td bgcolor="#7FADD1"><p>Value In XML</p></td>
+				<td bgcolor="#7FADD1"><p>Title</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>CA</p></td>
+				<td><p>Canada</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>ON</p></td>
+				<td><p>Ontario</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>MB</p></td>
+				<td><p>Manitoba</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>SK</p></td>
+				<td><p>Saskatchewan</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>AB</p></td>
+				<td><p>Alberta</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>BC</p></td>
+				<td><p>British Columbia</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>NU</p></td>
+				<td><p>Nunavut</p></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered/</p>
+		<p>JurisdictionGrade/</p>
+		<p>Grade</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered/</p>
+		<p>JurisdictionGrade/</p>
+		<p>AttendanceFactor</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>GradesOffered/</p>
+		<p>JurisdictionGrade/</p>
+		<p>Active</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td> </td>
+	</tr>
+</tbody></table>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 31.905%;"/>
+	<col style="width: 9.428%;"/>
+	<col style="width: 58.667%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Element</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Char</p></td>
+		<td style="vertical-align: top;" bgcolor="#7FADD1"><p>Description</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>CulturalEducationCentreServiced</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>Flag indicating if the School 
+		 Cultural Education Centre Serviced.</p>
+		<p>File, School Setup, School Information, Configuration Tab, Service 
+		 Cultural Education Centre.</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>InstructionDays</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, Calendar, 
+		 Edit</p>
+		<p>Total number of &#39;Normal&#39; School days will be sent in this field</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td style="vertical-align: top;"><p>ReportingDeliveryOrganizations/</p>
+		<p>ESSchoolInformation/</p>
+		<p>AdminData/</p>
+		<p>ProfessionalDevelopmentDays</p></td>
+		<td style="vertical-align: top;"><p>M</p></td>
+		<td style="vertical-align: top;"><p>File, School Setup, Calendar, 
+		 Edit</p>
+		<p>Total number of &#39;Board&#39; days will be sent in this field</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p><b>Glossary</b></p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 20%;"/>
+	<col style="width: 80%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td bgcolor="#7FADD1"><p>Term</p></td>
+		<td bgcolor="#7FADD1"><p>Definition</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>Students with High Cost Special Education Needs</p></td>
+		<td><p>Students eligible for funding under the Special Education 
+		 Program (SEP) are those whose special education needs cannot be 
+		 met within the resources intended for the general student population 
+		 and who are on the Nominal Roll or eligible to be on the Nominal 
+		 Roll based on the First Nation Education Program Guidelines.</p>
+		<p>Broadly speaking, special education needs of students fall within 
+		 a continuum of mild to moderate, moderate to severe and severe 
+		 to profound. Special education needs that are at the lower end 
+		 of this continuum are expected to be addressed within the resources 
+		 intended for the general student population. Only special education 
+		 needs that are more costly to address (generally ranging from 
+		 moderate to profound) are eligible for funding under the SEP. 
+		 Students eligible to receive programs and services under the Special 
+		 Education Program (SEP) are to be identified as High Cost Special 
+		 Education Students on the Nominal Roll.</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+
+</body></html>

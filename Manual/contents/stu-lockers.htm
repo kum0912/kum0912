@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Student records - Lockers</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "3.16.0_1";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Student records &gt; Lockers"/>
+</head>
+
+<body>
+
+
+
+<h1>Student records &gt; Lockers</h1>
+ <hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+								 font-size: 13.3333px; line-height: 13.3333px; 
+								 orphans: auto; text-align: justify; widows: 1; 
+								 -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p>The Locker option in a student’s record provides easy access to the 
+ student’s locker information.  Locker information is available for 
+ current and future students only.  Students have one locker so the 
+ re-assignment of lockers for the next school year should not be done until 
+ the current school year is finished. If a student is concurrently enrolled 
+ in multiple schools, locker information may be recorded at each school. 
+  Some schools opt to record only the student&#39;s locker number if the 
+ effort in maintaining accurate lock info does not provide significant 
+ benefit.  </p>
+<p> </p>
+<p>Before a school may begin recording locker information for the students, 
+ there are some setup tasks that must be done.  For example, establishing 
+ the lockers that are available to the students, and defining lock combinations 
+ for school owned locks that are supplied to the students.  New schools 
+ will often have this information imported to minimize the amount of data 
+ entry required. </p>
+<p> </p>
+<p>The student’s locker information is broken down into two main areas: 
+  info about the locker and info about the lock.  </p>
+<p> </p>
+<p style="font-weight: bold;">Locker:  <span style="font-weight: normal;">Before 
+ lockers are assigned to students, the lockers in the school must first 
+ be defined.  Each locker is defined by a locker number, locker bank, 
+ locker type, capacity (number of students using the locker), and whether 
+ or not the lock is built into the locker.  As part of this setup, 
+ lockers will default as ‘available’ but this should be changed if the 
+ locker is not available (e.g. during renovations). </span></p>
+<p style="font-weight: bold;"> </p>
+<p style="font-weight: normal;">See Setup &gt; Lockers for information 
+ on defining the school <a href="../setup/setup-locker-types.htm">locker 
+ types</a>, <a href="../setup/setup-locker-banks.htm">locker banks</a>, 
+ and <a href="../setup/setup-lockers.htm">lockers</a>. Locker types typically 
+ describe the locker using names that are meaningful to the school (e.g. 
+ Single, Half, Triple tier, Shared, Red, Blue, Double-width).  Locker 
+ banks typically describe the location of the locker (e.g. Music Hall, 
+ Tech Wing, 2nd Floor North Hall).  </p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;">The locker setup is generally a one-time 
+ process, and edsembli SIS provides the tools to quickly add ranges of 
+ lockers.  </p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;"><span style="font-weight: bold;">Lock</span>: 
+  A lock is used to secure the student’s personal belongings in the 
+ locker.  Depending upon the school, any of the following locks may 
+ apply:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>The lock is the student’s personal lock.  The lock owner is 
+	 the student.  The lock is not built-in to the locker (e.g. the 
+	 padlock can be taken off the locker and the student can take it home 
+	 when they withdraw or graduate from the school).  Lock information 
+	 is automatically removed when a student’s school year status changes 
+	 to withdrawn or past.</li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>The school supplies the lock to the student.  The student 
+	 borrows the lock for one or many years. The lock owner is the school. 
+	  The lock is not built-in to the locker (e.g. the padlock can 
+	 be taken off the locker and stored elsewhere in the school when not 
+	 on loan to a student). </li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>The lock is built-in to the locker. A built-in combination lock 
+	 cannot be taken off the locker and used on a different locker. The 
+	 lock is defined as part of the locker, and when a student is assign 
+	 one of these lockers, lock information automatically appears.  A 
+	 school or student owned lock cannot be used on these lockers. </li>
+</ul>
+<p> </p>
+<p>Each lock will be defined by a type, serial number, and a combination. 
+  If the lock is not built into the locker, it will have an owner 
+ (either the school or the student).  Before lock information is recorded 
+ for a student, the school creates a list of lock types (e.g. manufacturer 
+ or description of the type of lock), as described in <a href="../setup/setup-locks.htm">Setup 
+ &gt; Lockers &gt; Locks</a>.  </p>
+<p> </p>
+<p>If the students are assigned new lockers each year, rather than editing 
+ locker information one student at a time through student records, there 
+ are some tools that may be helpful:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li><a href="clear-lockers.htm">Student tools &gt; Lockers &gt; Clear 
+	 lockers</a> will clear locker information for groups of students. 
+	 This will make the lockers available to be assigned to other students. 
+	 </li>
+	<li><a href="assign-lockers.htm">Student tools &gt; Lockers &gt; Assign 
+	 lockers</a> will assign lockers to a group of students.</li>
+	<li><a href="assign-lockers.htm">Student tools &gt; Lockers &gt; Clear 
+	 locks</a> will clear the school-owned lock info for a group of students. 
+	 Use this if the students receive new school-owned locks each school 
+	 year. Each student&#39;s new lock info would need to be entered as each 
+	 new lock is distributed. </li>
+</ul>
+<p> </p>
+<p>Access the student&#39;s locker info by choosing the Lockers option from 
+ the student&#39;s record.</p>
+<p> </p>
+<p><img src="assets/images/stu-locker1.png" alt="" style=" border:none; width:100%; max-width:337px;" border="0"/></p>
+<p> </p>
+<p>If the student has no locker/lock info, use the Add icon in the locker 
+ card.</p>
+<p> </p>
+<p><img src="assets/images/stu-locker4.png" alt="" style=" border:none; width:100%; max-width:634px;" border="0"/></p>
+<p> </p>
+<p>If the student has locker/lock info, it will appear in the locker card. 
+ The student&#39;s current locker number is also included in the card title 
+ (e.g. this student is currently assigned to locker 0136).</p>
+<p> </p>
+<p><img src="assets/images/stu-locker2.png" alt="" style=" border:none; width:100%; max-width:890px;" border="0"/></p>
+<p> </p>
+<p>Use the Edit icon to edit the student&#39;s locker/lock info.</p>
+<p> </p>
+<p><img src="assets/images/stu-locker3.png" alt="" style=" border:none; width:100%; max-width:802px;" border="0"/></p>
+<p> </p>
+<p>The following fields appear on the edit locker form:</p>
+<p> </p>
+<p><span style="color: #007fff;">Locker (locker # - locker bank - locker 
+ type)</span>:  Select the student’s locker from the list of lockers 
+ that are available.  The list will include lockers that are not yet 
+ assigned to a student, and lockers that have capacity for another student 
+ where lockers are setup for multiple students. The lockers are sorted 
+ by locker number so you may type the locker number if easier. In addition 
+ to the locker number, the locker bank and locker type are included to 
+ provide the full locker details.</p>
+<p> </p>
+<p>To remove a locker from a student, select the blank locker value at 
+ the top of the drop down list of lockers.</p>
+<p> </p>
+<p><span style="color: #007fff;">Lock (serial #  - combination - lock 
+ type)</span>: In some situations, the lock information will automatically 
+ appear when the locker is selected:<br/>
+</p>
+<ul style="list-style: disc;">
+	<li>If the selected locker has a built-in lock, the lock information 
+	 will automatically appear and no additional information is required. 
+	  For these lockers, lock information may not be edited from the 
+	 student’s record.  </li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>If the student is assigned a locker that has a capacity of more 
+	 than 1 student, lock information is shared with all the students assigned 
+	 to the locker. Therefore, when the student’s locker is assigned, and 
+	 the shared locker already has another student, that other student’s 
+	 lock information will automatically appear.  Changing the lock 
+	 information for one student will change the information for the other 
+	 student(s) automatically.</li>
+</ul>
+<p> </p>
+<p>If the student is provided a lock from the school, use the option <span style="color: #007fff;">Existing lock,</span> and then start typing 
+ the serial number of the lock to see matching locks from the previously 
+ set up list of available school-owned locks. In addition to the serial 
+ number, the combination and lock type are included to provide the full 
+ lock details.</p>
+<p> </p>
+<p>To remove a lock from a student, enter N/A for the lock serial number.</p>
+<p> </p>
+<p>If the lock is not found in the list, or if the student is using their 
+ own personal lock, use the option <span style="color: #007fff;">New lock</span>, 
+ and then enter the lock information as shown here:</p>
+<p> </p>
+<p><img src="assets/images/stu-locker5.png" alt="" style=" border:none; width:100%; max-width:804px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p><span style="color: #007fff;">Serial number</span>:  Enter the 
+ serial number of the lock, if provided by the manufacturer. </p>
+<p><span style="color: #007fff;">Combination</span>:  Enter the combination 
+ of the lock in the format ##.##.##.</p>
+<p><span style="color: #007fff;">Lock type</span>:  Select the type 
+ of lock (e.g. type or manufacturer or style) of the lock from the list 
+ defined by the school.</p>
+<p><span style="color: #007fff;">Lock owner</span>:  Select the lock 
+ owner from the list.  Two options exist: </p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>School supplied lock:  The lock is owned by school and is 
+	 loaned to the student. When a school owned lock is no longer used 
+	 by the student, the physical lock is returned to the office.  The 
+	 lock information remains in the school’s table of locks so that the 
+	 lock may be used again by another student. </li>
+</ul>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Student’s personal lock: The lock is owned by the student.  When 
+	 a student-owned lock is no longer used by the student, it is removed 
+	 from the school’s table of locks. </li>
+</ul>
+<p> </p>
+<p>Once the student’s locker and lock information is correctly entered, 
+ select the SAVE button in the bottom right corner.</p>
+<p> </p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>
