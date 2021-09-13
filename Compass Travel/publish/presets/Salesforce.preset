@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Compass Travel</title>
+  <content>
+    <toc>
+      <path>../../toc/Book_TOC.toc</path>
+      <name>Book_TOC</name>
+    </toc>
+    <index type="boolean">true</index>
+    <masterpage>
+      <path>../../contents/assets/masterpages/Studio.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <type>kb</type>
+  <outputPath>C:/Users/kum/Documents/My RoboHelp Projects/outputs/Compass Travel/Salesforce</outputPath>
+  <name>Salesforce</name>
+  <starterPage>Compass_Travel.htm</starterPage>
+  <kbtype>
+    <displayName>Salesforce Knowledge Base</displayName>
+    <name>salesforce</name>
+  </kbtype>
+  <kbtarget>
+    <salesforce>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <draft type="boolean">true</draft>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <publishprofile>salesforce</publishprofile>
+      <recordtype>0125g000000M7ixAAC</recordtype>
+      <removetitle type="boolean">true</removetitle>
+    </salesforce>
+    <zendesk>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <draft type="boolean">true</draft>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">true</usejs>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </zendesk>
+    <zoho>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <removetitle type="boolean">true</removetitle>
+      <useflattoc type="boolean">false</useflattoc>
+      <draft type="boolean">true</draft>
+    </zoho>
+    <servicenow>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usetags type="boolean">true</usetags>
+      <draft type="boolean">true</draft>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </servicenow>
+    <aem>
+      <aemuseinlinestyles type="boolean">false</aemuseinlinestyles>
+      <removetitle type="boolean">true</removetitle>
+      <usecomponents type="boolean">false</usecomponents>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">false</usejs>
+    </aem>
+    <publishstatus type="array">
+      <publishstatusitem>
+        <path>C:/Users/kum/Documents/My RoboHelp Projects/Adobe RoboHelp 2020/Samples/Compass Travel/toc/Book_TOC.toc</path>
+        <data type="array">
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Introduction</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Introduction</name>
+            <id>SW50cm9kdWN0aW9uLmh0bUAjQGEkSW50cm9kdWN0aW9u</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Our destinations</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Our destinations</name>
+            <id>T3VyX2Rlc3RpbmF0aW9ucy5odG1AI0BhJE91ciBkZXN0aW5hdGlvbnM=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Corporate travel</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Corporate travel</name>
+            <id>Q29ycG9yYXRlIHRyYXZlbEAjQGEkQ29ycG9yYXRlIHRyYXZlbA==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Corporate travel</tocPathitem>
+              <tocPathitem>About corporate travel</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About corporate travel</name>
+            <id>Q29ycG9yYXRlX3RyYXZlbC9BYm91dF9jb3Jwb3JhdGVfdHJhdmVsLmh0bUAjQGEkQ29ycG9yYXRlIHRyYXZlbC9BYm91dCBjb3Jwb3JhdGUgdHJhdmVs</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Corporate travel</tocPathitem>
+              <tocPathitem>About the corporate travel market</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About the corporate travel market</name>
+            <id>Q29ycG9yYXRlX3RyYXZlbC9BYm91dF90aGVfY29ycG9yYXRlX3RyYXZlbF9tYXJrZXQuaHRtQCNAYSRDb3Jwb3JhdGUgdHJhdmVsL0Fib3V0IHRoZSBjb3Jwb3JhdGUgdHJhdmVsIG1hcmtldA==</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Corporate travel</tocPathitem>
+              <tocPathitem>What corporate services do we offer?</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>What corporate services do we offer?</name>
+            <id>Q29ycG9yYXRlX3RyYXZlbC9XaGF0X2NvcnBvcmF0ZV9zZXJ2aWNlc19kb193ZV9vZmZlcl8uaHRtQCNAYSRDb3Jwb3JhdGUgdHJhdmVsL1doYXQgY29ycG9yYXRlIHNlcnZpY2VzIGRvIHdlIG9mZmVyPw==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Corporate travel</tocPathitem>
+              <tocPathitem>What sets us apart in the corporate travel market?</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>What sets us apart in the corporate travel market?</name>
+            <id>Q29ycG9yYXRlX3RyYXZlbC9XaGF0X3NldHNfdXNfYXBhcnRfaW5fdGhlX2NvcnBvcmF0ZV90cmF2ZWxfbWFya2V0Xy5odG1AI0BhJENvcnBvcmF0ZSB0cmF2ZWwvV2hhdCBzZXRzIHVzIGFwYXJ0IGluIHRoZSBjb3Jwb3JhdGUgdHJhdmVsIG1hcmtldD8=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Leisure travel</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Leisure travel</name>
+            <id>TGVpc3VyZSB0cmF2ZWxAI0BhJExlaXN1cmUgdHJhdmVs</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Leisure travel</tocPathitem>
+              <tocPathitem>About leisure travel</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About leisure travel</name>
+            <id>TGVpc3VyZV90cmF2ZWwvQWJvdXRfbGVpc3VyZV90cmF2ZWwuaHRtQCNAYSRMZWlzdXJlIHRyYXZlbC9BYm91dCBsZWlzdXJlIHRyYXZlbA==</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Leisure travel</tocPathitem>
+              <tocPathitem>About the leisure travel market</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About the leisure travel market</name>
+            <id>TGVpc3VyZV90cmF2ZWwvQWJvdXRfdGhlX2xlaXN1cmVfdHJhdmVsX21hcmtldC5odG1AI0BhJExlaXN1cmUgdHJhdmVsL0Fib3V0IHRoZSBsZWlzdXJlIHRyYXZlbCBtYXJrZXQ=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Leisure travel</tocPathitem>
+              <tocPathitem>Exploring Ancient Maya of Honduras</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Exploring Ancient Maya of Honduras</name>
+            <id>TGVpc3VyZV90cmF2ZWwvRXhwbG9yaW5nX0FuY2llbnRfTWF5YV9vZl9Ib25kdXJhcy5odG1AI0BhJExlaXN1cmUgdHJhdmVsL0V4cGxvcmluZyBBbmNpZW50IE1heWEgb2YgSG9uZHVyYXM=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>Leisure travel</tocPathitem>
+              <tocPathitem>What leisure services do we offer?</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>What leisure services do we offer?</name>
+            <id>TGVpc3VyZV90cmF2ZWwvV2hhdF9sZWlzdXJlX3NlcnZpY2VzX2RvX3dlX29mZmVyXy5odG1AI0BhJExlaXN1cmUgdHJhdmVsL1doYXQgbGVpc3VyZSBzZXJ2aWNlcyBkbyB3ZSBvZmZlcj8=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>For sales</name>
+            <id>Rm9yIHNhbGVzQCNAYSRGb3Igc2FsZXM=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>About our software - SalesBuilder</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About our software - SalesBuilder</name>
+            <id>Rm9yX3NhbGVzL0Fib3V0X291cl9zb2Z0d2FyZV8tX1NhbGVzQnVpbGRlci5odG1AI0BhJEZvciBzYWxlcy9BYm91dCBvdXIgc29mdHdhcmUgLSBTYWxlc0J1aWxkZXI=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>eLearning center</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>eLearning center</name>
+            <id>ZUxlYXJuaW5nIGNlbnRlckAjQGEkRm9yIHNhbGVzL2VMZWFybmluZyBjZW50ZXI=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>eLearning center</tocPathitem>
+              <tocPathitem>About the eLearning center</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About the eLearning center</name>
+            <id>ZUxlYXJuaW5nX2NlbnRlci9BYm91dF90aGVfZUxlYXJuaW5nX2NlbnRlci5odG1AI0BhJEZvciBzYWxlcy9lTGVhcm5pbmcgY2VudGVyL0Fib3V0IHRoZSBlTGVhcm5pbmcgY2VudGVy</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Promotional travel market packages</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Promotional travel market packages</name>
+            <id>Rm9yX3NhbGVzL1Byb21vdGlvbmFsX3RyYXZlbF9tYXJrZXRfcGFja2FnZXMuaHRtQCNAYSRGb3Igc2FsZXMvUHJvbW90aW9uYWwgdHJhdmVsIG1hcmtldCBwYWNrYWdlcw==</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Touring by air, rail or sea</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Touring by air, rail or sea</name>
+            <id>Rm9yX3NhbGVzL1RvdXJpbmdfYnlfYWlyLF9yYWlsX29yX3NlYS5odG1AI0BhJEZvciBzYWxlcy9Ub3VyaW5nIGJ5IGFpciwgcmFpbCBvciBzZWE=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Travel Club Amenities</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Travel Club Amenities</name>
+            <id>Rm9yX3NhbGVzL1RyYXZlbF9jbHViX2FtZW5pdGllcy5odG1AI0BhJEZvciBzYWxlcy9UcmF2ZWwgQ2x1YiBBbWVuaXRpZXM=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Using SalesBuilder</name>
+            <id>VXNpbmcgU2FsZXNCdWlsZGVyQCNAYSRGb3Igc2FsZXMvVXNpbmcgU2FsZXNCdWlsZGVy</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>My Pipeline screen overview</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>My Pipeline screen overview</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9NeV9QaXBlbGluZV9zY3JlZW5fb3ZlcnZpZXcuaHRtQCNAYSRGb3Igc2FsZXMvVXNpbmcgU2FsZXNCdWlsZGVyL015IFBpcGVsaW5lIHNjcmVlbiBvdmVydmlldw==</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>Opportunities screen overview</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Opportunities screen overview</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9PcHBvcnR1bml0aWVzX3NjcmVlbl9vdmVydmlldy5odG1AI0BhJEZvciBzYWxlcy9Vc2luZyBTYWxlc0J1aWxkZXIvT3Bwb3J0dW5pdGllcyBzY3JlZW4gb3ZlcnZpZXc=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New account</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>New account</name>
+            <id>TmV3IGFjY291bnRAI0BhJEZvciBzYWxlcy9Vc2luZyBTYWxlc0J1aWxkZXIvTmV3IGFjY291bnQ=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New account</tocPathitem>
+              <tocPathitem>New Account - General screen</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>New Account - General screen</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9OZXdfQWNjb3VudC9OZXdfQWNjb3VudF8tX0dlbmVyYWxfc2NyZWVuLmh0bUAjQGEkRm9yIHNhbGVzL1VzaW5nIFNhbGVzQnVpbGRlci9OZXcgYWNjb3VudC9OZXcgQWNjb3VudCAtIEdlbmVyYWwgc2NyZWVu</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New account</tocPathitem>
+              <tocPathitem>New Account - Contacts screen</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>New Account - Contacts screen</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9OZXdfQWNjb3VudC9OZXdfQWNjb3VudF8tX0NvbnRhY3RzX3NjcmVlbi5odG1AI0BhJEZvciBzYWxlcy9Vc2luZyBTYWxlc0J1aWxkZXIvTmV3IGFjY291bnQvTmV3IEFjY291bnQgLSBDb250YWN0cyBzY3JlZW4=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New account</tocPathitem>
+              <tocPathitem>New Account - News screen</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>New Account - News screen</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9OZXdfQWNjb3VudC9OZXdfQWNjb3VudF8tX05ld3Nfc2NyZWVuLmh0bUAjQGEkRm9yIHNhbGVzL1VzaW5nIFNhbGVzQnVpbGRlci9OZXcgYWNjb3VudC9OZXcgQWNjb3VudCAtIE5ld3Mgc2NyZWVu</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New contact</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>New contact</name>
+            <id>TmV3IGNvbnRhY3RAI0BhJEZvciBzYWxlcy9Vc2luZyBTYWxlc0J1aWxkZXIvTmV3IGNvbnRhY3Q=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New contact</tocPathitem>
+              <tocPathitem>New Contact - General screen</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>New Contact - General screen</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9OZXdfQ29udGFjdC9OZXdfQ29udGFjdF8tX0dlbmVyYWxfc2NyZWVuLmh0bUAjQGEkRm9yIHNhbGVzL1VzaW5nIFNhbGVzQnVpbGRlci9OZXcgY29udGFjdC9OZXcgQ29udGFjdCAtIEdlbmVyYWwgc2NyZWVu</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For sales</tocPathitem>
+              <tocPathitem>Using SalesBuilder</tocPathitem>
+              <tocPathitem>New contact</tocPathitem>
+              <tocPathitem>New Contact - Notes screen</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>New Contact - Notes screen</name>
+            <id>Rm9yX3NhbGVzL1VzaW5nX1NhbGVzQnVpbGRlci9OZXdfQ29udGFjdC9OZXdfQ29udGFjdF8tX05vdGVzX3NjcmVlbi5odG1AI0BhJEZvciBzYWxlcy9Vc2luZyBTYWxlc0J1aWxkZXIvTmV3IGNvbnRhY3QvTmV3IENvbnRhY3QgLSBOb3RlcyBzY3JlZW4=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>For developers</name>
+            <id>Rm9yIGRldmVsb3BlcnNAI0BhJEZvciBkZXZlbG9wZXJz</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Font Awesome</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Font Awesome</name>
+            <id>Rm9udCBBd2Vzb21lQCNAYSRGb3IgZGV2ZWxvcGVycy9Gb250IEF3ZXNvbWU=</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Font Awesome</tocPathitem>
+              <tocPathitem>About Font Awesome in RoboHelp</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About Font Awesome in RoboHelp</name>
+            <id>Rm9yX2RldmVsb3BlcnMvRm9udF9Bd2Vzb21lL0Fib3V0X0ZvbnRfQXdlc29tZS5odG1AI0BhJEZvciBkZXZlbG9wZXJzL0ZvbnQgQXdlc29tZS9BYm91dCBGb250IEF3ZXNvbWUgaW4gUm9ib0hlbHA=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Font Awesome</tocPathitem>
+              <tocPathitem>Implementing SVG icons with Font Awesome</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Implementing SVG icons with Font Awesome</name>
+            <id>Rm9yX2RldmVsb3BlcnMvRm9udF9Bd2Vzb21lL0ltcGxlbWVudGluZ19TVkdfaWNvbnNfd2l0aF9Gb250X0F3ZXNvbWUuaHRtQCNAYSRGb3IgZGV2ZWxvcGVycy9Gb250IEF3ZXNvbWUvSW1wbGVtZW50aW5nIFNWRyBpY29ucyB3aXRoIEZvbnQgQXdlc29tZQ==</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Typekit</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>book</type>
+            <name>Typekit</name>
+            <id>VHlwZWtpdEAjQGEkRm9yIGRldmVsb3BlcnMvVHlwZWtpdA==</id>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Typekit</tocPathitem>
+              <tocPathitem>About Typekit</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>About Typekit</name>
+            <id>Rm9yX2RldmVsb3BlcnMvVHlwZWtpdC9BYm91dF9UeXBla2l0Lmh0bUAjQGEkRm9yIGRldmVsb3BlcnMvVHlwZWtpdC9BYm91dCBUeXBla2l0</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>For developers</tocPathitem>
+              <tocPathitem>Typekit</tocPathitem>
+              <tocPathitem>Implementing Web fonts with Typekit</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>Implementing Web fonts with Typekit</name>
+            <id>Rm9yX2RldmVsb3BlcnMvVHlwZWtpdC9JbXBsZW1lbnRpbmdfV2ViX2ZvbnRzX3dpdGhfVHlwZWtpdC5odG1AI0BhJEZvciBkZXZlbG9wZXJzL1R5cGVraXQvSW1wbGVtZW50aW5nIFdlYiBmb250cyB3aXRoIFR5cGVraXQ=</id>
+            <lastPublished>Sun May 16 2021 07:58:05 GMT+0530 (India Standard Time)</lastPublished>
+          </dataitem>
+        </data>
+      </publishstatusitem>
+    </publishstatus>
+  </kbtarget>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>salesforce</name>
+    </serversStatusitem>
+  </serversStatus>
+  <republish type="boolean">false</republish>
+  <generateMapFiles type="boolean">true</generateMapFiles>
+  <generateBRS type="boolean">true</generateBRS>
+</preset>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Compass Travel</title>
+  <content>
+    <toc>
+      <path>../../toc/Book_TOC_for_Sales.toc</path>
+      <name>Book_TOC_for_Sales</name>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/Compass_Travel.glo</path>
+    </glossary>
+    <windowsSetting>
+      <path>../windowssetting/MS_HTMLHelp.win</path>
+    </windowsSetting>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>chm</type>
+  <outputPath>C:/Users/kum/Desktop/AMBIKA-ALH/</outputPath>
+  <name>HTMLHelp</name>
+  <starterPage>Compass_Travel.chm</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>
