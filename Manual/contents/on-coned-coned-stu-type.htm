@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Continuing education student type</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.1.3.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; Ontario reporting &gt; Continuing education"/>
+</head>
+
+<body>
+
+
+<h1>Continuing education student type</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p>This option is available to Ontario publicly funded school boards only. 
+ Schools do not have access to this report.</p>
+<p> </p>
+<p>The Continuing education student type option provides a report for boards 
+ to ensure that each student that appears on a continuing education enrolment 
+ register has the correct ‘Continuing education student type’ field (as 
+ recorded in the student’s record under <a href="../students/enrolment_register_information.htm">Enrolment 
+ &gt; Enrolment register info</a>). Prior to submitting OnSIS batch files, 
+ this report should be run for each OnSIS count date to ensure the students 
+ have the correct type.</p>
+<p> </p>
+<p>The student’s continuing education student type field is used to determine 
+ whether a student is eligible for funding through some of the continuing 
+ education enrolment registers, specifically the registers for credit courses, 
+ correspondence/self-study/e-learning, and summer school.   </p>
+<p> </p>
+<p>For example, the Register of Enrolment in Continuing Education Credit 
+ Courses and the Register of Enrolment in Correspondence/Self-Study/e-Learning 
+ Courses have a count of sessions (lessons/work units) recognized for funding. 
+ Sessions recognized for funding will be summed if the student’s Con. Ed. 
+ Student Type is at least one of the following:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Only Attends Con. Ed. School</li>
+	<li>Also Attends Day School (Full-time) *</li>
+	<li>Also Attends Day School (Part-time) *</li>
+</ul>
+<p> </p>
+<p>This register will exclude sessions for students when the student’s 
+ Continued education student type (aka Con. Ed Type) is one of the following::</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Full-Time Day School (exclude from register totals)</li>
+	<li>Part-time taking same course(s) in day school (exclude from register 
+	 totals).</li>
+</ul>
+<p> </p>
+<p>* The summer school register will only include students with either 
+ of these 2 types.</p>
+<p> </p>
+<p>To access this report, from the board, select Ontario Reporting &gt; 
+ Continuing education &gt; Continuing education student type.</p>
+<p> </p>
+<p><img src="assets/images/on-coned-stutype-card.png" alt="" style=" border:none; width:100%; max-width:202px;" border="0"/></p>
+<p> </p>
+<p>Select Go on the Continuing education student type card to see this 
+ form:</p>
+<p> </p>
+<p><img src="assets/images/on-coned-stutype-main.png" alt="" style=" border:none; width:100%; max-width:770px;" border="0"/></p>
+<p> </p>
+<p>Select the report date (October, March or June) corresponding to the 
+ Onsis submission report dates.  The Report date will automatically 
+ match the current year’s count dates (e.g. October 31, March 31, or June 
+ 30). A different report date, if applicable, may be selected by checking 
+ the Specify date Y/N field.</p>
+<p> </p>
+<p>Select the Print button located at the bottom of the form. Once the 
+ report has been submitted to the task queue, you may leave this application 
+ or generate other reports. You will receive notification when your report 
+ is ready. Reports are saved in file manager under Provincial &gt; Continuing 
+ Education.</p>
+<p> </p>
+<p>Here is an example of the report generated through this option.</p>
+<p> </p>
+<p><img src="assets/images/on-coned-stutype-report.png" alt="" style=" border:none; width:100%; max-width:795px;" border="0"/></p>
+<p> </p>
+<p>For each student, the report will generate information about the student 
+ as of the report date. This will consider the student’s <a href="../students/enrolment-internal-transfers.htm">internal 
+ transfers</a> to determine the student’s continuing education type and 
+ attendance type on the count date.  </p>
+<p> </p>
+<p>The continuing education/summer school ‘short’ name is listed along 
+ with the student’s start and end date at the school. The student’s continuing 
+ education student type at the CE/summer school is listed.   </p>
+<p> </p>
+<p>Compare that continuing education student type to the student’s day 
+ school attendance type provided on the report. If the student is enrolled 
+ in more than one day school on the report date, it will use the school 
+ that was the Main School/ Holder of the OSR on that date.  These 
+ are the possible attendance types:</p>
+<p> </p>
+<p>FT (Full-time)</p>
+<p>PT (Part-time)</p>
+<p>IS (Independent study – part-time)</p>
+<p>SAL (Supervised Alternative Learning – part-time)</p>
+<p>1-4 (Full days on alternate day schedule 1, 2, 3, or 4)</p>
+<p> </p>
+<p>For example, a student whose attendance type at a day school shows FT 
+ (full-time), should have a Con. Ed. Student type of “Also attends day 
+ school (Full-time)”.</p>
+<p> </p>
+<p>Any corrections to a student’s continuing education student type will 
+ need to be made directly in the student’s record.</p>
+
+</body></html>

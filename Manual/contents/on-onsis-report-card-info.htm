@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Report card info</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.3.0_9";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; March elementary school"/>
+</head>
+
+<body>
+
+
+
+<h1>OnSIS &gt; Submission Period &gt; Report card info</h1>
+<p></p>
+ <p>The Report card info option will appear 
+ for the following submission periods:</p>
+<p>  </p>
+<ul style="list-style: disc;">
+	<li>March elementary school (publicly funded schools only)</li>
+	<li>June elementary school (publicly funded schools only)</li>
+</ul>
+<p> </p>
+<p>This option is used to create batch files, using the CREATE button. 
+ The batch file is uploaded to OnSIS through the OnSIS web site.  Once 
+ OnSIS processes the batch file, a results file is created. The results 
+ file is downloaded from OnSIS and is then processed using the PROCESS 
+ RESULTS button.  </p>
+<p> </p>
+<p>This section describes the Report card info batch files. See the OnSIS 
+ <a href="on-onsis-important-concepts.htm">Important concepts</a> section 
+ for info on <a href="on-onsis-important-concepts.htm">Updating data in 
+ OnSIS using the ‘Create/Upload/Process’ cycle</a>.</p>
+<p> </p>
+<p>At the end of the school year (June), OnSIS collects report card info 
+ (marks and learning skills) for all students enrolled at some point during 
+ the June submission period. It also collects the grade 7 and 8 subject 
+ averages as reported on the final report cards, along with the student’s 
+ attendance and grade placement for next September. It does not collect 
+ report card comments.</p>
+<p> </p>
+<p>For the March submission period only, the report card info is only collected 
+ for students who have an enrolment end date during the March submission. 
+ Report card averages are not collected during March.  Therefore, 
+ if the submission period is March, the batch file option &quot;Grade averages 
+ and student report cards&quot; is renamed to &quot;Student report cards 
+ for deleted students&quot;.</p>
+<p> </p>
+<p>Follow the links below for the file specifications.</p>
+<p> </p>
+<p><a href="#Students_report_cards_batch_files">Students report cards for 
+ deleted students (March) batch file</a></p>
+<p><a href="#Students_report_cards_batch_files">Grade averages and report 
+ cards (June) batch file</a></p>
+<p> </p>
+<p>Select the CREATE button on the Report card info card. The text is slightly 
+ different for the March (on the left) vs June (on the right) elementary 
+ school submission.</p>
+<p> </p>
+<p><img src="assets/images/onsis-reportcard.png" alt="" style=" border:none; width:100%; max-width:426px;" border="0"/></p>
+<p>  </p>
+<p>This is the form that appears when the CREATE button is selected:</p>
+<p> </p>
+<p><img src="assets/images/onsis-reportcard2.png" alt="" style=" border:none; width:100%; max-width:904px;" border="0"/></p>
+<p> </p>
+<p>Note: if the submission period is March, the OnSIS batch file will be 
+ called “Student report cards for deleted students”.</p>
+<p> </p>
+<p>The OnSIS batch file options are detailed below. Prior to selecting 
+ the CREATE BATCH FILE option, determine whether other options on the form 
+ should be selected.   </p>
+<p> </p>
+<p><span style="color: #007fff;">Purge</span>:  Y/N field. See <a href="on-onsis-important-concepts.htm">Important concepts - Purge 
+ check boxes</a> for more info.</p>
+<p> </p>
+<p><span style="color: #007fff;">Report card attendance already entered 
+ manually in OnSIS</span>: Y/N field. If set to yes, it will omit attendance 
+ data in the batch file so that it does not overwrite attendance info already 
+ recorded in OnSIS.  This would be used in very rare situations where 
+ attendance is not recorded in edsembli.</p>
+<p> </p>
+<h2><a name="Students_report_cards_batch_files" id="Students_report_cards_batch_files"></a>Students 
+ report cards for deleted students (March); Grade averages and report cards 
+ (June) batch files</h2>
+<p>(Publicly funded elementary schools only)</p>
+<p> </p>
+<p><span style="color: #007fff;">Default file name</span>: E14_######_ReportCard_yyyymmdd_hhmm.xml</p>
+<p> </p>
+<p>The report card batch files for March and June are similar, however 
+ the grade averages fields are only included in the file created for the 
+ June submission period, and the March submission includes students who 
+ have report card data but have left the school during the March submission 
+ period (e.g. left on or before March 31). This file uses the data that 
+ prints on the students Ontario provincial report cards, so if the data 
+ printed correctly on the report cards generated by the SIS, it will be 
+ reported correctly to OnSIS.</p>
+<p>The fields collected by OnSIS are detailed below.</p>
+<p> </p>
+<table class="SimpleGridBlack" style=" vertical-align:top; width:100%; max-width:900px;" cellspacing="0px">
+	<colgroup><col style="width: 34.594%;"/>
+	<col style="width: 7.564%;"/>
+	<col style="width: 57.842%;"/>
+	</colgroup><tbody><tr class="t1Row" style="height: 22px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt; color: #007fff; 
+			 font-weight: bold;">Char. column values are M-Mandatory, O-Optional, 
+		 R-Repeatable</p></td>
+		
+	</tr>
+	<tr class="t2Row" style="height: 21px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt;"> </p></td>
+		
+	</tr>
+	<tr class="t1Row" style="height: 22px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Element</b></p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Char</b></p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><b>Description</b></p></td>
+	</tr>
+	<tr class="t2Row" style="height: 21px;">
+		<td colspan="3" style="border-bottom-width: 1px; border-right-width: 1px;"><p> </p></td>
+		
+	</tr>
+	<tr class="t1Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>O</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>No 
+		 data required, as it is just a tag. </p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ACTION</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">ADD 
+		 will always appear.</td>
+	</tr>
+	<tr class="t1Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/</p>
+		<p> GRADE_IN_SEPTEMBER</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>O</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>The 
+		 grade in which the Student will be registered the following academic 
+		 year.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">CR</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>No 
+		 data required, as it is just a tag.</p>
+		<p>When the ACTION of REPORT_CARD is “ADD”, this element is mandatory.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>ACTION</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>ADD 
+		 will always appear.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 75px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>TERM_CODE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">A 
+		 value of &#39;1&#39; is sent for Term 1, and a value of &#39;2&#39; is sent for 
+		 Term 2</td>
+	</tr>
+	<tr class="t1Row" style="height: 93px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>DAYS_ABSENT</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>C</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Student’s 
+		 total days absent in TERM.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/</p>
+		<p>TIMES_LATE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">Student’s 
+		 total times late in TERM.</td>
+	</tr>
+	<tr class="t1Row" style="height: 310px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>ALTERNATIVE_REPORT_CARD_FLAG</p></td>
+		<td><p>C</p></td>
+		<td><p>It identifies whether the STUDENT has a non standard REPORT_CARD. 
+		 All other fields are conditional based on this flag. If student 
+		 does not have standard report card then all others are not required.</p>
+		  
+		<p>Values:</p>
+		<p>“T” – Yes</p>
+		<p>“F” – No</p>
+		<p> </p>
+		<p>Students with alternate report cards are flagged in the student&#39;s 
+		 record &gt; Achievement &gt; Marks &amp; Comments. If the student 
+		 is flagged, then a value of T is sent and all other report card 
+		 information is excluded from the file for that student (regardless 
+		 if marks are entered or not).</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>SUBJECT_STRAND</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">OR</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">No 
+		 data required, as it is just a tag.</td>
+	</tr>
+	<tr class="t1Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/TERM/</p>
+		<p>SUBJECT_STRAND/ ACTION</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>ADD 
+		 will always appear.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 1083px;">
+		<td style="border-right-width: 1px; border-bottom-width: 1px;"> </td>
+		<td style="border-right-width: 1px; border-bottom-width: 1px;"> </td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Identifies 
+		 Subject/Strand entry. It has to be the value consistent 
+		 with lookup table SUBJ_STRND_TYPE. </p>
+		<br/>
+		
+		<table class="SimpleGridBlack" cellspacing="0px" width="100%">
+			<colgroup><col style="width: 50%;"/>
+			<col style="width: 50%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid; 
+					 border-top-width: 1px;"><p style="font-weight: bold;">Subject/Strand 
+				 Name</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-top-width: 1px; 
+					 border-right-width: 1px;"><p style="font-weight: bold;">Code</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><span style="color: #007fff;">The Arts</span></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><span style="color: #007fff;"> ART-10</span></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Music</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>ART-11</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Visual 
+				 Arts</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">ART-12</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Dance</p></td>
+				<td><p>ART-14</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Drama</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">ART-15</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p style="color: #007fff;">Language</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p style="color: #007fff;">LAN-10</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Reading</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">LAN-11</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Writing</p></td>
+				<td><p>LAN-12</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><p>Oral 
+				 Communication</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">LAN-13</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Media Literacy</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>LAN-14</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><span style="color: #007fff;">Geography</span></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><span style="color: #007fff;">GEO-10</span></td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p><span style="color: #007fff;">History</span></p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><span style="color: #007fff;">HIS-10</span></p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><span style="color: #007fff;">Health and Physical Education</span></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><span style="color: #007fff;">HPE-10</span></td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>Health 
+				 Education: Healthy Living, Living Skills</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>HPE-11</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;">Physical 
+				 Education: Active Living, Movement Competence, Living 
+				 Skills</td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;">HPE-12</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p><span style="color: #007fff;">Mathematics</span></p></td>
+				<td><p class="Blue" style="font-weight: normal; font-size: 12pt;">MAT-10</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Number 
+				 Sense and Numeration</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">MAT-11</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>Measurement</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>MAT-12</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Geometry 
+				 and Spatial Sense</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">MAT-13</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>Patterning 
+				 and Algebra</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>MAT-14</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;">Data 
+				 Management and Probability</td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;">MAT-15</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p><span style="color: #007fff;">Optional Course 1</span></p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p style="color: #007fff;">OPT-10</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><span style="color: #007fff;">Religious and Family Life Education</span></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><span style="color: #007fff;">REL-10</span></td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p style="color: #007fff;">Science and Technology</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><span style="color: #007fff;">SAT-10</span></p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;"><span style="color: #007fff;">Social Studies</span></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><span style="color: #007fff;">SOC-10</span></td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p><span style="color: #007fff;">French</span></p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p style="color: #007fff;">FRE-10</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;">Oral 
+				 Communication</td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;">FRE-11</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>Reading</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>FRE-12</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Writing</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">FRE-13</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p style="color: #007fff;">Native Language</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p><span style="color: #007fff;">NLA-10</span></p></td>
+			</tr>
+		</tbody></table>
+		  
+		<br/>  
+		<p>Items in <span style="color: #007fff;">blue</span> = Topics</p>
+		<p>Items in black = sub-topics </p>
+		 </td>
+	</tr>
+	<tr class="t1Row" style="height: 93px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/</p>
+		<p>SUBJECT_STRAND/ SUBJECT_NAME</p></td>
+		<td><p>C</p></td>
+		<td><p>Required when Optional Subject is already selected.</p>
+		<p>Note. Subject Name applies only to Optional Subject.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 183px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p> STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/</p>
+		<p>SUBJECT_STRAND/ IEP_FLAG</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>C</p>
+		<p> </p>
+		<p> </p>
+		<p> </p>
+		<p> </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Signifies 
+		 if student has Individual Educational Plan (IEP).</p>
+		<p>Values:</p>
+		<p>“T” – Yes</p>
+		<p>“F” – No</p>
+		<p>This flag is based on what is selected within Student record 
+		 &gt; Achievement &gt; Marks &amp; comments. If the IEP checkbox 
+		 is selected for a particular strand, then a value of T is sent.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 129px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/</p>
+		<p>STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/</p>
+		<p>SUBJECT_STRAND/ SUPPORT_PROGRAM_CODE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>C</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>As 
+		 of August 2010, the only valid support program code is ESL/ELD.</p>
+		<p>This program code is sent for the student if the flag (checkbox) 
+		 is selected for a particular subject or strand within Student 
+		 record &gt; Achievement &gt; Marks &amp; comments.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 363px;">
+		<td style="border-right-width: 1px; border-bottom-width: 1px;">SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/SUBJECT_STRAND/ SL_PROGRAM_CODE</td>
+		<td style="border-right-width: 1px; border-bottom-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>The 
+		 Second Language information will be sent in this tag (if the student 
+		 is enrolled). This information is pulled from Student record &gt; 
+		 Enrolment &gt; Student enrolment &gt; Enrolment reporting card.</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px" width="100%">
+			<colgroup><col style="width: 50%;"/>
+			<col style="width: 50%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid; 
+					 border-top-width: 1px;"><p style="font-weight: bold;">2nd 
+				 Language Program</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-top-width: 1px; 
+					 border-right-width: 1px;"><p style="font-weight: bold;">Code</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Core</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>FSC</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Extended</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>FSE</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Immersion</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">FSI</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Cree</p></td>
+				<td><p>001</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Ojibwe</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">002</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>Delaware</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>003</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Mohawk</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">004</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Cayuga</p></td>
+				<td><p>005</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">Oneida</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">006</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>Oji-Cree</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>007</p></td>
+			</tr>
+		</tbody></table>
+		 </td>
+	</tr>
+	<tr class="t1Row" style="height: 183px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/SUBJECT_STRAND/ NA_FLAG</p></td>
+		<td>C</td>
+		<td><p>Indicates whether subject or strand is applicable.</p>
+		<p>“T” – Yes</p>
+		<p>“F” – No</p>
+		<p>This flag is based on what is selected within Student record 
+		 &gt; Achievement &gt; Marks &amp; comments. If the NA checkbox 
+		 is selected for a particular strand, then a value of T is sent. 
+		 If NA_Flag is sent as &#39;T&#39; then the mark for that strand (for that 
+		 term) will not be sent, regardless if a mark exists or not.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 165px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/SUBJECT_STRAND/ FRENCH_FLAG</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Indicates 
+		 whether student is taking the subject or subject-strand in French</p>
+		<p>“T” – Yes</p>
+		<p>“F” – No</p>
+		<p>This flag is sent based on the language of instruction of the 
+		 class (Setup &gt; Class info &gt; Classes). If the language of 
+		 instruction for the class is set to French, then the FRENCH_FLAG 
+		 will be sent as &#39;T&#39;.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 129px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/SUBJECT_STRAND/ MARK</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>It 
+		 can contain letter grades/percentage marks or T/F (in case of 
+		 Religion Subject) for this Subject.</p>
+		<p>Percentage grades can only be sent for students in grade 7 or 
+		 8.</p>
+		<p> </p>
+		<p>Valid values for percentage grades are: 50-100</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 75px;">
+		<td style="border-right-width: 1px; border-bottom-width: 1px;">SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/LEARNING_SKILL</td>
+		<td style="border-right-width: 1px; border-bottom-width: 1px;">OR</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">No 
+		 data required, as it is just a tag.</td>
+	</tr>
+	<tr class="t1Row" style="height: 57px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/LEARNING_SKILL/ ACTION</p></td>
+		<td>M</td>
+		<td><p>ADD will always appear.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 237px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/LEARNING_SKILL/ LEARNING_SKILL_CODE</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">This 
+		 is LEARNING_SKILL_ID for learning skill.<br/>
+		<br/>
+		
+		<table class="SimpleGridBlack" cellspacing="0px" width="100%">
+			<colgroup><col style="width: 50%;"/>
+			<col style="width: 50%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid; 
+					 border-top-width: 1px;"><p style="font-weight: bold;">Code</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-top-width: 1px; 
+					 border-right-width: 1px;"><p style="font-weight: bold;">Learning 
+				 Skill Definition</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">CL</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Collaboration</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>IN </p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Initiative</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">IW </td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">Independent 
+				 work</td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>OR</p></td>
+				<td><p>Organization</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid;">RE</td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;">Responsibility</td>
+			</tr>
+			<tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-left-width: 1px; 
+					 border-left-style: Solid; border-bottom-width: 1px;"><p>SR</p></td>
+				<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Self-Regulation</p></td>
+			</tr>
+		</tbody></table>
+		 </td>
+	</tr>
+	<tr class="t1Row" style="height: 237px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/SCHOOL/STUDENT/ 
+		 STUDENT_SCHOOL_ENROLMENT/REPORT_CARD/ TERM/LEARNING_SKILL/ LEVEL</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Measure 
+		 of achievement for a learning skill.</p>
+		<p>It has to be consistent with database table LEARN_SKILL_LEVEL_TYPE.</p>
+		<p> </p>
+		<table class="SimpleGridBlack" cellspacing="0px" width="100%">
+			<colgroup><col style="width: 50%;"/>
+			<col style="width: 50%;"/>
+			</colgroup><tbody><tr class="t1Row">
+				<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+					 border-left-width: 1px; border-left-style: Solid; 
+					 border-top-width: 1px;"><p style="font-weight: bold;">Code</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-top-width: 1px; 
+					 border-right-width: 1px;"><p style="font-weight: bold;">Learning 
+				 Skill Definition</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>EE</p></td>
+				<td style="border-bottom: Solid 1px #000000; border-right-width: 1px;"><p>Excellent</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>EG</p></td>
+				<td><p>Good</p></td>
+			</tr>
+			<tr class="t2Row">
+				<td><p>EN</p></td>
+				<td><p>Needs Improvement</p></td>
+			</tr>
+			<tr class="t1Row">
+				<td><p>ES</p></td>
+				<td><p>Satisfactory</p></td>
+			</tr>
+		</tbody></table>
+		<p> </p>
+		<p> </p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<p> </p>
+<table class="SimpleGridBlack" style=" vertical-align:top; width:100%; max-width:900px;" cellspacing="0px">
+	<colgroup><col style="width: 51.724%;"/>
+	<col style="width: 6.897%;"/>
+	<col style="width: 7.564%;"/>
+	<col style="width: 57.842%;"/>
+	</colgroup><tbody><tr class="t1Row" style="height: 22px;">
+		<td colspan="4" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt; color: #007fff; 
+			 font-weight: bold;">Char. column values are M-Mandatory, O-Optional, 
+		 R-Repeatable</p></td>
+		
+	</tr>
+	<tr class="t2Row" style="height: 21px;">
+		<td colspan="4" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-family: Arial, sans-serif; font-size: 12pt;"> </p></td>
+		
+	</tr>
+	<tr class="t1Row" style="height: 21px;">
+		<td colspan="4" style="border-bottom-width: 1px; border-right-width: 1px;"><p style="font-weight: bold;">These are the file specs for the 
+		 grade averages portion of the file.  (Description from OnSIS)</p>
+		<p style="font-weight: bold;"> </p></td>
+		
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">OR</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">N/A</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>This 
+		 is the outer tag for report card/grade related data (i.e. average, 
+		 median, etc. determined by the descriptor below).</p>
+		<p>  </p>
+		<p>(Note: This data is not current being collected for Private 
+		 Schools.)</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/ACTION</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>N/A</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>This 
+		 is the action associated with this submission</p>
+		<p>Value: “ADD” “UPDATE” “DELETE”</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/GRADE_</p>
+		<p>*not used for Median Mark. Ignore the field if it’s submitted 
+		 for Median Mark CODE</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">RPT_CRD_AVG_ 
+		 
+		<br/>MARK_HEADER. 
+		<br/>GRADE_TYPE_ 
+		<br/>ID 
+		<br/> </td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Identifies 
+		 the 2 grades that we collect report card average marks (7, 8 grade)</p>
+		<p>Values have to be consistent with database table GRADE.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/NA_FLAG</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">C</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>RPT_CRD_AVG_</p>
+		<p>MARK_HEADER.</p>
+		<p>GRADE_NA_</p>
+		<p>FLAG</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Data 
+		 for is not available for the Grade specified above.  </p>
+		<p>Values:</p>
+		<p>“T” – No Average Marks</p>
+		<p>“F” – Average Marks Available</p>
+		<p>When the ACTION is “ADD” this tag is mandatory. When Action 
+		 = “ADD” and this tag is missing then the default value of “F” 
+		 will be assumed to be present.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/DESCRIPTOR</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M 
+		 
+		<br/> </td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">RPT_CRD_ 
+		 
+		<br/>AVG_MARK_ 
+		<br/>HEADER. 
+		<br/>DESCRIPTOR</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Indicates 
+		 what type of calculation is collected under the current tag set:</p>
+		<p>A – Average Mark, valid only when SUBMISSION_PERIOD_TYPE.AVG_MARK_DATA_FLAG 
+		 = “T”</p>
+		<p>  </p>
+		<p>M – Median Mark , valid only when SUBMISSION_PERIOD_TYPE.MEDIAN_DATA_FLAG 
+		 = “T”</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>CR</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">N/A</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>This 
+		 is the outer tag for Submitting Subject Strand specific Average 
+		 Marks/Median Marks for the above specified Grade.</p>
+		<p> </p>
+		<p>When the ACTION of AVG_REPORT_CARD_GRADE is “ADD”,”UPDATE” and 
+		 the value of NA_FLAG is “F” this element is mandatory.</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND/ACTION</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">M</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">N/A</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>This 
+		 is the action associated with this submission</p>
+		<p>Value: “ADD” “UPDATE” “DELETE”</p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND/SUBJECT_STRAND_CODE</p>
+		<p> </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>M</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>RPT_CRD_AVG_</p>
+		<p>MARK_SUBJ.SUBJ_</p>
+		<p>STRND_TYPE_ID</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Identifies 
+		 Subject/Strand entry. It has to be the value consistent with lookup 
+		 table SUBJ_STRND_TYPE.</p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND/AVG_MARK_R1</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>RPT_CRD_AVG_</p>
+		<p>MARK_SUBJ.</p>
+		<p>RPT_CRD_AVG_</p>
+		<p>MARK_R1  </p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Represents 
+		 a calculation for the reporting period 1 for all students in the 
+		 school, in this grade, for this subject/strand, based on the DESCRIPTOR.</p>
+		<p>Values: 0-100</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t1Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND/AVG_MARK_R2</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O 
+		 
+		<br/> </td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>RPT_CRD_AVG_</p>
+		<p>MARK_SUBJ.</p>
+		<p>RPT_CRD_AVG_</p>
+		<p>MARK_R2</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Represents 
+		 a calculation for the reporting period 2, for all students in 
+		 the school, in this grade, for this subject/strand, based on the 
+		 DESCRIPTOR.</p>
+		<p>Values: 0-100</p>
+		<p> </p></td>
+	</tr>
+	<tr class="t2Row" style="height: 39px;">
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/AVG_REPORT_CARD_GRADE/SUBJECT_</p>
+		<p>STRAND/AVG_MARK_R3</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;">O</td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>RPT_CRD_AVG_</p>
+		<p>MARK_SUBJ.</p>
+		<p>RPT_CRD_AVG_</p>
+		<p>MARK_R3</p></td>
+		<td style="border-bottom-width: 1px; border-right-width: 1px;"><p>Represents 
+		 a Average Marks for the reporting period 3, for all students in 
+		 the school, in this grade, for this subject/strand, based on the 
+		 DESCRIPTOR.</p>
+		<p>Values: 0-100</p>
+		<p> </p>
+		<p>*not used for Median Mark. Ignore the field if it’s submitted 
+		 for Median Mark</p>
+		<p> </p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<p> </p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>

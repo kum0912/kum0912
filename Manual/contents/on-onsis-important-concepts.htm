@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>OnSIS important concepts</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS"/>
+</head>
+
+<body>
+
+
+
+<h1>OnSIS important concepts</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p></p>
+ <p> </p>
+<p><a href="#All_students_need_OENs">All students need OENs</a></p>
+<p><a href="#Identify">Identify potential OnSIS errors/warnings</a></p>
+<p><a href="#Educators_must_be_updated_in_OnSIS">Educators must be updated 
+ in OnSIS</a></p>
+<p><a href="#Get_extract_files_from_OnSIS_before_submitting_batch_files">Get 
+ extract files from OnSIS before submitting</a></p>
+<p><a href="#Setup_card">Setup card</a></p>
+<p><a href="#Purge_check_boxes">Purge check boxes</a></p>
+<p><a href="#Updating_data">Updating data in OnSIS using the Create</a></p>
+<p style="margin-left: 40px;"><a href="#Step_1">Step 1: In SIS, create 
+ batch file</a></p>
+<p style="margin-left: 40px;"><a href="#Step_2">Step 2: In OnSIS, upload 
+ batch file</a></p>
+<p style="margin-left: 40px;"><a href="#Step_3">Step 3: In SIS, process 
+ results</a></p>
+<p><a href="#After_submitting_batch_files">Sign off in OnSIS</a></p>
+<p> </p>
+<h3><a name="All_students_need_OENs" id="All_students_need_OENs"></a>All 
+ students need OENs</h3>
+<p>All publicly funded students should have a Ministry assigned Ontario 
+ Education Number. All privately funded secondary student attending an 
+ inspected Ontario secondary school also require OENs.  When OnSIS 
+ collects elemental student data, the OEN is used to identify they student. 
+ Private elementary schools report aggregate rather than elemental student 
+ data because these students do not have OENs.</p>
+<p> </p>
+<p>The Ontario reporting &gt; Ontario Education Numbers (OEN) option has 
+ tools to assist with identifying students without OENs, requesting OENS 
+ from the Ministry and importing those OENs into the students’ records:</p>
+<p> </p>
+<p><a href="on-oen-students-no-oen.htm">Students without OENS</a></p>
+<p><a href="on-oen-request-oens.htm">Request OENs from the Ministry</a></p>
+<p><a href="on-import-oen.htm">Import OENs</a></p>
+<p> </p>
+<p>There is also a tool to validate the OENs in the students records against 
+ the OnSIS data, allowing OEN issues to be identified prior to submitting 
+ data to OnSIS:</p>
+<p> </p>
+<p><a href="on-oen-validate-oen-onsis.htm">Validate OENs in OnSIS</a></p>
+<p> </p>
+<h3><a name="Identify" id="Identify"></a>Identify potential OnSIS errors/warnings 
+ at any time</h3>
+<p>In preparation for OnSIS submissions, schools are encouraged to run 
+ pre-validation reports to identify any errors/warnings that may be problematic 
+ when submitting batch files to OnSIS. Use the Pre-validation option located 
+ in each submission period to generate these reports.  </p>
+<p> </p>
+<h3><a name="Educators_must_be_updated_in_OnSIS" id="Educators_must_be_updated_in_OnSIS"></a>Educators 
+ must be updated in OnSIS</h3>
+<p>When creating batch files that include the teacher of the class, the 
+ teacher’s MEN# in the SIS is used to identify the teacher in the file. 
+ Every educator in the SIS must have a MEN# in their staff record. OnSIS 
+ also requires the teacher’s position code in the batch file, and this 
+ code must match the code in OnSIS.  By updating the educators in 
+ OnSIS before getting extracts, the SIS can use the matching position code 
+ found in the extract. See Update educators in OnSIS for more info.</p>
+<p> </p>
+<h3><a name="Get_extract_files_from_OnSIS_before_submitting_batch_files" id="Get_extract_files_from_OnSIS_before_submitting_batch_files"></a>Get 
+ extract files from OnSIS before submitting batch files</h3>
+<p>Before creating any batch files in the SIS, extract files need to be 
+ created in the Ministry’s OnSIS application, and these files need to be 
+ saved in edsembli’s file manager. Extracts are used to determine whether 
+ to send an add or update instruction in the batch file created by the 
+ SIS.  See Get extracts for OnSIS for more info.</p>
+<p> </p>
+<h3><a name="Setup_card" id="Setup_card"></a>Setup card  </h3>
+<p>Each submission period includes a setup card. This card will provide 
+ quick access to the file manager location where the OnSIS extracts, batch 
+ files, and results files are stored for the submission.  </p>
+<p> </p>
+<p><span style="color: #007fff;">Extract files</span>: these are the CSV 
+ files that come from OnSIS. They provide info about the state of the OnSIS 
+ data.</p>
+<p> </p>
+<p><span style="color: #007fff;">Batch files</span>:  these are the 
+ XML files that the SIS creates. They provide add/update instructions so 
+ that OnSIS can update their data to match the data in the SIS. These files 
+ are created by the SIS and are uploaded to OnSIS for processing.</p>
+<p> </p>
+<p><span style="color: #007fff;">Results files</span>: these are OUT files 
+ that OnSIS creates when the batch files are processed. They provide info 
+ about whether the file is processed successfully or with errors/warnings. 
+ These files are downloaded from OnSIS and then processed by the SIS to 
+ create an easy to read PDF file of the results.</p>
+<p> </p>
+<p>Select any of the folder icons to quickly access those files in file 
+ manager.</p>
+<p> <img src="assets/images/onsis2.png" alt="" style=" border:none; width:100%; max-width:776px;" border="0"/></p>
+<p> </p>
+<p>The setup may also contain options that may influence the OnSIS batch 
+ files, so it is good practice to check this option before starting any 
+ new submission period. See Setup for more info.</p>
+<p> </p>
+<h3><a name="Purge_check_boxes" id="Purge_check_boxes"></a>Purge check 
+ boxes</h3>
+<p>Purge check boxes appear when creating batch files. They are an important 
+ concept to understand, and using them is the only way to send files again 
+ using the original extracts. When the box is checked, an instruction is 
+ included in the batch file to tell OnSIS to reset specific data in OnSIS 
+ back to the state it was in when the submission period was first opened. 
+ This ‘purge and prepopulate’ instruction is processed by OnSIS before 
+ the contents of the batch file are processed. It does not return ALL the 
+ data to its original form, but just the data in the section you are working 
+ with.</p>
+<p> </p>
+<p>The purge box is generally selected if you are re-submitting a batch 
+ file so that the contents of the previously submitted batch file are cleared, 
+ and the data is reset for another attempt.</p>
+<p> </p>
+<p><img src="assets/images/onsis3.png" alt="" style=" border:none; width:100%; max-width:448px;" border="0"/></p>
+<p> </p>
+<p>When the purge box is checked, you may notice the purge box automatically 
+ checked for other file options as well.  Depending upon the file type, 
+ other data may be impacted and automatically purged.  </p>
+<p> </p>
+<p><img src="assets/images/onsis4.png" alt="" style=" border:none; width:100%; max-width:425px;" border="0"/></p>
+<p> </p>
+<p>In order to better understand the purge process, it is important to 
+ understand the relationship in the way the data is stored in the Ministry’s 
+ OnSIS application.  Sometimes you will find references to Parent entries 
+ vs Child entries.  Each student in OnSIS typically has a parent entry 
+ and multiple child entries.  Unfortunately, the parent/child terminology 
+ is a computing terminology and is not related to the student’s family 
+ (OnSIS does not collect parental information).  The Parent refers to the 
+ student, and the Child refers to different portions of data collected 
+ for the student (e.g. class enrolment, special education, second language 
+ data, etc are all “child”records). </p>
+<p> </p>
+<p>If you select a purge flag that affects a parent entry, it will automatically 
+ affect the child entries as well.  If a student starts your school during 
+ a submission period, the batch file will “add the student into OnSIS.  If 
+ the student is enrolled in a second language program, a subsequent batch 
+ file will add the second language program information into OnSIS.  If 
+ you purge the student, the second language data will automatically be 
+ removed as well.</p>
+<p> </p>
+<p>Additional warnings will appear when these purge check boxes are selected 
+ to clearly identify what data would be impacted.</p>
+<p> </p>
+<p><img src="assets/images/onsis5.png" alt="" style=" border:none; width:100%; max-width:692px;" border="0"/></p>
+<p> </p>
+<p>For elementary and secondary school submissions, there is a check box 
+ to “Purge and Pre-populate ALL OnSIS data” which may be checked when creating 
+ the Class List batch file.  If this box is selected, the entire submission 
+ period is purged and pre-populated, enabling you to restart the entire 
+ submission period over again.  Please note that this will remove any changes 
+ made in OnSIS, including educator data that may have been updated manually 
+ or submitted by another application (e.g. a HR system).</p>
+<p> </p>
+<p><img src="assets/images/onsis6.png" alt="" style=" border:none; width:100%; max-width:705px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<h3><a name="Updating_data" id="Updating_data"></a>Updating data in OnSIS 
+ using the ‘Create/Upload/Process’ cycle</h3>
+<p>Data in OnSIS is updated through the process of creating batch files 
+ in the SIS, uploading those batch files to OnSIS, and then processing 
+ the results generated by OnSIS (analyzing the errors/warnings). These 
+ 3 basic steps are repeated until all the data is submitted and is accurate. 
+ Since files need to be transferred between the SIS and OnSIS, the steps 
+ may seem a little more complicated until you are comfortable uploading 
+ and downloading files.</p>
+<p> </p>
+<p><img src="assets/images/onsis7.png" alt="" style=" border:none; width:100%; max-width:715px;" border="0"/></p>
+<p> </p>
+<h3><a name="Step_1" id="Step_1"></a>Step 1:  In SIS, create batch 
+ file</h3>
+<p>Select the CREATE button on the cards to create the OnSIS batch files. 
+ Submit the data in the order of the cards, and typically, wait until you 
+ are finished working with the info on one card before moving to the next 
+ card. For example, sending SHSM data (using the Other info option) before 
+ the student exists in OnSIS will cause errors.  </p>
+<p> </p>
+<p><img src="assets/images/onsis8.png" alt="" style=" border:none; width:100%; max-width:774px;" border="0"/></p>
+<p> </p>
+<p>You&#39;ll see a similar form for each CREATE option.</p>
+<p> </p>
+<p><img src="assets/images/onsis9.png" alt="" style=" border:none; width:100%; max-width:776px;" border="0"/></p>
+<p> </p>
+<p>The board has access to the OnSIS functionality. Creating files with 
+ multiple schools is recommended when the board does the OnSIS reporting 
+ rather than the schools. Even though the file has multiple schools, the 
+ OnSIS generated errors/warnings can also be parsed by schools when processing 
+ the results file.  If creating the files from the board, the standard 
+ ‘Selected schools’ card will appear at the bottom as shown here:</p>
+<p> </p>
+<p><img src="assets/images/onsis10.png" alt="" style=" border:none; width:100%; max-width:722px;" border="0"/>  </p>
+<p> </p>
+<p>When the board creates the batch files, there is a check box to ‘Create 
+ separate file for each selected school’. If this box is checked, it will 
+ create PDF files for each school’s PDF report of warnings/errors.  </p>
+<p> </p>
+<p>After selecting the appropriate CREATE button, follow these steps to 
+ create the file:</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Check the Create file box beside the desired OnSIS batch file or 
+	 files to be created. Although multiple batch files may be selected, 
+	 where possible, one file will be created.</li>
+	<li>If you have previously submitted this file to OnSIS, select the 
+	 Purge box for the file(s).</li>
+	<li>Examine the Notes column. Extract not found will appear if an extract 
+	 is required but the extract has not been loaded into file manager. 
+	 Hint: select the folder icon beside ‘location of extract files’ to 
+	 see the extracts.  </li>
+	<li>Set other options on the form as needed. Use the Help icon on each 
+	 page for details on these options.</li>
+	<li>Select the CREATE BATCH FILE option.</li>
+</ol>
+<p> </p>
+<p>Once the report has been submitted to the task queue, you may leave 
+ this application or generate other batch files. You will receive notification 
+ when your file is ready. The created batch files are XML files, and they 
+ will be saved in file manager under Provincial &gt; OnSIS &gt; Batch files 
+ &gt; ‘name of submission period’ (e.g. March). Hint: quickly see the generated 
+ files by selecting the folder icon beside ‘location of batch files’ on 
+ the file creation form.</p>
+<p> </p>
+<p>When the batch file is created, a PDF file will also be generated if 
+ any potential errors or warnings have been found. These reports provide 
+ an opportunity to correct the data in the SIS before submitting the data. 
+ After making corrections in the SIS, repeat step 1 (recreate the batch 
+ file).  </p>
+<p> </p>
+<h4>Download XML file</h4>
+<p>Before files can be submitted to OnSIS, they need to be downloaded from 
+ file manager in the SIS. Follow these instructions to download a batch 
+ file(s) to a secure location on your local network.</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Select File Manager (from the main menu). Hint: you can click the 
+	 folder icon on the Create batch file form or on the Setup option (to 
+	 open file manager at the correct location so you can skip step 2).</li>
+	<li>From the Location card, open the folder tree to Provincial &gt; 
+	 OnSIS &gt; Batch files &gt; October (or the submission period you 
+	 are working on).  The Files card will show this location along 
+	 with the files in this location.<br/>
+	<br/>
+	<img src="assets/images/onsis11.png" alt="" style=" border:none; width:100%; max-width:720px;" border="0"/><br/>
+	</li>
+	<li>Select (row click) the file to access the Download option.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"> <img src="assets/images/onsis12.png" alt="" style=" border:none; width:100%; max-width:259px;" border="0"/></p>
+<p> </p>
+<p>The file will download based on your browser’s settings. Settings typically 
+ control the location of the downloads and whether it asks where to save 
+ each file before downloading.</p>
+<p> </p>
+<h3><a name="Step_2" id="Step_2"></a>Step 2:  In OnSIS, upload batch 
+ file  </h3>
+<p>Once the files are downloaded from the SIS, they need to be submitted 
+ (uploaded) into OnSIS by following these steps:</p>
+<p>  </p>
+<ol style="list-style: decimal;">
+	<li>Within the Ministry’s OnSIS application, go to Data Collection 
+	 and then select the Upload Batch file under the School Data Submission 
+	 area).<br/>
+	<br/>
+	<img src="assets/images/onsis13.png" alt="" style=" border:none; width:100%; max-width:602px;" border="0"/><br/>
+	</li>
+	<li>Click the Browse button to select the batch file created by the 
+	 SIS.Typically, the Pre-scan option is not selected. If selected, you 
+	 can see the errors that may be generated by the batch file, without 
+	 actually having the contents of the batch file applied to the data 
+	 in OnSIS.<br/>
+	<br/>
+	<img src="assets/images/onsis14.png" alt="" style=" border:none; width:100%; max-width:599px;" border="0"/></li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;">Note any references to maximum size. Boards 
+ creating batch files with multiple schools may need to zip the file prior 
+ to submitting it.</p>
+<p> </p>
+<ol start="3" style="list-style: decimal;">
+	<li>Once you have browsed for the file (and it appears in the box), 
+	 select the Submit File button. A message will appear indicating that 
+	 it has been successfully submitted along with a button to upload another 
+	 file.<br/>
+	</li>
+	<li>Due to the confidential info in the batch files, consider removing 
+	 the downloaded batch files from your local network. From the Ministry’s 
+	 OnSIS applicaton, go to the Data Collection &gt; View/Download Batch 
+	 Results (from the School Data Submission section). The batch files 
+	 will appear along with the status of Queue, Processing, or Processed.<br/>
+	<br/>
+	<img src="assets/images/onsis15.png" alt="" style=" border:none; width:100%; max-width:596px;" border="0"/><br/>
+	</li>
+</ol>
+<p style="margin-left: 40px;"><span style="font-style: italic;">Note: the 
+ status will not automatically update unless you refresh the page (press 
+ F5) or select the option again from the menu. Depending on the volume 
+ of submissions to the OnSIS site, it may take some time before the file 
+ is processed. OnSIS will send an email message once the file is processed.</span></p>
+<p> </p>
+<ol start="5" style="list-style: decimal;">
+	<li>When the file is processed, click on the file name (it is a link) 
+	 to see a summary of the processing results:</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"> <img src="assets/images/onsis16.png" alt="" style=" border:none; width:100%; max-width:600px;" border="0"/></p>
+<p> </p>
+<ol start="6" style="list-style: decimal;">
+	<li>Scroll to the bottom of the page. Select the “Download Results” 
+	 button, NOT the “Error details” button.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/onsis17.png" alt="" style=" border:none; width:100%; max-width:606px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p style="margin-left: 40px; font-style: italic;">Note: Download results 
+ button will save an OUT file. Error details button will save a HTML file 
+ which is very paper intensive and does not provide the detail to assist 
+ in resolving the error.</p>
+<p> </p>
+<p> </p>
+<ol start="7" style="list-style: decimal;">
+	<li>When you select the Download results button, a prompt will appear 
+	 to open or save the report. Select the Save button and make note of 
+	 where you are saving the file.  If the file name does not end 
+	 with OUT, cancel and make sure you have selected Download results, 
+	 not Error Details.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/onsis18.png" alt="" style=" border:none; width:100%; max-width:520px;" border="0"/></p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-style: italic;">Hint:  technical 
+ users may open the OUT file and use CTRL &amp; F to search for RESULT&gt;F. 
+ This will take you directly to the error, and you can see the contents 
+ of each element in the file to assist in determining the source of the 
+ error.</span>  </p>
+<p> </p>
+<h3><a name="Step_3" id="Step_3"></a>Step 3: In SIS, process results</h3>
+<p> </p>
+<p>Once a batch file has been submitted to OnSIS, the file will be ‘processed’ 
+ by OnSIS. The results of this processing will be saved in an OUT file, 
+ and it may contain important info about errors/warnings that should be 
+ analyzed. By processing this file in the SIS, a report is generated that 
+ clearly provides the results in a concise and easy to read format. If 
+ multiple schools were included in the file, separate reports may be optionally 
+ created for each school for distribution to the schools for data correction.</p>
+<p> </p>
+<p style="font-weight: bold;">i. Add OUT file to file manager</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Select File Manager (from the main menu). Hint: you can click the 
+	 folder icon on the form that appears when you select any PROCESS  button, 
+	 or on the Setup option (to open file manager at the correct location 
+	 so you can skip step 2).</li>
+	<li>From the Location card, open the folder tree to Provincial &gt; 
+	 OnSIS &gt; Results &gt; October (or the submission period you are 
+	 working on).  The Files card will show this location along with 
+	 the files (if any) in this location.<br/>
+	<br/>
+	<img src="assets/images/onsis19.png" alt="" style=" border:none; width:100%; max-width:866px;" border="0"/><br/>
+	</li>
+	<li>Select the Add icon in the Files app bar.</li>
+	<li>Browse to find the OUT file downloaded from OnSIS, then open it. 
+	 This will add the file to file manager.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/onsis20.png" alt="" style=" border:none; width:100%; max-width:900px;" border="0"/></p>
+<p style="font-weight: bold;"> </p>
+<p style="font-weight: bold;"> </p>
+<p style="font-weight: bold;">ii. Process file</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Select the PROCESS RESULTS button located on any of the cards used 
+	 to create the OnSIS batch files for this submission period.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/onsis8.png" alt="" style=" border:none; width:100%; max-width:774px;" border="0"/></p>
+<p> </p>
+<p style="margin-left: 40px;">The same form will be presented regardless 
+ of which PROCESS RESULTS button was selected.</p>
+<p> </p>
+<p> </p>
+<ol start="2" style="list-style: decimal;">
+	<li>Select the box beside the file to be processed.<br/>
+	</li>
+	<li>If the board is processing a file that contains multiple schools, 
+	 select the option to Create individual PDF files for selected schools 
+	 (handy if the results are being distributed to the schools for correction) 
+	 or Create one PDF file selected schools.<br/>
+	</li>
+	<li>Select the PROCESS RESULTS FILE button on the bottom bar.  Once 
+	 the report has been submitted to the task queue, you may leave this 
+	 application or process other result files. You will receive notification 
+	 when your file is ready. The reports will be in PDF format, and they 
+	 will be saved in file manager under Provincial &gt; OnSIS &gt; Results 
+	 &gt; ‘name of submission period’ (e.g. March).  </li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;">Hint: quickly see the generated files by 
+ selecting the folder icon on the form. As well, when the form is loaded, 
+ if the file has a PDF, then it will appear on the form with a download 
+ icon.<br/>
+<br/>
+<img src="assets/images/onsis21.png" alt="" style=" border:none; width:100%; max-width:297px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<ol start="5" style="list-style: decimal;">
+	<li>Optionally select the VIEW SUMMARY to see how many records were 
+	 submitted/processed/rejected. <span style="color: #ff00ff;"></span>    
+	</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"> <img src="assets/images/onsis22.png" alt="" style=" border:none; width:100%; max-width:478px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p style="font-weight: bold;">iii. Download PDF file</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Select File Manager (from the main menu). Hint: you can click the 
+	 folder icon on the Create batch file form or on the Setup option (to 
+	 open file manager at the correct location so you can skip step 2).</li>
+	<li>From the Location card, open the folder tree to Provincial &gt; 
+	 OnSIS &gt; Results &gt; October (or the submission period you are 
+	 working on).  The Files card will show this location along with 
+	 the files in this location. The reports are the files that end with 
+	 PDF.</li>
+	<li>Select (row click) the PDF file to access the Download option.</li>
+</ol>
+<p style="margin-left: 40px;"><img src="assets/images/onsis12.png" alt="" style=" border:none; width:100%; max-width:259px;" border="0"/></p>
+<p> </p>
+<p>The file will download based on your browser’s settings. Settings typically 
+ control the location of the downloads and whether it asks where to save 
+ each file before downloading.</p>
+<p> </p>
+<p>Here are some example reports. Please note that the error messages are 
+ provided by OnSIS, and the PDF files generated by the SIS are simply formatting 
+ the errors returned from OnSIS.</p>
+<p> </p>
+<p> <img src="assets/images/onsis23.png" alt="" style=" border:none; width:100%; max-width:526px;" border="0"/></p>
+<p> </p>
+<h4>iv.  Fix data if needed</h4>
+<p>Based on the results returned from OnSIS, make the needed corrections 
+ to the data in the SIS. If you are unsure what to fix, from the Create 
+ form of the batch file, access the help to see detailed descriptions of 
+ what info is included in each field in the file. The fields (aka tags 
+ in the xml file) will appear in the response file along with the error/warning. 
+  Example fields are GRADE_TYPE, FTE, MINISTRY_DEFND_CRS.</p>
+<p> </p>
+<p> </p>
+<h3><a name="After_submitting_batch_files" id="After_submitting_batch_files"></a>After 
+ submitting batch files  </h3>
+<p>After all the data has been updated in OnSIS, all the errors and warnings 
+ have been addressed to the best of your knowledge, you must log into OnSIS 
+ and start the OnSIS sign-off process for the submission period.  The 
+ school must sign-off and then the board must sign-off the school. The 
+ sign-off process will run a validation report to ensure that the data 
+ is error free, and will run verification reports that are checked to see 
+ that numbers and totals are accurate.  The numbers in these OnSIS 
+ generated reports should agree with the numbers generated in corresponding 
+ reports in the SIS:</p>
+<p> </p>
+<p style="color: #000000;"><a href="on-onsis-verification-reports.htm">Verification 
+ reports</a></p>
+<p style="color: #000000;"><a href="on-onsis-verification-reports.htm">More 
+ verification reports</a></p>
+<p> </p>
+<p>For more information on the sign-off process in OnSIS, see Sign-off.</p>
+<p> </p>
+<p>Once the sign-off process has completed, the data is locked in OnSIS 
+ so that it may not be changed.  OnSIS provides a Request Data Correction 
+ option, if a submission period needs to be re-opened.  Re-opened 
+ submissions will need to go through the complete sign-off process again 
+ after the data correction has been made.</p>
+<p> </p>
+<p>For most submission periods, the sign-off process represents the end 
+ of the OnSIS submission period.  From the Ministry’s perspective, 
+ the submission period is done, and the user has nothing further to do 
+ until the next OnSIS submission period opens.  </p>
+<p> </p>
+<p>The October and March secondary school submission periods have one last 
+ step to perform after signing-off. By doing this step immediately after 
+ sign-off, the next onSIS submission period will avoid unnecessary errors. 
+ See <a href="on-onsis-pop-onsis-class-code.htm">Populate OnSIS class code</a>.</p>
+<p> </p>
+<p> </p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>

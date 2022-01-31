@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Payments</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Student records &gt; Fees &gt; Summary tab &gt; Payment credits"/>
+</head>
+
+<body>
+
+
+<h1><a id="Payments_overview"></a>Payments</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p> </p>
+<p>When someone gives the school funds for a specific student, those funds 
+ are considered payments. Typically, each payment is associated with a 
+ specific fee or multiple fees. Sometimes, payments are made that aren’t 
+ linked to any fees, and these are called payment credits (e.g. if a payment 
+ is made before a fee is applied).</p>
+<p> </p>
+<p>If a student owes $5 for a new lock, $20 for an activity fee, and $50 
+ for a field trip, here are some examples of how payments affect fees and 
+ outstanding account balances:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>The student pays $5 cash. That $5 is automatically associated with 
+	 the lock fee and that lock fee is considered paid in full.<br/>
+	</li>
+	<li>The student then provides a $30 cheque. That cheque is automatically 
+	 associated with the full $20 activity fee (so it is paid in full), 
+	 and it is also used to pay $10 toward the field trip (leaving $40 
+	 outstanding for the field trip).<br/>
+	</li>
+	<li>The student then provides another cheque for $50. That cheque 
+	 is associated with the outstanding $40 for the field trip.  The 
+	 extra $10 payment becomes a payment credit that can be applied later 
+	 when new fees are added, or it can be refunded.<br/>
+	</li>
+	<li>The parent provides an e-fund payment of $100, knowing that the 
+	 student is going to have hockey fees. That $100 becomes a payment 
+	 credit because it is not associated with any fees.<br/>
+	</li>
+	<li>The school adds the hockey fee of $125.  When the fee is added, 
+	 it will suggest that the $110 in payment credits is used to pay this 
+	 fee, and if this is done, the hockey fee balance will be $15.</li>
+</ul>
+<p> </p>
+<p>Payments appear on Account Bills and other similar reports as a P, with 
+ their respective receipt number.</p>
+<p> </p>
+<h2><a id="Add_a_payment"></a>Add a payment</h2>
+<p>You can make a payment using any of these methods :</p>
+<p> </p>
+<ol style="list-style: upper-alpha;">
+	<li style="font-weight: bold;"><p style="font-weight: bold;">Access 
+	 the student&#39;s record, and select SUMMARY or FEE TRANSACTION tab.  Click 
+	 the FAB and select the Add payment icon:</p></li>
+</ol>
+<p> </p>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/fees-unpaid-payment-menu1.png" alt="" style=" border:none; width:100%; max-width:64px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>  </p>
+<ol start="2" style="list-style: upper-alpha;">
+	<li style="font-weight: bold;"><p style="font-weight: bold;">Access 
+	 the student&#39;s record, and select the SUMMARY tab. Row click a fee 
+	 and select Payment from the menu:</p></li>
+</ol>
+<p style="font-weight: bold;"> </p>
+<p style="font-weight: bold; margin-left: 40px;"><img src="assets/images/fees-unpaid-payment-menu.png" alt="" style=" border:none; width:100%; max-width:256px;" border="0"/></p>
+<p style="font-weight: bold;"> </p>
+<p> </p>
+<ol start="3" style="list-style: upper-alpha;">
+	<li style="font-weight: bold;">Choose Fees, Student fees. Select GO 
+	 on the Payment card. </li>
+</ol>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/payment-card.png" alt="" style=" border:none; width:100%; max-width:190px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;">This is a quick way to record a payment - 
+ one student at a time - without going into the student’s record. Once 
+ you select a student, the Add payment form will open.  </p>
+<p> </p>
+<p> </p>
+<ol start="4" style="list-style: upper-alpha;">
+	<li style="font-weight: bold;"><a href="fees-group-fees.htm">Group 
+	 fees</a>?<span> </span></li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;">Select all or some of the students in the 
+ group to record the same payment information.  </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 0px;">Here is the Add payment form:</p>
+<p> </p>
+<p><img src="assets/images/add-payment.png" alt="" style=" border:none; width:100%; max-width:652px;" border="0"/></p>
+<p> </p>
+<p>There will be a slightly different Add payment form if the student has 
+ payment credits.</p>
+<p> </p>
+<p>Since payments should be associated with fees, a Fees card will appear 
+ listing all outstanding fees. The sum of these fees will appear in the 
+ tool bar. The fees card is used when the amount of the payment is entered. 
+  You&#39;ll see these fields:</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Amount</span>:  The 
+ dollar amount of the payment.  If there is a fee matching the amount, 
+ it will automatically have a check in the box beside that fee in the Fees 
+ card.  If there is no exact match, it will apply the fee to the most 
+ overdue fee (if due dates are not used, it will use the fee with the oldest 
+ transaction date).  It will apply to as many fees as needed, until 
+ the entered payment amount is used up/dispersed. The amount applied to 
+ each fee will appear in the ‘Amount to apply’ column so that the sum of 
+ this column equals the amount entered in this field. The check boxes and 
+ the amount to apply fields may be changed if the automatic association 
+ is not the desired distribution of payment.</p>
+<p> </p>
+<p>Alternately, if someone wishes to pay some of their fees, but they don’t 
+ know the sum, check the boxes of the fees to be paid, adjust the ‘amount 
+ to apply’ if only part of a fee is to be paid, then watch the Amount field 
+ automatically adjust to the selected fees and amounts.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Date</span>:  The 
+ date of the payment (it will default today’s date).</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Payment type</span>: 
+  Select the type from the list of possible types.  Example types 
+ might be Cash, Cheque, E-payment, etc.  See Setup payment types for 
+ additional information.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Receipt number</span>: 
+  The receipt number is automatically assigned, but if needed, it 
+ can be changed to any alphanumeric value as long as it is a unique number. 
+  The application will automatically default the next available receipt 
+ number based on the starting receipt number set up for the school.  See 
+ Setup ….</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Cheque/Slip number</span>: 
+  If applicable, optionally record a number corresponding to the number 
+ on the cheque or other document provided for payment. This can provide 
+ useful when tracking down NSF cheques.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Comment bank</span>: 
+  (Only available if the school has set up a list of comments (see 
+ Setup ….)).  Rather than enter a unique comment in the Comment field, 
+ you may optionally select a comment from the school’s list of pre-defined 
+ comments.  To use this feature, first select the drop down arrow 
+ to pick the desired comment.  Then select the Copy icon located to 
+ the right of the field.  The selected comment will then appear in 
+ the comment field.<br/>
+<br/>
+<img src="assets/images/comment-bank.png" alt="" style=" border:none; width:100%; max-width:351px;" border="0"/></p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Comments</span>:  A 
+ comment may be optionally entered when adding a new payment.</p>
+<p> </p>
+<p style="font-style: italic;">Note: Payments can be made even if no fees 
+ are listed.  See Payment credits for details.</p>
+<p style="font-style: italic;"> </p>
+<h3><a id="Edit_a_payment"></a>Edit a payment</h3>
+<p style="color: #ff00ff;">Once a you make a payment you can make changes, 
+ but there are some rules:</p>
+<p style="color: #ff00ff;"> </p>
+<ul style="list-style: disc;">
+	<li style="color: #ff00ff;"><span>Edits to the payment date, payment 
+	 type, Cheque/Slip No. and comment </span><span style="font-weight: bold;">are</span><span> 
+	 permitted.<br/>
+	</span></li>
+	<li style="color: #ff00ff;"><span>Edits to the amount of the payment 
+	 are </span><span style="font-weight: bold;">not</span><span> allowed. 
+	  If the payment was reversed due to a non-sufficient funds payment 
+	 (e.g. NSF cheque), see NSF (Non-sufficient funds) payments. If 
+	 the amount of the payment was entered incorrectly, void this payment 
+	 and then create a new payment. See Voiding payments for details.<br/>
+	</span></li>
+	<li><span style="color: #ff00ff;">If  the payment resulted in 
+	 a payment credit where a refund was issued, the payment </span><span style="font-weight: bold; color: #ff00ff;">cannot</span><span style="color: #ff00ff;"> 
+	 be voided or considered NSF.  If the refund was issued in error, 
+	 it </span><span style="font-weight: bold; color: #ff00ff;">may</span><span style="color: #ff00ff;"> be voided, and then the payment can be voided 
+	 or considered NSF.</span><br/>
+	</li>
+</ul>
+<h3><a id="Void_a_payment"></a>Void a payment</h3>
+<p style="color: #ff00ff;">Voids can be used to delete payments and refunds 
+ only. Voids will not appear on the student’s record or any reports. There 
+ is however an audit trail, and there is a record of this in the database 
+ for audit purposes if needed.</p>
+<p style="color: #ff00ff;"> </p>
+<p style="color: #ff00ff;">A payment can be voided by following these steps:</p>
+<p style="color: #ff00ff;"> </p>
+<p style="color: #ff00ff;">• Access the student&#39;s record, and select the 
+ FEE TRANSACTIONS tab. Row click a fee and select Payment from the menu:</p>
+<p style="color: #ff00ff;">Go to the TRANSACTIONS tab. Select the row that 
+ contains the payment.  This will provide a menu of options, including 
+ a VOID option which will prompt a message to confirm that the payment 
+ is to be voided.  To prevent accidental removal of payments, the 
+ Void option is only available from the Transactions view.</p>
+<p style="color: #ff00ff;"> </p>
+<p style="font-weight: normal; color: #ff00ff;"> </p>
+<p style="color: #ff00ff;">Note:  If  the payment resulted in 
+ a payment credit where a refund was issued, the payment cannot be voided. 
+  If the refund was issued in error, it may be voided, and then the 
+ payment can be voided.</p>
+<p> </p>
+<h3><a id="NSF"></a>NSF (Non-sufficient funds) payments </h3>
+<p>If a payment was made by cheque, and there is not enough money in the 
+ cheque writer’s bank account to cover the amount, then the cheque is considered 
+ NSF. Therefore, the school does not actually receive the funds and the 
+ original payment record needs to be reversed so that the student still 
+ owes the money.</p>
+<p> </p>
+<p>Follow these steps when a payment is considered NSF:</p>
+<p> </p>
+<p>• Go to the TRANSACTIONS tab.  Select the row that contains the 
+ payment.  This will provide a menu of options.  Select the Edit 
+ option.</p>
+<p> </p>
+<p>• From the Edit payment form, select the NSF icon in the tool bar.</p>
+<p> </p>
+<p>• At the confirmation message, select the REVERSE button:</p>
+<p> </p>
+<p>Reversals appear on Account Bills and other similar reports as a N, 
+ with their respective receipt number.  Labelling the payment as NSF 
+ will create a reversal adjustment transaction as shown here:</p>
+<p>  </p>
+<p>Note:  If  the payment resulted in a payment credit where 
+ a refund was issued, the payment cannot be considered NSF.  If the 
+ refund was issued in error, it may be voided, and then the payment can 
+ be considered NSF.</p>
+<p> </p>
+<p> </p>
+<h2><a id="Payment_credits"></a>Payment credits </h2>
+<p>Payment credits displays the total amount of money that is in the student’s 
+ account but that money is not yet associated with any fees.  This 
+ is typically the result of overpayments that a student has made or if 
+ a charge has been edited such to result in a surplus for a student the 
+ amount is automatically categorized as a Payment Credit.</p>
+<h3>How payment credits are created</h3>
+<p>Here is an example of a situation where a payment credit is created:</p>
+<p> </p>
+<p>• The parent provides an e-fund payment of $100, knowing that the student 
+ is going to have hockey fees. That $100 becomes a payment credit because 
+ it is not associated with any fees.</p>
+<p> </p>
+<p>Here’s the add payment form when the student has no outstanding (unpaid) 
+ fees:</p>
+<p> </p>
+<p>Upon saving, the following dialogue will be presented :</p>
+<p>The amount you have entered is greater than the amount you have applied 
+ to fees.  The excess payment will become a payment credit which can 
+ be applied to future fees or refunded.</p>
+<p>                                                                  FIX 
+ PAYMENT      CREATE PAYMENT CREDIT</p>
+<p> </p>
+<p>Here’s the add payment form when the student has outstanding (unpaid) 
+ fees, but the payment is more than the amount applied to fees:</p>
+<p> </p>
+<p>As previously mentioned, payment credits are typically the result of 
+ overpayments that a student has made or if a charge has been edited such 
+ to result in a surplus for a student, the amount is automatically categorized 
+ as a Payment Credit.  Here are some further examples of how payment 
+ credits are created:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>The student had a class in their timetable with a fee and paid 
+	 the course fee.  The student then dropped the course within the 
+	 allowable refund time.  Since the fee was paid already, a payment 
+	 credit would be automatically created when the class was dropped from 
+	 the student’s timetable.</li>
+	<li>The student paid a fee.  The amount of the fee was then reduced, 
+	 or voided.  Since the fee was paid already, a payment credit 
+	 would be automatically created when the fee amount was reduced. </li>
+	<li>A deposit was paid.  Rather than refunding the deposit, the 
+	 deposit money was converted to a payment credit.  This is done 
+	 by selecting the deposit (click the row) and then select the option 
+	 Convert to payment credit, as shown here:</li>
+</ul>
+<p> </p>
+<p>Adding a new fee will suggest that payment credit is used. If payment 
+ credits exists for a student, when a new fee is added, it will present 
+ the following dialogue:</p>
+<p> </p>
+<p>If YES is selected, it will go to the form to associate the payment 
+ credits with the student’s outstanding fees as shown here:</p>
+<p> </p>
+<p>This form operates just like the regular payment form, except that you 
+ are using the payment credits for the payment.  All or part of the 
+ payment credits may be applied to the fees. </p>
+<p> </p>
+<h2><a id="Using_payment_credits_to_pay_outstanding_fees"></a>Using payment 
+ credits to pay outstanding fees</h2>
+<p>Sometimes a student can have both outstanding fees and payment credits. 
+  Although any new fees will suggest that payment credits are used 
+ to pay for those new fees, users can choose not to apply the existing 
+ payment credits at the time of a new fee.  As well, when adding student 
+ fees using the Group fees feature, it does not check for payment credits.</p>
+<p>If this scenario exists, an icon will appear in the bottom right corner 
+ of the Payment credits card on the student’s summary view.</p>
+<p> </p>
+<p>  Select the Apply credits to fees icon to access the form 
+ where the payment credits can be associated to the student’s outstanding 
+ fees (as shown in earlier in Adding a new fee will suggest that a payment 
+ credit is used).</p>
+<p> </p>
+<h3><a id="Making_a_payment_when_the_student_has_payment_credits"></a>Making 
+ a payment when the student has payment credits</h3>
+<p>When payment credits exist for a student, adding a payment will present 
+ a slightly different version of the add payment form, as shown below. 
+  It will appear as a stepper, and you will start on step 2.  Step 
+ 2 is just like the regular payment form except it has a question asking 
+ you whether or not you want to use the payment credit.  If you say 
+ NO, the question will collapse and you can proceed to make a payment as 
+ usual.  </p>
+<p> </p>
+<p>If you say YES to the question, it will go to step 1 where all or part 
+ of the payment credits can be applied to existing fees, as shown below 
+ .  </p>
+<p> </p>
+<p>When you have set the amount to be applied, use the SAVE AND CONTINUE 
+ button to proceed to step 2 where an additional payment can be entered.</p>
+<p> </p>
+<h2><a id="Refunds"></a>Refunds </h2>
+<p>Refunds are issued when funds are returned to the student.  Refunds 
+ can be issued when:</p>
+<p> </p>
+<p>• the student has payment credits (as explained in How payment credits 
+ are created) </p>
+<p>• the student has deposited money and that can now be returned (see 
+ Deposits for details).</p>
+<p> </p>
+<p>If no refunds are applicable/available for a student, the refund functionality 
+ described here will be hidden.  </p>
+<p> </p>
+<p>Hint:  If the student paid a fee, and that payment is to be refunded 
+ to the student, you must first void the fee (see Voiding fees).  This 
+ will convert the payment into a payment credit which may then be refunded.</p>
+<p> </p>
+<p> </p>
+<h4>Refund icon</h4>
+<p><img src="assets/images/refund-icon.png" alt="" style=" border:none; width:100%; max-width:17px;" border="0"/> 
+ Refunds are issued using the Refund icon. The Refund icon is located on 
+ the tool bar of the Payment credits card (located on the SUMMARY tab):</p>
+<p> </p>
+<p><img src="assets/images/payment-credits.png" alt="" style=" border:none; width:100%; max-width:766px;" border="0"/></p>
+<p> </p>
+<p>It is also located from the FAB located on the DEPOSITS tab:</p>
+<p> </p>
+<p><img src="assets/images/refund-deposits-tab.png" alt="" style=" border:none; width:100%; max-width:705px;" border="0"/></p>
+<p> </p>
+<p>An individual deposit may also be refunded by selecting the deposit 
+ (click the row) to see the Refund option in the menu:</p>
+<p> </p>
+<p><img src="assets/images/refund-deposits-tab1.png" alt="" style=" border:none; width:100%; max-width:703px;" border="0"/></p>
+<p> </p>
+<p>Use any of the methods above to access the Refund form as shown here:</p>
+<p> </p>
+<p><img src="assets/images/refund.png" alt="" style=" border:none; width:100%; max-width:686px;" border="0"/></p>
+<p>  </p>
+<p><span style="font-weight: bold; color: #007fff;">Date</span>:  The 
+ date of the refund.  Today’s date will be defaulted.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Credit memo number</span>: 
+  This number is automatically assigned, but if needed, it can be 
+ changed to any alphanumeric value as long as it is a unique number.  The 
+ application will automatically default the next available number based 
+ on the starting credit memo number set up for the school.  See Setup 
+ ….</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Payment type</span>: 
+  Select the type from the list of possible types.  Example types 
+ might be Cash, Cheque, E-payment, etc.  See Setup payment types for 
+ additional information.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Cheque/Slip number</span>: 
+  If applicable, optionally record a number corresponding to the number 
+ on the cheque or other document provided for payment.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Comment bank</span>: 
+  (Only available if the school has set up a list of comments (see 
+ Setup ….)).  Rather than enter a unique comment in the Comment field, 
+ you may optionally select a comment from the school’s list of pre-defined 
+ comments.  To use this feature, first select the drop down arrow 
+ to pick the desired comment.  Then select the Copy icon located to 
+ the right of the field.  The selected comment will then appear in 
+ the comment field.</p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Comments</span>:  A 
+ comment may be optionally entered when issuing a refund. </p>
+<p> </p>
+<p><span style="font-weight: bold; color: #007fff;">Refunds card</span>: 
+ Here you will see all payment credits and deposits for the student. For 
+ each item in the card, the following will appear:</p>
+<p> </p>
+<p><img src="assets/images/refund-card.png" alt="" style=" border:none; width:100%; max-width:476px;" border="0"/></p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Check box</span>: 
+ Check the box beside the items that you want to refund. You can check 
+ more than one. Check the box in the header to select all items.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Description</span>: 
+ This will indicate ‘Payment credit’ if it is a payment credit, otherwise 
+ it will indicate the deposit fee type.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Date</span>: 
+ This is the date the credit became available. For example:</p>
+<p style="margin-left: 40px;">- the date the deposit fee was paid </p>
+<p style="margin-left: 40px;">- the date a payment credit was created due 
+ to an over-payment </p>
+<p style="margin-left: 40px;">- the date a payment credit was created when 
+ the student dropped a course within the allowable time to get the payment 
+ for the course fee reimbursed.</p>
+<p style="margin-left: 40px;">- the date a payment credit was created when 
+ a previously paid fee was reduced.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Receipt</span>: 
+ This is the receipt number assigned to the deposit fee payment or payment 
+ credit.  </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Amount</span>: This 
+ is the amount of credit available to be refunded to the student.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="color: #007fff;">Refund amount</span>: This 
+ is the actual amount that will be refunded to the student. This is 
+ typically the same as the amount available, however, if a partial refund 
+ is to be issued, enter the amount here. The sum of the values in 
+ this column will be reflected in the card title, representing the total 
+ amount of the refund.</p>
+<p> </p>
+<p>Once the items to be refunded are selected, and the total amount of 
+ the refund is correct, check the fields at the top of the form:</p>
+<p> </p>
+<p>Note :  Once a refund is issued, only the date and comment fields 
+ may be edited. If needed, the refund can be voided (as if the refund 
+ were never entered).  From the TRANSACTIONS tab, select the refund 
+ (row click) to access the Edit or Void options.</p>
+
+</body></html>

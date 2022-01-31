@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>PASI</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "";
+
+//]]></script>
+</head>
+
+<body>
+
+
+<h1>PASI</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb; 
+	 float: aligncenter; " align="center"/>
+<p>   </p>
+<p>Maplewood connectEd &amp; PASI Integration</p>
+<p>Contents</p>
+<p>Introduction 3</p>
+<p>Overview of the Information exchanged with PASI 4</p>
+<p>One time setup / annual review 4</p>
+<p>Student records - PASI 6</p>
+<p>Student’s record – profile area 6</p>
+<p>Student’s record – Summary option 8</p>
+<p>Student’s record - PASI options 9</p>
+<p>Summary 9</p>
+<p>Student info, School enrolment, Course enrolment, Evaluated marks 10</p>
+<p>Common PASI features 11</p>
+<p>PASI compare 11</p>
+<p>Alerts (Warnings/Advice) 13</p>
+<p>Rejections 14</p>
+<p>Audit history 15</p>
+<p>PASI statistics on the Dashboard 15</p>
+<p>PASI manager 17</p>
+<p>Adding new students 22</p>
+<p>Alberta Student Number 22</p>
+<p>Student info in PASI (student record manual) 24</p>
+<p>Student info – Fields 27</p>
+<p>Student info – ALERTS tab 28</p>
+<p>Student info  – REJECTIONS tab 29</p>
+<p>Student info – AUDIT HISTORY tab 29</p>
+<p>PASI Manager - Seeing all student information alerts 29</p>
+<p>School enrolment in PASI (student record manual) 30</p>
+<p>School enrolment – fields 32</p>
+<p>School enrolment – ALERTS tab 34</p>
+<p>School enrolment – REJECTIONS tab 34</p>
+<p>School enrolment – AUDIT HISTORY tab 34</p>
+<p>PASI Manager - Seeing all student information alerts 35</p>
+<p>Codes (approved provincially defined courses) 35</p>
+<p>(NOT READY YET) Prerequisite courses from PASI 37</p>
+<p>PASI Section Term 39</p>
+<p>Classes (PASI Sections) 40</p>
+<p>PASI compare (class section in Maplewood vs PASI) 42</p>
+<p>Special note about CTS classes – Master/module setup in classes 46</p>
+<p>Linking CTS masters and modules 46</p>
+<p>PASI sections (for linked CTS master/module classes) 48</p>
+<p>Timetables (PASI Course Enrolments) 50</p>
+<p>Overview 50</p>
+<p>Editing student timetables (Quick reminders) 51</p>
+<p>Student’s PASI course enrolments 52</p>
+<p>Course enrolment – PASI COMPARE tab 53</p>
+<p>Course enrolment – fields 55</p>
+<p>Course enrolment – ALERTS tab 57</p>
+<p>Course enrolment – REJECTIONS tab 59</p>
+<p>Course enrolment – AUDIT HISTORY tab 59</p>
+<p>PASI Manager - Seeing all course enrolment alerts 59</p>
+<p>Special notes about adding/dropping classes 60</p>
+<p>Continuous entry classes 60</p>
+<p>Completing CTS classes 62</p>
+<p>Dropping regular classes 62</p>
+<p>Adding then dropping a class on the same date 62</p>
+<p>Dropping a future ‘registered’ class 62</p>
+<p>Withdrawing a student 62</p>
+<p>Add completed Courses (PASI Marks) 63</p>
+<p>Overview 63</p>
+<p>Teacher indicates official marks are done 67</p>
+<p>Check teacher 67</p>
+<p>Suggested process for adding completed courses 69</p>
+<p>Editing mark information for a completed course 70</p>
+<p>Removing all completed courses with the same completion date 71</p>
+<p>Searching for duplicate courses 71</p>
+<p>Calculate compulsory credits 71</p>
+<p>Courses added directly to Completed Courses (PASI Evaluated marks) 72</p>
+<p>Student’s PASI evaluated marks 73</p>
+<p>Evaluated marks – PASI COMPARE tab 74</p>
+<p>Evaluated marks – fields 74</p>
+<p>Evaluated marks – ALERTS tab 75</p>
+<p>Evaluated marks – REJECTIONS tab 76</p>
+<p>Evaluated marks – AUDIT HISTORY tab 76</p>
+<p>PASI Manager – Seeing all Evaluated marks alerts &amp; approval status 
+ 76</p>
+<p>Special notes about PASI mark approvals 77</p>
+<p>Official Marks (Marks Approved by PASI) 79</p>
+<p>Complete courses:  New students 79</p>
+<p>History: Import from PASI 79</p>
+<p>Diploma Exam Marks 80</p>
+<p>Detailed Academic Record (DAR) 81</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<h2>Introduction</h2>
+<p>The Provincial Approach to Student Information (PASI) is an initiative 
+ by Alberta’s Ministry of Education to provide a mechanism for collecting 
+ and sharing student-related data in an on-line, real-time environment. 
+  The exchange of this information is used to make many decisions 
+ by and for the student, the parent, the teacher, the school, the school 
+ authority, Albert Education as well as many others.</p>
+<p> </p>
+<p>PASI integrates student information across the province in order to 
+ support a student’s journey in education from Early Childhood Services 
+ (ECS) to grade 12.</p>
+<p> </p>
+<p>PASI created a central repository (PASI Core) that provides common data 
+ submission and validation services to ensure that each school authority:</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Is using a common set of student information, and</li>
+	<li>Has access to the student information it requires to deliver services 
+	 to its students.</li>
+</ol>
+<p> </p>
+<p>As an authorized PASI Client, Maplewood’s PASI-enabled student information 
+ system (SIS) will update the PASI Core when information about a student 
+ is added or updated in Maplewood.  PASI will then provide the mechanism 
+ for relevant education stakeholders to have access to the updated information, 
+ in near real-time.</p>
+<p> </p>
+<p>Authorized users may see the PASI Core data using the Ministry’s PASIprep 
+ application.  Although information may be entered directly into PASIprep, 
+ this should not be necessary once the PASI integration is enabled in Maplewood.</p>
+<p> </p>
+<p>This document will explain how Maplewood works with PASI once the PASI 
+ integration is enabled. As PASI expands to include new data collections, 
+ Maplewood will assist school authorities and schools in enabling the PASI 
+ integration.</p>
+<p> </p>
+<h3>Overview of the Information exchanged with PASI</h3>
+<p>The following information in Maplewood is exchanged real-time with PASI:</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li><span style="font-weight: bold; color: #007fff;">Student info</span>: 
+	 Alberta student number (ASN), Student name, birthdate, gender, source 
+	 document type/number/date, citizenship, study permit expiry date (if 
+	 applicable), Section 23 eligibility, date of death (if applicable), 
+	 address, phone and information disclosure restrictions. See Student 
+	 info in PASI on page 23 for detailed information.<br/>
+	</li>
+	<li><span style="color: #007fff; font-weight: bold;">School enrolment</span>: 
+	 ASN, school number, school year, grade, student number, entry date 
+	 to this school, exit date (if applicable), registration type, registration 
+	 status, registration entry status, exit description, resident board, 
+	 francophone board, FNMI, French hours, enrolment type codes, exceptionality 
+	 codes, and grant codes. See School enrolment in PASI on page 29 for 
+	 detailed information.<br/>
+	</li>
+	<li><span style="color: #007fff; font-weight: bold;">Class section 
+	 info</span>:  If a class provides course instruction for a provincially 
+	 defined course, the following fields are exchanged:  course code, 
+	 local section id (course and section letter), credits offered, delivery 
+	 schedule, description, start date, end date, instructional language, 
+	 instructional minutes offered, primary delivery method, school code 
+	 (#), school year, section term.  See Classes (PASI Sections) 
+	 on page 38 for detailed information.<br/>
+	</li>
+	<li><span style="color: #007fff; font-weight: bold;">Course enrolments 
+	 (and marks)</span>:  A course enrolment exists for every provincially 
+	 defined course in the student’s timetable, and when the course is 
+	 completed, the mark information is included as part of the course 
+	 enrolment information.  The fields include:  ASN, Course 
+	 code, start date, end date, course enrolment status, credits attempted, 
+	 instructional minutes received, dual enrolment, funding requested, 
+	 mark format, mark value, mark assignment date, and mark approved. 
+	  See Timetables (PASI Course Enrolments) on page 49 for details 
+	 on these fields.  See Add completed Courses (PASI Marks) on page 
+	 62 for detailed information on how marks are updated to PASI.<br/>
+	</li>
+	<li><span style="color: #007fff; font-weight: bold;">Evaluated marks</span>: 
+	  These are the courses that the student took outside of the Alberta 
+	 school system, where the learning has been evaluated by this school 
+	 and an equivalent Alberta course is granted to the student.  The 
+	 following fields include: ASN, Course code, credits attempted, evaluation 
+	 method, evaluation date, organization code, school year, funding requested, 
+	 mark format, mark value, and mark approved.   See Courses 
+	 added directly to Completed Courses (PASI Evaluated marks) on page 
+	 71 for detailed information.</li>
+</ol>
+<p> </p>
+<h3>One time setup / annual review</h3>
+<p>As part of the initial Maplewood setup, and at the start of each new 
+ school year, we would suggest the following checks are made:</p>
+<p> </p>
+<p>1. Calendar:  Make sure the calendar for the new school year has 
+ accurate semester and term dates.  These dates are used to default 
+ class start and end dates which are used in the student’s course enrolments 
+ and the class sections reported to PASI. Check the calendar using:</p>
+<p> </p>
+<p style="color: #007fff; font-style: italic;">Setup &gt; Calendar </p>
+<p> </p>
+<p>Use the More options icon to find the Semester/term dates option (shown 
+ below).  This option is where you can see and edit the term dates.</p>
+<p> </p>
+<p>2. Configuration:  Check that the school classification types, 
+ school program offering types, and grade offering type fields are correct 
+ for the current school year using:</p>
+<p>Setup &gt; School Setup &gt; Configuration </p>
+<p>3. Codes:  Division staff should check that any newly added codes 
+ are flagged as provincially defined.  Schools offering new courses 
+ should be using these provincially defined codes.  The PASI code 
+ field must represent the provincially defined course code, as this field 
+ represents the student’s course in PASI. </p>
+<p>Setup &gt; School Setup &gt; Codes </p>
+<p>Setup &gt; School Setup &gt; Courses  </p>
+<p>Note:  Prerequisite information for provincially defined codes 
+ is automatically updated as part of the PASI integration.  </p>
+<p>4. Semester/term patterns:  Check that the correct PASI section 
+ term is assigned to each semester/term pattern using:</p>
+<p>Setup &gt; Class Setup &gt; Sem/term/day/period  </p>
+<p>The PASI section term is part of the information provided to PASI for 
+ each provincially defined class in the school.  It provides a general 
+ description of when the class is taught.  Each semester term pattern 
+ defined by the school requires a corresponding PASI section term.  Check 
+ that these are correct.  </p>
+<p> </p>
+<p>Note:  if the school uses ‘special schedules’, the PASI section 
+ term is defined uniquely for each class.  The PASI section term that 
+ will be sent to PASI is clearly displayed for each class using Setup &gt; 
+ Class setup &gt; Classes as shown here:</p>
+<p> </p>
+<p>Student records - Overview</p>
+<p>Real-time sharing of student information happens for all students in 
+ Maplewood in grades ECS (Early Childhood Service), 1 through 12.  If 
+ a school offers pre-school, those students may be recorded in Maplewood 
+ as non-PASI students.  A student’s grade determines whether the student’s 
+ information is exchanged with PASI as follows:</p>
+<p>Grade in Maplewood Grade sent to PASI Real-time exchange with PASI?</p>
+<p>1 to 12 1 to 12 Yes</p>
+<p>J, K, M, E, C, EC, P EC Yes</p>
+<p>Any other grades Not applicable No</p>
+<p>Student’s record – profile area</p>
+<p>The profile area of a student’s record has PASI related features that 
+ may appear for some students.</p>
+<p> </p>
+<p>Information disclosure restrictions:  These restrictions are used 
+ when normal “right of access” to the student’s record does not apply. 
+ If the student has an active information disclosure restriction (based 
+ on effective and expiry dates), an icon will appear below the student’s 
+ name.  Hovering over the icon will present the tool tip message indicating 
+ the restriction type and the details entered by the school as shown here:</p>
+<p> </p>
+<p>Disclosure restrictions are edited using:</p>
+<p> Student’s record &gt; Personal &gt; Name &gt; Information disclosure 
+ restriction   </p>
+<p>18 or older icon:  If a student is 18 years or older, the following 
+ icon will appear :</p>
+<p> </p>
+<p>PASI icons:  One of two PASI icons may appear in the student’s 
+ profile area as follows:</p>
+<p>  The student has PASI issues.  Hover over the icon to 
+ see a tool tip message indicating the number of issues.  Select the 
+ icon to jump directly to the PASI &gt; Summary page in the student’s record.</p>
+<p> </p>
+<p>   The student is not in PASI.  DO NOT IGNORE THIS 
+ ICON. Typically this appears because the student is not in PASI at all 
+ (no ASN).  This may also appear on the rare occasion if the student 
+ info or school enrolment is not in PASI.  Hover over the icon to 
+ see the  tool tip message which will provide details.  Select 
+ the icon to jump directly to the PASI &gt; Summary page in the student’s 
+ record (where a red alert box will appear that will provide further information 
+ on how to proceed).  </p>
+<p>Note:  non-PASI graded students will not have an icon even though 
+ the student is not in PASI.   </p>
+<p>Student’s record – Summary option</p>
+<p>When a student’s record is first accessed, the record is opened to the 
+ Summary page.  The PASI statistics card will appear on this page, 
+ if the student has PASI issues.  This is similar to the PASI statistics 
+ card on the dashboard, except the statistics are only considering this 
+ student.  See PASI statistics on the Dashboard on page 14.</p>
+<p>  </p>
+<p>If the student has the ‘not in PASI’ icon in the profile, the PASI statistics 
+ card will appear as a red PASI alert such as this:</p>
+<p>  </p>
+<p>Non-PASI students will show an informational card as follows :</p>
+<p>  </p>
+<p>Student’s record - PASI options </p>
+<p>From the student’s record, use the PASI menu for details on the student’s 
+ information that is exchanged with PASI.  Non-PASI students do not 
+ have a PASI menu because nothing is exchanged with PASI. </p>
+<p>Here is the PASI menu within the student’s record:</p>
+<p> </p>
+<p>Summary </p>
+<p>The Summary option provides a summary of the student’s status in PASI. 
+  This includes the student’s ASN status, PASI Issues, and Alerts 
+ as show here. </p>
+<p> </p>
+<p>If a student is not in PASI, red alert cards will appear on the Summary 
+ page, including simple options to resolve the issue. Here is an example 
+ of a red alert card:</p>
+<p> </p>
+<p>Student info, School enrolment, Course enrolment, Evaluated marks</p>
+<p>Each of the other PASI submenu options provide access to the detailed 
+ information shared with PASI for specific ‘record types’ of student information. 
+  The record types correspond to the options: student info, school 
+ enrolment, course enrolment, evaluated marks . You can easily switch between 
+ record types by selecting the record type from the menu, or selecting 
+ the record type from the drop down list in the card title:</p>
+<p>  </p>
+<p>This detailed information for each record type includes:</p>
+<p>• PASI compare  feature that shows each field in Maplewood vs PASI</p>
+<p>• Alerts returned from PASI about the student info exchanged with PASI 
+ (if applicable)</p>
+<p>• Rejections returned from PASI for student info exchanged with PASI 
+ (if applicable)</p>
+<p>• Audit history</p>
+<p>Use the tab options to navigate between these different features.  See 
+ Common PASI features on page 10 for more information about PASI compare, 
+ alerts, rejections, and audit history.  </p>
+<p>PASI common features</p>
+<p>When accessing the Student info, School enrolment, Course enrolment, 
+ or Evaluated marks options in the student’s record, each option will vary 
+ slightly based on the type of information displayed, but there are many 
+ common features that are explained here.  These common features also 
+ apply to the school’s classes.</p>
+<p> </p>
+<p>PASI compare</p>
+<p>Here is an example of the PASI COMPARE tab for Student info:</p>
+<p> </p>
+<p>Each field that is exchanged with PASI appears in a row.  The columns 
+ show the value in Maplewood and the value in PASI.  When the values 
+ are the same, they appear as below.  </p>
+<p> </p>
+<p>If the values differ, the field is considered as having a discrepancy. 
+  The number of discrepancies is indicated in the tab (e.g. PASI COMPARE 
+ (3) in this example) and an alert icon appears in the card title. Scroll 
+ down the list of fields, and the fields with discrepancies are clearly 
+ indicated in yellow with the Alert icon as shown here:</p>
+<p> </p>
+<p>If all the values in Maplewood are correct, use the Push to PASI icon 
+ to submit the Maplewood values to PASI.  If all the values in PASI 
+ are correct, use the Pull from PASI icon to pull the PASI values into 
+ Maplewood.  These icons are enabled when the push/pull functionality 
+ is available.</p>
+<p>  </p>
+<p>Once the information is pushed or pulled, the page will refresh and 
+ the values should match.  If the values don’t match and there are 
+ still discrepancies, look at the ALERTS and/or REJECTIONS tabs to see 
+ if there is a reason why the fields were not updated.</p>
+<p>Although it should not be necessary, the Refresh icon may be used to 
+ reload the page with the latest compare results.</p>
+<p> </p>
+<p>Alerts (Warnings/Advice)</p>
+<p>Alerts are informational messages returned from PASI based on the information 
+ submitted from Maplewood. If there are alerts, the ALERT tab is enabled, 
+ and the number of alerts appears in brackets. An example of an alert is 
+ shown below:</p>
+<p> </p>
+<p>There are 2  types of alerts:</p>
+<p>Warning: The data provided is failing a business rule and requires updating 
+ in order to be corrected. PAY ATTENTION TO WARNINGS.</p>
+<p>Advice: The data provided is suspected of being invalid and may require 
+ updating in order to be corrected.</p>
+<p>Each alert will have an alert status as follows:</p>
+<p>Acknowledged:  The advice provided has been reviewed and no updates 
+ to the data are required.</p>
+<p>Unacknowledged:  The core alert has not been acknowledged.</p>
+<p>In Progress:  A resolution to the core alert is currently being 
+ worked on.</p>
+<p>Overridden:  The warning provided has been reviewed and overridden 
+ by an internal Alberta Education department.</p>
+<p>Alert statuses may be optionally changed for the school’s own internal 
+ tracking purposes.  For example, a new alert may default Unacknolwedged, 
+ but the school may change it to Acknowledged to signify that the alert 
+ has been reviewed and no data changes will be made.  In Maplewood, 
+ PASI statistics will count unacknowledged advice.</p>
+<p>Row click the alert to access the other alert statuses that may be assigned 
+ (as shown below):</p>
+<p>  </p>
+<p>Rejections</p>
+<p>Rejections are informational messages returned from PASI based on the 
+ information submitted from Maplewood. DO NOT IGNORE REJECTIONS as the 
+ information is not in PASI. If there are rejections, the REJECTIONS tab 
+ is enabled, and the number of rejections appears in brackets. An example 
+ of a rejection is shown below:</p>
+<p> </p>
+<p>The information must be corrected in Maplewood.  Correcting the 
+ data will submit the new information real-time and the rejections should 
+ be cleared.</p>
+<p>Audit history</p>
+<p>As information is changed in Maplewood and PASI, these changes are tracked 
+ in an audit trail that may be useful in problem solving.  The audit 
+ history may appear slightly different for each record type as it will 
+ depend upon the type of information in the audit file.  Here is an 
+ example of the AUDIT HISTORY tab for an evaluated mark:</p>
+<p>  </p>
+<p>________________________________________ </p>
+<p>PASI statistics (Dashboard) </p>
+<p>On the dashboard page, a PASI statistics card will appear showing the 
+ number of PASI related items that exist for the school (or division). 
+  A similar statistics card appears in the student’s record showing 
+ the similar statistics for the school.  Selecting the PASI statistics 
+ card from the dashboard provides a shortcut to the detailed information 
+ in PASI manager.  </p>
+<p>Here is an example of the PASI statistics card: </p>
+<p> </p>
+<p>The following statistics will appear if applicable:</p>
+<p>Not in PASI:  This represents students who are not in PASI (no 
+ ASN), or students who are in PASI but have student info  or school 
+ enrolment info that is not in PASI (e.g. information is in Maplewood but 
+ it is not in PASI at all).  These issues should receive immediate 
+ attention.  Selecting the PASI statistics card will open PASI manager. 
+  These students will be identified on the NOT IN PASI tab.  Selecting 
+ each student will open the student’s record at the PASI &gt; Summary option 
+ where further information will be provided.</p>
+<p>Note:  PASI manager will show the number of students who have something 
+ not in PASI, while the statistics card will count the number of things 
+ not in PASI.  For example, a student who has no ASN, no student info, 
+ and no school enrolment in PASI will count as 3 on the statistics card, 
+ but will count as 1 student in PASI manager.</p>
+<p>Rejections: Rejections are informational messages returned from PASI 
+ based on the information submitted from Maplewood. Do not ignore rejections 
+ as the information is not in PASI. Selecting the PASI statistics card 
+ will open PASI manager.  Go to the ALERTS tab and use the Alert type 
+ filter to select Rejections. Selecting each item will open the student’s 
+ record at the PASI &gt; Summary option where further information will 
+ be provided.  Correcting the data will submit the new information 
+ real-time and the rejections should be cleared.</p>
+<p>Warnings:  Warnings are informational messages returned from PASI 
+ based on the information submitted from Maplewood. The data provided is 
+ failing a business rule and requires updating in order to be corrected. 
+ Pay attention to warnings.  Selecting the PASI statistics card will 
+ open PASI manager.  Go to the ALERTS tab and use the Alert type filter 
+ to select Warnings. Selecting each item will open the student’s record 
+ at the PASI &gt; Summary option where further information will be provided. 
+  Correcting the data will submit the new information real-time and 
+ the warnings should be cleared.</p>
+<p>Notifications:  Although the data in Maplewood and PASI should 
+ be in synch in near real-time, PASI will create a notification if it detects 
+ that the data is not in synch.  Notifications typically appear when 
+ the record versions are not in synch, such as when data is changed directly 
+ in PASIprep rather than Maplewood or if the service used to update data 
+ in PASI failed to successfully resolve a notification.  </p>
+<p>Selecting the PASI statistics card will open PASI manager.  From 
+ the STUDENTS tab, use the Alert type filter to select Notifications.  Selecting 
+ each student will open the student’s record at the PASI &gt; Summary option 
+ where further information will be provided.  </p>
+<p>If a notification exists, the following icon will appear in the app 
+ bar of the affected PASI record in the student’s record: </p>
+<p>  (replace image showing tool tip ‘Notification from PASI’ 
+ – CWC-2826 needs to be done)</p>
+<p>Notifications do not provide any details on the cause of the notification, 
+ however, the PASI COMPARE tab will typically show discrepancies in data 
+ fields.  Depending on what fields differ between Maplewood and PASI, 
+ use the Push to PASI or Pull from PASI icons to resolve the differences.</p>
+<p>Unacknowledged Advice:  Only unacknowledged and in progress advice 
+ is counted in this number.     Advice alerts are informational 
+ messages returned from PASI based on the information submitted from Maplewood. 
+ The data provided is suspected of being invalid and may require updating 
+ in order to be corrected.  All advice will initially be set as unacknowledged. 
+  An advice alert may be set to Acknowledged once it has been reviewed 
+ and no updates to the data are required.  An alert may also be set 
+ to In Progress if a resolution is currently being worked on.  Selecting 
+ the PASI statistics card will open PASI manager.  Go to the ALERTS 
+ tab and use the Alert type filter to select Advice. Selecting each item 
+ will open the student’s record at the PASI &gt; Summary option where further 
+ information will be provided.  Go to the appropriate PASI submenu 
+ option then select the ALERTS tab.  Select the row with the advice 
+ alert to see the different alert statuses that may be set (e.g. acknowledged).</p>
+<p>PASI manager </p>
+<p>PASI manager provides access to all the PASI alerts in one central location. 
+  PASI manager is access from the PASI menu option from the main menu, 
+ or by selecting the PASI statistics card located on the dashboard.  </p>
+<p>IMAGE of menu showing PASI option &amp; Image of PASI stats card?</p>
+<p> </p>
+<p>  </p>
+<p>If PASI manager is accessed from the division office, a schools filter 
+ is provided, and the school code is listed in each row as shown here:</p>
+<p> </p>
+<p>PASI manager uses tabs to organize the PASI information that may require 
+ attention.  Each tab provides a count of the number of records that 
+ appear on each tab.  Selecting a record on a tab will open a new 
+ browser window opened to student’s record, or the PASI compare interface 
+ if opening a class section record.</p>
+<p>Some tabs will provide the ability to filter the records, like this 
+ example where the students may be filtered by Record type and Alert type:</p>
+<p> </p>
+<p>To use the filter, select the drop down arrow and check the record(s) 
+ or alert type(s) to include.  Then click the Filter floating action 
+ button to apply the new filters (refresh the list to show just those students 
+ matching the new filters).</p>
+<p>Where provided, use the expand/contract arrows to show more or less 
+ detail.  In this example, the second student is expanded to show 
+ SUMMARY INFO.  </p>
+<p> </p>
+<p>The expanded information may include tabs to organize the data, like 
+ this example where the ALERTS tab provides further information:</p>
+<p> </p>
+<p>Selecting a row with a record type (e.g. Student School Enrolment in 
+ the above example), will open the new browser window to that record area 
+ of the student’s record (e.g. PASI &gt; school enrolment option).  Selecting 
+  the student’s name, as in the example below, will open the student’s 
+ record at the PASI &gt; Summary option. The student’s record will always 
+ open in a new browser window. </p>
+<p> </p>
+<p>When done with the student’s record, you may close the browser window 
+ and return to the browser tab with PASI manager opened.</p>
+<p> </p>
+<p>  </p>
+<p>Here is an example of the NOT IN PASI tab:</p>
+<p> </p>
+<p>Select the student and then proceed as directed on the student’s record. 
+  </p>
+<p>Here is an example of the ALERTS tab:</p>
+<p> </p>
+<p>Select the student and then proceed to address the alerts, or set the 
+ alert status from the student’s record.</p>
+<p>Here is an example of the MARK APPROVALS tab:</p>
+<p> </p>
+<p>Expand the row to see MARK DETAILS or ALERTS (use the tabs to navigate), 
+ or select the row to open the student’s record in a new browser window. 
+  </p>
+<p>Here is an example of the CLASS SECTIONS tab:</p>
+<p>  </p>
+<p>From the CLASS SECTIONS tab, use the filter to show “all” classes, including 
+ those that have no issues.   Selecting a row on this tab will 
+ open a new browser window with the PASI compare feature that exists from 
+ the classes table.  Although rare, if a class section were manually 
+ added in PASIprep but not in Maplewood, that class would appear as a class 
+ called PASI only in the list, and if selected, the class would appear 
+ in the PASI side but not the Maplewood side (and a delete from PASI FAB 
+ would appear).</p>
+<p>Regardless of what tab you are looking at in PASI manager, there is 
+ a Refresh icon in the app bar, that will refresh all the data without 
+ having to leave PASI manager. </p>
+<p> </p>
+<p>Adding new students</p>
+<p>Done </p>
+<p>Alberta Student Number</p>
+<p>An Alberta Student Number (ASN) is a unique nine-digit number.  An 
+ ASN is assigned to a student when they first enroll in an academic school 
+ in grade kindergarten (ECS - Early Childhood Service) to grade 12.</p>
+<p>When a K-12 student is first added into Maplewood, if the student is 
+ not already in PASI, a new ASN will be automatically assigned to the student, 
+ using the real-time PASI exchange.  If the student already exists 
+ in PASI from another school authority, then the student’s original ASN 
+ will be automatically assigned to the new student.</p>
+<p>If a school offers pre-school, those students may be recorded in Maplewood 
+ as non-PASI students.  A student’s grade determines whether the student’s 
+ information is exchanged with PASI as shown below, and the student’s ASN 
+ is required for this exchange:</p>
+<p>Grade in Maplewood Grade sent to PASI Real-time exchange with PASI?</p>
+<p>1 to 12 1 to 12 Yes</p>
+<p>J, K, M, E, C, EC, P EC Yes</p>
+<p>Any other grades Not applicable No</p>
+<p>There may be times where a student is in a PASI grade, but the student 
+ did not get an ASN assigned.  This may occur if there was an interruption 
+ in the PASI service at the time the student was added, or if a student 
+ has moved from a non-PASI grade to a PASI grade.</p>
+<p>If a student should have an ASN but does not, when the student’s record 
+ is accessed, the following card will appear:</p>
+<p> </p>
+<p>Select the ADD STUDENT TO PASI button on the card.</p>
+<p>A search will be done to see if the student already exists in PASI. 
+  </p>
+<p>If no matching student is found, from the dialogue presented below, 
+ select the ENROL CURRENT STUDENT button.  </p>
+<p> </p>
+<p> </p>
+<p>If one or more matching students exist in PASI, the student(s) will 
+ be presented.  If the student in Maplewood matches one of the found 
+ students, check the box to the left of the student’s name, then select 
+ the ENROL SELECTED STUDENT button as shown here:</p>
+<p> </p>
+<p>If the student in Maplewood is not the same as any of the students presented, 
+ do not check any of the boxes and select the ENROL CURRENT STUDENT button 
+ as shown here:</p>
+<p>  </p>
+<p>Upon selecting either the ENROL CURRENT STUDENT or ENROL SELECTED STUDENT 
+ buttons, a new ASN will be automatically assigned to the student and the 
+ student’s information will be synched to PASI.</p>
+<p>Student info in PASI  (student record manual)</p>
+<p>Overview</p>
+<p>From the student’s record, use the PASI menu for details on the student’s 
+ information that is exchanged with PASI.  Non-PASI students do not 
+ have a PASI menu because nothing is exchanged with PASI. </p>
+<p>You’ll find the Student info menu option under the PASI submenu.</p>
+<p> </p>
+<p>The Student info option provides a detailed view of student-specific 
+ information collected in PASI.  It will default to the PASI COMPARE 
+ tab to show the fields collected by PASI (column titled Field name), the 
+  Maplewood value (column 2), and the PASI value (column 3) as shown 
+ here: </p>
+<p> </p>
+<p>If you are unfamiliar with the functionality provided by each of these 
+ tabs, please refer to the following links for further information:</p>
+<p>PASI COMPARE  (link to this page: Alberta &gt; PASI &gt; Common 
+ PASI features – bookmark PASI COMPARE</p>
+<p>ALERTS(link to this page: Alberta &gt; PASI &gt; Common PASI features 
+ – bookmark Alerts</p>
+<p>REJECTIONS(link to this page: Alberta &gt; PASI &gt; Common PASI features 
+ – bookmark Rejections</p>
+<p>AUDIT HISTORY(link to this page: Alberta &gt; PASI &gt; Common PASI 
+ features – bookmark Audit history</p>
+<p> If the information in Maplewood and PASI is different, the field 
+ will be considered as having a discrepancy.  The Alert icon will 
+ prominently appear in the tool bar, and the field will appear in yellow 
+ as shown here:</p>
+<p> </p>
+<p>The Push to PASI icon in the card’s tool bar is enabled and may be used 
+ to manually attempt to send the Maplewood information to PASI.  If 
+ it is successful, the alert icon is cleared and the Push to PASI icon 
+ is disabled.</p>
+<p> </p>
+<p>Student info – Fields </p>
+<p>Data collected in this area includes:</p>
+<p>• Record version: As part of the automatic PASI data exchange, version 
+ numbers of automatically maintained for each PASI record type.   Version 
+ numbers are automatically augmented each time the information is changed, 
+ and a record with an higher version number cannot be updated with a lower 
+ versioned record.</p>
+<p>• Alberta Student Number (ASN): The student’s ASN.</p>
+<p>• Name: The student’s preferred name as recorded in the Name area of 
+ the student’s record. </p>
+<p>• Legal name: The student’s legal name as recorded in the Name area 
+ of the student’s record.</p>
+<p>• Is name exact (Legal name entered exactly as on verification document): 
+ Yes/No field as recorded in the Name area of the student’s record.</p>
+<p>• Birthdate: The student’s birthdate as recorded in the Demographics 
+ area of the student’s record.</p>
+<p>• Gender: The student’s gender as recorded in the Demographics area 
+ of the student’s record.</p>
+<p> </p>
+<p>• Source document type:  The document type used to verify the student’s 
+ name, as recorded in the name as recorded in the Name area of the student’s 
+ record.</p>
+<p>• Document number:  The last 4 digits of the document used to verify 
+ the student’s name, as recorded in the name as recorded in the Name area 
+ of the student’s record.</p>
+<p>• Document issue date:  The issue date on the document used to 
+ verify the student’s name, as recorded in the name as recorded in the 
+ Name area of the student’s record.</p>
+<p>• Citizenship:  The student’s citizenship as recorded in the Demographics 
+ area of the student’s record.</p>
+<p>• Expiry date:  The expiry date as recorded in the Demographics 
+ area of the student’s record. Documentation for specific citizenship types 
+ may include an expiry date. Expiry date is required for students with 
+ the citizenship type of temporary resident (e.g. study permit or visiting 
+ student). </p>
+<p>• Section 23 eligibility:  The student’s section 23 eligibility 
+ as recorded in the Student Enrolment area of the student’s record.</p>
+<p>• Is deceased:  Will be set to Yes if the student’s exit description 
+ is set to deceased in the Student Enrolment area of the student’s record 
+ (origin/retirement card).</p>
+<p>• Date of death:  Student’s date of death as recorded in the Demographics 
+ area of the student’s record.  Only available if student’s exit description 
+ is set to deceased.</p>
+<p>• Address:  The student’s current address as recorded in the Personal 
+ &gt; Contact Info area of the student’s record.</p>
+<p>• Phone:  The student’s home phone number as recorded in the Personal 
+ &gt; Contact Info area of the student’s record.  </p>
+<p>• Has information disclosure restrictions:  Yes/no automatically 
+ populated based on whether the student has current information disclosure 
+ restrictions recorded in the Personal &gt; Name area of the student’s 
+ record.</p>
+<p>• Disclosure restriction information:  The student’s current information 
+ disclosure restrictions as recorded in the Personal &gt; Name area of 
+ the student’s record.</p>
+<p>Student info – ALERTS tab</p>
+<p>If the student has Alerts for any of their student information, the 
+ ALERTS tab is enabled and will indicate the total number of alerts for 
+ the student.  Alerts may include advice and/or warnings as shown 
+ here.  </p>
+<p> </p>
+<p>Row click any of the alerts or advice to change the alert status as 
+ shown here:</p>
+<p> </p>
+<p>Student info  – REJECTIONS tab</p>
+<p>If the student has Rejections for any of their student information, 
+ the REJECTIONS tab is enabled and will indicate the total number of rejections 
+ for this information. </p>
+<p> </p>
+<p>Student info – AUDIT HISTORY tab</p>
+<p>The AUDIT HISTORY tab is available to see detailed information each 
+ time the student information was edited. Here is an example:</p>
+<p> </p>
+<p>PASI Manager - Seeing all student information alerts</p>
+<p>In Maplewood, you can see all the PASI alerts regarding student information 
+ by following these steps from the division (central office) or from the 
+ school:</p>
+<p> Select the PASI statistics card from the dashboard OR</p>
+<p> Select the PASI Manager option located in the Main menu </p>
+<p>Once PASI Manager has opened, use the filters on the STUDENTS and ALERTS 
+ tabs to see just those students  or alerts pertaining to the student 
+ info record area.  See PASI manager for additional information.</p>
+<p>School enrolment in PASI (student record manual)</p>
+<p>Overview</p>
+<p>From the student’s record, use the PASI menu for details on the student’s 
+ information that is exchanged with PASI.  Non-PASI students do not 
+ have a PASI menu because nothing is exchanged with PASI. </p>
+<p>You’ll find the School enrolment menu option under the PASI submenu.</p>
+<p> </p>
+<p>The School enrolment option provides a detailed view of school-specific 
+ enrolment information collected in PASI.  It will default to the 
+ PASI COMPARE tab to show the fields collected by PASI (column titled Field 
+ name), the Maplewood value (column 2), and PASI value (column 3) as shown 
+ here: </p>
+<p> </p>
+<p>If you are unfamiliar with the functionality provided by each of these 
+ tabs, please refer to the following links for further information:</p>
+<p>PASI COMPARE </p>
+<p>ALERTS</p>
+<p>REJECTIONS</p>
+<p>AUDIT HISTORY</p>
+<p>If the information in Maplewood and PASI is different, the field will 
+ be considered as having a discrepancy.  The Alert icon will prominently 
+ appear in the tool bar, and the field will appear in yellow as shown here:</p>
+<p> </p>
+<p>The Push to PASI icon in the card’s tool bar is enabled and may be used 
+ to manually attempt to send the Maplewood information to PASI.  If 
+ it is successful, the alert icon is cleared and the Push to PASI icon 
+ is disabled.</p>
+<p> </p>
+<p>If the student has been enrolled in the school multiple times (e.g. 
+ the student left the school at some point this school year and then returned), 
+ a unique school enrolment record will be created when the student re-enrolls. 
+  For these students, the ‘Select school enrolment’ field will be 
+ enabled to choose which school enrolment record is to be displayed.</p>
+<p> </p>
+<p>If the student has only 1 school enrolment record at this school, the 
+ field is disabled and is called ‘School enrolment’.  </p>
+<p> </p>
+<p>School enrolment – fields </p>
+<p>Data collected in this area includes:</p>
+<p>• Record version: As part of the automatic PASI data exchange, version 
+ numbers of automatically maintained for each PASI record type.   Version 
+ numbers are automatically augmented each time the information is changed, 
+ and a record with an higher version number cannot be updated with a lower 
+ versioned record.</p>
+<p>• Alberta Student Number (ASN): The student’s ASN.</p>
+<p>• School:  The number of the school.</p>
+<p>• School year:  The school year. </p>
+<p>• Grade:  The grade of the student as recorded in the Class info 
+ &gt; Classes area of the student’s record. </p>
+<p>• Student number:  The student’s school assigned student number 
+ as recorded in the Enrolment &gt; Student enrolment area of the student’s 
+ record.</p>
+<p>• Entry date to this school:  The student’s entry date to this 
+ school as recorded in the Enrolment &gt; Student enrolment area of the 
+ student’s record.</p>
+<p>• Exit date:  The student’s exit date as recorded in the Enrolment 
+ &gt; Student enrolment area of the student’s record.</p>
+<p>• Registraton type:  The student’s registration type as recorded 
+ in the Enrolment &gt; Student enrolment area of the student’s record.</p>
+<p>• Registration status:  The student’s registration status as recorded 
+ in the Enrolment &gt; Student enrolment area of the student’s record.</p>
+<p>• Registration entry status:  The student’s registration entry 
+ status as recorded in the Enrolment &gt; Student enrolment area of the 
+ student’s record.</p>
+<p>• Exit description:  The student’s exit description as recorded 
+ in the Enrolment &gt; Student enrolment area of the student’s record.</p>
+<p>• Resident Board:  The student’s resident board as recorded in 
+ the Enrolment &gt; Student enrolment area of the student’s record.  This 
+ field is only enabled for specific grant programs.</p>
+<p>• Francophone Board:  The student’s resident board as recorded 
+ in the Enrolment &gt; Student enrolment area of the student’s record. 
+  This field is only enabled for a specific grant program (which has 
+ since been retired).</p>
+<p>• FNMI:  The student’s FNMI declaration as recorded in the Personal 
+ &gt; Indigenous area of the student’s record.</p>
+<p>• French hours:  The student’s hours of French as recorded in the 
+ Enrolment &gt; student enrolment area of the student’s record.  This 
+ field is only enabled for specific grant programs. </p>
+<p>• Enrolment types:  The student’s enrolment types as recorded in 
+ the Enrolment &gt; Student enrolment area of the student’s record. </p>
+<p>• Exception codes:  The student’s exceptionality codes as recorded 
+ in the Enrolment &gt; Student enrolment  (or Special education) area 
+ of the student’s record.</p>
+<p>• Grant codes:  The student’s grant codes as recorded in the Enrolment 
+ &gt; Student enrolment area of the student’s record.</p>
+<p>School enrolment – ALERTS tab</p>
+<p>If the student has Alerts for any of their school enrolment information, 
+ the ALERTS tab is enabled and will indicate the total number of alerts 
+ for the student.  Alerts may include advice and/or warnings as shown 
+ here.  </p>
+<p> </p>
+<p>Row click any of the alerts or advice to change the alert status as 
+ shown here:</p>
+<p> </p>
+<p>School enrolment – REJECTIONS tab</p>
+<p>If the student has Rejections for any of their school enrolment information, 
+ the REJECTIONS tab is enabled and will indicate the total number of rejections 
+ for this information. </p>
+<p> </p>
+<p>School enrolment – AUDIT HISTORY tab</p>
+<p>The AUDIT HISTORY tab is available to see detailed information each 
+ time the school enrolment information was edited. Here is an example:</p>
+<p> </p>
+<p>PASI Manager - Seeing all student information alerts</p>
+<p>In Maplewood, you can see all the PASI alerts regarding school enrolment 
+ information by following these steps from the division (central office) 
+ or from the school:</p>
+<p> Select the PASI statistics card from the dashboard OR</p>
+<p> Select the PASI Manager option located in the Main menu </p>
+<p>Once PASI Manager has opened, use the filters on the STUDENTS and ALERTS 
+ tabs to see just those students  or alerts pertaining to the school 
+ enrolment record area.  See PASI manager for additional information.</p>
+<p>Codes </p>
+<p>The list of all course codes that are/have/will be used by the division 
+ are listed in the codes table using the menu options Setup &gt; Class 
+ Setup &gt; Codes.   The school division is responsible for the 
+ codes table.  Schools have ‘view only’ access to codes. Detailed 
+ information about the list of codes may be found in http://www.maplewood.com/Maplewood%20connectEd%20for%20Schools/#t=Setup%2Fsetup-class-codes.htm. 
+    This section describes specific features of the codes 
+ for Alberta schools and authorities as part of the real-time exchange 
+ with PASI. </p>
+<p>As part of the integration with PASI, codes will be flagged as Provincially 
+ Defined if the PASI code field contains a Ministry defined course code 
+ (e.g. the Alberta course code).  The PASI code is used in the real-time 
+ exchange with PASI.  Here is an example of a provincially defined 
+ code:  </p>
+<p>  </p>
+<p>Once a code is added to list of codes, the PASI code cannot be changed 
+ if the code is provincially defined. Based on this PASI code, a number 
+ of fields are automatically populated from PASI.  These fields are 
+ non-editable (disabled) if the course is provincially defined:</p>
+<p>• PASI code</p>
+<p>• Grade</p>
+<p>• Credit value</p>
+<p>• Course titles (English and French)</p>
+<p>• Effective and expiry dates</p>
+<p>• Course evaluation method</p>
+<p>• Course sequence series</p>
+<p>• Course category (PASI)</p>
+<p>• CTS module information (CTS module Y/N, Course strand and Instructional 
+ level)</p>
+<p>• Locally developed course flag</p>
+<p>Only these non-PASI fields may be edited at Central Office, if the code 
+ is provincially defined:  </p>
+<p>• Code (Maplewood code)</p>
+<p>• Course category (Maplewood)</p>
+<p>• Language of instruction</p>
+<p>• Primary delivery method</p>
+<p>• Section delivery schedule</p>
+<p>• Include in GPA calculations</p>
+<p>Note:  All fields are editable if a code is not provincially defined 
+ (however some PASI fields may not be available for editing).  The 
+ PASI code field will be called “Course # (optional)” since it may be used 
+ to record course numbers for non-PASI courses.  If you edit a non-provincially 
+ defined course, and you start typing a Ministry code in the Course # field, 
+ the list of available PASI codes will appear (as shown below).  Selecting 
+ a PASI code from the list will automatically set the code to a provincially 
+ defined course.</p>
+<p>   </p>
+<p>Code fields</p>
+<p>I would move the code fields section from setup – codes, to this section 
+ here and remove it from codes in setup but put some text in setup section 
+ like this “For details on the code fields for Alberta, see ….”.  Here’s 
+ what I’d like to see in this section of the Alberta – PASI manual:</p>
+<p>Code fields - Alberta</p>
+<p>Alberta Education has defined a list of official course codes for courses 
+ in grade 10 to 12 that may be used on official transcripts. The codes 
+ table will contain any codes that have or will appear on an official transcript 
+ for any student (even those who have attended in prior years).  The 
+ official course codes are recorded in the PASI code field, and the code 
+ may be the same as the official code, or another code that is more meaningful 
+ to the division/schools.</p>
+<p> </p>
+<p>PASI is an acronym for the Provincial Approach to Student Information, 
+ an Alberta specific initiative that provides a shared view of student 
+ data across the province. Data is shared between the PASI clients (school 
+ and school authorities) and the PASI core data in the provincial database. 
+ PASI collects information only for these official provincially defined 
+ codes. If a code is provincially defined, and the division has Course 
+ Mark Integration enabled, the codes from the PASI core database are automatically 
+ synchronized with the codes table in Maplewood. Therefore, code changes/edits 
+ are rarely required for grade 10 to 12 AB courses, and many fields are 
+ not editable. The following fields are automatically populated from PASI, 
+ and therefore, they are non-editable:</p>
+<p> </p>
+<p>• Grade</p>
+<p>• Credit value</p>
+<p>• Course titles (English)</p>
+<p>• Effective from and to dates</p>
+<p>• Course evaluation method</p>
+<p>• Course sequence series</p>
+<p>• Course category (PASI)</p>
+<p>• CTS module information (Course strand and Instructional level)</p>
+<p>• Locally developed course flag</p>
+<p> </p>
+<p>The Alberta codes table has 2 tabs: Details and Prerequisites.</p>
+<p>Details</p>
+<p>General:</p>
+<p>Code: Alberta has provincial course codes such as SST1771 for a specific 
+ grade 10 Social Studies curriculum. Using the SST1171 example, a division 
+ may use SST1771 for both the code and the course number (referred to as 
+ PASI code in AB). Alternately, a division can use a different code that 
+ better suits their needs (e.g. SOC10-1) as long as SST1771 is the course 
+ number.</p>
+<p> </p>
+<p>PASI code: PASI code is the official course code defined by the province. 
+ PASI code is the term AB schools will see in place of course number, but 
+ both terms refer to the same field. If provincially defined, user must 
+ select from the ministry&#39;s table of codes. If not provincially defined, 
+ users can enter code of choice.</p>
+<p> </p>
+<p>Provincially Defined: Automatically set to Yes if the PASI code is a 
+ valid Alberta course code. This field is not editable Yes/No field - Users 
+ should sort by this column to identify any codes that didn&#39;t get synced 
+ because their PASI code is wrong.</p>
+<p> </p>
+<p>Grade: The grade level of the course.</p>
+<p> </p>
+<p>Credit value: Indicates the credits of the course that would be applied 
+ to the student upon successful completion of the course.</p>
+<p> </p>
+<p>Course title: The title of the course in English (if required).</p>
+<p> </p>
+<p>French title: The title of the course in French (if required).</p>
+<p> </p>
+<p>Effective date: The first date that schools may start using this code.</p>
+<p> </p>
+<p>Expiration date: The first date that schools may no longer use this 
+ code.</p>
+<p> </p>
+<p>Language of instruction  :  Indicates the language used when 
+ providing instruction for a class section.</p>
+<p> </p>
+<p>Course evaluation method  :  Indicates the type of evaluation 
+ associated with a course.</p>
+<p> </p>
+<p>Primary delivery method  :  Identifies how the class is delivered 
+ based on the presentation method of the largest component of instructional 
+ material.</p>
+<p> </p>
+<p>Section delivery schedule  :  Indicates when the class section 
+ is delivered.</p>
+<p> </p>
+<p>Course sequence series  :  Indicates the order in which related 
+ courses should be taken.</p>
+<p> </p>
+<p>Course category (PASI): Assists student in course selection based on 
+ interest, credential program or special circumstances.</p>
+<p> </p>
+<p>Include in GPA calculation:  Yes/no field to indicate whether this 
+ course is to be included in any GPA calculations that the school may want 
+ to use for their own purposes.</p>
+<p> </p>
+<p>Locally developed course:  Yes/no field to indicate that the course 
+ is locally developed course code.</p>
+<p> </p>
+<p>Course category (Maplewood)   : This category field is used 
+ in determining a student’s graduation requirements in Maplewood.  Although 
+ PASI will also track this, divisions may augment the list for defining 
+ their own graduation requirements that may vary from the provincial requirements 
+ (e.g. if division requires religion credits but the province doesn’t). 
+ See Graduation requirements.</p>
+<p> </p>
+<p>Course subject(s)  :  Also known as categories for graduation 
+ requirements indicates the subject area (i.e. branch of learning) to which 
+ a course is related . This field is used to determine whether a code can 
+ be used to fulfill a student’s graduation requirements. In addition to 
+ the values defined by PASI provided below, divisions may augment the list 
+ for defining their own graduation requirements that may vary from the 
+ provincial requirements (e.g. if division requires religion credits but 
+ the province doesn’t). Once PASI is enabled, this field is set by PASI 
+ if the code is provincially defined codes, but it may be augmented with 
+ division values if appropriate (e.g. religion code is set as Other by 
+ the province, but the division also sets it as Religion).</p>
+<p> </p>
+<p>CTS modules:</p>
+<p> </p>
+<p>CTS module: Yes/no field to indicate whether the course is a CTS module. 
+ If set to Yes, 2 additional  fields are enabled, which are only applicable 
+ to CTS modules:</p>
+<p> </p>
+<p>Course instructional level  : Indicates the rigor of the curriculum 
+ and thus the level of skills taught within a CTS course.</p>
+<p> </p>
+<p>Course strand  : Indicates the strand (or career area) to which 
+ a CTS course is related.</p>
+<p>Prerequisite courses from PASI </p>
+<p>As part of the integration with PASI, prerequisite codes will be automatically 
+ populated from the information in PASI to the Central Office codes file 
+ Prerequisite area.  Note, Maplewood’s prerequisite information will 
+ list the Maplewood codes (e.g. if SCN3230 has a prerequisite of SCN2231, 
+ but the division uses the Maplewood code MBIO20, you will see BIO20V in 
+ Maplewood’s Prerequisites in the code table).  </p>
+<p> </p>
+<p>The prerequisite courses are also automatically updated in the courses 
+ table. </p>
+<p>PASI section terms</p>
+<p>As part of the initial setup of Maplewood, each school would have created 
+ or have been provided with semester/term patterns.  These patterns 
+ are used in the setup of classes to define when a class is taught.  The 
+ PASI section term is part of the information that is provided to PASI 
+ for each class.  Take a moment to see that the PASI section term 
+ is correct for each semester/term pattern.</p>
+<p>Setup &gt; Class setup &gt; Sem/term/day/period card – THIS YEAR button</p>
+<p>Use expand icon to see the PASI Section term column for each set as 
+ shown:</p>
+<p> </p>
+<p>If the PASI section term is not set correctly, select the row to access 
+ the Edit option:</p>
+<p> </p>
+<p>Edit the PASI section term field by selecting the most appropriate value 
+ from the drop down list of PASI values then select the SAVE button.</p>
+<p> </p>
+<p>The PASI section term values are: Continuous, FullYear, Quarter1, Quarter2, 
+ Quarter3, Quarter4, Semester1, Semester2, or Summer. </p>
+<p>NOTE:  if a class is defined using the special schedule feature, 
+ the PASI section term is specified as part of the setup of the individual 
+ class as shown here (within Edit of the class):</p>
+<p> </p>
+<p>Only courses flagged as provincially defined (in code table) require 
+ a PASI section term.</p>
+<p>Classes (PASI Sections)</p>
+<p>If a class uses a provincially defined code, it will integrate with 
+ PASI.  Classes are called Sections in PASI. </p>
+<p>Changes to classes, using Setup &gt; Class Setup &gt; Classes, are submitted 
+ to PASI in real-time.  </p>
+<p>Classes will be listed in order by the code as shown here:</p>
+<p> </p>
+<p>If a provincially defined course has a class that was rejected by PASI, 
+ it will appear in red and the alert icon will appear in the PASI alert 
+ column as shown here:</p>
+<p> </p>
+<p>Sorting the classes by this first column will show whether or not the 
+ school has any rejected classes.  Students in these classes will 
+ not have their course enrolments in PASI until the class section is successfully 
+ synched with PASI (red goes away). Every attempt has been made to ensure 
+ that all provincially defined courses have their classes synched in PASI, 
+ so it should be very rare that a class is not synched.  The above 
+ example is due to the fact that the class has no semester/term pattern, 
+ and therefore it has not PASI section term.  Classes cannot be saved 
+ without a pattern so this example is only to illustrate what a rejection 
+ might appear like.</p>
+<p>The tool tip on the Alert icon will provide a description as to why 
+ the class was rejected:</p>
+<p> </p>
+<p>Editing the class will prominently display the alert as well.  Buttons 
+ will appear so that the alert may be Acknowledged or Unacknowledged.  Acknowledging 
+ a rejected class will not clear the rejection – the class will still appear 
+ in red.</p>
+<p> </p>
+<p>Although classes with advice from PASI will not appear in red in the 
+ initial list of classes, the advice will be prominently displayed when 
+ editing the class as well:</p>
+<p> </p>
+<p>Depending on the nature of the rejection, or advice, once the information 
+ is corrected in Maplewood (typically by editing the class), the changes 
+ are automatically submitted to PASI and alerts are automatically updated 
+ based on the new information.</p>
+<p>Note:  Rejected class sections mean that the class is not in PASI 
+ and therefore the students’ course enrolments will also not be in PASI. 
+  </p>
+<p>PASI compare (class section in Maplewood vs PASI)</p>
+<p>Whether the class has successfully synched with PASI or if it has been 
+ rejected, you may compare the information about the class section in Maplewood 
+ vs PASI. There are 2 ways to access the PASI compare  for a class:</p>
+<p>1.  Row click the class to access the menu with the PASI compare 
+ option.</p>
+<p>  </p>
+<p>2. Edit the class and access the PASI compare icon in the tool bar.</p>
+<p> </p>
+<p>Upon selecting the PASI compare option, if the class is rejected, the 
+ PASI compare will only provide access to the REJECTIONS tab as shown here:</p>
+<p> </p>
+<p>For the majority of classes, it will go to the PASI COMPARE tab as shown 
+ here:</p>
+<p> </p>
+<p>Again, the information in Maplewood and PASI should be synched (no yellow 
+ discrepancies).  If there are any discrepancies between Maplewood 
+ and PASI, the row will appear in yellow as illustrated below (not a real 
+ example but an illustration showing different Maplewood and PASI record 
+ versions).</p>
+<p> </p>
+<p>PASI collects the following information for each class section (for 
+ grade 10 to 12 provincially defined courses):</p>
+<p>• Record version:  A unique version number automatically maintained 
+ as part of the PASI integration.  Pending version may appear if a 
+ change is not yet applied.</p>
+<p>• Section ID: A unique code automatically created by Maplewood. This 
+ is for reference only.</p>
+<p>• Course Code(s): The PASI code of the provincially defined code. See 
+ Special note about CTS classes (on page 45) for examples of multiple course 
+ codes appearing here.</p>
+<p>• Local Section ID:  The class in Maplewood (course code and section 
+ letter).</p>
+<p>• Credits Offered:  The credit value of the class.</p>
+<p>• Delivery Schedule:  The Section Delivery Schedule of the class 
+ (EVG = Evening, REG = Regular, SAT = Weekend).</p>
+<p>• Description:  The title of the code.  Note:  The Courses 
+ file has a setting to allow the school to use the same title as the code 
+ or to enter their own titles.  If the school has opted to define 
+ their own title, it will appear here.</p>
+<p>• Start Date/End Date:  The start and end dates defined for the 
+ class in the classes file.</p>
+<p>• Instructional language:  The language defined for the class.</p>
+<p>• Instructional Minutes Offered:  This information is optional 
+ and currently not part of integration.  It will always be blank.</p>
+<p>• Primary Delivery Method:  The primary delivery method of the 
+ class (REG = Regular, DSL = Distance Learning - Print based, HED = Home 
+ Education, OFC = Off Campus, ORP = Outreach program, VTL = Distance Learning 
+ – Online, CHA = Challenge).  </p>
+<p>• School Code:  The school number of the school offering the class.</p>
+<p>• School Year:  The school year (e.g. if 2017/2018 school year, 
+ it will appear as 2018).</p>
+<p>• Section/Term: This is based on the class schedule, specifically the 
+ semester/term assigned to the class (see PASI Section Term on page 38). 
+  The Section/Term values are as follows: Continuous, FullYear, Quarter1, 
+ Quarter2, Quarter3, Quarter4, Semester1, Semester2, or Summer.</p>
+<p>In addition to the PASI COMPARE tab, other tabs are enabled if applicable 
+ to the class.  For example, the ALERTS tab as shown here:</p>
+<p>  </p>
+<p>The AUDIT HISTORY tab is available to see detailed information each 
+ time the class information was edited.</p>
+<p> </p>
+<p>Career and Technology Studies (CTS) – Master/module classes</p>
+<p>Career and technology studies (CTS) is a provincially authorized curriculum 
+ for Alberta secondary schools that offers flexible programming using 1-credit 
+ courses (modules). In Maplewood, there exists the ability to link CTS 
+ module courses to a CTS master class (a non-provincially defined course 
+ used for school organizational purposes).  This is the recommended 
+ approach for both PASI course enrolments, report cards, and attendance. 
+  Typically, the CTS master class is scheduled into an actual period 
+ in the student’s timetable, and the CTS module classes are assigned to 
+ a semester/term, but no actual period.  This allows the office to 
+ take attendance for the master class, but allows the teachers to record 
+ achievement and report card information for the CTS modules.  By 
+ linking the CTS module classes to a master class, the report card can 
+ easily group the modules together on the report.</p>
+<p>Although linking CTS modules to a master class is optional, it is the 
+ recommended approach for PASI.  If they are not linked, the CTS modules 
+ will be reported to PASI in the same manner that all other classes are 
+ reported.  </p>
+<p>IMPORTANT NOTE:  Linking CTS modules and modules must be done during 
+ the initial creation of the new CTS module class (before it has been established 
+ in PASI as a new section).  After the CTS module class is added, 
+ linking is no longer available.  </p>
+<p>This section will describe how to link CTS masters and modules, and 
+ how they are reported to PASI.</p>
+<p>Linking CTS masters and modules</p>
+<p>1. Define a CTS master course code:  The CTS master course code 
+ can be any code that is meaningful to the school (e.g. FOD1000 for a grade 
+ 10 master foods course).  Boards/divisions may optionally define 
+ the course in the Codes table, and since it will not have a valid PASI 
+ code, the master course will not be provincially defined.  Alternately, 
+ schools may define the course in the Courses table.</p>
+<p>From the board/division:  Setup &gt; School setup &gt; Codes     OR</p>
+<p>From the school:  Setup &gt; School setup &gt; Courses</p>
+<p>Notes:  CTS master courses must have the reportable box checked 
+ off if grouping modules together on the report card.  The reportable 
+ box is in the setup of the course.  </p>
+<p>CTS master courses have 0.00 credits.  When it is linked to modules, 
+ it will use the credit value of the CTS module class (the class with the 
+ highest credit value if classes have different credit values).</p>
+<p>2. Create a CTS master class:  Using the master course code defined 
+ in step 1, create a corresponding class (e.g. FOD1000k).  Make sure 
+ that all the correct attributes are defined for the class as these attributes 
+ will apply to all the modules (except for the day/period schedule).  There 
+ is no master/module linking at this point. </p>
+<p>From the school:  Setup &gt; School setup &gt; Classes</p>
+<p>3. Create a CTS module class and link it to the master class:  Create 
+ a new class for a module course (e.g FOD1010k).  The application 
+ will detect that you are adding a CTS module, and therefore it will enable 
+ the CTS master field.  Select the master class created in step 2 
+ as shown here:</p>
+<p> </p>
+<p>Upon selecting the CTS master class, some of the fields will be disabled 
+ as their values are populated from the master class.  These fields 
+ include:  primary delivery method, section delivery schedule, language 
+ of instruction, instructional minutes offered, class start and end dates.</p>
+<p>Typically, the CTS module classes are assigned a day/period pattern 
+ that represents no actual period assigned (e.g. floater pattern) so that 
+ the student can have any number of CTS classes without creating conflicts. 
+ </p>
+<p>Note: If you attempt to save the new CTS class without selecting the 
+ master class, the following message will appear:</p>
+<p> </p>
+<p>Once the class is saved, PASI will be updated real-time. </p>
+<p>4. Repeat step 3 for all CTS module classes to be linked to the master 
+ class:  For example, create FOD1020k and link it to FOD1000k, create 
+ FOD1030k and link it to FOD1000k, etc.   </p>
+<p>Note:  the FOD1000k master class will show all the modules linked 
+ to it:</p>
+<p> </p>
+<p> </p>
+<p>PASI sections (for linked CTS master/module classes)</p>
+<p>When a school creates the CTS master class, nothing is synched to PASI. 
+  As soon as the school adds the first CTS module class, upon saving 
+ that class, PASI will be automatically updated with a new class section. 
+  As subsequent CTS module classes are added, the original PASI section 
+ will be updated with the new courses that have been added to the master 
+ class.  The end result shows the PASI section referring to the Master 
+ class (FOD1000a) but that class has multiple courses (FOD1010, FOD1020, 
+ FOD1030).</p>
+<p>Here’s an example of the PASI compare for FOD1000k:</p>
+<p> </p>
+<p>Here is an expanded view showing the Course Code(s) and Local Section 
+ ID:</p>
+<p> </p>
+<p>A student’s course enrolments are discussed in http://www.maplewood.com/Maplewood%20connectEd%20for%20Schools/#t=Students%2Fpasi-student-crse-enrolment.htm 
+ but it is important to understand that although the CTS master and module 
+ classes are linked, each module CTS class will be reported to PASI as 
+ a unique course enrolment (eg. FOD1010, FOD1020, FOD1030 are distinct 
+ course enrolments):</p>
+<p> </p>
+<p>Expanding the course enrolment shows how each CTS module course enrolment 
+ can have unique information depending on the student’s enrolment in the 
+ course:</p>
+<p> </p>
+<p>Timetables (PASI Course Enrolments)</p>
+<p>Overview</p>
+<p>Every class in the school that uses a provincially defined code, will 
+ integrate with PASI.  These classes are called Sections in PASI. 
+  Changes to the setup of these classes are submitted to PASI in real-time. 
+  </p>
+<p>PASI also collects information about the students enrolled in these 
+ provincially defined classes.  Each student’s class is called a Course 
+ Enrolment in PASI, and it is linked to the corresponding class section 
+ in PASI.  As these classes change in the students’ timetables, these 
+ changes are submitted to PASI in real-time.  These timetable changes 
+ include:</p>
+<p>• Adding classes to a student’s timetable</p>
+<p>• Dropping classes from a student’s timetable</p>
+<p>• Mass timetable changes to groups of students</p>
+<p>• Editing the dates a student added or dropped a class</p>
+<p>• Editing the start or end date for a continuous entry class</p>
+<p>• Adding classes to a newly added student</p>
+<p>• Withdrawing a student from school</p>
+<p>• Any other function that may write to a student’s timetable</p>
+<p>Editing student timetables (Quick reminders)</p>
+<p>Individual classes are added and dropped from a student’s timetables 
+ using:</p>
+<p>Student’s record &gt; Class info &gt; Timetable &gt; Edit</p>
+<p>The student’s class start and end dates may be edited, if required, 
+ using:</p>
+<p>Student’s record &gt; Class info &gt; Timetable &gt; Edit &gt; select 
+ More icon (top right corner) &gt; Register</p>
+<p> </p>
+<p>The Register provides a record of the dates the classes were last modified, 
+ along with the class enrolment and end date (date the student started 
+ and finished the class).  If the class has been removed from the 
+ timetable, the drop date as shown here:</p>
+<p> </p>
+<p>Row click a class in the register to edit the dates, if required. Only 
+ dropped courses may be completely removed from the register (class will 
+ be set to “Is deleted” in PASI so this should be really only used for 
+ classes that were recorded in error where the student did not actually 
+ attend).  Note:  Dropped classes are reported to PASI as “withdrawn”.</p>
+<p> </p>
+<p>Dropping a future class from a student’s timetable will remove the class 
+ record from the register automatically.  These classes are also set 
+ to “Is deleted” in PASI.  </p>
+<p>Student’s PASI course enrolments</p>
+<p>You’ll find the Course enrolment menu option under the PASI submenu. 
+  These is where you can see the student’s classes that are submitted 
+ to PASI.</p>
+<p>IMAGE OF MENU HERE</p>
+<p>If a student has multiple school enrolments, first select the desired 
+ school enrolment.  Multiple school enrolments occur when a student 
+ returns to the school after a period of non-attendance (eg. student left 
+ the school and came back).</p>
+<p> </p>
+<p>             </p>
+<p>A Refresh icon is available in the Course enrolment card, if needed:</p>
+<p> </p>
+<p>A collapsed card will appear for each of the student’s course enrolments. 
+  The card title includes the Class (PASI code), status, and the start 
+ and end date for the student’s enrolment in the course. </p>
+<p>Course enrolment – PASI COMPARE tab</p>
+<p> </p>
+<p>Use the Show more icon to expand the card to show the PASI compare for 
+ the class as shown here:</p>
+<p>  </p>
+<p>If the information in Maplewood and PASI were different, the Alert icon 
+ will prominently appear as shown here:</p>
+<p> </p>
+<p>When you expand the card for a course, each discrepancy is highlighted 
+ in yellow as shown here:</p>
+<p> </p>
+<p>The Push to PASI icon in the card’s tool bar is enabled and may be used 
+ to manually attempt to send the Maplewood information to PASI.  If 
+ it is successful, the alert icon is cleared and the Push to PASI icon 
+ is disabled.</p>
+<p> </p>
+<p>Course enrolment – fields </p>
+<p>A course enrolment defines the student’s enrolment in a class section. 
+ Data collected in this area includes:</p>
+<p>• Record version: As part of the automatic PASI data exchange, version 
+ numbers of automatically maintained for each PASI record type.   Version 
+ numbers are automatically augmented each time the information is changed, 
+ and a record with an higher version number cannot be updated with a lower 
+ versioned record.</p>
+<p>• Alberta Student Number (ASN): The student’s ASN.</p>
+<p>• Deleted:  Yes will appear if a dropped class was completely removed 
+ from the register (used on rare occasions such as removing a class that 
+ may have been accidently added to the student’s timetable).  </p>
+<p>• Course code: The PASI code of the class.  Only one course will 
+ ever appear here for a student.</p>
+<p>• Student enrolment ref id:  The unique code automatically created 
+ by Maplewood that identifies the student’s school enrolment.</p>
+<p>• Section ref id: The unique code automatically created by Maplewood 
+ that identifies the class.</p>
+<p>• Start date/End date: The dates the student started the class and the 
+ last day the student attended the class (or is expected to attend). These 
+ dates come from the ‘class enrolment date’ and ‘class enrolment end date’ 
+ fields automatically recorded in the student’s register.  These dates 
+ are based on today’s date and are automatically recorded as classes are 
+ added or dropped, however they may be edited if required.  See Editing 
+ student timetables (Quick reminders) on page 50.</p>
+<p>• Course Enrolment Status: This is automatically determined by Maplewood 
+ as follows:</p>
+<p>Active:  the student is currently enrolled in the course.</p>
+<p>Completed:  the student has finished the enrolment as anticipated.</p>
+<p>Continuing: The student is continuing their study across course enrolments 
+ and this course enrolment is expected to have a related successor course 
+ enrolment. In Maplewood, this course enrolment status can be entered for 
+ a course once it has been added to the student’s completed courses.  By 
+ selecting this status, the mark information will be removed from PASI.</p>
+<p>Incomplete:  The class is a CTS class (as indicated in the code 
+ table) and the student has dropped the class without finishing the CTS 
+ course material.</p>
+<p>Registered:  The class has not yet started.  The overnight 
+ synch will automatically change this status to Active on the entry date.</p>
+<p>Withdrawn:  The class is not a CTS class and the student has dropped 
+ the class (withdrew early from the enrolment after completing a portion 
+ of the course).</p>
+<p>• Credits Attempted:  The credit value of the class.</p>
+<p>  </p>
+<p>• Instructional Minutes Received:  This field is optional, however, 
+ if the school want to request funding for a dropped class, this field 
+ must be populated (to help support the request for funding).  The 
+ instructional minutes received may be entered in the register for dropped 
+ classes only.  See Editing student timetables (Quick reminders) for 
+ information on the register.  This field is also available when editing 
+ a student’s completed courses.</p>
+<p>• Dual Enrolment: When editing a student’s timetable, the dual enrolment 
+ icon will appear beside any class that is flagged as dual enrolment.  </p>
+<p> </p>
+<p>This setting may be turned on or off by row clicking the class to access 
+ the dual enrolment option:</p>
+<p> </p>
+<p>Selecting the Dual enrolment will present the form where the box may 
+ be checked or uncheck:</p>
+<p> </p>
+<p>• Funding Requested:  This will always be set to Yes, except for 
+ one situation.  If a class is dropped, and no instructional minutes 
+ are provided, the funding request will be set to No. </p>
+<p>• Mark Format/Mark Value/Mark Assignment Date/Mark is Approved:  This 
+ will automatically populated when the school runs the progress to ‘Add 
+ completed courses’.</p>
+<p>Course enrolment – ALERTS tab</p>
+<p>If the student has Alerts for any of their course enrolments, the ALERTS 
+ tab is enabled and will indicate the total number of alerts for the student’s 
+ classes.  Alerts may include advice and/or warnings as shown here. 
+  </p>
+<p> </p>
+<p>Row click any of the alerts or advice to change the alert status as 
+ shown here:</p>
+<p> </p>
+<p>Course enrolment – REJECTIONS tab</p>
+<p>If the student has Rejections for any of their course enrolments, the 
+ REJECTIONS tab is enabled and will indicate the total number of rejections 
+ for the student’s classes.  Rejections mean that the course enrolment 
+ is not in PASI and these must be resolved. In this example, the student’s 
+ school enrolment was rejected causing the course enrolment to be rejected 
+ as well.</p>
+<p> </p>
+<p>Course enrolment – AUDIT HISTORY tab</p>
+<p>The AUDIT HISTORY tab is available to see detailed information each 
+ time the course enrolment was edited.</p>
+<p>PASI Manager - Seeing all course enrolment alerts</p>
+<p>In Maplewood, you can see all the alerts regarding course enrolments, 
+ and discrepancies by following these steps from the division (central 
+ office) or from the school:</p>
+<p> Select the PASI statistics card from the dashboard OR</p>
+<p> Select the PASI Manager option located in the Main menu </p>
+<p>Once the PASI Manager has opened, select the ALERTS tab and choose Course 
+ Enrolment from the Record Type filter.  By default, all alert types 
+ will appear, but the list may be filtered to show only advice and/or rejection 
+ and/or warning alert types.</p>
+<p>  </p>
+<p>Row click any alert to open a new browser window showing the PASI option 
+ in the affected student’s record.</p>
+<p>********************STOPPED HERE FOR STUDENT RECORDS &gt; PASI &gt; 
+ COURSE ENROLMENT</p>
+<p>**** NOT IN MANUAL – NOT DONE YET *****Special notes about adding/dropping 
+ classes</p>
+<p>Continuous entry classes</p>
+<p>Within Maplewood there is the feature to define Classes as continuous 
+ entry, meaning that each student has a unique start and end date.  Please 
+ note, this is different from PASI’s Continuing Course Enrolment Status. 
+  Continuous entry classes in a student’s timetable have a unique 
+ icon to clearly identify these classes, and when you select one of these 
+ classes, the option Edit contin:</p>
+<p>      </p>
+<p>In Maplewood, when a continuous entry class is added to the student’s 
+ timetable, today’s date is defaulted as the start date.  Select the 
+ option Edit continuous entry class to access the student’s start and completion 
+ dates since each student may start and finish the class at their own pace 
+ </p>
+<p> </p>
+<p>When the student completes a continuous entry, a completion date is 
+ entered by the office or the teacher.  If the completion date is 
+ entered by the office, they will receive a message similar to this (NOT 
+ WORKING YET???):  </p>
+<p> </p>
+<p>If you opt to post a final mark to the Completed Courses (transcript), 
+ the course enrolment status will be set to Completed (and the final mark 
+ information will be sent to PASI).   </p>
+<p>If the completion date is entered by the teacher, or the office does 
+ not post the final mark at the prompted question, the mark information 
+ will be added to the student’s completed courses when the office runs 
+ the Achievement option called Add completed courses.  Mark information 
+ will be sent automatically to PASI when the course is added to the student’s 
+ completed courses (see Add completed Courses (PASI Marks) on page 62 for 
+ additional information on this process. </p>
+<p>Note:  Dropping a continuous entry class from a student’s timetable 
+ will use today’s date as the completion date.  Dropped continuous 
+ entry classes will also prompt to post a final mark to the student’s completed 
+ courses.  If the class is dropped because the student is withdrawing 
+ from the course, a final mark is not entered (*** SAY WHAT TO DO ON THE 
+ FORM). The course enrolment status will be set to Withdrawn (if it is 
+ not a CTS class) or Incomplete (if it is a CTS class).</p>
+<p>Completing CTS classes</p>
+<p>CTS classes often start and end and different times throughout the year 
+ and are not necessary set up as continuous entry classes.  For this 
+ reason, when you drop a CTS class from a student’s timetable, it will 
+ provide the option to post a final mark to the student’s completed course 
+ (just like Continuous entry classes described above).  NOT WORKING 
+ YET</p>
+<p>If you opt to post a final mark to the Completed Courses (transcript), 
+ the course enrolment status will be set to Completed (and the final mark 
+ information will be sent to PASI).  </p>
+<p>If you do not post a final mark, the course enrolment status will be 
+ set to Incomplete. </p>
+<p>Dropping regular classes</p>
+<p>Dropping a regular class (e.g. one that is neither CTS or continuous 
+ entry) will be updated in PASI with the course enrolment status set to 
+ Withdrawn.</p>
+<p>Adding then dropping a class on the same date</p>
+<p>If a class is added and dropped on the same date, the student’s course 
+ enrolment will be set to ‘Is deleted’ in PASI.   These course 
+ enrolments will not appear in the student’s PASI option for course enrolments 
+ and they will no longer appear in PASI.</p>
+<p>Dropping a future ‘registered’ class</p>
+<p>If a student drops a class that has not yet started (course enrolment 
+ status is Registered), the student’s course enrolment will be set to Deleted 
+ in PASI.   These course enrolments will not appear in the student’s 
+ PASI button and they will no longer appear in PASI.</p>
+<p>Withdrawing a student</p>
+<p>When a student’s leaves the school, the school will set the Maplewood 
+ status to “Deleted”.  This will trigger all classes in the student’s 
+ timetable to be dropped.  The following changes are sent to PASI:</p>
+<p>• All current course enrolments will have the course enrolment status 
+ changed from Active to Withdrawn (or Incomplete if CTS class).</p>
+<p>• All future course enrolments (course enrolment status is Registered) 
+ will be set to “Is deleted” in PASI. These course enrolments will not 
+ appear in the student’s PASI button and they will no longer appear in 
+ PASI.</p>
+<p>Add completed Courses (PASI Marks)  </p>
+<p>Achievement &gt; Completed courses &gt; Add completed courses</p>
+<p>Mark information for the students’ PASI course enrolments (classes) 
+ is sent to PASI automatically when the course is added to the completed 
+ courses area of the student’s record.   See _____ for details…..</p>
+<p>SEE ACTUAL MANUAL for final version - MANUAL PAGE FOR ADD COMPLETED 
+ COURSES </p>
+<p>LINKS at the top of page:</p>
+<p>Overview</p>
+<p>Teacher indicates official marks are done</p>
+<p>Check teacher</p>
+<p>Suggested process for adding completed courses</p>
+<p>Editing mark information for a completed course</p>
+<p>Removing all completed courses with the same completion date</p>
+<p>Searching for duplicate courses</p>
+<p>Calculate compulsory credits</p>
+<p>Overview</p>
+<p>The Completed courses  option within student records lists all 
+ the courses a student has completed, along with official mark information. 
+  Based on provincial requirements, both successful and unsuccessful 
+ completed courses can be recorded here, as well as course withdrawals 
+ required by some provinces. Although most schools only record courses 
+ that the student took as part of their high school program, it can also 
+ record courses that are non-credit courses, such as courses taken before 
+ high school.</p>
+<p>The completed courses area is also sometimes referred to as transcripts 
+ or course history.   After final marks are recorded, the school 
+ runs a process to automatically add the newly completed courses into this 
+ area of the student’s record.</p>
+<p>This section describes the process of how the office updates the students’ 
+ completed courses area with newly completed courses, using the Add completed 
+ courses tool.  This tool will add the course to a student’s completed 
+ courses if all of these conditions are met:</p>
+<p>• Course code exists in the Codes table</p>
+<p>• Grade of course requires an official mark (based on the school setting 
+ “Minimum grade of class requiring an official mark”)</p>
+<p>• The official marks for the class are “Done” (based on Done check box 
+ that teacher sets for the class) OR the student has a completion date 
+ for the continuous entry class</p>
+<p>• Official mark exists for the student</p>
+<p>• The class end date (in classes table) is within the range of dates 
+ the school specifies OR if the class is continuous entry,  the student’s 
+ completion date is within the range</p>
+<p>• The class (course) is not already added to the student’s completed 
+ courses area</p>
+<p>When a course is added, the mark is based on the mark provided by the 
+ teacher, attendance is based on the student’s attendance recorded by the 
+ office, and class attributes are based on the values in the classes table. 
+  The student’s earned credit value will be set to 0.00 if the student 
+ does not receive a passing mark.  </p>
+<p>If a student repeats a course, the attempt with the lower mark will 
+ have its credit value automatically changed to 0.  If the provincial 
+ course codes use fewer than 7 characters, the number of characters to 
+ check for duplicates is user-defined (e.g. MAT1A and MAT1A1 would represent 
+ the same course if searching 5 characters).  </p>
+<p>To access this tool, select the Menu icon in the left corner, then select 
+ Student tools  or Achievement, then Completed courses. </p>
+<p>    </p>
+<p>This will take you to the Completed courses section where you will find 
+ the Add completed courses card.</p>
+<p> </p>
+<p>Select either the CHECK TEACHER to see whether teachers are finished 
+ entering their official marks.  Select GO to add newly completed 
+ courses.  Courses will not be re-added if the add courses process 
+ is run multiple times.  </p>
+<p>Before using this tool, it is important that teachers record the students’ 
+ marks and indicates that they are done entering marks as explained here:</p>
+<p>Teacher indicates official marks are done</p>
+<p>When the teacher is finished entering the marks for all students in 
+ the class, they will indicate that they are done recording the official 
+ mark.  In the final report card term, the teacher will notice a blue 
+ column for the official mark as shown below.  The teacher checks 
+ the Done box when the official marks are ready.  If the Done box 
+ is not checked, the marks will not be added to the student’s completed 
+ courses even if marks are entered. </p>
+<p> </p>
+<p>Note:  As part of a school’s setup for the teacher’s Maplewood 
+ connectEd, there is a setting called “Minimum grade of class requiring 
+ an official mark”.  This is typically set to grade 9 </p>
+<p>(Ontario) or 10 (other provinces) but this setting may be adjusted to 
+ fit each school’s needs .  Courses in grades lower than this setting 
+ will not see the ‘Done’ box and therefore these courses will never be 
+ automatically added to the student’s completed courses.  </p>
+<p>The office may use the CHECK TEACHERS button to see whether the teachers 
+ are done their official marks, and if needed, the office may check/uncheck 
+ the Done box. </p>
+<p>Check teacher </p>
+<p>Use the CHECK TEACHER feature to generate a list of classes that are 
+ completed within a date range to see whether or not the official marks 
+ are done as shown here:</p>
+<p>  </p>
+<p>For each class in the list, the following information is presented:</p>
+<p>Official mark done:  This is checked if the teacher has indicated 
+ that they are done their official marks.   </p>
+<p>• If the box is checked, the teacher cannot change the official marks. 
+  </p>
+<p>• If the box is unchecked, the class will be ignored when adding completed 
+ courses. </p>
+<p>The office may check/uncheck this box, however we would suggest that 
+ this is only done in the following situations:</p>
+<p>• The marks are done but the teacher forgot to check the done button 
+ before leaving the school (e.g. summer holidays).</p>
+<p>• The teacher accidently checked the done button and requested the office 
+ to uncheck it.</p>
+<p>Teacher:  The teacher(s) of the class.  </p>
+<p>Class:  The class (course code and section letter) and title of 
+ the class.</p>
+<p>Class end date:  The end date of the class as recorded in the classes 
+ table.</p>
+<p>By default, the list will include all classes regardless of whether 
+ the done box is checked or unchecked.  Select the tool bar icon to 
+ change between:</p>
+<p>   ‘List includes classes with official marks done’ and 
+ </p>
+<p>  ‘List excludes classes with official marks done’. </p>
+<p>Note:  Continuous entry classes are automatically excluded from 
+ the list.  These students have their own unique completion dates. 
+ If the student’s completion date is within the range of dates considered 
+ when adding newly completed courses, the course will be added using the 
+ student’s completion date.</p>
+<p>Suggested process for adding completed courses</p>
+<p>At the end of each semester (or quarter if applicable), the following 
+ steps are suggested for the school office:</p>
+<p>1. Use the CHECK TEACHER option on the card to monitor whether the teachers 
+ are done  their official marks.  The classes without a check 
+ mark will be ignored, however you may still proceed with the next steps, 
+ knowing that you will need to repeat all these steps when the official 
+ marks are done for the ignored classes. </p>
+<p>2. This step adds newly completed courses to the students’ completed 
+ courses area of student records.  This step may be repeated multiple 
+ times.  A course will not be duplicated if it was previously added. 
+  If the course has already been added for a student, it will be ignored 
+ completely, even if the teacher changed the mark, or this step is being 
+ run with a different completion date.</p>
+<p>From the Add completed courses card, select the GO button then fill 
+ in the required information as explained below:</p>
+<p>   </p>
+<p>Start date and End dates:  enter a date range (start and end date). 
+  This range will be used to determine which classes to search to 
+ see if official marks are done.  Classes with end dates in the range 
+ will be considered, only if the teacher has indicated that the official 
+ marks for the class are “Done”.  Note: Class end date is a field 
+ in the setup of each class.  Students with continuous entry classes 
+ where the student’s completion date is in this range, will also be considered.</p>
+<p>Completion date:  Enter the completion date of the class.  This 
+ is the date that will be recorded in the student’ record, regardless of 
+ the actual class end date. Continuous entry classes, however, will use 
+ the student’s completion date, not the date on this form.</p>
+<p>(Alberta only) The field is called Completion date (PASI mark assignment 
+ date):  This date can be today’s date or any date earlier in the 
+ school year.  This date will be used as the Mark Assignment Date 
+ in PASI, which may not be a future date.  </p>
+<p>(Alberta only) Approve mark:  When the dates are set correctly, 
+ check the Approve mark box.  This box must be checked before you 
+ may access the ADD button on the bottom bar.  By checking this box, 
+ the mark information will be submitted to PASI as approved .</p>
+<p>3. Select the ADD button in the lower right corner. </p>
+<p>(Alberta only) The ADD button is disabled if there is no check mark 
+ in the ‘Approve mark’ box.  </p>
+<p>4. A report will be generated of any students who were not updated because 
+ marks were missing.  This should not be possible unless the ‘official 
+ marks done’ was checked before marks were entered.  </p>
+<p>5. Check a few students to see that the newly completed courses were 
+ added using Student’s record &gt; Achievement &gt; Completed courses .</p>
+<p> </p>
+<p>6. (Alberta only) Check a few students to see that the mark information 
+ was submitted to PASI using Student’s record &gt; PASI &gt; Course enrolment 
+ . </p>
+<p>The following mark fields are submitted to PASI and will now appear 
+ in the student’s PASI course enrolment record:</p>
+<p>Mark Format:  Always set to Percent for course marks.</p>
+<p>Mark Value:  The mark assigned by the school (teacher) from 0 to 
+ 100.</p>
+<p>Mark Assignment Date: The date the mark was submitted to PASI.  Note: 
+ the student’s course enrolment exit date must be within 30 days of the 
+ mark assignment date.</p>
+<p>Mark is Approved: This should always be Yes when marks exist.</p>
+<p>Editing mark information for a completed course </p>
+<p>If the mark information requires changes, you may edit the completed 
+ course using Student’s record &gt; Achievement &gt; Completed courses 
+ &gt; Click course to access Edit option.</p>
+<p>Due to the real-time integration with PASI, the following changes apply 
+ to Alberta provincially defined courses only:</p>
+<p>• When editing a completed course, you must first un-check the box called 
+ ‘Mark is approved’ (show below).  </p>
+<p> </p>
+<p>• With the approved box unchecked, proceed with any changes and then 
+ re-check the approved box to save the changes.  The new mark information 
+ will be automatically submitted to PASI upon saving.</p>
+<p>• M arks for provincially defined courses completed in previous years 
+ may not be edited nor discarded. Non-provincially defined courses are 
+ completely editable and may be discarded.</p>
+<p>Removing all completed courses with the same completion date</p>
+<p>If required, it is possible to remove all completed courses with the 
+ same completion using Achievement &gt; Completed courses &gt; Remove  a 
+ date.</p>
+<p>Note: Provincially defined courses may not be removed from previous 
+ years.</p>
+<p>Searching for duplicate courses</p>
+<p>If required, it is possible to search for courses that may be considered 
+ duplicates, where the student is receiving credits for multiple attempts 
+ of the same course, by selecting Achievement &gt; Completed course &gt; 
+ Search for duplicate courses .</p>
+<p>Calculate compulsory credits</p>
+<p>Each course code entered into the ‘Completed courses’ (transcript) area 
+ of a student’s record has an automatically calculated Y/N field that indicates 
+ whether or not that course is compulsory (required to fulfill graduation 
+ requirements). This calculation is done automatically every time a student’s 
+ completed course is accessed, and it is done automatically as final marks 
+ are posted to the completed courses area.</p>
+<p> </p>
+<p>There may be the occasional time where you may be asked to run the calculate 
+ compulsory credits tool which will go through all current or past students 
+ to recalculate the Y/N compulsory field. Typically, this is only run upon 
+ the advice of Maplewood, however, there is no harm in running it at any 
+ time using Achievement &gt; Completed course &gt; Calculate compulsory 
+ credits .</p>
+<p>Courses added directly to Completed Courses (PASI Evaluated marks)</p>
+<p>Student’s record &gt; Achievement &gt; Completed courses</p>
+<p>PASI also collects Evaluated Marks.  These are marks that are granted 
+ to students outside of the enrolment of a class in the school (e.g. out 
+ of province credits, challenge marks, etc.).  Evaluated Marks are 
+ entered directly in the student’s completed courses area.  If the 
+ course has an evaluation date during this school year, it will be automatically 
+ submitted to PASI as an Evaluated Mark.</p>
+<p>To add an evaluated mark for a student, select the Add icon in the Completed 
+ courses tool bar:</p>
+<p> </p>
+<p>At the resulting form, select the course to be added.   If 
+ the course is a provincially defined course, it will look like this:</p>
+<p> </p>
+<p>The following information is entered for the evaluated mark:</p>
+<p> </p>
+<p>Check the Mark is Approved box to enable the SAVE button in the lower 
+ right corner:</p>
+<p> </p>
+<p>When editing a previously entered evaluated mark, you must first un-check 
+ the box called ‘Mark is approved’ (show below).  </p>
+<p> </p>
+<p>With the approved box unchecked, proceed with any changes and then re-check 
+ the approved box to save the changes.  The new mark information will 
+ be automatically submitted to PASI upon saving.</p>
+<p>Note:  marks for provincially defined courses completed in previous 
+ years may not be edited. Non-provincially defined courses are completely 
+ editable.</p>
+<p>Student’s PASI evaluated marks </p>
+<p>In Maplewood, you can see the student’s evaluated marks submitted to 
+ PASI by selecting:</p>
+<p>Student’s record &gt; PASI &gt; Evaluated marks</p>
+<p>Evaluated marks – PASI COMPARE tab</p>
+<p>Use the Show more icon to expand the evaluated mark card for a course:</p>
+<p> </p>
+<p> </p>
+<p>Evaluated marks – fields</p>
+<p>Data collected in the Evaluated Mark area includes:</p>
+<p>• Course Code: The PASI code of the course in the transcript.</p>
+<p>• Credits Attempted:  The credits attempted from the course in 
+ the transcript.</p>
+<p>• Evaluation Method:  The method recorded for the course (e.g. 
+ MUS = Music Evaluation, OUT-BC = out of province: BC (similar codes for 
+ other provinces/territories), PVT = Private School Evaluation, SCS = Special 
+ Cases Evaluation, and WPC = Waived Prerequisite Credit).</p>
+<p>• Evaluation Date:  The Date Completed field recorded for the course.</p>
+<p>• Organization Code:  The school number of the school that entered 
+ the evaluated mark.</p>
+<p>• School Year: The school year (e.g. if 2017/2018 school year, it will 
+ appear as 2018).</p>
+<p>• Funding Requested:  Based on whether the funding check box is 
+ checked in the transcript.</p>
+<p>• Mark Format: PassFail or Percentage.  Percentage marks are allowed 
+ for course challenge and music evaluation methods.  All other evaluated 
+ marks are PassFail format.</p>
+<p>• Mark Value:  The mark recorded for the course.  Note:  PASI 
+ will only accept P for PassFail format marks.  If a P (Pass) was 
+ entered in error, it may be changed to F (Fail) in PASI.</p>
+<p>• Mark is Approved: This should always be checked in Maplewood.  If 
+ it is not checked in PASI, the mark is not approved in PASI.  Submit 
+ mark approval button can be used to synch this field.</p>
+<p>Evaluated marks – ALERTS tab</p>
+<p>If the student has Alerts for any of their evaluated marks, the ALERTS 
+ tab is enabled and will indicate the total number of alerts for the student’s 
+ evaluated courses.  Alerts may include advice and/or warnings as 
+ shown here:</p>
+<p>NEED EXAMPLE – NOT WORKING</p>
+<p>   </p>
+<p>Row click any of the alerts or advice to change the alert status as 
+ shown here:</p>
+<p>NEED EXAMPLE</p>
+<p>Evaluated marks – REJECTIONS tab</p>
+<p>If the student has Rejections for any of their evaluated marks, the 
+ REJECTIONS tab is enabled and will indicate the total number of rejections 
+ for the student’s evaluated courses.  Rejections mean that the evaluated 
+ mark is not in PASI and these must be resolved. In this example, ****** 
+ clarify example???</p>
+<p> </p>
+<p>Evaluated marks – AUDIT HISTORY tab</p>
+<p>The AUDIT HISTORY tab is available to see detailed information each 
+ time the evaluated enrolment was edited (NOT READY YET).</p>
+<p>PASI Manager – Seeing all Evaluated marks alerts &amp; approval status</p>
+<p>In Maplewood, you can see all the alerts and discrepancies? regarding 
+ evaluated marks by following these steps from the division (central office) 
+ or from the school:</p>
+<p> Select the PASI statistics card from the dashboard OR</p>
+<p> Select the PASI Manager option located in the Main menu </p>
+<p>Once the PASI Manager has opened, select the ALERTS tab and choose Evaluated 
+ Marks from the Record Type filter.  By default, all alert types will 
+ appear, but the list may be filter to show only advice and/or rejection 
+ and/or warning alert types.</p>
+<p>   Row click any alert to open a new browser window showing 
+ the PASI option in the affected student’s record (may be working – can’t 
+ tell until the ALERTS tab is working).</p>
+<p>Marks</p>
+<p>Course enrolment marks</p>
+<p>Students registered in provincially defined courses at schools will 
+ have those courses and marks reported to PASI through the course enrolment 
+ record.  Each course enrolment includes these fields:</p>
+<p>Mark format:  Indicates the format of the mark, such as letter, 
+ numerical score, percentage, or pass/fail.</p>
+<p>Mark value:  The mark value assigned to the student for the course. 
+  Mark value may be a numeric value between 0 and 100 or A, B, C, 
+ or P (pass) or F (fail).</p>
+<p>Mark assignment date:  The date the mark was assigned as recorded 
+ in the mark assignment date field in the completed courses area of the 
+ student’s record.</p>
+<p>Mark is approved:  A Y/N field to indicate whether PASI has approved 
+ the mark.</p>
+<p>Teachers are responsible for the entry of the student’s final mark (or 
+ school mark prior to a diploma exam).  The school office runs a process 
+ to add completed courses which takes the teachers’ marks and updates the 
+ students’ completed courses area.  When the course is added to the 
+ completed courses area, PASI is updated real-time with the new mark information 
+ for the corresponding course enrolment.  Please see LINK TO ACHIEVEMENT 
+ – COMPLETED COURSES – ADD COMPLETED COURSES. for information on this process.</p>
+<p>Evaluated marks</p>
+<p>Evaluated marks are course marks that are granted to students outside 
+ of the enrolment of a class in the school (e.g. out of province credits, 
+ challenge marks, etc.). Evaluated marks are entered directly in the student’s 
+ completed courses area.  If the provincially defined course (grade 
+ 10 to 12) has an evaluation date during this school year, it will be automatically 
+ submitted to PASI as an evaluated mark.  See LINK to http://www.maplewood.com/Maplewood%20connectEd%20for%20Schools/#t=Students%2Fpasi-student-evaluated-mks.htm 
+ for more information.</p>
+<p>Mark approvals</p>
+<p>Marks must be approved by PASI in order for courses to be considered 
+ part of the student’s official marks.  Even though the mark is sent 
+ to PASI as approved, PASI must accept the approved mark.  Typically, 
+ the school should monitor those marks that are not Approved by following 
+ these steps from the division (central office) or from the school:</p>
+<p> </p>
+<p>• Select the PASI statistics card from the dashboard OR</p>
+<p>• Select the PASI Manager option located in the Main menu</p>
+<p> </p>
+<p>Once the PASI Manager has opened, select the MARK APPROVALS tab. By 
+ default, all marks with issues will appear, while approved and deleted 
+ marks will be excluded.  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>The list may be filtered to show specific approval statuses from this 
+ list of possible statuses:  Update Required, Approval Required, Approval 
+ Pending, Unapproval Required, Unapproval Pending, Approved, Deleted.  Remember 
+ to select the filter button to refresh the results.</p>
+<p>Use the expand icon to the left of the ASN to show more information. 
+  The MARK DETAILS tab will show the Maplewood vs PASI values for 
+ the mark information for the course enrolment (example 1 below) or evaluated 
+ mark (example 2 below):</p>
+<p> </p>
+<p> </p>
+<p>Use the ALERTS tab to see details on alerts from PASI.  Alerts 
+ may provide information as to why marks may not be approved.</p>
+<p> </p>
+<p>Clicking anywhere else on the record (except the expand/collapse icon) 
+ to open a new browser window showing the PASI option in the affected student’s 
+ record.</p>
+<p>Use the RESUBMIT APPROVALS button on the bottom bar (to the left of 
+ the CLOSE button) if you want to try to resubmit all marks with issues 
+ for approval. </p>
+<p>    </p>
+<p> </p>
+<p>Official Marks (Marks Approved by PASI) </p>
+<p>PASI has a process to approve a mark before it may appear as approved 
+ in PASI.  PASI’s Official Marks include approved marks for Course 
+ Enrolments and Evaluated Marks. </p>
+<p>New students – Official marks automatically imported from PASI</p>
+<p>When adding a new student into Maplewood, if the student exists in PASI, 
+ the student’s completed courses area will be automatically populated with 
+ the student’s Official Marks recorded in PASI. Please note that this data 
+ in Maplewood is intended to provide users the ability to use course history 
+ tools (such as scheduling, graduation lists, and course selection) effectively. 
+  The official transcript resides in PASI.</p>
+<p>History: Import from PASI</p>
+<p>NOT THIS RELEASE -= OMIT FOR NOW</p>
+<p>Student’s record &gt; Completed courses &gt; Import icon</p>
+<p>With the Course Mark Integration, there exists the tool to import the 
+ contents of a student’s Transcript into Maplewood.  Please note, 
+ importing the data into Maplewood is intended to provide users the ability 
+ to use Course History tools (such as scheduling, graduation lists, and 
+ course selection) effectively.  The official Transcript resides in 
+ PASI.</p>
+<p>Upon pressing the Import icon, Maplewood will ‘go to PASI’ and pull 
+ in the records into a temporary location for comparison.    The 
+ top portion of the screen shows what is in the student’s Maplewood History 
+ and the bottom shows the Records in PASI.  We match on the following 
+ fields: PASI Code, Date, School Mark, Exam Mark and Final Mark.  Where 
+ there are differences, the records will be highlighted.  </p>
+<p>• Green indicates no matching course.</p>
+<p>• Yellow indicates course matches but with a difference(s) in field(s). 
+  </p>
+<p>• Red indicates the course is in PASI, but the Maplewood Central Office 
+ Code file does not contain that code.  </p>
+<p>Maplewood will Update any of the following fields that differ within 
+ Earned Credit, School Mark, Exam Mark and Final Mark on Courses Matched 
+ with Differences.</p>
+<p>A complete History/Transcript replace can be done by checking the Replace 
+ Transcript box.  Please note, this will replace all 10-12, provincially 
+ defined courses in the Maplewood History with the PASI Record.   This 
+ is only recommended when a student has no history within Maplewood.</p>
+<p>By default all records are checked, you may remove those which you do 
+ not wish to update by removing the check mark from the update box.  After 
+ selecting the PASI records to import, press the Update button.</p>
+<p>You cannot Update (import) matching records (those which are white/not 
+ highlighted).  </p>
+<p> </p>
+<p>Diploma Exam Marks </p>
+<p>As diploma exam marks are available in PASI, the nightly synchronization 
+ process will automatically update the student’s completed courses with 
+ the exam mark and the final mark so that it matches the Official Marks 
+ in PASI.</p>
+<p>Detailed Academic Report (DAR)</p>
+<p>The Detailed Academic Report, or DAR, is an unofficial document that 
+ contains all high school course attempts, and official course marks and 
+ credits awarded.  It is only provided to the student and the school’s 
+ counsellors, and is not sent out by Alberta Education to post-secondary 
+ institutions or other recipients.</p>
+<p>Within the completed courses area of a student’s record, a DAR icon 
+ will appear in the tool bar for students in grade 10 or higher.  Use 
+ this icon to request the student’s DAR.  It will be downloaded as 
+ a PDF file that may be opened to provide the same detailed academic report 
+ that is available within PASI.  </p>
+<p>  </p>
+<p> </p>
+<p>DO NOT INCLUDE IN MANUAL – Kim Reference material below this point</p>
+<p> </p>
+
+</body></html>

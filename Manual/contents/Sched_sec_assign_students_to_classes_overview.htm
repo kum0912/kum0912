@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Assign students to classes overview</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "15.7.0_1";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Assign students to classes" />
+</head>
+<body>
+  <h1>Scheduling next year &gt; Assign students to classes - Overview</h1>
+  <p>The Scheduling next year &gt; Assign students to classes option is where you’ll find all the tools to assign students into specific course sections (classes) using next year’s master timetable. The load students tool will create the student’s unique timetable based on the student’s course selections. After the school is done its final run of the load students tool, additional tools exist that will bulk add classes to a group of students. Similar functionality exists for bulk removal of classes.</p>
+  <p> </p>
+  <p>The tools to assign students to classes are:</p>
+  <ol style="list-style: decimal;">
+    <li><span style="font-weight: bold;">Load students</span>:  Use <a href="sched-load-students.htm">Scheduling next year &gt; Assign students to classes &gt; Load students</a> to build student timetables by assigning each student into classes based on the courses the student selected and the master timetable scheduled by the school.  This step is run many times through the scheduling process, and each time, the student’s timetable is cleared and rebuilt again based upon the student’s course selections.</li>
+    <li><span style="font-weight: bold;">Add classes</span>: Use <a href="../students/assign-timetables-addclass.htm">Scheduling next year &gt; Assign students to classes &gt; Add classes</a> to add one or more classes to the timetables of a group of students. This tool should only be used AFTER the final load students is run. This may be useful if the school adds lunch or study classes. For example, if students have no class assigned in a period, some schools like to assign a study class to the student’s timetable. If these classes exist in the classes table, use this tool to quickly assign these study classes to everyone in the school. You can list all the study classes (e.g. the study class in Semester 1 Period 1, and the study class is S1P2, and S1P3, etc), and when you use the tool to add the classes, it will only add the classes to the students if it doesn’t generate a conflict (e.g. only the students who don’t have a class in the period will be assigned into the study class).</li>
+    <li><span style="font-weight: bold;">Delete classes</span>: Use <a href="../students/assign-timetables-delclass.htm">Scheduling next year &gt; Assign students to classes &gt; Delete classes</a> to remove one or more classes to the timetables of a group of students. This tool should only be used AFTER the final load students is run. This may be useful if the school used placeholder classes such as a class that occupies all of semester 2 so that the student is forced into their requested classes in semester 1. The tool can remove these fictitious placeholder classes from the students’ timetables.</li>
+    <li><span style="font-weight: bold;">Clear classes</span>: Use <a href="../students/assign-timetables-cleartt.htm">Scheduling next year &gt; Assign students to classes &gt; Clear classes</a> to remove ALL classes from the next year&#39;s timetables of a group of students. This tools doesn’t have any real practical use during the scheduling process for a school that is entirely based on unique timetables for each student, however, it may be useful for some schools if combined with the add classes tool (e.g. delete all classes from the timetables of the students in grade 7 and then add a number of classes to all student in homeroom 7A so that everyone has the same set of classes). Please note that this is just an example scenario for this tool. There are better approaches to keeping students together in the same classes (block sequencing in <a href="../setup/setup-class-courses.htm">course setup</a> or defining classes in <a href="../setup/setup-class-hmrm.htm">homeroom setup</a>).</li>
+  </ol>
+</body>
+</html>

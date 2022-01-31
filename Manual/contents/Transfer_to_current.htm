@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Transfer to current</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "15.13.0_5";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Year-end rollover" />
+</head>
+<body>
+  <h1>Scheduling next year &gt; Year-end roll over &gt; Transfer to new school year</h1>
+  <p style="font-style: italic;">Board/district/division (central office) only.</p>
+  <p>The Transfer to new school year option transfers all the information from the &#39;next year&#39; data into the &#39;this year&#39; data as explained in the <a href="Sched_yr_end_rollover_Overview.htm">overview</a>. This transfer (sometimes referred to as transfer to current), must be done by the board/district/division (aka the &#39;central office&#39;). The central office must first run the transfer process, followed by each school. Once the central office has transferred, this option may also be used to monitor the transfer status of all the schools.</p>
+  <p> </p>
+  <p>Before rolling over to the new school year, the <span style="font-weight: bold;">board/division/district</span> must perform the following activities:</p>
+  <ul style="list-style: disc;">
+    <li><span style="line-height:1.5;">Use <a href="sched-manage-yr-end-backups.htm">Scheduling next year &gt; Year-end rollover &gt; Manage year-end backups</a> to define schools with similar structures that can roll-over at the same time.<span style="color: #ff0000;"> </span></span></li>
+    <li><span style="line-height:1.5;">Use <a href="sched-clear-online-reg-data.htm">Scheduling next year &gt; Year-end rollover &gt; Clear online registration data</a> to clear the staging table data for all schools (since all of the registrations should have been processed by now).</span></li>
+  </ul>
+  <p> </p>
+  <p>Prior to running Transfer to new school year, please confirm the following:</p>
+  <ul style="list-style: disc;">
+    <li><span style="line-height:1.5;">The schools have run <a href="Archive_attendance___achievement.htm">Scheduling next year &gt; Year-end rollover &gt; Archive Attendance &amp; Achievement</a>.</span></li>
+    <li><span style="line-height:1.5;">The schools have completed all the necessary lists and reports based on the previous year&#39;s data (e.g. the data in &#39;this year&#39;), including <a href="../achievement/add-completed-courses.htm">updating the student&#39;s completed courses</a> (transcripts) and report cards.</span></li>
+    <li><span style="line-height:1.5;">The schools have completed submitting all data submissions to requesting agencies.</span></li>
+    <li><span style="line-height:1.5;">The schools have completed all scheduling activities to the point that they can continue any additional activities in &#39;this year&#39; (e.g. Scheduling next year menu options are not needed any more).</span></li>
+    <li><span style="line-height:1.5;">The current school year must be finished (you cannot run the transfer process if the school year calendar&#39;s end date is in the future).</span></li>
+  </ul>
+  <p> </p>
+  <p>Once the school has closed off the last school year, the board/district/division will be responsible for running the Transfer to new school year process by following the steps below:</p>
+  <p><span style="line-height:1.5;">1. <a href="#1._Board_division_district_transfers_to_the_new_school_year">Board/division/district transfers to the new school year</a></span></p>
+  <p><span style="line-height:1.5;">2. <a href="#2._Schools_transfer_to_the_new_school_year">Schools transfer to the new school year</a></span></p>
+  <p> </p>
+  <p>Monitor the transfer status of all school using the <a href="#TRANSFER_TO_CURRENT_TASK_QUEUE_tab">TRANSFER TO CURRENT TASK QUEUE</a> tab.</p>
+  <p> </p>
+  <p style="font-style: italic;">Notes:</p>
+  <p style="font-style: italic;">All access to the schools data will be prevented during the transfer process. This includes the use of the SIS, teacher/parent/student access, database updates, third party integration, scheduled tasks and other service queue tasks.</p>
+  <p style="font-style: italic;"> </p>
+  <p style="font-style: italic;">If running the transfer process to move the schools from the 2018/2019 school year into the 2019/2020 school year, all active schools must have finished moving into the 2018/2019 school year first (e.g. you cannot have an active school still operating in the 2017/2018 school year - it needs to transfer to the 2018/2019 school year before commencing the 2019/2020 transfer to new year).</p>
+  <p style="font-style: italic;"> </p>
+  <p><span class="NormalTextRun SCXW187769863 BCX0" style="margin: 0px; padding: 0px; 
+		 user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; 
+		 background-color: inherit; font-style: italic;">Schools which are closing are expected to run the transfer to new school year process at the end of their last year.  Schools which are re-opening after being closed need to run transfer to current before becoming active, although scheduling processes can occur first.</span><span class="EOP SCXW187769863 BCX0" style="margin: 0px; 
+															 padding: 0px; 
+															 user-select: text; 
+															 -webkit-user-drag: none; 
+															 -webkit-tap-highlight-color: transparent; 
+															 font-variant-ligatures: normal; 
+															 font-variant-caps: normal; 
+															 orphans: 2; 
+															 widows: 2; 
+															 -webkit-text-stroke-width: 0px; 
+															 background-color: #ffffff; 
+															 text-decoration-style: initial; 
+															 text-decoration-color: initial; 
+															 font-size: 11pt; 
+															 line-height: 19.425px; 
+															 font-family: Calibri, Calibri_MSFontService, sans-serif;"> </span> </p>
+  <p> </p>
+  <h2><a id="1._Board_division_district_transfers_to_the_new_school_year"></a> 1. Board/division/district transfers to the new school year</h2>
+  <p><br />
+    From the board/division/district, select Scheduling next year &gt; Year-end roll over &gt; Transfer to new school year. Set the calendar start date and end date. These dates will be the default dates for all school calendars. Once the dates are set, select the START button.</p>
+  <p><img alt="" border="0" src="assets/images/sched-trneye1.png" style="border: none; width: 100%; max-width: 635px;" /></p>
+  <p>Upon selecting the START button, a backup will be made based on the settings in the option <a href="sched-manage-yr-end-backups.htm">Manage year-end backups</a>.</p>
+  <p> </p>
+  <h2><a id="2._Schools_transfer_to_the_new_school_year"></a> 2. Schools transfer to the new school year</h2>
+  <p>From the board/division/district, select Scheduling next year &gt; Year-end roll over &gt; Transfer to new school year. The transfer form will be distinctly different to accommodate all the setting required for transferring schools. The form has 2 distinct functions, available through these 2 tab navigation options:</p>
+  <p><a href="#TRANSFER_TO_CURRENT_tab">TRANSFER TO CURREN</a>T: This tab is used to transfer schools to the new school year.</p>
+  <p> </p>
+  <p><a href="#TRANSFER_TO_CURRENT_TASK_QUEUE_tab">TRANSFER TO CURRENT TASK QUEUE</a>: This tab is used to monitor the transfer status of the schools.</p>
+  <p> </p>
+  <h3><a id="TRANSFER_TO_CURRENT_tab"></a> TRANSFER TO CURRENT tab</h3>
+  <p>This tab is used to transfer school(s) to the new school year. The form has many options that are explained below.</p>
+  <h4>Schools</h4>
+  <p>First the school(s) to be transferred need to be selected.  Select from elementary schools, or secondary schools.  Note that the schools to be transferred must have the same setup, meaning they must be all elementary schools or secondary schools, and the selected school must have the same number of semesters/terms. The selected schools will appear in the list of schools with a check mark in the first column. Schools may be removed if they are to be excluded, but ideally all similar schools are transferred at the same time so that the year end backup contains the year-end data for all the similar schools.</p>
+  <p> </p>
+  <p>Optionally show schools that are already transferred by selecting the &#39;show completed schools&#39; option.</p>
+  <p><img alt="" border="0" src="assets/images/sched-trneye2.png" style="border: none; width: 100%; max-width: 929px;" /></p>
+  <p> </p>
+  <h4>Default calendar dates</h4>
+  <p>Once all schools are selected, set the Default calendar dates. The dates include the start and end dates for the school year, and the semester/term start dates based on the setup of the selected schools (e.g. if 2 semesters and 2 terms, there will be 3 start dates to enter (semester 1 term 2, semester 2 term 1, and semester 2 term 2) as the first semester/term will start on the school&#39;s start date. Make every effort to record accurate dates to minimize the effort to adjust calendars for each school.</p>
+  <p><img alt="" border="0" src="assets/images/sched-trneye3.png" style="border: none; width: 100%; max-width: 962px;" /></p>
+  <p> </p>
+  <h4>Options</h4>
+  <p>Carefully review the transfer options, detailed below.</p>
+  <p><img alt="" border="0" src="assets/images/sched-trneye4.png" style=" border:none; width:100%; max-width:965px;" /></p>
+  <p>Where the options is not self-explanatory, an info icon will appear so that it may be selected to show more info on what the option means.</p>
+  <p><br />
+    <span style="font-weight: bold;">Attendance type changing to full-time</span>: (elementary schools only) Select the grades where student have an attendance type other than full-time, and you would like the students to be automatically changed to full-time. For example, if a school has kindergarten students that are half-time, and they when they advance to grade 1, they are full-time, select 1 for this option.
+  </p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Grade internal transfer date</span>: Select the date to be used as the internal transfer date for a student&#39;s grade change. August 15th is defaulted.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Course fee charging date</span>: Select the date that is to be used as the date that a course fee is added to a student&#39;s fees.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Course fee due date</span>: Select the date that is to be used as the due date for any course fees that are added to a student&#39;s fees.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Clear current students&#39; lockers</span>: Y/N field. If set to yes, the students will not have lockers assigned to them. If the student has a student-owned lock, the lock will remain. If the student has a school-owned lock, the lock will be remain. If the lock is built in to the locker, it will be cleared.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Do not clear Next Year Only students&#39; lockers</span>: Y/N field. If set to yes, the students who are new to the school (e.g. the students who have the school year status &#39;next year only&#39;) will keep the locker assigned to the student.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Assign default achievement profiles</span>: Y/N field. This should be set to yes to ensure that the terms and topics are correctly assigned to the classes so that teachers may begin establishing markbooks as soon as the transfer is completed (assuming the office has given permission). If yes is selected, the new classes will be assigned the default achievement profiles. If the profiles are defined after the transfer, they may be assigned by the school using <a href="../setup/setup-mark-comm-assign-ach-prof-class.htm">Assign achievement profiles to classes</a>.</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Delete existing markbook bank before recreating based on current markbooks</span>: Y/N field. This should be set to Yes to reduce the potential teacher error when they copy the previous year&#39;s markbook as a template for the new year&#39;s classes teaching the same curriculum. When it is set to yes, the teacher is limited to selecting only from last year&#39;s markbook templates in the bank. If it is set to no, the teacher can select from all the markbook templates in the bank, which often includes outdated templates that may be easily selected by the teachers.</p>
+  <p> </p>
+  <p>Other options may appear for some schools based on provincial needs. Here are some examples:</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Automatically reset English as an Additional Language (EAL) date</span>: (Saskatchewan only)</p>
+  <p> </p>
+  <p><span style="font-weight: bold;">Remove ESL/ELD Learner Special Accommodations&#39; settings</span>: (Ontario only)</p>
+  <p> </p>
+  <h3>3. Select the START button</h3>
+  <p>Select the START button in the bottom bar to start the transfer to new year process for the selected schools. Monitor the progress using the TRANSFER TO CURRENT TASK QUEUE tab.</p>
+  <h3><a id="TRANSFER_TO_CURRENT_TASK_QUEUE_tab"></a> TRANSFER TO CURRENT TASK QUEUE tab</h3>
+  <p>When schools are selected for transfer and the START button has been selected (as described above), there is one task created for each school to be transferred. Each school must be transferred completely before the next school may start its transfer.  See the current transfer status of the schools by selecting the TRANSFER TO CURRENT TASK QUEUE. This will operate like the task queue available from the main app tool bar, however it will be limited to showing only those tasks that are related to the transfer to current roll-over activity.</p>
+  <script type="text/javascript" language="JavaScript1.2">
+    //<![CDATA[
+    //]]>
+  </script>
+</body>
+</html>

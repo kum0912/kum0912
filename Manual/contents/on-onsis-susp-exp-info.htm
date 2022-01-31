@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Suspension/expulsion info</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.8.0_5";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; Elementary school suspension/expulsion"/>
+</head>
+
+<body>
+
+
+
+<h1>OnSIS &gt; Elementary school suspension/expulsion &gt; Suspension/expulsion 
+ info</h1>
+<h1>OnSIS &gt; Secondary school suspension/expulsion &gt; Suspension/expulsion 
+ info</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p> </p>
+<p>The Suspension/expulsion info option will appear for the following submission 
+ periods:</p>
+<p>  </p>
+<ul style="list-style: disc;">
+	<li>Elementary school suspension/expulsion (publicly funded schools 
+	 only)</li>
+	<li>Secondary school suspension/expulsion (publicly funded schools 
+	 only)</li>
+</ul>
+<p> </p>
+<p>This option is used to create batch files, using the CREATE button. 
+ The batch file is uploaded to OnSIS through the OnSIS web site.  Once 
+ OnSIS processes the batch file, a results file is created. The results 
+ file is downloaded from OnSIS and is then processed using the PROCESS 
+ RESULTS button.  </p>
+<p> </p>
+<p>This section describes the suspension/expulsion info batch file. See 
+ the OnSIS <a href="on-onsis-important-concepts.htm">Important concepts</a> 
+ section for info on <a href="on-onsis-important-concepts.htm">Updating 
+ data in OnSIS using the ‘Create/Upload/Process’ cycle</a>.</p>
+<p> </p>
+<p>The file provides information about the incidents in the school that 
+ resulted in a student being suspended or expelled from school. Suspension 
+ and expulsion data for the school year is collected at the end of the 
+ year (August 31) and it uses the info in the student’s record under the 
+ Incidents option. If the school is working on this submission period after 
+ transferring over to the new school year, it is possible to create this 
+ batch file for the previous school year’s incidents.</p>
+<p> </p>
+<p>Follow the link below for the file specifications.</p>
+<p> </p>
+<p><a href="#Incidents_batch_file">Incidents batch file</a>  </p>
+<p> </p>
+<p> </p>
+<p>Select the CREATE button on the Suspension/expulsion info card.</p>
+<p> </p>
+<p><img src="assets/images/on-onsis-susp-exp-card.png" alt="" style=" border:none; width:100%; max-width:232px;" border="0"/></p>
+<p>  </p>
+<p>Select the CREATE button to see this form:</p>
+<p> </p>
+<p> <img src="assets/images/on-onsis-susp-exp-main.png" alt="" style=" border:none; width:100%; max-width:893px;" border="0"/></p>
+<p> </p>
+<p>The Incidents batch file option is detailed below. Prior to selecting 
+ the CREATE BATCH FILE option, determine whether other options on the form 
+ should be selected.   </p>
+<p> </p>
+<p><span style="color: #007fff;">Purge</span>:  Y/N field. See Important 
+ concepts – Purge check boxes for more info.</p>
+<p> </p>
+<p><span style="color: #007fff;">Use this school year (yyyy – yyyy) or 
+ Use previous school year (yyyy – yyyy)</span>: Select one of the options 
+ to indicate whether the batch file is to include incidents from the current 
+ school year or the previous school year.  For example, if the school 
+ has rolled over to a new school year in late August, when creating the 
+ file in September, use the previous year option. If the school has not 
+ yet transferred to current, use the ‘this school year’ option.</p>
+<p> </p>
+<h2><a name="Incidents_batch_file" id="Incidents_batch_file"></a>Incidents 
+ batch file (Elementary and secondary schools)</h2>
+<p><span style="color: #007fff;">Default file name</span>: E_######_Incident_yyyymmdd_hhmm.xml 
+ (elementary) or S_######_Incident_yyyymmdd_hhmm.xml (secondary)</p>
+<p> </p>
+<p>The incidents batch file contains information about the students involved 
+ in incidents that lead to the student’s suspension or expulsion from the 
+ school.  Very detailed info is reported based on the info recorded 
+ in the student’s record using the Incidents option. This includes general 
+ info about the time/location of the incident, infraction and consequence 
+ info, appeal info, and participation in programs for suspended/expelled 
+ students.</p>
+<p> </p>
+<p>The fields collected by OnSIS are detailed below.</p>
+<p> </p>
+<p>Many of the fields will report the Ministry code as defined in the setup 
+ of the table using Setup &gt; Incidents.</p>
+<p> </p>
+<p> </p>
+<table style=" left:0px; top:3024px; vertical-align:top; width:100%; max-width:886px;" cellspacing="0">
+	<colgroup><col style="width: 33.333%;"/>
+	<col style="width: 7.652%;"/>
+	<col style="width: 56.878%;"/>
+	</colgroup><tbody><tr>
+		<td style="border: Solid 1px #000000;"><p style="font-weight: bold;">Element</p></td>
+		<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000;"><p style="font-weight: bold;">Char</p></td>
+		<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000;"><p style="font-weight: bold;">Description</p>
+		<p style="font-weight: bold;"> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">N/A 
+		 
+		<br/>No data required, as it is just a tag.</td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>ACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;"><p>N/A</p>
+		<p>No data required, as it is just a tag</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_</p>
+		<p>INCIDENT/SCHOOL_INCIDENT_ID</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;"><p>Ministry 
+		 assigned ID.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT</p>
+		<p>/INCIDENT_SITE_TYPE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">Location of the incident (Student record 
+		 &gt; Incidents &gt; select Incident). Ministry code of the location 
+		 is sent as defined in <a href="../setup/setup-define-location.htm">Setup 
+		 &gt; Incidents &gt; Locations</a>. 
+		<br/>  
+		<p>01 = Bleachers</p>
+		<p>02 = Cafeteria/Lunch Room</p>
+		<p>03 = Change Room</p>
+		<p>04 = Classroom</p>
+		<p>05 = Gymnasium</p>
+		<p>06 = Hallway</p>
+		<p>07 = Laboratory</p>
+		<p>08 = Library</p>
+		<p>09 = Off Site</p>
+		<p>10 = Office</p>
+		<p>11 = Parking Lot</p>
+		<p>12 = Portable</p>
+		<p>13 = School Bus</p>
+		<p>14 = School Ground</p>
+		<p>15 = School Trip/Excursion</p>
+		<p>16 = Sports Event</p>
+		<p>17 = Staircase</p>
+		<p>18 = Swimming Pool</p>
+		<p>19 = Washroom</p>
+		<p>20 = Not Available</p>
+		<p>21 = Other</p>
+		22 = Facility Residence</td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>DATE_OF_OCCURRENCE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Date of the incident (Student record 
+		 &gt; Incidents &gt; select Incident).</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>TIME_OF_OCCURRENCE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Time of the incident (Student record 
+		 &gt; Incidents &gt; select Incident).</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>REPORTED_TO_POLICE_FLAG</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>If any student has the Police involved 
+		 Y/N field set to yes, the flag will be true (Student record &gt; 
+		 Incidents &gt; select Incident &gt; select student).</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>YOUR_REFERENCE_NUMBER</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">Incident number (automatically created 
+		 by edsembli).</td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>STUDENT_INCIDENT</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p>No data required, as it is just a tag.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>STUDENT_INCIDENT/ACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p>No data required, as it is just a tag.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/</p>
+		<p>STUDENT_INCIDENT/OEN</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>The student&#39;s OEN (Student record 
+		 &gt; Enrolment &gt; School enrolment).</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL_  </p>
+		<p>INCIDENT/STUDENT _INCIDENT/  </p>
+		<p>STUDENT_LEGAL_ GIVEN_NAME</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Name info is recorded in Student 
+		 record &gt; Personal &gt; Name.</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL_  </p>
+		<p>INCIDENT/STUDENT_ INCIDENT/STUDENT_  </p>
+		<p>LEGAL_ SECOND_NAME</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Name info is recorded in Student 
+		 record &gt; Personal &gt; Name. Middle name is considered the 
+		 second name.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL_  </p>
+		<p>INCIDENT/STUDENT _INCIDENT/STUDENT  </p>
+		<p>_LEGAL_ LAST_NAME</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Name info is recorded in Student 
+		 record &gt; Personal &gt; Name.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL_  </p>
+		<p>INCIDENT/STUDENT _INCIDENT/  </p>
+		<p>STUDENT_DOB</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Date of birth as recorded in Student 
+		 record &gt; Personal &gt; Demographics.</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT  </p>
+		<p>/STUDENT_INCIDENT/GENDER_TYPE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Gender as recorded in Student record 
+		 &gt; Personal &gt; Demographics.</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/ 
+		  </p>
+		<p>SCHOOL_INCIDENT/  </p>
+		<p>STUDENT_INCIDENT  </p>
+		<p>/APPEAL_START_DATE</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Appeal Date will appear here if the 
+		 student has the appeal initiated box checked and an appeal date 
+		 is entered (Student record &gt; Incidents &gt; select incident 
+		 &gt; select student &gt; Edit icon on Appeal/outcome card).</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOLINCIDENT/  </p>
+		<p>STUDENT_INCIDENT  </p>
+		<p>/APPEAL_DECISION_DATE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Decision date will appear here (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Edit icon on Appeal/outcome card).</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL/</p>
+		<p>SCHOOL_INCIDENT/STUDENT  </p>
+		<p>_INCIDENT/APPEAL_OUTCOME_TYPE</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Appeal outcome will appear here (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Edit icon on Appeal/outcome card). Ministry code of the appeal 
+		 outcome is sent as defined in <a href="../setup/setup-define-appeal-out.htm">Setup 
+		 &gt; Incidents &gt; Appeal outcomes</a>.<br/>
+		<br/>
+		1 = Upheld</p>
+		<p>2 = Expunged</p>
+		<p>3 = Reduced - Suspension</p>
+		<p>4 = Reduced - Expelled from school</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /</p>
+		<p>SCHOOL_ INCIDENT/STUDENT _INCIDENT/STUDENT_  </p>
+		<p>INFRACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A  </p>
+		<p>No data required, as it is just a tag. This section is repeated 
+		 for each infraction assigned to the student.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /</p>
+		<p>SCHOOL_ INCIDENT/STUDENT _INCIDENT/STUDENT  </p>
+		<p>_ INFRACTION /ACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A  </p>
+		<p>No data required, as it is just a tag.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /</p>
+		<p>SCHOOL_ INCIDENT/STUDENT _INCIDENT/STUDENT_  INFRACTION/ INFRACTION_TYPE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Infraction assigned to the student 
+		 (Student record &gt; Incidents &gt; select incident &gt; select 
+		 student &gt; Infraction card). Ministry code of the infraction 
+		 value is sent as defined in <a href="../setup/setup-define-infractions.htm">Setup 
+		 &gt; Incidents &gt; Infractions</a>.</p>
+		<p> </p>
+		<p>B010 = Code of conduct, board &amp; school policy</p>
+		<p>B020 = Opposition to Authority</p>
+		<p>B030 = Habitual neglect of duty</p>
+		<p>B040 = Fighting / Violence</p>
+		<p>B050 = Profanity &amp; Swearing</p>
+		<p>E01 = Possess Weapon</p>
+		<p>E02 = Threaten bodily harm</p>
+		<p>E03 = Physical Assault</p>
+		<p>E04 = Sexual Assault</p>
+		<p>E05 = Trafficking</p>
+		<p>E06 = Robbery</p>
+		<p>E07 = Alcohol to Minor</p>
+		<p>E09 = Bullying - Previous suspension/risk to others</p>
+		<p>E10 = 306(1) Motivated by Prejudice/Bias/Hate</p>
+		<p>OTH = Other</p>
+		<p>S01 = Utter threat</p>
+		<p>S02 = Possess Alcohol/Drugs</p>
+		<p>S03 = Influence of alcohol</p>
+		<p>S04 = Swearing</p>
+		<p>S05 = Vandalism</p>
+		<p>S07 = Bullying</p>
+		<p>S08 = Medical/Immunization</p>
+		<p>E11 = Cannabis to Minor</p>
+		<p>S09 = Possess Cannabis</p>
+		<p>S10 = Influence of Cannabis</p>
+		<p>S11 = Possessing Alcohol / Drugs (excluding cannabis)</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /</p>
+		<p>SCHOOL_  </p>
+		<p>INCIDENT/STUDENT _INCIDENT/</p>
+		<p>STUDENT _INFRACTION/OTHER_ DESCRIPTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>If the student&#39;s infraction has the 
+		 Ministry code &quot;OTH&quot;, then the title of the Infraction is 
+		 sent.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /  </p>
+		<p>SCHOOL_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT_ INFRACTION/</p>
+		<p> SUSPENSION _EXPULSION_FLAG</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>The student&#39;s primary consequence 
+		 will be used to deteremine this flag (Student record &gt; Incidents 
+		 &gt; select incident &gt; select student &gt; conequence card). 
+		 If the <a href="../setup/setup-define-conseq.htm">consequence 
+		 is set up</a> with the type Suspension, or Expulsion, then an 
+		 S or E will appear here.  Only those incidents that are suspension 
+		 or expulsion types will be reported to OnSIS.</p>
+		<p> </p>
+		<p>E = Expulsion</p>
+		<p>S = Suspension</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /</p>
+		<p> SCHOOL_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT _INFRACTION/  </p>
+		<p>DISCRETIONARY  </p>
+		<p> _MANDATORY_FLAG</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p style="background-color: Transparent;">M 
+		 for Mandatory will always appear. Prior to 2008, D for Discretionary 
+		 was also allowed. </p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /  </p>
+		<p>SCHOOL_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT _INFRACTION  </p>
+		<p>/BOARD _MINISTRY_SET_FLAG</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>M for Ministry will always appear. 
+		 Prior to 2008, B for Board was also allowed. </p>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/ 
+		 SCHOOL/</p>
+		<p>SCHOOL_ INCIDENT/STUDENT _INCIDENT/</p>
+		<p>STUDENT_OUTCOME</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A  </p>
+		<p>No data required, as it is just a tag. This section is repeated 
+		 for each consequence assigned to the student.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL /</p>
+		<p>SCHOOL_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/ STUDENT_ OUTCOME/ ACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A  </p>
+		<p>No data required, as it is just a tag.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL_</p>
+		<p>INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT _OUTCOME /INFRACTION</p>
+		<p>_OUTCOME_TYPE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>The student&#39;s consequence (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Consequence card). Ministry code of the consequence value 
+		 as defined in <a href="../setup/setup-define-conseq.htm">Setup 
+		 &gt; Incidents &gt; Consequences</a>.</p>
+		<p> </p>
+		<p>1 = Suspension</p>
+		<p>4 = Expelled from school</p>
+		<p>5 = Expelled from board</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		  </p>
+		<p>/SCHOOL_INCIDENT/STUDENT  </p>
+		<p>_INCIDENT/STUDENT _OUTCOME  </p>
+		<p>/INFRACTION _AUTH_TYPE</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Imposed by (Student record &gt; Incidents 
+		 &gt; select incident &gt; select student &gt; Consequence card 
+		 &gt; select consequence). Ministry code of the imposed by value 
+		 as defined in <a href="../setup/setup-define-person.htm">Setup 
+		 &gt; Incidents &gt; Person types</a>.</p>
+		<p> </p>
+		<p>1 = Board</p>
+		<p>2 = Principal</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL</p>
+		<p>_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT _OUTCOME/  </p>
+		<p>FIRST_DAY _SUSPENSION_</p>
+		<p>EXPULSION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Effective date of the consequence 
+		 (Student record &gt; Incidents &gt; select incident &gt; select 
+		 student &gt; Consequence card &gt; select consequence).</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 /SCHOOL</p>
+		<p>_INCIDENT/STUDENT  </p>
+		<p>_INCIDENT/STUDENT _OUTCOME  </p>
+		<p>/LAST_DAY _SUSPENSION_EXPULSION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>End date of the consequence (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Consequence card &gt; select consequence).</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 / SCHOOL</p>
+		<p>_INCIDENT/STUDENT _  </p>
+		<p>INCIDENT/STUDENT _OUTCOME/  </p>
+		<p>NUMBER_ OF_SCHOOL_DAYS</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">O</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Duration (days) of the consequence 
+		 (Student record &gt; Incidents &gt; select incident &gt; select 
+		 student &gt; Consequence card &gt; select consequence).</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/SCHOOL 
+		 / SCHOOL</p>
+		<p>_INCIDENT/STUDENT  </p>
+		<p> _INCIDENT/STUDENT _OUTCOME/  </p>
+		<p>APPEAL_FLAG</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p> if the student has the appeal 
+		 initiated box checked, T (true) will be sent in the file (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Edit icon on Appeal/outcome card).<br/>
+		<br/>
+		T = True<br/>
+		F = False</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p>This is the outer tag for student suspension/expulsion program</p>
+		<p>  </p>
+		<p>Note: Only one occurrence can exist on file.  Repeating 
+		 block to allow “DELETE” followed by an “ADD” action.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/ACTION</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p>This is the action associated with this submission</p>
+		<p>Value: “ADD” “UPDATE” “DELETE”</p>
+		<p>  </p>
+		<p>Note: “UPDATE” is a valid only when changing Suspension/Expulsion 
+		 Program  Status type and/or adding, deleting Non-Academic 
+		 Program types</p>
+		<p>  </p>
+		<p>A “DELETE” action will result in auto-deletion of Non-Academic 
+		 Program child records of the Suspension/Expulsion Program.</p>
+		<p> </p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/TYPE</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Suspension/expulsion program (Student 
+		 record &gt; Incidents &gt; select incident &gt; select student 
+		 &gt; Suspension/expulsion program card).  </p>
+		<p><br/>
+		01 = Academic only</p>
+		<p>02 = Both academic/non-academic</p>
+		<p>03 = Non-academic only</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/STATUS_TYPE</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">C</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Program status (Student record &gt; 
+		 Incidents &gt; select incident &gt; select student &gt; Suspension/expulsion 
+		 program card).  </p>
+		<p> </p>
+		<p>01 = Completed</p>
+		<p>02 = Attended</p>
+		<p>03 = On-going</p>
+		<p>04 = Did not attend</p>
+		<p>05 = No longer attending</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/NON_ACADEMIC</p>
+		<p>_PROGRAM</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">OR</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p> </p>
+		<p>This is the outer tag for Non Academic Program type. This section 
+		 is repeated for each non-academic program assigned to the student.</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/NON_ACADEMIC</p>
+		<p>_PROGRAM/ACTION</p>
+		<p> </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>N/A</p>
+		<p> </p>
+		<p>This is the action associated with this submission</p>
+		<p>Value: “ADD”, “DELETE”</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"><p>SCHOOL_SUBMISSION/</p>
+		<p>SCHOOL/SCHOOL_INCIDENT/STUDENT</p>
+		<p>_INCIDENT/SUSPENSION_</p>
+		<p>EXPULSION_PROGRAM/NON_ACADEMIC</p>
+		<p>_PROGRAM/TYPE  </p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">M</td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"><p>Non-academic program (Student record 
+		 &gt; Incidents &gt; select incident &gt; select student &gt; Suspension/expulsion 
+		 program card). Ministry code of the imposed by value as defined 
+		 in <a href="../setup/setup-non-acad-progs.htm">Setup &gt; Incidents 
+		 &gt; Non-academic programs</a>.  <br/>
+		</p>
+		<p>01 = Anger management</p>
+		<p>02 = Drug/Alcohol</p>
+		<p>03 = Family counselling</p>
+		<p>04 = Other</p>
+		<p>05 = Life skills</p>
+		<p>06 = Individual counselling</p></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;"> </td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;"> </td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 vertical-align: top;"> </td>
+	</tr>
+	<tr>
+		<td colspan="3" style="border-left: solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; vertical-align: top;">** 
+		 Char. column values are M-Mandatory, O-Optional, R-Repeatable</td>
+		
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+//]]></script>
+
+</body></html>

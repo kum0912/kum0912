@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Reset class schedules</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.5.0_7";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Classes"/>
+</head>
+
+<body>
+
+
+<h1>Reset class schedules</h1>
+<p>Every class has 4 fields to identify where the class fits into the master 
+ timetable.  These 4 fields represent the class schedule:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Semester/term set  (e.g. semestered or full year or term)</li>
+	<li>Semester/term pattern (e.g. sem 1 or sem 2 if set = semestered)</li>
+	<li>Day/period set (e.g. single period or double period)</li>
+	<li>Day/period pattern (e.g. P1 or P2 or P3 or P4 if set = single period)</li>
+</ul>
+<p> </p>
+<p>The set and pattern names are user-defined, so the examples provided 
+ above may be different for each school. Resetting a pattern means removing 
+ the pattern assigned to the class.  </p>
+<p> </p>
+<p>Use the Reset class schedules tool to remove the patterns assigned to 
+ classes, leaving only the set information in the class schedule.  The 
+ set is never removed because it clearly defines how to schedule the class 
+ and it is used by the automatic scheduling tools. With the patterns removed, 
+ the scheduling tools may be used to reschedule the classes into their 
+ best locations in the timetable.   </p>
+<p> </p>
+<p>Typically, pattern information is only reset for unlocked patterns (the 
+ default setting), however it can reset both locked and unlocked patterns 
+ if required for unusual situations. When editing a class, if the 
+ pattern is entered, it may be locked. Locking patterns is used when that 
+ class must be scheduled into a specific pattern. For example, if a class 
+ must be scheduled into semester 1, it should be locked into that pattern. If 
+ it is not locked, the automatic scheduling tools may change it to semester 
+ 2 if that is a better location in the timetable. Similarly, a class may 
+ be locked into a specific day/period pattern.  </p>
+<p> </p>
+<p>While resetting the pattern information, the tool can also delete the 
+ teacher and room assigned to the class.  If there is no flexibility 
+ with respect to who can teach some classes or the room of the class, this 
+ information should not be deleted.  The delete teacher and room options 
+ are provided for usual situations.   The tool also includes 
+ the ability to enter a course code format of classes to exclude (e.g. 
+ enter K* to exclude all courses starting with K).</p>
+<p> </p>
+<p>Note:  resetting class schedules is typically used upon recommendation 
+ of Maplewood, or if you want to start the scheduling of classes all over 
+ again and take a different approach. The automatic scheduling tools will 
+ re-schedule a class into a better location regardless of whether that 
+ class is already assigned into a pattern or the pattern has been reset. 
+   </p>
+<p> </p>
+<p>To access the Snapshot tool choose Scheduling next year &gt; Classes. 
+ Select the GO button on the Reset class schedules card.</p>
+<p> </p>
+<p><img src="assets/images/reset-class-schedules-card.png" alt="" style=" border:none; width:100%; max-width:227px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>As a precaution, you will be prompted to create a snapshot because this 
+ tool has the potential to make significant changes to the timetable. You 
+ can make a new snapshot or override an existing one, then select the CREATE 
+ SNAPSHOT button or select CANCEL if you don&#39;t want to create a snapshot.</p>
+<p>   </p>
+<p>The reset class schedules form will appear:</p>
+<p> </p>
+<p><img src="assets/images/reset-class-schedules-main.png" alt="" style=" border:none; width:100%; max-width:683px;" border="0"/></p>
+<p> </p>
+<p>It will default to Only unlocked sem/term &amp; day/period patterns, 
+ which is the recommended option.</p>
+<p> </p>
+<p>Usually the defaulted options are used and you just need to select the 
+ RESET CLASS SCHEDULES button in the bottom bar. Use these options in unusual 
+ situations :</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Classes are locked when they shouldn’t be, and therefore you want 
+	 to reset both locked and unlocked patterns. To do this, use All 
+	 classes (locked &amp; unlocked patterns) option as shown here:</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/reset-class-schedules-main1.png" alt="" style=" border:none; width:100%; max-width:571px;" border="0"/></p>
+<p> </p>
+<ol start="2" style="list-style: decimal;">
+	<li>If the teachers are to be removed from ALL classes (regardless 
+	 of whether the class schedule is locked or unlocked), then check off 
+	 this option:</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/reset-class-schedules-main2.png" alt="" style=" border:none; width:100%; max-width:341px;" border="0"/><br/>
+</p>
+<p> </p>
+<ol start="3" style="list-style: decimal;">
+	<li>If the rooms are to be removed from ALL classes (regardless of 
+	 whether the class schedule is locked or unlocked), then check off 
+	 this option:</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/reset-class-schedules-main3.png" alt="" style=" border:none; width:100%; max-width:342px;" border="0"/><br/>
+</p>
+<p> </p>
+<ol start="4" style="list-style: decimal;">
+	<li>If some classes are to be excluded from the reset tool, enter a 
+	 format to represent the courses to be excluded (e.g. K* to exclude 
+	 all classes with course codes starting with K, or M**2 to exclude 
+	 classes starting M and with a 2 in the 3rd character):</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/reset-class-schedules-main4.png" alt="" style=" border:none; width:100%; max-width:342px;" border="0"/></p>
+<p> </p>
+<p> </p>
+
+</body></html>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Private schools</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.7.0_1";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; Private elementary &amp; secondary schools"/>
+</head>
+
+<body>
+
+
+<p><a href="#Private_schools_">Private schools</a></p>
+<p style="margin-left: 40px;"><a href="#Aggregate_vs_elemental_data_">Aggregate 
+ vs elemental data</a></p>
+<p style="margin-left: 40px;"><a href="#Configuring_your_private_school_">Configuring 
+ your private school</a></p>
+<p style="margin-left: 40px;"><a href="#Including_excluding_students_">Including/excluding 
+ students</a></p>
+<p style="margin-left: 40px;"><a href="#Educators_must_be_updated_in_OnSIS_">Educators 
+ must be updated in OnSIS</a></p>
+<p style="margin-left: 40px;"><a href="#Get_extract_files_from_OnSIS_before_submitting_batch_files_">Get 
+ extract files from OnSIS before submitting batch files</a></p>
+<p style="margin-left: 40px;"><a href="#Sign-off_in_OnSIS_">Sign-off in 
+ OnSIS</a></p>
+<p style="margin-left: 0px;"><a href="#Private_elementary_schools__">Private 
+ elementary schools</a></p>
+<p style="margin-left: 0px;"><a href="#Private_secondary_schools">Private 
+ secondary schools</a></p>
+<h1><a name="Private_schools_" id="Private_schools_"></a>Private schools</h1>
+<p> </p>
+<p>All private schools are required to provide statistical information 
+ to the ministry regarding student enrolment, staff, courses of study and 
+ (for inspected secondary schools) credits granted and diplomas issued. 
+ This information is collected in the Ministry’s OnSIS application, and 
+ the edsembli SIS can assist with the collection of this data.</p>
+<p> </p>
+<h2><a name="Aggregate_vs_elemental_data_" id="Aggregate_vs_elemental_data_"></a>Aggregate 
+ vs elemental data</h2>
+<p> </p>
+<p>Two types of data are collected by OnSIS:</p>
+<p> </p>
+<p><span style="font-weight: bold;">Aggregate data</span> is a summary 
+ of information by category. For example, the number of children in each 
+ grade, by age or by gender. Specific, identifying information for each 
+ child is not collected. Aggregate data is collected for students who cannot 
+ be issued Ministry Ontario Education Numbers (OENs). This includes all 
+ private elementary students and students attending non-inspected private 
+ secondary schools.</p>
+<p> </p>
+<p><span style="font-weight: bold;">Elemental data</span> is more specific 
+ and includes information with respect to individual students, educators 
+ or classes. In most cases, the elemental data collected from private schools 
+ is the same as that collected from publicly-funded schools. Elemental 
+ data is collected for all students attending inspected private secondary 
+ schools.</p>
+<p> </p>
+<p> </p>
+<h2><a name="Configuring_your_private_school_" id="Configuring_your_private_school_"></a>Configuring 
+ your private school</h2>
+<p> </p>
+<p>Every private school should be configured properly so that it identified 
+ as a private school. Secondary private schools can be configured so that 
+ they are flagged as an inspected secondary school, and if appropriate, 
+ identified as a private secondary school that has elementary students 
+ as well.  Use Setup &gt; School &gt; <a href="../setup/school-configure.htm">Configuration</a> 
+ to configure the school to ensure that the correct options appear for 
+ the school.</p>
+<p> </p>
+<h2><a name="Including_excluding_students_" id="Including_excluding_students_"></a>Including/excluding 
+ students</h2>
+<p> </p>
+<p>If the school has both elementary and secondary students, make sure 
+ the student’s entry date to secondary school has the correct date. If 
+ the entry to secondary school date is after the count date (e.g. a future 
+ date), the student is considered an elementary student and will be excluded 
+ from the secondary OnSIS reports.</p>
+<p> </p>
+<p>Similarly, if an elementary student has a future entry date to elementary 
+ school, the student is excluded from the OnSIS reporting (OnSIS will allow 
+ students under age 4 as of December 31 so this field may be used to exclude 
+ these students).   </p>
+<p> </p>
+<p>Elementary schools may also exclude students in specific grades if easier 
+ than setting the entry date to elementary school (e.g. students in grade 
+ N (Nursery) can be omitted when creating the aggregate reports).</p>
+<p> </p>
+<p>Sometimes schools create a student board resident status with a ministry 
+ code of 00, and students assigned this status will be omitted (e.g. foreign 
+ exchange students not on the register). These students are excluded from 
+ all Ministry reports, not just OnSIS.</p>
+<p> </p>
+<h2><a name="Educators_must_be_updated_in_OnSIS_" id="Educators_must_be_updated_in_OnSIS_"></a>Educators 
+ must be updated in OnSIS</h2>
+<p> </p>
+<p>When creating batch files that include the teacher of the class, the 
+ teacher’s MEN# in the SIS is used to identify the teacher in the file. 
+ Every educator in the SIS must have a MEN# in their staff record. OnSIS 
+ also requires the teacher’s position code in the batch file, and this 
+ code must match the code in OnSIS.  By updating the educators in 
+ OnSIS before getting extracts, the SIS can use the matching position code 
+ found in the extract. See <a href="on-update-educators-onsis.htm">Update 
+ educators in OnSIS</a> for more info.</p>
+<p> </p>
+<h2><a name="Get_extract_files_from_OnSIS_before_submitting_batch_files_" id="Get_extract_files_from_OnSIS_before_submitting_batch_files_"></a>Get 
+ extract files from OnSIS before submitting batch files</h2>
+<p> </p>
+<p>Before creating any batch files in the SIS, extract files need to be 
+ created in the Ministry’s OnSIS application, and these files need to be 
+ saved in edsembli’s file manager. Extracts are used to determine whether 
+ to send an add or update instruction in the batch file created by the 
+ SIS.  See <a href="on-get-extracts-onsis.htm">Get extracts from OnSIS</a> 
+ for more info.</p>
+<p> </p>
+<p> </p>
+<h2><a name="Updating_data_in_OnSIS_using_the__Create_Upload_Process__cycle_" id="Updating_data_in_OnSIS_using_the__Create_Upload_Process__cycle_"></a>Updating 
+ data in OnSIS using the ‘Create/Upload/Process’ cycle</h2>
+<p> </p>
+<p>Data in OnSIS is updated through the process of creating batch files 
+ in the SIS, uploading those batch files to OnSIS, and then processing 
+ the results generated by OnSIS (analyzing the errors/warnings). These 
+ 3 basic steps are repeated until all the data is submitted and is accurate. 
+ Since files need to be transferred between the SIS and OnSIS, the steps 
+ may seem a little more complicated until you are comfortable uploading 
+ and downloading files. See the OnSIS <a href="on-onsis-important-concepts.htm">Important 
+ concepts</a> section for info on <a href="on-onsis-important-concepts.htm">Updating 
+ data in OnSIS using the ‘Create/Upload/Process’ cycle</a>. Depending on 
+ the size of the school and complexity of the data, some private elementary 
+ schools may opt to enter the aggregate data directly into OnSIS instead 
+ of following these steps.</p>
+<p> </p>
+<h2><a name="Sign-off_in_OnSIS_" id="Sign-off_in_OnSIS_"></a>Sign-off in 
+ OnSIS</h2>
+<p> </p>
+<p>After all the data has been updated in OnSIS, all the errors and warnings 
+ have been addressed to the best of your knowledge, you must log into OnSIS 
+ and start the OnSIS sign-off process for the submission period.  For 
+ more information on the sign-off process in OnSIS, see <a href="on-sign-off-OnSIS.htm">Sign-off 
+ in OnSIS</a>.</p>
+<p> </p>
+<h1><a name="Private_elementary_schools__" id="Private_elementary_schools__"></a>Private 
+ elementary schools  </h1>
+<p> </p>
+<p>Private elementary students are not issued OENs from the Ministry of 
+ Education, and therefore, OnSIS is only able to collect aggregate student 
+ data (e.g. totals of students rather than specific student names and information). 
+  The data is collected once a year, on October 31st.   </p>
+<p>  </p>
+<p> </p>
+<p>The enrolment/transfers/retirements/admissions statistics are generally 
+ based on the students’ enrolment information from November 1 of the previous 
+ year, until October 31st of the current academic year.  Therefore, 
+ past students are considered. Educator class and subject assignment information 
+ is collected on all 3 count dates: October 31, March 31 and June 30. If 
+ the elementary school is combined with the private inspected secondary 
+ school, all educator data is reported via the secondary school submissions. 
+  If the elementary private school is not combined with the inspected 
+ secondary school, the elementary school must submit educator data on all 
+ 3 count dates.</p>
+<p>   </p>
+<p>Elementary private schools will have their own submission period called 
+ October private elementary school. If needed, the private elementary school 
+ will also have the submission periods called March private elementary 
+ school and June private elementary schools.  </p>
+<p> </p>
+<p>This chart summarizes the OnSIS batch files required for elementary 
+ private schools:</p>
+<p> </p>
+<table class="SimpleGridBlack" cellspacing="0px">
+	<colgroup><col style="width: 33.333%;"/>
+	<col style="width: 33.333%;"/>
+	<col style="width: 33.333%;"/>
+	</colgroup><tbody><tr class="t1Row">
+		<td><p style="font-weight: bold;">Date</p></td>
+		<td><p style="font-weight: bold;">Elementary school only (not combined 
+		 with an inspected secondary school)</p>
+		<p style="font-weight: bold;"> </p></td>
+		<td><p style="font-weight: bold;">Elementary school is combined 
+		 with an inspected secondary school</p>
+		<p style="font-weight: bold;"> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>October 31</p></td>
+		<td><p><a href="on-onsis-educator-asgn-info.htm">Educator class 
+		 assignment</a></p>
+		<p><a href="on-onsis-educator-asgn-info.htm">Educator subject assignmen</a>t</p>
+		<p> </p>
+		<p><a href="Aggregate_info.htm">Aggregate info:</a>  </p>
+		<p>- Grade and age</p>
+		<p>- Permanent resident</p>
+		<p>- French as a second language</p>
+		<p>- Native language</p>
+		<p>- Special education</p>
+		<p>- Enrolment, transfers, retirements and admissions *</p>
+		<p>- Admission type</p></td>
+		<td><p><a href="Aggregate_info.htm">Aggregate info:</a>  </p>
+		<p>- Grade and age</p>
+		<p>- Permanent resident</p>
+		<p>- French as a second language</p>
+		<p>- Native language</p>
+		<p>- Special education</p>
+		<p>- Enrolment, transfers, retirements and admissions *</p>
+		<p>- Admission type</p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p>March 31</p></td>
+		<td><p>Educator class assignment</p>
+		<p>Educator subject assignment</p></td>
+		<td><p>n/a (files are submitted by the secondary school)</p></td>
+	</tr>
+	<tr class="t2Row">
+		<td><p>June 30</p></td>
+		<td><p>Educator class assignment</p>
+		<p>Educator subject assignment</p></td>
+		<td><p>n/a (files are submitted by the secondary school)</p></td>
+	</tr>
+</tbody></table>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>* When the October submission period is opened, the &#39;Enrolment, Transfers, 
+ Retirements and Admissions&#39; section on the OnSIS website will be pre-populated 
+ with the enrolment at the end of the previous year.  This number 
+ cannot be changed as it represents the elementary enrolment on October 
+ 31 of the previous year).  The batch file is sending the transfers, 
+ retirements and admissions since November 1 last year until October 31 
+ of this year.  Last year&#39;s number, minus the transfers and retirements, 
+ plus the admissions, will mathematically determine the enrolment on October 
+ 31 of this year. E.g. Enrolment October 31 last year - transfers - retirements 
+ + admissions = enrolment October 31 this year.    </p>
+<p> </p>
+<p>Fortunately, if the school is configured properly, only the submission 
+ periods and options that apply to the school will appear in the SIS. Use 
+ the cards to guide you through the private elementary school submission 
+ period (or periods as explained above).  Below is an example of a 
+ private elementary school that is not combined with an inspected private 
+ secondary school, and therefore the Educator assignment info card is available 
+ (to generate the educator class and subject batch files).   </p>
+<p> </p>
+<p><img src="assets/images/privateElem.png" alt="" style=" border:none; width:100%; max-width:1300px;" border="0"/></p>
+<p> </p>
+<h1><a name="Private_secondary_schools" id="Private_secondary_schools"></a>Private 
+ secondary schools  </h1>
+<p> </p>
+<p>At this time, all private secondary schools using the edsembli SIS are 
+ inspected. Non-inspected private secondary schools will operate just like 
+ private elementary schools that are not combined with an inspected secondary 
+ school (e.g. aggregate info in October, and education class and subject 
+ assignment info in October, March and June).</p>
+<p> </p>
+<p>Inspected private secondary schools will report data to OnSIS just like 
+ Ontario publicly funded secondary schools; however, there are some programs 
+ that don’t apply to private schools and therefore the corresponding batch 
+ files do not apply.  Inspected private secondary schools <span style="font-weight: bold;">do 
+ not report</span> the following info:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Supervised Alternative Learning (SAL)</li>
+	<li>Specialist High Skills Major (SHSM) program &amp; certifications</li>
+	<li>Special education  </li>
+	<li>Course calendar and student option sheets (March)</li>
+	<li>Suspension/expulsion info</li>
+</ul>
+<p> </p>
+<p>Inspected private secondary schools, combined with an elementary private 
+ school, will have the option to submit the educator subject assignment 
+ batch file, which does not apply to regular secondary schools.</p>
+<p> </p>
+<p>Inspected private secondary schools will see the same submission periods 
+ as publicly funded secondary schools; however, the batch file options 
+ that don’t apply will be removed. The OnSIS menu will contain 3 submission 
+ periods:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>October secondary school</li>
+	<li>March secondary school</li>
+	<li>June secondary school</li>
+</ul>
+<p> </p>
+<p>Fortunately, if the school is configured properly, only the submission 
+ periods and options that apply to the school will appear in the SIS. Use 
+ the cards to guide you through the submission periods. Below is an example 
+ of the October submission period for a private secondary school.</p>
+<p> </p>
+<p><img src="assets/images/private_sec.png" alt="" style=" border:none; width:100%; max-width:1864px;" border="0"/></p>
+<p> </p>
+
+</body></html>

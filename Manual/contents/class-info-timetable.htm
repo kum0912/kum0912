@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Class info - timetable</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "3.3.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Student records &gt; Class info"/>
+</head>
+
+<body>
+
+
+<h1>Student records &gt; Class info &gt; Timetable</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p><br/>
+</p>
+<p><a href="#Overview">Overview</a></p>
+<p><a href="#Todays_timetable">Today’s timetable</a></p>
+<p><a href="#Summary_grid_timetable">Summary grid timetable</a></p>
+<p><a href="#Summary_list_timetable">Summary list timetable</a></p>
+<p><a href="#Common_features_of_timetables">Common features of timetables</a></p>
+<p style="margin-left: 40px;"><a href="#This_Year_vs_Next_Year">This year 
+ vs Next year</a></p>
+<p style="margin-left: 40px;"><a href="#Students_concurrently_enrolled_in_more_than_1_school">Students 
+ concurrently enrolled in more than 1 school</a></p>
+<p style="margin-left: 40px;"><a href="#Flex_CTS_and_continuous_entry_classes">Flex, 
+ CTS, and continuous entry classes</a></p>
+<p><a href="#Editing_timetables_adding_and_dropping_classes">Editing timetables 
+ (adding and dropping classes)</a></p>
+<p style="margin-left: 40px;"><a href="#Moving_student_to_different_classes_of_the_same_course">Moving 
+ student to different classes of the same course</a></p>
+<p style="margin-left: 40px;"><a href="#Saving_timetable_edits_or_reverting_to_original_timetable">Saving 
+ timetable edits or reverting to original timetable</a></p>
+<p style="margin-left: 40px;"><a href="#Adding_a_new_class">Adding a new 
+ class</a></p>
+<p style="margin-left: 40px;"><a href="#Dropping_a_class">Dropping a class</a></p>
+<p style="margin-left: 40px;"><a href="#Register_automatically_tracks_add_drop_dates">Register 
+ automatically tracks add/drop dates</a></p>
+<p style="margin-left: 40px;"><a href="#Editing_students_homeroom">Editing 
+ student’s homeroom</a></p>
+<p style="margin-left: 40px;"><a href="#Editing_timetables_for_many_students">Editing 
+ timetables for many students</a></p>
+<p><a href="#Course_selections">Show/hide course selections</a></p>
+<p><a href="#Course_fees">Course fees</a></p>
+<p><a href="#Printing_Timetables">Printing timetables</a></p>
+<p> </p>
+<h2><a name="Overview" id="Overview"></a>Overview</h2>
+<p>The Class info option in a student’s record contains information related 
+ to the courses, classes and teachers involved in the student’s education 
+ during the current school year (this year) or the upcoming school year 
+ (next year).</p>
+<p> </p>
+<p>Past students do not have access to the Class info menu, however their 
+ historical class information is available from the Achievement menu.</p>
+<p> </p>
+<p>The Timetable menu option is located in the Class info submenu.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time1.png" alt="" style=" border:none; width:100%; max-width:262px;" border="0"/></p>
+<p> </p>
+<p>The Timetable option presents the student’s classes organized by periods, 
+ days, terms and semesters. Each school’s setup defines the number of semesters, 
+ terms in a semester, days in cycle, and periods per day. Each class offered 
+ by the school is assigned to the appropriate semester(s), term(s), day(s) 
+ and period(s) that correspond to where that class is taught. This information 
+ is used to determine where the class appears in the student’s timetable. 
+ If all classes in a student’s timetable are full year (scheduled for all 
+ semesters), or if the school’s setup is 1 semester, any references to 
+ semesters will be hidden. If all classes in a student’s timetable 
+ are scheduled for all terms, or if the school’s setup is 1 term, any references 
+ to terms will be hidden. If the student’s classes do not rotate between 
+ days, all days will be combined rather than showing a timetable for day 
+ 1 and another timetable for day 2, etc.</p>
+<p> </p>
+<p>You can view a student’s timetable in 3 formats:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Today</li>
+	<li>Summary list</li>
+	<li>Summary grid</li>
+</ul>
+<p> </p>
+<p><img src="assets/images/class-info-time2.png" alt="" style=" border:none; width:100%; max-width:620px;" border="0"/></p>
+<p> </p>
+<p>See <a href="#Todays_timetable">Today’s timetable,</a> <a href="#Summary_grid_timetable">Summary 
+ grid timetable</a>, and <a href="#Summary_list_timetable">Summary list 
+ timetable</a> for details on each of these timetable views. The summary 
+ grid is the defaulted view.</p>
+<p> </p>
+<p>Although you may see the student’s timetable in many different formats, 
+ there are many common features shared between all the views as described 
+ in <a href="#Common_features_of_timetables">Common features of timetables</a>.</p>
+<p> </p>
+<p>Selecting the Edit icon from any of the timetable views, shows one common 
+ edit screen (class adds and drops) as described in <a href="#Editing_timetables_adding_and_dropping_classes">Editing 
+ timetables</a>. Please make sure the school’s calendar date is set to 
+ the correct date before adding and dropping classes from the student’s 
+ timetable. If the student is starting a class after it has started, 
+ this date will be used to determine when the student first attended the 
+ class. If the student is dropping a class before it is finished, the date 
+ will be used to determine the first date the student no longer showed 
+ up for class.</p>
+<p> </p>
+<p>In addition to viewing timetables, you can print a copy by clicking 
+ the More icon and selecting the Print timetable option (or the Print floating 
+ action button in the bottom right corner).See <a href="#Printing_Timetables">Printing 
+ timetables</a> for more information.</p>
+<p> </p>
+<h2><a name="Todays_timetable" id="Todays_timetable"></a>Today (Today’s 
+ timetable)</h2>
+<p>Today’s timetable view is the only timetable view available for students 
+ who have withdrawn from the school, providing the ability to see the timetable 
+ for any past date when the student would have had a timetable.</p>
+<p> </p>
+<p>This view will use the school’s calendar to determine today’s date. 
+ The school’s calendar defines what semester, term and cycle day to consider 
+ for each date. The student’s classes for each period will display, and 
+ if the time is during the school day, the class the student is currently 
+ attending is highlighted:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time4.png" alt="" style=" border:none; width:100%; max-width:697px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>You will see today&#39;s date by default, but you can change the date by 
+ using the arrow buttons located on the left and right of today’s date.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time5.png" alt="" style=" border:none; width:100%; max-width:693px;" border="0"/></p>
+<p> </p>
+<p>You may also select the date to access a calendar control to select 
+ a specific date.</p>
+<p> </p>
+<p>The resulting timetable will consider the student’s entry and exit/retirement 
+ dates to determine if the student is enrolled on that date. If the student 
+ is not enrolled, or if the student has no classes on that date, a message 
+ will appear stating “Student has no classes on this date”. If a student’s 
+ school year status is withdrawn, this message will appear for today’s 
+ date, however, you may go back to a previous date to see the student’s 
+ timetable on a prior date.</p>
+<p> </p>
+<p>Today’s timetable view will consider the dates on which a student added 
+ or dropped a class so that the timetable is a true reflection of the student’s 
+ classes on the date. See <a href="#Editing_timetables_adding_and_dropping_classes">Editing 
+ timetables (adding and dropping classes)</a> for more information.</p>
+<h2><a name="Summary_grid_timetable" id="Summary_grid_timetable"></a>Summary 
+ grid timetable</h2>
+<p>The Summary grid view is a traditional timetable view where the student’s 
+ classes appear in blocks in the grid corresponding to where the class 
+ is taught. This view is not available for students who have withdrawn 
+ from the school.</p>
+<p> </p>
+<p>Each unique class will be colour-coded to show where the class rotates 
+ if applicable. To add or remove colour use the palette icon to toggle 
+ off and on colouring.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time6.png" alt="" style=" border:none; width:100%; max-width:792px;" border="0"/></p>
+<p> </p>
+<p>If the student’s classes change at the start of a new semester and/or 
+ term, then the timetable will appear on a unique card corresponding to 
+ each semester and/or term. Use the Show more and Hide all icons in 
+ the card tool bar to expand and collapse the cards.</p>
+<p> </p>
+<p>It is also possible to filter the cards on the view using the drop down 
+ semester, term and day filters located above the timetable cards. For 
+ example, selecting just semester 1 from the drop down semester filter, 
+ will hide all semester 2 and above cards.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time7.png" alt="" style=" border:none; width:100%; max-width:491px;" border="0"/></p>
+<p> </p>
+<h2><a name="Summary_list_timetable" id="Summary_list_timetable"></a>Summary 
+ list timetable</h2>
+<p>The summary list view of the student’s timetable is similar to the Summary 
+ grid view but the student’s classes are in list format with all the day 
+ 1 classes listed for each period, followed by the day 2 classes listed 
+ for each period. The list format is better suited for view a student’s 
+ timetable on smaller devices. This view is not available for students 
+ who have withdrawn from the school.</p>
+<p> </p>
+<p>Just like the summary grid view, if the student’s classes change at 
+ the start of a new semester and/or term, the timetable will appear on 
+ a unique card corresponding to each semester and/or term. These cards 
+ can be expanded and collapsed.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time8.png" alt="" style=" border:none; width:100%; max-width:785px;" border="0"/></p>
+<p> </p>
+<h2><a name="Common_features_of_timetables" id="Common_features_of_timetables"></a>Common 
+ features of timetables</h2>
+<p>The school determines what semester(s), term(s), day(s), and period(s) 
+ apply to each class. A class can appear in a student’s timetable as long 
+ as semester, term and day information is defined (where applicable). Some 
+ classes are assigned into ‘no period’ (e.g. period X or floater classes). 
+ Classes that are not assigned into a period will appear after the regularly 
+ scheduled classes. When editing the student’s timetable, these classes 
+ are grouped together on their own card titled Additional classes.</p>
+<p> </p>
+<p>The school’s setup defines the number of semesters, terms, days, periods, 
+ and period start and end times. These attributes define the blocks 
+ in the timetable, and the student’s classes are used to populate the blocks 
+ in the timetable.</p>
+<p> </p>
+<p>For each class, you&#39;ll see the following information:</p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Class</span>: 
+ This is the class from the student’s timetable. Class (e.g. MAT9Ab) 
+ is a combination of the course code (e.g. MAT9A in all caps) and the section 
+ letter which is a lower case letter a to z (e.g. b in this example). In 
+ the school’s classes table (e.g. the master timetable), a unique section 
+ letter is used for each unique group of students that are taught the course.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Title</span>: The 
+ title of the course.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Room</span>: 
+ The room number where the class is taught. If a class is taught in multiple 
+ rooms, where the room changes on different days, the room will appear 
+ as M. Select the class to access the details option to see class 
+ details including specific room information.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Teacher</span>: 
+ The teacher or teachers assigned to the class.</p>
+<p> </p>
+<p>Each class in the timetable grid may be selected to see more details 
+ based on the <a href="../setup/setup-class-classes.htm">setup of the class</a>.</p>
+<h3><a name="This_Year_vs_Next_Year" id="This_Year_vs_Next_Year"></a>This 
+ Year vs Next Year</h3>
+<p>As shown below, when viewing the timetable in the &#39;summary list&#39; or 
+ &#39;summary grid&#39; format, a tab strip will appear with up to 2 options:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time11.png" alt="" style=" border:none; width:100%; max-width:295px;" border="0"/></p>
+<p> </p>
+<p>THIS YEAR will appear if the student is enrolled in ANY school in the 
+ board/division/district during the current school year. NEXT YEAR 
+ will appear if the student will be enrolled in ANY school in the board/division/district 
+ in the upcoming school year. The student’s school year status at each 
+ school determines whether or not a student is considered as attending 
+ that school for this year and/or next year. School year statuses are recorded 
+ in the student&#39;s record using <a href="enrolment-students.htm">Enrolment 
+ &gt; Student enrolment</a>, and they are interpreted as follows:</p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">This year 
+ and next year</span>: student is considered as enrolled in the school 
+ on the THIS YEAR and the NEXT YEAR tabs.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">This year 
+ only</span>: student is considered as enrolled in the school on the 
+ THIS YEAR tab.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Next year 
+ only</span>: student is considered as enrolled in the school on the NEXT 
+ YEAR tab.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Withdrawn</span>: 
+ although the student is no longer enrolled in the school, the THIS YEAR 
+ tab is available to see the student’s timetable for the days when the 
+ student was enrolled.</p>
+<p> </p>
+
+<p <p="">Use the tab strip to navigate between the student’s timetable 
+ for this year or next year. When both options  exist for the student, 
+ it will default THIS YEAR. When viewing the student’s timetable using 
+ the today format, it is always considering the student’s “this year” timetable 
+ and therefore the tab strip is not applicable.</p>
+<h3><a name="Students_concurrently_enrolled_in_more_than_1_school" id="Students_concurrently_enrolled_in_more_than_1_school"></a>Students 
+ concurrently enrolled (enrolled in more than 1 school)</h3>
+<p>For the selected school year (this or next), if the student is enrolled 
+ in more than 1 school in that school year, the select schools drop down 
+ will appear as shown here:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time12.png" alt="" style=" border:none; width:100%; max-width:508px;" border="0"/></p>
+<p> </p>
+<p>The drop down list will include the individual school names where the 
+ student is/has/will be enrolled in for the selected school year.</p>
+<p> </p>
+<p>If all schools that the student is attending have the same school structure 
+ (e.g. same number of semesters, terms, periods, and days), an “All schools” 
+ option will be available and the timetable will be viewed with all the 
+ schools combined into one timetable view.  If the school structures 
+ are different, it will default this school’s timetable and the other schools 
+ are available to view.</p>
+<p> </p>
+<p>When editing the student’s timetable, if the school structures are the 
+ same, the class from the other school will appear with a shaded background, 
+ and they cannot be rescheduled or dropped by this school. This is an example 
+ of a class taken at another school:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time12-1.png" alt="" style=" border:none; width:100%; max-width:648px;" border="0"/></p>
+<p> </p>
+<h3><a name="Flex_CTS_and_continuous_entry_classes" id="Flex_CTS_and_continuous_entry_classes"></a>Flex, 
+ CTS, and continuous entry classes</h3>
+<p style="font-weight: normal;">Some classes may include an icon to provide 
+ a visual indication that the class may be one of these unique class types. 
+ The icons, explained below, will provide a tool tip when the icon is hovered, 
+ and may provide additional functionality when the icon is selected as 
+ described here:</p>
+<p style="font-weight: normal;"> </p>
+<p style="font-weight: normal;"><img src="assets/images/flex-icon.png" alt="" style=" border:none; width:100%; max-width:32px;" border="0"/><span style="color: #007fff; font-weight: bold;">Flex class (Alberta only)</span><span style="font-weight: bold;">:</span> The class is considered a flex 
+ class, which is a unique class type available for those schools offering 
+ flex periods. The flex class is scheduled into the student’s timetable 
+ and typically all students have the same flex period. Students can pick 
+ what they want to take each flex period from a wide range of offerings 
+ created by the teachers in the school (e.g. one teacher may offer extra 
+ math help, one teacher may offer badminton in the gym, and another teacher 
+ may offer a meditation class). The teacher offerings are unique for each 
+ time a flex class is held throughout the school year, and each time the 
+ student can choose something different to take. The flex class in the 
+ course workload card is really a placeholder class. The icon indicates 
+ that this class has unique flex class functionality in edsembli CONNECT 
+ for teachers and students.</p>
+<p><span style="font-weight: bold;"><img src="assets/images/class-info-classes12.png" alt="" style=" border:none; width:100%; max-width:29px;" border="0"/></span><span style="font-weight: bold; color: #007fff;">CTS class (Alberta only)</span><span style="font-weight: bold;">:</span> The class is considered the master 
+ class of a Career and Technology Studies course or a module class. Typically, 
+ the CTS master class is scheduled into the timetable in a specific period, 
+ and the student takes many modules as part of their course. The CTS module 
+ classes are not scheduled into a period. HoveriHoveriHoveriHoveriHoveriHoveriHovering over the icon will indicate 
+ whether it is a CTS master or CTS module. </p>
+<p><span style="font-weight: bold;"><img src="assets/images/class-info-classes14a.png" alt="" style=" border:none; width:100%; max-width:29px;" border="0"/></span><span style="font-weight: bold; color: #007fff;">Continuous entry class</span><span style="font-weight: bold;">:</span> The class is considered a continuous 
+ entry class, which means the student may start and complete the course 
+ at their own pace. The student will have their own start and end times. 
+ </p>
+<p></p>
+<p> </p>
+<h2><a name="Editing_timetables_adding_and_dropping_classes" id="Editing_timetables_adding_and_dropping_classes"></a>Editing 
+ timetables (adding and dropping classes)</h2>
+<p><span style="font-style: italic;">Note: If the student’s school year 
+ status is set to withdrawn, editing the timetable will not provide the 
+ functionality to add and drop classes.</span> Instead, the Edit icon provides 
+ the functionality to edit the register. See <a href="#Register_automatically_tracks_add_drop_dates">Register 
+ automatically tracks add/drop dates</a>.</p>
+<p> </p>
+<p>Use the Edit icon in the tool bar if classes need to be added or dropped 
+ from the student’s timetable.</p>
+<p> </p>
+<p>The edit timetable interface will present the timetable in a grid view, 
+ listing the student’s classes in the first column, followed by columns 
+ for each period in the first semester/term, followed by columns for the 
+ next semester/term (if applicable) as shown below:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time21.png" alt="" style=" border:none; width:100%; max-width:795px;" border="0"/></p>
+<p> </p>
+<p>You will see some coloured blocks, corresponding to the spots in the 
+ timetable where the student is attending classes. For each coloured 
+ block, you will see a number corresponding to the number of students in 
+ that class. Other blocks may show a letter and number to let you 
+ know that another class section of the same course is offered at that 
+ time (section letter and class enrolment are provided should you be interested 
+ in moving the student into that class). If an asterisk appears (e.g. b*29), 
+ the school has other sections of that course at that same time (if it’s 
+ not a coloured block, it will show the section with the lowest enrolment).</p>
+<p> </p>
+<p><img src="assets/images/class-info-time22.png" alt="" style=" border:none; width:100%; max-width:992px;" border="0"/></p>
+<p> </p>
+<p>If the student has classes that are not assigned to any specific period 
+ or day (e.g. period X or floater classes), they will appear in their own 
+ card titled Additional Classes with an indication of the semester/terms 
+ in which the classes are taught.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time23.png" alt="" style=" border:none; width:100%; max-width:644px;" border="0"/></p>
+<p> </p>
+<p>There are many different ways to make changes to the student’s timetable, 
+ described in the subsequent sections. </p>
+<p> </p>
+<p>The student’s timetable is not officially saved until you actually click 
+ the SAVE button. This allows you to try various changes to the student’s 
+ timetable but revert back to the original timetable if you don’t like 
+ the changes. See <a href="#Saving_timetable_edits_or_reverting_to_original_timetable">Saving 
+ timetable edits or reverting to original timetables</a> for more information.</p>
+<p> </p>
+<p>Selecting a class from the first column of the grid (under the Course 
+ column) will present a menu of additional options. These options, if applicable, 
+ will appear:</p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Class details</span>: Provides 
+ additional information (the information may vary depending on whether 
+ you are selecting a class or a course. It will present the details just 
+ like you would see in the setup of the class or course (when you row click 
+ a class or course in Setup &gt; Class info &gt; <a href="../setup/setup-class-courses.htm">Courses</a> 
+ or <a href="../setup/setup-class-classes.htm">Classes</a>).</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Drop</span>: Drops 
+ the class from the student’s timetable.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Dual enrolment: 
+ </span>(Alberta only) Provides a yes/no field  to flag this class 
+ as a dual enrolment (for reporting to PASI). Check the box if the student 
+ is completing this class in partnership with a post-secondary institution.</p>
+<p style="margin-left: 40px; font-weight: bold;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Class specific 
+ options</span>: See <a href="#Flex_CTS_and_continuous_entry_classes">Flex, 
+ CTS, and continuous entry classes for additional options that may appear 
+ for these class types</a>.</p>
+<h3><a name="Moving_student_to_different_classes_of_the_same_course" id="Moving_student_to_different_classes_of_the_same_course"></a>Moving 
+ student to different classes of the same course</h3>
+<p>The edit timetable grid is very powerful. You may simply click 
+ on a block to move the student to a different section of a class as shown 
+ here:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time26.png" alt="" style=" border:none; width:100%; max-width:528px;" border="0"/></p>
+<p> </p>
+<p>As you work on the student’s timetable, you may introduce conflicts. 
+  A caution icon will appear beside any days that have conflicts and 
+ when this icon appears, the student&#39;s timetable cannot be saved until 
+ the conflict is resolved.:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time26-1.png" alt="" style=" border:none; width:100%; max-width:180px;" border="0"/></p>
+<p> </p>
+<p>The conflicts will be clearly identified in red, as shown below.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time27.png" alt="" style=" border:none; width:100%; max-width:602px;" border="0"/></p>
+<p> </p>
+<p>If you select a block for a class with multiple sections in the period, 
+ all the sections will be defaulted so that you can select any class from 
+ the list as shown below:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time28.png" alt="" style=" border:none; width:100%; max-width:242px;" border="0"/></p>
+<h3><a name="Saving_timetable_edits_or_reverting_to_original_timetable" id="Saving_timetable_edits_or_reverting_to_original_timetable"></a>Saving 
+ timetable edits or reverting to original timetable</h3>
+<p>The student’s timetable may not be saved if conflicts exist (red blocks 
+ exist in the student’s timetable or the cuation icon appears in the Day 
+ tabbed navigation). At the bottom of the page, the SAVE button will 
+ be disabled. If the SAVE button is not available, and no red blocks appear, 
+ make sure that you check for red by looking at all days, periods, semesters 
+ and terms.</p>
+<p> </p>
+<p>The SAVE button must be selected to save the changes to the timetable 
+ and leave the edit page.</p>
+<p> </p>
+<p>At any point, the ORIGINAL button may be selected to undo all edits 
+ to the timetable by exiting the timetable without making any changes.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time29.png" alt="" style=" border:none; width:100%; max-width:587px;" border="0"/></p>
+<p> </p>
+<p>A confirmation message will appear:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time30.png" alt="" style=" border:none; width:100%; max-width:394px;" border="0"/></p>
+<p> </p>
+<h2><a name="Adding_a_new_class" id="Adding_a_new_class"></a>Adding a class</h2>
+<p>Adding classes is typically done by typing in the class (course code 
+ and section letter if known) or by typing in as much or as little of the 
+ course code or typing in a key word from the course title (e.g. chemistry) 
+ in the box that says “Add by typing class, course or title then select 
+ from list&quot;” as shown below.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time31.png" alt="" style=" border:none; width:100%; max-width:716px;" border="0"/></p>
+<p> </p>
+<p>Based on the characters you type in the box it will start building a 
+ list of potential matches as shown below:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time32.png" alt="" style=" border:none; width:100%; max-width:699px;" border="0"/></p>
+<p> </p>
+<p>From the selected list of matching courses and/or classes, select a 
+ class if you know exactly the class you want to add to the student’s timetable, 
+ or select the course (which is bolded) to see where it’s scheduled.</p>
+<p> </p>
+<p>If a class is selected, it will add the class to the student’s timetable. 
+ The class block will be red if the newly added class conflicts with existing 
+ classes, and therefore additional changes must be made to the timetable 
+ before it may be saved.</p>
+<p> </p>
+<p>If a course is selected, the course will appear after the student’s 
+ classes. Course rows are easily distinguished by the fact that they have 
+ no section letter and the row is highlighted. Class section and class 
+ size information appears in the blocks as shown below. </p>
+<p> </p>
+<p><img src="assets/images/class-info-time33.png" alt="" style=" border:none; width:100%; max-width:668px;" border="0"/></p>
+<p> </p>
+<p>From the course row, select a block with a class section to add the 
+ student into that class. The course row will be replaced by a class row 
+ that is repositioned in the list so that it appears in chronological order 
+ by period, and the newly added class block will be coloured. If it is 
+ red due to a conflict, additional changes must be made to the timetable.</p>
+<p> </p>
+<h2><a name="Dropping_a_class" id="Dropping_a_class"></a>Dropping a class</h2>
+<p>Selecting a class (or course) from the first column of the grid will 
+ present a menu of additional options. Select the Drop option to remove 
+ the class (or course) from the timetable grid.</p>
+<p> </p>
+<p><img src="assets/images/class-info-time33-2.png" alt="" style=" border:none; width:100%; max-width:673px;" border="0"/></p>
+<p> </p>
+<h2><a name="Register_automatically_tracks_add_drop_dates" id="Register_automatically_tracks_add_drop_dates"></a>Timetable 
+ Register</h2>
+<p>When a student’s timetable is saved, any newly added or dropped classes 
+ are automatically recorded in the register. The computer time is used 
+ to record the “Last modified” date and time. The school’s calendar 
+ date is used to determine if the student is adding a class after it has 
+ started, or dropped before the class is finished. The register is only 
+ showing information for this school’s timetable activity.</p>
+<p> </p>
+<p>The school’s calendar date is set to the correct date before adding 
+ and dropping classes from the student’s timetable. If the student 
+ is starting a class after it has started, this date will be used to determine 
+ when the student first attended the class. If the student is dropping 
+ a class before it is finished, this date will be used to determine the 
+ first date the student no longer showed up for class.</p>
+<p> </p>
+<p>Although this is done automatically, there are times when you may want 
+ to see or edit the register add/drop dates. The register is accessed by 
+ selecting the More menu to access additional options, including the Register 
+ option as shown below:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time34.png" alt="" style=" border:none; width:100%; max-width:914px;" border="0"/></p>
+<p>  </p>
+<p>You will see the Register option on these tool bars in the student’s 
+ record:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li><p style="margin-left: 0px;">Class info, Classes</p></li>
+	<li><p style="margin-left: 0px;">Class info, Timetable</p></li>
+	<li><p style="margin-left: 0px;">Class info, Timetable, Edit timetable 
+	 *</p></li>
+</ul>
+<p> </p>
+<p>* Since add/drop dates are saved when the student’s timetable is saved, 
+ selecting the Register option within edit timetable will first prompt 
+ to save the timetable.</p>
+<p> </p>
+<p>Here&#39;s an example register:</p>
+<p> </p>
+<p><img src="assets/images/class-info-register1.png" alt="" style=" border:none; width:100%; max-width:1112px;" border="0"/></p>
+<p> </p>
+<p>The following information is recorded in the register:</p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Last 
+ modified</span>: This is the computer date and time when the class’ register 
+ entry was last automatically modified. This field is not editable.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Class</span>: 
+ The class being referenced. This field is not editable.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Class 
+ enrolment date</span>: This is the first day of class for the student. The 
+ class start date in the school’s classes table will appear unless the 
+ student added the class after the class started.<br/>
+</p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Class 
+ end date</span>: This is the last day of class for the student. This 
+ field is not editable as it automatically populated base on the class 
+ end date in the school’s classes table, or it is the school day before 
+ the drop date.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Drop 
+ date</span>: When the class was dropped from the timetable, the school’s 
+ calendar date was automatically used to record this date. It represents 
+ the first day the student did not attend the class.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Semester/term</span>: 
+ This is the semester/term pattern assigned to the class. Pattern names 
+ are school defined but should be meaningful enough to provide information 
+ as to when the class is/was taught.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold; color: #007fff;">Day/period</span>: 
+ This is the day/period pattern assigned to the class.</p>
+<p> </p>
+<h2>Edit Register</h2>
+<p>Select a register entry (e.g. row click) to edit the entry, if needed. 
+ The date the student started the class (enrol date) may be entered (it 
+ must be on or after the class start date). The drop date is only available 
+ for classes that have been dropped from the student&#39;s timetable. The drop 
+ date must be before the class end date. The end date field will automatically 
+ adjust to the day before the drop date (the last date the student attended 
+ classes).</p>
+<p> </p>
+<p><img src="assets/images/class-info-time36.png" alt="" style=" border:none; width:100%; max-width:548px;" border="0"/></p>
+<p> </p>
+<p>Alberta schools: Instructional minutes received is an optional field, 
+ however, if the school wants to request funding for a dropped class, this 
+ field must be populated (to help support the request for funding). This 
+ field exists for dropped classes only. </p>
+<h2>Delete register entry</h2>
+<p>Register entries should only be deleted if the student never attended 
+ a class. Use the delete icon (located in the tool bar when you edit the 
+ register entry). Since it is not possible to add register entries (without 
+ adding the class back into the student&#39;s timetable), caution is advised 
+ when the delete action is used.</p>
+<h2><a name="Editing_students_homeroom" id="Editing_students_homeroom"></a>Editing 
+ student’s homeroom</h2>
+<p>Many schools have a correlation between a class in the student’s timetable, 
+ and the student’s homeroom. For example, if the student’s period 1 class 
+ is in room 200 with Mr. Smith, the student’s homeroom teacher is Mr. Smith, 
+ in room 200.</p>
+<p> </p>
+<p>If timetable changes result in a change of the student’s homeroom. You 
+ can easily change the homeroom on  the edit timetable page by selecting 
+ the More FAB then selecting the Edit homeroom icon shown here:</p>
+<p> </p>
+<p><img src="assets/images/class-info-time38.png" alt="" style=" border:none; width:100%; max-width:367px;" border="0"/></p>
+<p> </p>
+<p>Selecting this icon will take you directly into the edit interface of 
+ the Grade info card, where grade, homeroom, advisor group and attendance 
+ type (full time, part time) may be edited.</p>
+<p> </p>
+<h3><a name="Editing_timetables_for_many_students" id="Editing_timetables_for_many_students"></a>Editing 
+ timetables for many students</h3>
+<p>Rather than editing students’ timetables one at a time through their 
+ student record, there are tools that will assist schools. For example, 
+ the scheduling functionality helps the school build their master timetable 
+ and then automatically loads the students into classes based on their 
+ course selections. Under the Student tools &gt; Timetables option, 
+ there are tools that can automatically<a href="assign-timetables-addclass.htm"> 
+ add</a> or <a href="assign-timetables-delclass.htm">drop</a> classes from 
+ a group of students, and tools to <a href="assign-timetables-cleartt.htm">remove</a> 
+ all classes in the timetable. </p>
+<p style="color: #ff00ff;"> </p>
+<h2 style="color: #ff00ff;"><a name="Course_selections" id="Course_selections"></a><span style="color: #000000;">Show/hide unscheduled course selections</span></h2>
+<p style="color: #000000;">There are times when you may want to see the 
+ student’s <a href="stu-class-info-course-selections.htm">course selections</a> 
+ that are not scheduled into the student’s timetable. When the course selections 
+ are visible, the student’s preferred course selections that did not get 
+ into the student’s timetable will appear as courses at the bottom of the 
+ timetable grid. Here are a couple of situations where this feature is 
+ beneficial:</p>
+<p style="color: #000000;"> </p>
+<ul style="list-style: disc;">
+	<li style="color: #000000;"><p style="color: #000000;">If the school 
+	 transferred to the new school year without resolving all the conflicts, 
+	 you can look at this year’s timetable along with the unscheduled course 
+	 selections, thereby providing all the functionality to continue manually 
+	 adjusting the student’s timetable in the current year.</p></li>
+	<li style="color: #000000;"><p style="color: #000000;">During the scheduling 
+	 process when working with the next year’s timetable, if the tool that 
+	 automatically creates student timetables (load students) will not 
+	 be run again, and there are conflicts that need to be resolved, one 
+	 approach may be to look at the student’s next year’s timetable with 
+	 the course selections visible. There are options in scheduling that 
+	 go directly into edit next year&#39;s timetable with the unscheduled course 
+	 selections showing automatically (under Scheduling next year &gt; 
+	 Resolve student conflicts &gt; <a href="../scheduling/sched-resolve-stu-conflicts.htm">Students 
+	 with conflicts</a> and <a href="../scheduling/sched-resolve-stu-conflicts-ind-stu.htm">Individual 
+	 student</a>). </p></li>
+</ul>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;">On the edit timetable tool bar, an icon will 
+ appear to indicate whether the timetable is showing or hiding unscheduled 
+ course selections. The tool tip will appear when you hover the icon, and 
+ you simply select the icon to change between showing or hiding the unscheduled 
+ course selections.</p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;"><img src="assets/images/hiding-course-sel.png" alt="" style=" border:none; width:100%; max-width:750px;" border="0"/></p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;"><span style="color: #000000;">When the unscheduled 
+ course selections appear on the timetable grid, as shown below, you may 
+ proceed to edit the timetable as usual.</span></p>
+<p> </p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;"><img src="assets/images/showing-course-sel.png" alt="" style=" border:none; width:100%; max-width:601px;" border="0"/></p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000; font-style: normal;">Note: only preferred course 
+ selections that have corresponding classes will appear. Alternate 
+ course selections (e.g. courses that may be substituted with preferred 
+ courses) will not appear. </p>
+<p style="color: #000000;"> </p>
+<p style="color: #000000;"><span style="font-style: italic; font-weight: bold;">Important 
+ note about course selections and next year’s timetable edits</span>: Editing 
+ next year’s timetable is not recommended until the school is finished 
+ with any automated scheduling processes, specifically the load students 
+ process. When the classes in a student’s timetable are changed in 
+ such a manner that the student is now taking different courses than they 
+ originally requested when they first provided the school their course 
+ selections, it is important to know that the load students function will 
+ completely rebuild the student’s timetable based on the course selections 
+ only. For this reason, when a student’s next year’s timetable introduces 
+ course changes, remember to update the student&#39;s course selections if 
+ there is any possibility that the load students function will be run again.</p>
+<p style="color: #000000;"> </p>
+<h2 style="color: #ff00ff;"><a name="Course_fees" id="Course_fees"></a><span style="color: #000000;">Course fees</span></h2>
+<p style="color: #000000;">If a class is added to or deleted from a student’s 
+ timetable and the class has an associated Course Fee (as defined in the 
+ <a href="../setup/setup-class-courses.htm">setup of the course</a>), whenever 
+ timetable changes are made, the course fees are taken into consideration 
+ and refunds or course fees are automatically assigned (when appropriate). 
+ Please note, the ‘Refund after (days)’ calculation depends upon the start 
+ date of a class and the drop date within the student’s register and considers 
+ active days in the school calendar. If the class was dropped after the 
+ allotted refund period, the course fee will remain in the student&#39;s fees. For 
+ second semester classes, the count of number of days begins at the beginning 
+ of second semester. Use the <a href="stu-fees.htm">Fees</a> option in 
+ the student&#39;s record to confirm that fees are applied/refunded appropriately.</p>
+<h2 style="color: #000000;"><a name="Printing_Timetables" id="Printing_Timetables"></a>Printing 
+ Timetables</h2>
+<p>If a timetable needs to be printed, use the Print floating action button 
+ located in the lower right corner when viewing the student&#39;s timetable. 
+ Print is also available when editing the student&#39;s timetable, in the multi-FAB 
+ button, however, it will prompt to save the timetable or discard changes 
+ before it may be printed.</p>
+<p> </p>
+<p><img src="assets/images/print_fabs.png" alt="" style=" border:none; width:100%; max-width:390px;" border="0"/></p>
+<p> </p>
+<p>Use the OPTIONS and STUDENT INFORMATION tabs to specify printing parameters. 
+ For more info on these print options, see the <a href="stu-reports-tt-stu-tt.htm">Timetable 
+ option in Student reports</a>.   Once the settings are correct, 
+ select the PRINT button in the bottom bar (below all the settings).</p>
+<p style="font-weight: bold;"> </p>
+<p> </p>
+<p><img src="assets/images/class-info-print-tt.png" alt="" style=" border:none; width:100%; max-width:688px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>There are many options to the format and info printed on the report. 
+ Here is one example.</p>
+<p><img src="assets/images/class-info-time48-4.png" alt="" style=" border:none; width:100%; max-width:628px;" border="0"/></p>
+<p> </p>
+<p> </p>
+
+</body></html>

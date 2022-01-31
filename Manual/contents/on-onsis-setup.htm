@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Setup (OnSIS)</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "12.2.1.0_5";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Ontario &gt; OnSiS &gt; October elementary school"/>
+</head>
+
+<body>
+
+
+<h1>OnSIS &gt; Submission period &gt; Setup</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p> </p>
+<p>Each submission period includes a setup card. This card will provide 
+ quick access to the file manager location where the OnSIS extracts (if 
+ applicable), batch files, and results files are stored for the submission.</p>
+<p> </p>
+<p>The setup may also contain options that may influence the OnSIS batch 
+ files, so it is good practice to check this option before starting any 
+ new submission period. If applicable, these setup options will appear 
+ below the file manager locations:</p>
+<p> </p>
+<p><a href="#Homeroom_Aliases_">Homeroom Aliases</a></p>
+<p><a href="#Grade_10_to_12_Designation_Types_">Grade 10 to 12 Designation 
+ Types</a></p>
+<p><a href="#Campus_numbers_">Campus Numbers</a></p>
+<p> </p>
+<p>Choose OnSIS &gt; (submission period) &gt; Setup and select the GO button 
+ to access the setup options for the submission period.</p>
+<p> </p>
+<p><img src="assets/images/on-onsis-setup-card.png" alt="" style=" border:none; width:100%; max-width:204px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>The Setup form will be customized according to the submission period 
+ selected.  Some submission periods will only contain the file manager 
+ links, and others may contain setup options as explained below.  Here 
+ is an example of the form showing the file manager links and the ‘Grade 
+ 10 to 12 Designation Types’ setup option:</p>
+<p> </p>
+<p><img src="assets/images/on-onsis-setup-main.png" alt="" style=" border:none; width:100%; max-width:728px;" border="0"/></p>
+<p> </p>
+<p>The file manager locations are listed at the top of the setup form. 
+ Select any of the folder icons to quickly access those files in file manager.</p>
+<p> </p>
+<p><img src="assets/images/on-onsis-setup-main-top.png" alt="" style=" border:none; width:100%; max-width:598px;" border="0"/></p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Extract 
+ files</span>: these are the CSV files that come from OnSIS. They provide 
+ info about the state of the OnSIS data. If a submission period does not 
+ require extracts, this location will not appear.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Batch files</span>: 
+  these are the XML files that the SIS creates. They provide add/update 
+ instructions so that OnSIS can update their data to match the data in 
+ the SIS. These files are created by the SIS and are uploaded to OnSIS 
+ for processing.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Results 
+ files</span>: these are OUT files that OnSIS creates when the batch files 
+ are processed. They provide info about whether the file is processed successfully 
+ or with errors/warnings. These files are downloaded from OnSIS and then 
+ processed by the SIS to create an easy to read PDF file of the results.</p>
+<p> </p>
+<p> </p>
+<p>If applicable, there will be a subheader for each setup option that 
+ applies to the submission period.  Here are the possible setup options:</p>
+<p> </p>
+<h3><a name="Homeroom_Aliases_" id="Homeroom_Aliases_"></a>Homeroom Aliases</h3>
+<p>This setup option appears for the October, March and June Elementary 
+ School submission periods.   </p>
+<p> </p>
+<p>OnSIS collects each elementary student’s homeroom in a field called 
+ CLASS_CODE. This setup option provides a way for a school to report a 
+ different class code to OnSIS than the class code used by the school. 
+ For example, if a school splits the students in homeroom 4/5 into 2 distinct 
+ homerooms (such as 4/5C for the students taking core French and the 4/5I 
+ for the students taking immersion French), this setup will allow all 20 
+ students in the homeroom to be reported to OnSIS as one class called 4/5. 
+  </p>
+<p> </p>
+<p><img src="assets/images/on-onsis-setup-homeroom.png" alt="" style=" border:none; width:100%; max-width:730px;" border="0"/></p>
+<p> </p>
+<p>The list of homerooms in the school will appear in the Homeroom column. 
+ The second column will also show homerooms, but this ‘OnSIS homeroom’ 
+ column may be edited so that the student’s homeroom reported to OnSIS 
+ will use something else.   </p>
+<p> </p>
+<p>This homeroom aliases setup will be saved and used for all applicable 
+ submission periods. This will ensure that the same class groupings are 
+ used throughout the school year.</p>
+<p> </p>
+<h3 style="color: #000000;"><a name="Grade_10_to_12_Designation_Types_" id="Grade_10_to_12_Designation_Types_" style="color: #000000;">Grade 10 to 12 
+ Designation Types</a></h3>
+<p>This setup option appears for the October, March and June Secondary 
+ School submission periods.</p>
+<p>  </p>
+<p> </p>
+<p> <img src="assets/images/on-onsis-setup-10-12-designation.png" alt="" style=" border:none; width:100%; max-width:599px;" border="0"/></p>
+<p> </p>
+<p>Since some schools may assign grades to students using different methods, 
+ OnSIS collects information about how a grade 10 to 12 student’s grade 
+ is assigned, in a field called GRADE_DESIGNATION_TYPE in the batch files. 
+  There are 3 possible methods that the Ministry considers appropriate 
+ for determining a student’s grade:</p>
+<p> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Years of 
+ attendance</span>:  This designation type describes schools where 
+ the student’s grade is based on the number of years the student has attended 
+ high school (e.g. grade is automatically advanced regardless of the student&#39;s 
+ academic success).</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Accumulated 
+ credits</span>: This designation type describes schools where the student’s 
+ grade is based on the credits earned.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">Principal 
+ designation</span>: This designation type describes schools where the 
+ principal designates what grade is most appropriate for the students.</p>
+<p> </p>
+<p>Most schools designate the grade based on years of attendance. This 
+ may be changed by selecting the drop down arrow to select from the 3 possible 
+ types. Grade 12 students can have different designations based on credit 
+ counts. C<span lang="EN-US" xml:lang="EN-US">redit counts are based on 
+ the accumulation of credits at the end of the school year.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;"> </span><span lang="EN-US" xml:lang="EN-US"> Timetable and transcript credits 
+ are totaled for the grade 12 M, and U courses.  </span></p>
+<p> </p>
+<p>This grade designation setup will be saved and used for all applicable 
+ submission periods. This will ensure that the same designation type is 
+ used throughout the school year.</p>
+<p> </p>
+<h3><a name="Campus_numbers_" id="Campus_numbers_"></a>Campus numbers</h3>
+<p>This setup option appears for the following submission periods:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Continuing education for day school (IILE/Literacy &amp; numercy)</li>
+	<li>Night/continuing education school</li>
+	<li>Summer school</li>
+</ul>
+<p> </p>
+<p>CAMPUS_NUMBER is an optional field in the OnSIS batch files for the 
+ students in the above submission periods.  This feature was provided 
+ by OnSIS to help continuing education schools with multiple campuses who 
+ report to OnSIS using one school. It allows the school to identify which 
+ campus/site the student attended. The field is for the school use only. 
+ The OnSIS campus number field will accept numbers or letters, but not 
+ spaces.</p>
+<p> </p>
+<p>To populate the campus number in the batch file, the students must be 
+ identified as attending a specific campus by following these steps:</p>
+<p> </p>
+<ol style="list-style: decimal;">
+	<li>Determine which of the 4 possible defined characters will be used 
+	 for all students to identify the campus. In this example, we’ll use 
+	 defined character 3.</li>
+</ol>
+<p> </p>
+<ol start="2" style="list-style: decimal;">
+	<li>Students will need to have an entry in defined character 3. The 
+	 entry must be the same for all students at the campus. In this example, 
+	 we’ll use the value M in defined character 3 for students attending 
+	 St. Mary’s campus, and the value W for the students attending Willowcreek 
+	 campus. Defined characters are assigned from the student’s record 
+	 using Enrolment &gt; Flags.  Once assigned, the defined character 
+	 will appear in the profile area of the student’s record as shown here:<br/>
+	</li>
+</ol>
+<p style="margin-left: 40px;"> <img src="assets/images/on-onsis-setup-campus.png" alt="" style=" border:none; width:100%; max-width:437px;" border="0"/><br/>
+</p>
+<ol start="3" style="list-style: decimal;">
+	<li>From the Setup option in the OnSIS submission, define the campus 
+	 numbers to be included in the OnSIS batch files.  Use the Add 
+	 icon in the Campus Numbers card to define the number to be sent.</li>
+</ol>
+<p> </p>
+<p style="margin-left: 40px;"><img src="assets/images/on-onsis-setup-campus1.png" alt="" style=" border:none; width:100%; max-width:591px;" border="0"/></p>
+<p> </p>
+<p style="margin-left: 40px;">Specify the number to be reported to OnSIS 
+ (it can be letters or numbers, but spaces are not allowed). Then indicate 
+ which of the 4 defined characters is used for identifying the campus, 
+ along with the value entered in the student’s defined character if the 
+ student is attending that campus.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"> <img src="assets/images/on-onsis-setup-campus-add.png" alt="" style=" border:none; width:100%; max-width:599px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;">All the campuses should be added to the setup. 
+  </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="assets/images/on-onsis-setup-campus2.png" alt="" style=" border:none; width:100%; max-width:708px;" border="0"/></p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;">The campus number setup will be saved and 
+ used for all applicable submission periods.  </p>
+
+</body></html>

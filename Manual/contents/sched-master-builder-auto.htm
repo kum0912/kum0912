@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Master builder - Automatic</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.6.0_2";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Schedule classes"/>
+</head>
+
+<body>
+
+
+<h1>Scheduling next year &gt; Schedule classes &gt; Master builder - Automatic</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p>Refer to the <a href="sched-overview.htm">secondary scheduling overview</a> 
+ for suggested steps to schedule the school. </p>
+<p> </p>
+<p>Master builder- automatic will schedule classes into the best placement 
+ (semester/term/day/period patterns) for each class, however it is limited 
+ to the available locations where both the room and the teacher are available, 
+ and any other constraints put on the class (e.g. class may be locked into 
+ Semester 1). The best location for a class is determined by:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>the location with the fewest number of student conflicts  </li>
+	<li>if there is a tie for fewest conflicts, the location with the lowest 
+	 balance is selected.  Balance is the nominal number of students in 
+	 that grade that will be scheduled into classes in that location (e.g. 
+	 if 50 students requested a course with 2 classes, the nominal class 
+	 size is 25 students per class).</li>
+</ul>
+<p> </p>
+<p>Master builder – Automatic impacts the school’s master timetable only 
+ (e.g. the set up of next year’s classes). The students in each class are 
+ not updated until you run <a href="sched-load-students.htm">Load students</a>, 
+ and therefore you cannot analyze conflicts arising from the new class 
+ schedules until the load students process is done.  </p>
+<p> </p>
+<p>Depending on where you are in the scheduling process, first determine 
+ which classes you want to have scheduled (e.g. all the grade 12 classes). 
+  Then follow these steps for the group of classes.</p>
+<p> </p>
+<h3>1. Choose Scheduling next year &gt; Scheduling classes.  </h3>
+<p><img src="assets/images/sched-mb-auto-card.png" alt="" style=" border:none; width:100%; max-width:202px;" border="0"/></p>
+<p> </p>
+<p>Select GO on the Master builder - Automatic card to see this page:</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-auto-main.png" alt="" style=" border:none; width:100%; max-width:974px;" border="0"/></p>
+<p> </p>
+<h4>2.  Set options</h4>
+<p>Change these 2 options, if needed:</p>
+<p> </p>
+<p><span style="color: #007fff;">Number of passes</span>: It will default 
+ 3 passes, but may be set to any value from 1 to 5.  This controls 
+ the number of times it will cycle through all the classes, attempting 
+ to find a better placement for the class with each successive pass. If 
+ there are 10 classes to be scheduled, and 3 passes, the application will 
+ analyze class 1 to find the best location to schedule class 1 (class get 
+ scheduled), then it will schedule class 2 then 3, then 4 … then 10, at 
+ which point it has completed 1 full pass, and then it will repeat the 
+ process again for pass 2.  Multiple passes allow the automatic scheduler 
+ to re-evaluate the best location based on the adjustments to the other 
+ classes in the previous pass.</p>
+<p> </p>
+<p><span style="color: #007fff;">Periods per day a teacher can teach</span>: 
+ It will default the number of periods in the school (e.g. if a school 
+ is set up with 4 periods per day, it will default 4).  When determining 
+ the best location to schedule a teacher, the automatic scheduler will 
+ limit the teacher to the selected # of classes.</p>
+<p> </p>
+<h4>3.  Specify the classes to be automatically scheduled</h4>
+<p>Select the search method from the list of available methods.  Set 
+ any other options, then refer to the hint text in the box.  Click 
+ in the box, start typing the search text, and then press the Enter key. 
+ The classes will be added to the card title ‘Classes to be scheduled’.</p>
+<p> </p>
+<p>Text searches are not case specific (e.g. entering EN or en or En or 
+ eN will all find the same results, in this example, the search is for 
+ course codes or titles that start with en).  An asterisk in front 
+ of the search text (e.g. *10) will be the equivalent to a ‘contains’ search 
+ where the course code or title contains 10. Entering * is the equivalent 
+ to an ‘all’ search. </p>
+<p> </p>
+<p style="font-weight: bold;">These are the search methods:</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Course</span>: In the 
+ box, type as much or as little of the course code or course title, then 
+ press the Enter key. Optionally include only those matching courses with 
+ a specific class section letter (e.g. change ‘Add class sections’ field 
+ from ‘All’ to ‘a’ to include only classes with section letter ‘a’). Also, 
+ if you want to include only those courses that have a specific # of class 
+ sections, enter that number in the ‘# of sections’ field.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Class</span>: Typically 
+ this method is used to add a specific class section (e.g. MAT10b), but 
+ it will add all classes that match the entered text in the box.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Course grade</span>: 
+ Select the grade from the ‘Filter’ field. Only grades applicable to the 
+ school may be selected. Then enter the course code/title to be searched 
+ in the box. Matching classes in that grade are added.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Department</span>: 
+  Select the department from the ‘Filter’ field.  Then enter 
+ the course code/title to be searched in the box. Departments are user-defined. 
+ Matching classes in that department are added.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Teacher</span>:  Select 
+ the teacher from the ‘Filter’ field. Then enter the course code/title 
+ to be searched in the box.  Matching classes taught by that teacher 
+ are added.</p>
+<p>  </p>
+<p>Regardless of the search method, matching classes will appear in the 
+ card titled Classes to be scheduled:</p>
+<p> </p>
+<p><img src="assets/images/sched-mabu-classes.png" alt="" style=" border:none; width:100%; max-width:946px;" border="0"/></p>
+<p> </p>
+<p>Scroll horizontally to see more info about each class, including the 
+ delete icon to remove individual classes from the card. The delete icon 
+ in the tool bar will remove all classes from the card.</p>
+<p> </p>
+<h4>4. Select the SCHEDULE button</h4>
+<p>From the bottom bar, select the SCHEDULE BUTTON.  This will submit 
+ the scheduling job to the task queue. You may then select the CLOSE button 
+ to leave and await notification that the task has been completed.</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-auto-buttons.png" alt="" style=" border:none; width:100%; max-width:701px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<h4>5. Continuing scheduling process when task is completed</h4>
+<p>When you receive notification that the task is completed, and no warnings 
+ are generated*, you have just finished step 1 for the group of classes. 
+  Proceed to step 2, Assign students to classes – <a href="sched-load-students.htm">Load 
+ students</a>, as illustrated here:</p>
+<p> </p>
+<p><img src="assets/images/scheduling.jpg" alt="" style=" border:none; width:100%; max-width:568px;" border="0"/></p>
+<p> </p>
+<p>* Sometimes, Master builder – automatic will generate a report indicated 
+ that there were unscheduled classes.  These are classes that have 
+ no available location in the timetable where both the room (or alternate 
+ room) and teacher are available.  Use the <a href="sched-master-builder-manual.htm">Master 
+ builder – manual</a> option on these classes to determine if there may 
+ be changes to accommodate this class in the timetable.  This option 
+ will quickly show what other classes are occupying the room(s) and teacher’s 
+ time, or whether a constraint is limiting where the class may be scheduled. 
+  Sometimes a different teacher or room may be needed, or a different 
+ class needs to be rescheduled to free up a location for this class.  </p>
+
+</body></html>

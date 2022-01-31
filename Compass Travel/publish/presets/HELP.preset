@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <name>HELP</name>
+  <type>chm</type>
+  <title>Compass Travel</title>
+  <outputPath>C:/Users/kum/Documents/My RoboHelp Projects/outputs/Compass Travel/HELP</outputPath>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <content>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <index type="boolean">true</index>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <toc>
+      <path>../../toc/Book_TOC.toc</path>
+    </toc>
+  </content>
+  <starterPage>Compass_Travel.chm</starterPage>
+  <patchHomepage type="boolean">true</patchHomepage>
+</preset>

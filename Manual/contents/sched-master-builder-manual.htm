@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Master builder - Manual</title>
+<link rel="StyleSheet" href="assets/css/default.css" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css"/>
+<script type="text/javascript">//<![CDATA[
+
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "15.6.0_3";
+
+//]]></script>
+ <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Schedule classes"/>
+</head>
+
+<body>
+
+
+<h1>Scheduling next year &gt; Schedule classes &gt; Master builder - Manual</h1>
+<hr style="color: rgb(72, 82, 92); font-family: Arial, Helvetica, sans-serif; 
+	 font-size: 13.3333px; line-height: 13.3333px; orphans: auto; text-align: justify; 
+	 widows: 1; -webkit-text-stroke-width: 0px; background-color: rgb;" align="center"/>
+<p> </p>
+<p> </p>
+<p>The Master builder – Manual tool provides info about a class to help 
+ you decide the best placement (location) to schedule the class. A placement 
+ defines when the class is taught using the semester/term and day/period 
+ patterns defined by the school.    </p>
+<p> </p>
+<p>This same info is used in the Master builder – Automatic tool, which 
+ is typically used first to automatically schedule a group of classes. 
+  The ‘manual’ scheduling of classes, through this tool, is typically 
+ used for these situations:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Master builder – Automatic generated a report of unscheduled classes 
+	 (classes where there is no placement available where both the teacher 
+	 and room are available).</li>
+	<li>Analyzing conflicts shows a class that is not well scheduled (course 
+	 has lots of conflicts and/or a class has low student enrolment). Note: 
+	 overloaded classes are a problem, however they are scheduled into 
+	 a good placement (e.g. don’t try to re-schedule these classes).  The 
+	 class sections with low enrolment are poorly scheduled.</li>
+</ul>
+<p> </p>
+<p>To help understand how this scheduling tool works, a quick examination 
+ of the information presented in the Master builder – Manual tool may be 
+ beneficial. For each class, the semester/term patterns are listed in columns, 
+ and the day/period patterns are in rows. Each intersection of a semester/term 
+ column and day/period row represents one possible placement in the master 
+ timetable.</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main.png" alt="" style=" border:none; width:100%; max-width:997px;" border="0"/></p>
+<p> </p>
+<p>The Master builder – Manual mode presents the info and lets you decide 
+ where to schedule the class. As explained later, you can select (click) 
+ any placement to access the tools to schedule the class into that placement, 
+ or to look at available teachers and rooms in that placement. It will 
+ also show the students who would have conflicts if the class were scheduled 
+ in that placement.   </p>
+<p> </p>
+<p>Icons appear when the teacher and/or room are not available.  Hover 
+ over the icon to see a tool tip explaining the icon, including info about 
+ why the teacher or room are unavailable.  Here are some example icons 
+ and tool tips.  </p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main1.png" alt="" style=" border:none; width:100%; max-width:1037px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>If you prefer to always show the classes without having to use the tooltips, 
+ use the icon in the tool bar to toggle between showing and hiding the 
+ classes beside each icon. This first example below shows the classes hidden:</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main2.png" alt="" style=" border:none; width:100%; max-width:654px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>This shows the classes beside the icons.    </p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main3.png" alt="" style=" border:none; width:100%; max-width:659px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p>A legend will appear below the grid, as shown here:</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main4.png" alt="" style=" border:none; width:100%; max-width:778px;" border="0"/></p>
+<p> </p>
+<p>If the class is currently scheduled in a placement, that current placement 
+ will be identified with a dark background colour. A class has a current 
+ placement if it has both a semester/term pattern and a day/period pattern.</p>
+<p> </p>
+<p>If the class is not scheduled in the ‘best’ placement, that best placement 
+ will be identified with a lighter background colour. The best placement 
+ for a class is the placement with the lowest # of conflicts and no icons 
+ appear (e.g. teacher and room are available in that placement). If more 
+ than 1 placement has the fewest conflicts, the placement with the lowest 
+ balance is considered the ‘best’.   </p>
+<p> </p>
+<p>Every placement will include # Conflicts / # Balance.  The ‘# Conflicts’ 
+ is the number of student conflicts that will be generated if the class 
+ is scheduled in that placement.  The ‘# Balance’ is the theoretical 
+ number of students who will be scheduled into classes in that placement 
+ (actual class sizes are not known at this step, so if 100 students have 
+ requested a course and there are 4 classes, theoretically each class will 
+ have a balance of 25 students). The balance sums the theoretical number 
+ of students in classes that are at the same grade level as this class.</p>
+<p> </p>
+<p> To use Master builder – manual, follow these steps for the class to 
+ be scheduled.</p>
+<p> </p>
+<p> </p>
+<p style="font-weight: bold;">1. Choose Scheduling next year &gt; Scheduling 
+ classes.  </p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-card.png" alt="" style=" border:none; width:100%; max-width:203px;" border="0"/></p>
+<p> </p>
+<p>Select GO on the Master builder - Manual card.</p>
+<p> </p>
+<p>The first class will be automatically presented, but any class may be 
+ selected from the Class field. </p>
+<p><img src="assets/images/sched-mb-manual-main5.png" alt="" style=" border:none; width:100%; max-width:668px;" border="0"/></p>
+<p> </p>
+<p>Sometimes there are classes already scheduled by the school such that 
+ they cannot be analyzed using Master builder – manual.  If one of 
+ these classes are selected, a message will appear reminding you why it 
+ may not be scheduled:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Classes is scheduled by the school using the special schedule option 
+	 in the setup of the class.  Patterns are needed for the scheduling 
+	 tools and these classes do not have patterns.</li>
+	<li>Class is scheduled manually using more than 1 schedule (sometimes 
+	 called multiple occurrences). This is used in special situations, 
+	 typically when a school has built the timetable by hand (e.g. a full 
+	 year class that is taught in different periods in each semester).</li>
+</ul>
+<p> </p>
+<p style="font-weight: bold;">2. Analyze the info  </p>
+<p> </p>
+<p>Look at the number of conflicts in each possible placement. Since the 
+ automatic scheduling tools have constraints, the ‘current’ or ‘best’ placement 
+ may not necessarily be the best placement to reduce student conflicts. 
+  If there is a placement that has a significantly lower number of 
+ student conflicts, use the info to determine if there is a way to make 
+ that placement work for this class.  Some things that may be considered:</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li>Assigning a different teacher or room, if the teacher or room are 
+	 not available in the desired placement</li>
+	<li>Unlocking the semester/term and/or day/period pattern to allow 
+	 the class to be scheduled into a placement with a lower number of 
+	 conflicts.  To do this, select the lock icon beside the pattern. 
+	   </li>
+</ul>
+<p> </p>
+<p>As you analyze this info, remember to consider teacher constraints with 
+ respect to the number of periods they may teach each day, and whether 
+ a lunch period is required.  </p>
+<p> </p>
+<p>Also consider the class info located above the grid, as shown here:</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main6.png" alt="" style=" border:none; width:100%; max-width:1049px;" border="0"/></p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;"># of sections</span> 
+ represents the # of classes of this course.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Student requests</span> 
+ is the number of students who have this course as one of their preferred 
+ course selections.   </p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Residual conflicts</span> 
+ are conflicts that exist prior to scheduling this class. No matter where 
+ this class is scheduled, these conflicts will exist because they are conflicts 
+ with other courses these students have requested.  It shows the # 
+ of single conflicts / # of multiple conflicts.  If this number is 
+ high, it might be time to re-analyze the entire school schedule by running 
+ load students and then analyzing conflicts to see if there are some other 
+ classes that should be rescheduled.</p>
+<p> </p>
+<p style="font-weight: bold;">3. Change the class schedule/teacher/room, 
+ if needed</p>
+<p> </p>
+<p>Select any of the available placements (cells in the grid) to access 
+ the scheduling tools.  If a pattern is locked, selecting a placement 
+ that is outside a locked pattern constraint will generate a warning message. 
+ For example, selecting a semester 2 placement when the class is locked 
+ into a semester 1 pattern will show this:</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main7.png" alt="" style=" border:none; width:100%; max-width:474px;" border="0"/></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main8.png" alt="" style=" border:none; width:100%; max-width:1068px;" border="0"/></p>
+<p> </p>
+<p>Once a placement is selected, the class info above the grid will be 
+ collapsed and the Scheduling tools card will appear as shown above.</p>
+<p> </p>
+<p>If the selected placement has student conflicts, a student conflicts 
+ card will also appear showing the students with conflicts, for informational 
+ purposes only.  Conflict resolution for individual students is done 
+ after all the scheduling is done.</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main9.png" alt="" style=" border:none; width:100%; max-width:332px;" border="0"/></p>
+<p> </p>
+<p>The scheduling tools card has 3 distinct areas.  </p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main10.png" alt="" style=" border:none; width:100%; max-width:421px;" border="0"/></p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Schedule class</span>: 
+ This is where you can check the box to schedule the class in the selected 
+ placement. You may also lock/unlock the semester/term and day/period here.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Teacher</span>: If 
+ no teacher is assigned to the class, this section is expanded and the 
+ first available teacher in that placement is shown.  Browse the available 
+ teachers and use the teacher timetable icon to see that teacher’s timetable. 
+  Check the box “Set as new teacher for class” if you want to make 
+ this the teacher for the class.   If a teacher was previously 
+ assigned to the class, this section is collapsed by default but may be 
+ expanded to access other available teachers if necessary.</p>
+<p> </p>
+<p><span style="color: #007fff; font-weight: bold;">Room</span>: If no 
+ room is assigned to the class, this section is expanded and the first 
+ available room in that placement is shown.  Browse the available 
+ rooms and use the room timetable icon to see that room’s timetable.  Check 
+ the box “Set as new room for class” if you want to make this the room 
+ for the class.   If a room was previously assigned to the class, 
+ this section is collapsed by default but may be expanded to access other 
+ available rooms if necessary.</p>
+<p> </p>
+<p style="font-weight: bold;">4. Save the changes to the class</p>
+<p> </p>
+<p>When finished with the scheduling tools, remember to select the SAVE 
+ button to save changes. If no changes were made, select the X in the tool 
+ bar.</p>
+<p> </p>
+<p><img src="assets/images/sched-mb-manual-main11.png" alt="" style=" border:none; width:100%; max-width:637px;" border="0"/></p>
+<p> </p>
+<h4>5. Load students if classes were scheduled into new placements</h4>
+<p>If any classes are assigned into new semester/term/day/period patterns, 
+ the students timetables will not be updated. You may continue to use master 
+ builder on other classes, but once all classes are done, proceed to step 
+ 2, Assign students to classes – <a href="sched-load-students.htm">Load 
+ students</a>, as illustrated here:</p>
+<p> </p>
+<p><img src="assets/images/scheduling.jpg" alt="" style=" border:none; width:100%; max-width:568px;" border="0"/></p>
+
+</body></html>

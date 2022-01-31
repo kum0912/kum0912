@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Analyze master timetable overview</title>
+  <link rel="StyleSheet" href="assets/css/default.css" type="text/css" />
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+  </style>
+  <script type="text/javascript" src="template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="template/scripts/constants.js"></script>
+  <script type="text/javascript" src="template/scripts/utils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhutils.js"></script>
+  <script type="text/javascript" src="template/scripts/mhlang.js"></script>
+  <script type="text/javascript" src="template/scripts/mhver.js"></script>
+  <script type="text/javascript" src="template/scripts/settings.js"></script>
+  <script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+  <script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+  <script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+  <script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+  <script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+  <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css" />
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "15.8.0_1";
+    //]]>
+  </script>
+  <meta name="topic-breadcrumbs" content="Scheduling next year &gt; Analyze master timetable" />
+</head>
+<body>
+  <h1>Scheduling next year &gt; Analyze master timetable - Overview</h1>
+  <p>Every time a class schedule is changed, the school must run <a href="sched-load-students.htm">load students</a> in order to update the students&#39; timetables. It also updates the conflict information used to analyze the master timetable, an important step in the scheduling process.</p>
+  <p> </p>
+  <p>The Analyze conflicts option is the main tool used to analyze the master timetable. It helps to quickly identify poorly scheduled courses. These poorly scheduled courses can be analyzed further using Master builder’s manual option which can identify if a better location is available if the teacher and/or room were changed.  </p>
+  <p> </p>
+  <p>Although teacher and room conflicts may not be created through the automatic master builder tool, it is wise to confirm that the school has not accidentally created conflicts by editing the classes directly. A teacher conflict occurs when the teacher is scheduled to teach multiple classes at the same time, and a room conflict occurs when multiple classes are scheduled in the same room at the same time. Classes that are intentionally grouped together in the master timetable are not considered conflicts (e.g. when a teacher teachers 2 different courses at the same time).</p>
+  <p> </p>
+  <p>The tools to analyze the school&#39;s master timetable for next year are as follows:</p>
+  <ol style="list-style: decimal;">
+    <li><span style="font-weight: bold;">Analyze conflicts</span>: Use <a href="sched-az-conflicts.htm">Scheduling next year &gt; Analyze master timetable &gt; Analyze conflicts</a> to identify courses that have large numbers of students unable to get assigned into classes. Select the class to access the Schedule option (Master builder - Manual) to identify if there is a better placement considering different teachers or rooms.  </li>
+    <li><span style="font-weight: bold;">Teacher conflicts</span>: Use <a href="sched-teacher-conflicts.htm">Scheduling next year &gt; Analyze master timetable &gt; Teacher conflicts</a> to see if any teachers have more than one class scheduled at the same time and the classes are not grouped.</li>
+    <li><span style="font-weight: bold;">Room conflicts</span>: Use <a href="sched-room-conflicts.htm">Scheduling next year &gt; Analyze master timetable &gt; Room conflicts</a> to see if any rooms have more than one class scheduled in the room at the same time and the classes are not grouped.<br />
+       </li>
+  </ol>
+  <p>In addition to the options above, another tool to analyze the master timetable is available using <a href="sched-tt-specific-group.htm">Scheduling next year &gt; Schedule classes &gt; Timetable of specific group</a>. Here are some examples of how this may help:</p>
+  <ul style="list-style: disc;">
+    <li>By looking at the total number of students in each period, you can sense whether the timetable is balanced. For example, typically all students in grade 9 have full timetables (no spares), and these students typically only take grade 9 subjects. After scheduling the grade 9 classes you can see the number of students in each period. Looking at the nominal class size, you will see the theoretical number of students in the class assuming classes are perfectly loaded without conflicts (e.g. 2 classes with 42 students requesting the course would show 21 students per class).The numbers should be fairy even across the periods. If one period has too few students, and another period has too many students, consider analyzing the impact of moving classes around by using Master builder - Manual on a class in an over-loaded period to see if it can be moved to an under-loaded period).  </li>
+    <li><span>By </span>looking at the actual class size, you can identify classes that are overloaded (if load students was not limited to the maximum class size).  In this case, the overloaded classes are scheduled in a great spot, so consider analyzing the impact of moving the under-loaded class to a better location (using Master builder - Manual).</li>
+  </ul>
+</body>
+</html>
