@@ -2,7 +2,7 @@
 <skin>
   <layout>home_page</layout>
   <name>Indigo</name>
-  <version>2020.5.0</version>
+  <version>2020.6.0</version>
   <variables>
     <css>
       <autocomplete_item_bgcolor>#FFFFFF</autocomplete_item_bgcolor>

@@ -2,7 +2,7 @@
 <skin>
   <layout>single_page</layout>
   <name>Azure_Blue</name>
-  <version>2020.5.0</version>
+  <version>2020.6.0</version>
   <variables>
     <css>
       <index_tab_image>index_desktop.png</index_tab_image>

@@ -2,7 +2,7 @@
 <skin>
   <layout>frameless_homepage</layout>
   <name>frameless_homepage</name>
-  <version>2020.5.0</version>
+  <version>2020.6.0</version>
   <variables>
     <css>
       <theme-layout-font>&#39;Open Sans&#39;</theme-layout-font>
