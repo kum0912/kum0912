@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Properties" value="MDATP" flag="Exclude" op="AND"></tag>
+<tag name="Product" value="MSessentials" flag="Exclude" op="AND"></tag>
+<tag name="Product" value="AzureWaf" flag="Include" op="AND"></tag></group>    </expr>

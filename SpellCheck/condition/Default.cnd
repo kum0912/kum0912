@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Platform" val="Online" backcolor="#00ff00"></prop>
+  <prop att="Platform" val="Print" backcolor="#ff0000"></prop>
+  <prop att="Product" val="AzureWaf" backcolor="#C0C0C0" color="#000000"></prop>
+  <prop att="Product" val="list" backcolor="#008080" color="#000000"></prop>
+  <prop att="Product" val="MSessentials" backcolor="#008000" color="#000000"></prop>
+  <prop att="Properties" val="MDATP" backcolor="#800000" color="#000000"></prop>
+</val>

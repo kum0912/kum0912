@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <path>../expressions/PDFCheckg.expn</path>
+    </conditional>
+    <toc>
+      <path>../../toc/Two.toc</path>
+      <name>Two</name>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">false</index>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <title>SpellCheck</title>
+  <type>pdf</type>
+  <outputPath>C:/Users/kum/Documents/My RoboHelp Projects/outputs/SpellCheck/PDF</outputPath>
+  <name>PDF</name>
+  <starterPage>Default.pdf</starterPage>
+  <defaultTopic></defaultTopic>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <pdf>
+    <toclevel type="number">1</toclevel>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <multiheaders type="boolean">false</multiheaders>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <embeddFonts type="boolean">false</embeddFonts>
+    <compression type="boolean">false</compression>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <createTagged type="boolean">false</createTagged>
+    <useEncryption type="boolean">false</useEncryption>
+    <resolution>96</resolution>
+    <useCustomResoultion type="boolean">false</useCustomResoultion>
+    <showWatermark type="boolean">false</showWatermark>
+    <embedMultimedia type="boolean">false</embedMultimedia>
+    <mergePdfs type="boolean">true</mergePdfs>
+    <runJavaScript type="boolean">false</runJavaScript>
+  </pdf>
+</preset>
