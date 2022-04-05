@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>Table of Contents</title>
+<book href="../contents/First_Topic.htm" format="html" processing-role="normal">
+  <page navtitle="First_Topic" href="../contents/First_Topic.htm#First_Topic" format="html" processing-role="normal"></page>
+</book>
+<book href="../contents/new_topic.htm" format="html" processing-role="normal">
+  <page navtitle="First_Topic" href="../contents/new_topic.htm#First_Topic" format="html" processing-role="normal"></page>
+</book>
+<book href="../contents/Roles.htm" format="html" processing-role="normal">
+  <page navtitle="Roles" href="../contents/Roles.htm#Roles" format="html" processing-role="normal"></page>
+  <page navtitle="Roles_1" href="../contents/Roles.htm#Roles_1" format="html" processing-role="normal"></page>
+  <page navtitle="Creating_Role" href="../contents/Roles.htm#Creating_Role" format="html" processing-role="normal"></page>
+  <page navtitle="Creating_Role_1" href="../contents/Roles.htm#Creating_Role_1" format="html" processing-role="normal"></page>
+  <page navtitle="Creating_Role_2" href="../contents/Roles.htm#Creating_Role_2" format="html" processing-role="normal"></page>
+  <page navtitle="Setup_Page_-_Roles_" href="../contents/Roles.htm#Setup_Page_-_Roles_" format="html" processing-role="normal"></page>
+  <page navtitle="Roles_Listing_Page" href="../contents/Roles.htm#Roles_Listing_Page" format="html" processing-role="normal"></page>
+  <page navtitle="_Modifying_Role" href="../contents/Roles.htm#_Modifying_Role" format="html" processing-role="normal"></page>
+  <page navtitle="_Modifying_Role_1" href="../contents/Roles.htm#_Modifying_Role_1" format="html" processing-role="normal"></page>
+  <page navtitle="Modifying_Role" href="../contents/Roles.htm#Modifying_Role" format="html" processing-role="normal"></page>
+  <page navtitle="_Select_role_to_be_modified" href="../contents/Roles.htm#_Select_role_to_be_modified" format="html" processing-role="normal"></page>
+  <page navtitle="___________________Modify_Role" href="../contents/Roles.htm#___________________Modify_Role" format="html" processing-role="normal"></page>
+  <page navtitle="_Copying_a_Role" href="../contents/Roles.htm#_Copying_a_Role" format="html" processing-role="normal"></page>
+  <page navtitle="_Copying_a_Role_1" href="../contents/Roles.htm#_Copying_a_Role_1" format="html" processing-role="normal"></page>
+  <page navtitle="Copying_a_Role" href="../contents/Roles.htm#Copying_a_Role" format="html" processing-role="normal"></page>
+  <page navtitle="_______________Copy_Role" href="../contents/Roles.htm#_______________Copy_Role" format="html" processing-role="normal"></page>
+</book>
+<book href="../contents/Security.htm" format="html" processing-role="normal">
+  <page navtitle="Security" href="../contents/Security.htm#Security" format="html" processing-role="normal"></page>
+  <page navtitle="Security_1" href="../contents/Security.htm#Security_1" format="html" processing-role="normal"></page>
+  <page navtitle="Security_2" href="../contents/Security.htm#Security_2" format="html" processing-role="normal"></page>
+  <page navtitle="Assigning_Permissions" href="../contents/Security.htm#Assigning_Permissions" format="html" processing-role="normal"></page>
+  <page navtitle="Assigning_Permissions_" href="../contents/Security.htm#Assigning_Permissions_" format="html" processing-role="normal"></page>
+  <page navtitle="Assigning_Permissions__1" href="../contents/Security.htm#Assigning_Permissions__1" format="html" processing-role="normal"></page>
+  <page navtitle="Assigning_Permissions_to_Platform" href="../contents/Security.htm#Assigning_Permissions_to_Platform" format="html" processing-role="normal"></page>
+  <page navtitle="_Modules" href="../contents/Security.htm#_Modules" format="html" processing-role="normal"></page>
+  <page navtitle="_Platform_Modules" href="../contents/Security.htm#_Platform_Modules" format="html" processing-role="normal"></page>
+  <page navtitle="Source_-_Platform_Modules" href="../contents/Security.htm#Source_-_Platform_Modules" format="html" processing-role="normal"></page>
+  <page navtitle="Collections" href="../contents/Security.htm#Collections" format="html" processing-role="normal"></page>
+  <page navtitle="_____________________" href="../contents/Security.htm#_____________________" format="html" processing-role="normal"></page>
+  <page navtitle="______________________1" href="../contents/Security.htm#______________________1" format="html" processing-role="normal"></page>
+  <page navtitle="______________________2" href="../contents/Security.htm#______________________2" format="html" processing-role="normal"></page>
+  <page navtitle="______________________3" href="../contents/Security.htm#______________________3" format="html" processing-role="normal"></page>
+  <page navtitle="_Toc84322785" href="../contents/Security.htm#_Toc84322785" format="html" processing-role="normal"></page>
+  <page navtitle="_Toc84325358" href="../contents/Security.htm#_Toc84325358" format="html" processing-role="normal"></page>
+  <page navtitle="_Toc84331039" href="../contents/Security.htm#_Toc84331039" format="html" processing-role="normal"></page>
+  <page navtitle="Dataviews" href="../contents/Security.htm#Dataviews" format="html" processing-role="normal"></page>
+  <page navtitle="Insights" href="../contents/Security.htm#Insights" format="html" processing-role="normal"></page>
+  <page navtitle="Apps" href="../contents/Security.htm#Apps" format="html" processing-role="normal"></page>
+  <page navtitle="Support_Chat" href="../contents/Security.htm#Support_Chat" format="html" processing-role="normal"></page>
+  <page navtitle="Setup" href="../contents/Security.htm#Setup" format="html" processing-role="normal"></page>
+  <page navtitle="_Source_-_App" href="../contents/Security.htm#_Source_-_App" format="html" processing-role="normal"></page>
+  <page navtitle="Source_-_App_Modules" href="../contents/Security.htm#Source_-_App_Modules" format="html" processing-role="normal"></page>
+  <page navtitle="Assigning_Permissions_to_Apps" href="../contents/Security.htm#Assigning_Permissions_to_Apps" format="html" processing-role="normal"></page>
+  <page navtitle="Additional_Security_on_Collections,_Dataviews_and_Insights" href="../contents/Security.htm#Additional_Security_on_Collections,_Dataviews_and_Insights" format="html" processing-role="normal"></page>
+  <page navtitle="_Dataviews" href="../contents/Security.htm#_Dataviews" format="html" processing-role="normal"></page>
+  <page navtitle="Dataviews_1" href="../contents/Security.htm#Dataviews_1" format="html" processing-role="normal"></page>
+  <page navtitle="_Insights_1" href="../contents/Security.htm#_Insights_1" format="html" processing-role="normal"></page>
+  <page navtitle="Insights_1" href="../contents/Security.htm#Insights_1" format="html" processing-role="normal"></page>
+  <page navtitle="Securitytab" href="../contents/Security.htm#Securitytab" format="html" processing-role="normal"></page>
+</book>
+<book href="../contents/User.htm" format="html" processing-role="normal">
+  <page navtitle="User" href="../contents/User.htm#User" format="html" processing-role="normal"></page>
+  <page navtitle="User_1" href="../contents/User.htm#User_1" format="html" processing-role="normal"></page>
+  <page navtitle="User_2" href="../contents/User.htm#User_2" format="html" processing-role="normal"></page>
+  <page navtitle="______________________________________________________________________Setup_Page" href="../contents/User.htm#______________________________________________________________________Setup_Page" format="html" processing-role="normal"></page>
+  <page navtitle="Create_User_Page" href="../contents/User.htm#Create_User_Page" format="html" processing-role="normal"></page>
+  <page navtitle="__Modifying_a_User" href="../contents/User.htm#__Modifying_a_User" format="html" processing-role="normal"></page>
+  <page navtitle="__Modifying_a_User_1" href="../contents/User.htm#__Modifying_a_User_1" format="html" processing-role="normal"></page>
+  <page navtitle="Modifying_a_User" href="../contents/User.htm#Modifying_a_User" format="html" processing-role="normal"></page>
+  <page navtitle="Modify_User" href="../contents/User.htm#Modify_User" format="html" processing-role="normal"></page>
+</book>
+</map>
