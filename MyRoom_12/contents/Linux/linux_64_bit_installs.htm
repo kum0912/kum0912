@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-check-list" content="Ran Smart Index"/>
+<meta name="condition-tags" content="Others:Linux"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Linux 64 bit installs</title>
+<link rel="StyleSheet" href="../assets/css/default.css" type="text/css"/>
+</head>
+<body>
+<h1>Linux 64 bit installation</h1>
+<p>For a first time installation on a new Linux 64 bit machine, please follow the steps below according to your distribution.</p>
+<p> </p>
+<table cellspacing="0" width="1000" style="border-collapse:collapse;" cellpadding="1">
+<colgroup><col width="240"/>
+<col width="500"/>
+</colgroup><tbody><tr>
+<td style="vertical-align: top;">
+<p style="font-weight: bold;">Ubuntu</p>
+<p> </p>
+<p> </p>
+</td>
+<td>
+<ol style="list-style: decimal;">
+<li>Navigate to /Downloads directory in a terminal window.</li>
+<li>Run &#39;dpkg -i&lt;packagename.deb&gt;&#39; (where &#39;packagename.deb&#39; is an installer name).</li>
+<li>If you get a missing libraries error while processing &#39;hpmyroom&#39;, run &#39;apt-get -f install&#39; to resolve all missing dependencies.</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"> </td>
+<td> </td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Once installation has finished, you can now launch HPE MyRoom from Dash Home.</td>
+<td>
+<p style="text-align: center;"><img src="../assets/images/Images/dashlinux.jpg" title="Dash Home" alt="Dash Home" style="border: none;" border="0"/></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"> </td>
+<td> </td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<p style="font-weight: bold;">RHEL</p>
+</td>
+<td>
+<ol style="list-style: decimal;">
+<li>Navigate to /Downloads directory in a terminal window.</li>
+<li>Run &#39;yum install &lt;packagename.rpm&gt;&#39; (where &#39;packagename.rpm&#39; is an installer name)</li>
+<li>If you get a missing libraries error while processing &#39;hpmyroom&#39;, run &#39;yum whatprovides */&lt;libraryname&gt;&#39; for each individual library to find a package that contains the library.</li>
+<li>Install the package by running &#39;yum install &lt;packagename&gt;&#39;.</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"> </td>
+<td> </td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<p>Once installation has finished, you can now launch HPE MyRoom.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="../assets/images/Images/RHEL Install 4.jpg" title="Launch Hp MyRoom" alt="Launch HPE MyRoom" style="border: none;" border="0"/></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"> </td>
+<td> </td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Back to</td>
+<td>
+<p style="text-align: right;">Forward to</p>
+</td>
+</tr>
+</tbody></table>
+<p> </p>
+
+
+</body></html>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-check-list" content="Ran Smart Index" />
+  <meta name="condition-tags" content="Others:Linux" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Install Ubuntu client software</title>
+  <link rel="StyleSheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-index-keywords" content="Install Ubuntu client software" />
+</head>
+<body>
+  <h1>Install Ubuntu client software</h1>
+  <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;" width="1000">
+    <colgroup>
+      <col width="240" />
+      <col width="500" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol style="list-style: decimal;">
+            <li>The Download page automatically presents the Linux download window. Click the link for your package.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Linux Download Page" border="0" src="../assets/images/Images/downloadpagelinux.jpg" style="border: none;" title="Linux Download Page" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="2" style="list-style: decimal;">
+            <li>Your download will start. Once complete, click on the Download progress arrow and choose the package to open it.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="3" style="list-style: decimal;">
+            <li>Choose Save File to save and then launch using Ubuntu Software Center (in this case) or Open with... to start installing right away.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Installer" border="0" src="../assets/images/Images/openingpackagelinux.jpg" style="border: none;" title="Open Package" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="4" style="list-style: decimal;">
+            <li>Click on Install or Upgrade to begin package installation.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Install Package" border="0" src="../assets/images/Images/installpackagelinux.jpg" style="border: none;" title="Install Package" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="5" style="list-style: decimal;">
+            <li>Authenticate with your password.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Install Authentication" border="0" src="../assets/images/Images/authenticatelinux.jpg" style="border: none;" title="Install Authentication" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="6" style="list-style: decimal;">
+            <li>Once installation has finished, you can launch HPE MyRoom from Dash Home.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Dash Home" border="0" src="../assets/images/Images/dashlinux.jpg" style="border: none;" title="Dash Home" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">More detail for Ubuntu installs</span></td>
+        <td>
+          <p style="font-weight: bold;">Installing .DEB on Ubuntu (prior to 17.04)</p>
+          <p> </p>
+          <p>#Download .deb package from <a href="/download" target="_blank" title="Download">MyRoom Download</a> page</p>
+          <p> </p>
+          <p>a) #Install with dpkg -i command</p>
+          <p>sudo dpkg -i myroom_&lt;version&gt;_amd64.deb</p>
+          <p>#Force dependencies to resolve, subsequently completing the install</p>
+          <p>sudo apt-get -f install</p>
+          <p> </p>
+          <p>OR</p>
+          <p> </p>
+          <p>b) #Install with gdebi command</p>
+          <p>    sudo gdebi  myroom_&lt;version&gt;_amd64.deb</p>
+          <p>  </p>
+          <p style="font-weight: bold;">Installing .DEB on Ubuntu 17.04</p>
+          <p> </p>
+          <p>#Install the libpng12-0 version from Xenial</p>
+          <p>#Edit the sources list</p>
+          <p>Sudo nano /etc/apt/sources.list</p>
+          <p>#Append the following line to the end of the file; save with CTRL+O, exit with CTRL+X</p>
+          <p>deb https://us.archive.ubuntu.com/ubuntu xenial main</p>
+          <p>#Update Apt with new repository</p>
+          <p>sudo apt-get update</p>
+          <p>#Continue with install</p>
+          <p>#Download .deb package from <a href="/download" target="_blank" title="Download">MyRoom Download</a> page</p>
+          <p>sudo dpkg -i myroom_&lt;version&gt;_amd64.deb</p>
+          <p>#Force dependencies to resolve, subsequently completing the install</p>
+          <p>sudo apt-get -f install</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">Missing libraries errors</span></td>
+        <td>
+          <p>If you get a missing libraries error while processing &#39;hpmyroom&#39;, run &#39;apt-get -f install&#39; to resolve all missing dependencies.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span>NOTE: PulseAudio is required for Linux systems using MyRoom version 10.9 and higher. Go to the Sound settings on your Linux system. Explicitly select your audio device in both the Output and Input tabs. Verify your microphone volume is not set too low or muted. Test your device in Sound settings. Then proceed to test and adjust your settings in MyRoom as <a href="../New_HP_MyRoom/meet_with/Settings/Audio.htm" title="Audio/Video">here</a>.</span></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Back to <a href="Welcome_to_HP_MyRoom_Linux.htm" title="Welcome">Welcome</a></td>
+        <td>
+          <p style="text-align: right;">Forward to <a href="rhel_install.htm" title="Install RHEL client software">Install RHEL client software</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+</body>
+</html>

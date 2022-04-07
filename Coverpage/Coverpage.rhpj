@@ -4,8 +4,8 @@
 <id>9d42c622-9797-4f32-b49c-0e0a921c0409</id>
 <preferences>
 <language>en_US</language>
-<noInlineStyle>false</noInlineStyle>
-<advancedHtmlHelpOptions>false</advancedHtmlHelpOptions>
+<noInlineStyle>true</noInlineStyle>
+<advancedHtmlHelpOptions>true</advancedHtmlHelpOptions>
 <defaultCss>contents/assets/css/default.css</defaultCss>
 <defaultWsf>settings/import/word/default.wsf</defaultWsf>
 <defaultFsf>settings/import/fm/default.fsf</defaultFsf></preferences>
@@ -18,10 +18,10 @@
 <status>Complete</status></statuslist>
 <ctaggroups>
 <group>Audience</group>
+<group>Others</group>
 <group>Platform</group>
 <group>Product</group>
-<group>Properties</group>
-<group>Others</group></ctaggroups>
+<group>Properties</group></ctaggroups>
 <colors>
 <color name="Black" value="#000000"></color>
 <color name="Red" value="#FF0000"></color>

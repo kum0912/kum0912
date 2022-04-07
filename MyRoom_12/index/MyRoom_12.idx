@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<keywords>        
+<keyword>
+<name>Contacts right click</name></keyword>
+<keyword>
+<name>Install Mac client software</name>
+<conditions>Others:Mac</conditions></keyword>
+<keyword>
+<name>Install RHEL client software</name>
+<conditions>Others:Linux</conditions></keyword>
+<keyword>
+<name>Install Ubuntu client software</name>
+<conditions>Others:Linux</conditions></keyword>
+<keyword>
+<name>Mac install (cont&#39;d)</name>
+<conditions>Others:Mac</conditions></keyword>
+<keyword>
+<name>Mac installer</name>
+<conditions>Others:Mac</conditions></keyword>
+<keyword>
+<name>MyRoom Linux</name>
+<conditions>Others:Linux</conditions></keyword>
+<keyword>
+<name>MyRoom Mac</name>
+<conditions>Others:Mac</conditions></keyword></keywords>

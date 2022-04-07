@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="Android" backcolor="#ff00ff"></prop>
+  <prop att="Others" val="iOS" backcolor="#800080"></prop>
+  <prop att="Others" val="Linux" backcolor="#000080"></prop>
+  <prop att="Others" val="Mac" backcolor="#800000"></prop>
+  <prop att="Others" val="Online" backcolor="#00ff00"></prop>
+  <prop att="Others" val="Print" backcolor="#ff0000"></prop>
+  <prop att="Others" val="Windows" backcolor="#ffff00"></prop>
+</val>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <toc>
+      <path>../../toc/Linux.toc</path>
+      <name>Linux</name>
+    </toc>
+    <conditional>
+      <name>NOT Linux</name>
+      <path>../expressions/NOT Linux.expn</path>
+    </conditional>
+    <includereftopics type="boolean">true</includereftopics>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+  </content>
+  <outputPath>C:/Users/forbesh/Documents/PDF for review/</outputPath>
+  <starterPage>MyRoom_Help_Linux101b.pdf</starterPage>
+  <pdf>
+    <multiheaders type="boolean">false</multiheaders>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <mergePdfs type="boolean">true</mergePdfs>
+    <embeddFonts type="boolean">true</embeddFonts>
+  </pdf>
+  <search>
+    <context type="boolean">false</context>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <name>Printed Documentation</name>
+  <type>pdf</type>
+  <title>HPE MyRoom</title>
+  <lowercasenames type="number">0</lowercasenames>
+  <use_thumbnails type="boolean">false</use_thumbnails>
+</preset>

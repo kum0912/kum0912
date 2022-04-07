@@ -9,6 +9,7 @@
   <content>
     <toc>
       <path>../../toc/Default.toc</path>
+      <name>Default</name>
     </toc>
     <relativeOutputPath type="boolean">false</relativeOutputPath>
     <index type="boolean">true</index>
@@ -22,7 +23,7 @@
   </content>
   <type>html5</type>
   <glosstermEffect type="number">0</glosstermEffect>
-  <outputPath>C:/Users/kum/Desktop/JaredtestToday/mergedProjects/Coverpage/</outputPath>
+  <outputPath>C:/inetpub/wwwroot/Searchtest/</outputPath>
   <name>HTML</name>
   <starterPage>index.htm</starterPage>
   <chatbot>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-check-list" content="Ran Smart Index" />
+  <meta name="condition-tags" content="Others:Windows" />
+  <meta name="search-keywords" content="create event, outlook" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Constraints and troubleshooting</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-index-keywords" content="Constraints and troubleshooting,Troubleshooting,Constraints,Outlook add-in" />
+</head>
+<body>
+  <h1>Constraints and troubleshooting</h1>
+  <p> </p>
+  <table cellpadding="1" cellspacing="4" style="border-collapse:collapse;" width="1000">
+    <colgroup>
+      <col width="400" />
+      <col width="300" />
+      <col width="300" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">Keep these constraints in mind when using the HPE MyRoom Add-In for Outlook 2010/2013/2016</span>          </td>
+        <td colspan="2">
+          <ul style="list-style: disc;">
+            <li>If you scheduled your event in Outlook using the MyRoom Add-In, make any modifications to it using the add-in, not your MyRoom account. If you modify the event in your MyRoom account, the changes will not be passed through to your Outlook calendar or your attendees.</li>
+            <li>The MyRoom panel must be open when changes or cancellations are made to your Outlook meeting.</li>
+            <li>Any setup/changes/cancellations can be saved but they do not take effect until you click the Send, Send Update or Send Cancellation button.</li>
+            <li>You can only schedule meetings through Outlook in rooms which you own. Rooms for which you have Room Administrator privileges will not be included in the Available Rooms list.</li>
+            <li>The HPE MyRoom Add-In for Outlook 2010/2013/2016 is not available for Mac or Linux.</li>
+            <li>The HPE MyRoom Add-In for Outlook 2010/2013/2016 does not support recurrence.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">Troubleshooting</span></td>
+        <td colspan="2">
+          <p style="text-align: center;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td colspan="2">
+          <p style="text-align: center;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Cannot log onto server</td>
+        <td colspan="2">
+          <p>If a connection cannot be made to the HPE MyRoom server, test the connection by logging into your account via the HPE MyRoom web page. Go to the <a href="https://www.myroom.hpe.com" target="_blank" title="Sign in">MyRoom home page</a> and try to log in to your account.</p>
+          <ul style="list-style: disc;">
+            <li>If the web page cannot be reached, then there may be a problem with the network connection to the HPE MyRoom server.</li>
+            <li>If log in to the account cannot be completed, there may be an issue with the account. Contact the HPE Virtual Delivery Service Desk.</li>
+            <li>If log in can be completed but a room cannot be entered, then please call the <a href="https://www.hpe.com/h41268/live/index_e.aspx?qid=15641" title="MyRoom Virtual Delivery Service Desk">HPE Virtual Delivery Service Desk</a> for further diagnosis and troubleshooting.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p style="text-align: right;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <p>Server does not respond to request</p>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p>After logging into the HPE MyRoom server, if the HPE MyRoom server repeatedly cannot respond to the request (create a new event, delete an event, etc.), the connection to the HPE MyRoom server may have timed out. To reconnect to the HPE MyRoom server from the add-in, exit out of Outlook and restart Outlook.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p style="text-align: right;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <p>Uninstalling the add-in</p>
+        </td>
+        <td colspan="2">
+          <p>To uninstall the add-in, do the following:</p>
+          <ol style="list-style: decimal;">
+            <li>Close all running instances of Outlook.</li>
+            <li>Open the Control Panel for Windows.</li>
+            <li>Under Programs, click Uninstall a program.</li>
+            <li>Find the “HPE MyRoom Add-in for Outlook 2010/2013” and select it.</li>
+            <li>Click Uninstall.</li>
+            <li>Click Uninstall in the HPE MyRoom Add-in for Outlook 2010/2013 Setup window.</li>
+          </ol>
+          <p style="text-align: center;"><img alt="Remove add-in" border="0" height="259" src="../../assets/images/Images/addinmodify.jpg" style="border: none;" title="Remove add-in" width="500" /></p>
+          <ol start="7" style="list-style: decimal;">
+            <li>The add-in is then removed from the system. Click Close to exit the window.</li>
+            <li>Re-open Outlook.</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p style="text-align: right;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <p>Unusual behavior in Outlook after installing the add-in</p>
+        </td>
+        <td colspan="2">
+          <p>If unusual behavior in Outlook occurs after installing the HPE MyRoom Add-in for Microsoft Outlook, you may be informed that Automated Safe Mode has started for Outlook. To correct this problem, perform the following tasks:</p>
+          <ol style="list-style: decimal;">
+            <li>Close Outlook.</li>
+            <li>Uninstall the add-in (See the above instructions).</li>
+            <li>Reinstall the HPE MyRoom Add-in for Microsoft Outlook (See the Installation module).</li>
+            <li>Re-start Outlook.</li>
+          </ol>
+          <p> </p>
+          <p>If the problem persists, there may be cause to re-install your version of Outlook. Please consult your IT department.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p style="text-align: right;"> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Back to <a href="../Main_Page.htm" title="Inside HPE MyRoom Contacts tab">Inside HPE MyRoom Contacts tab</a></p>
+        </td>
+        <td>
+          <p>Back to <a href="use_outlook_to_attend_event.htm" title="Use Outlook to attend meeting">Use Outlook to attend event</a></p>
+        </td>
+        <td>
+          <p style="text-align: right;">Forward to <a href="Sending_Event_Details.htm" title="Sending Event Details">Sending event details</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+</body>
+</html>

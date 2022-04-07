@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-check-list" content="Ran Smart Index" />
+  <meta name="condition-tags" content="Others:Linux" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Install RHEL client software</title>
+  <link rel="StyleSheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-index-keywords" content="Install RHEL client software" />
+</head>
+<body>
+  <h1>Install RHEL client software</h1>
+  <p>test</p>
+  <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;" width="1000">
+    <colgroup>
+      <col width="240" />
+      <col width="500" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol style="list-style: decimal;">
+            <li>The Download page automatically presents the Linux download window. Click the link for your package.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Linux Download Page" border="0" src="../assets/images/Images/downloadpagelinux.jpg" style="border: none;" title="Linux Download Page" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="2" style="list-style: decimal;">
+            <li>Choose Save File to save and then launch using Package Installer (in this case) or Open with... to start installing right away.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Installer" border="0" src="../assets/images/Images/RHEL_Install_1.jpg" style="border: none;" title="Open Package" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="3" style="list-style: decimal;">
+            <li>Click on Install to begin package installation.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Install Package" border="0" src="../assets/images/Images/RHEL Install 2.jpg" style="border: none;" title="Install Package" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="4" style="list-style: decimal;">
+            <li>Authenticate with your password.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Install Authentication" border="0" src="../assets/images/Images/RHEL Install 3.jpg" style="border: none;" title="Install Authentication" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">
+          <ol start="5" style="list-style: decimal;">
+            <li>Once installation has finished, you can launch HPE MyRoom from the Applications menu list.</li>
+          </ol>
+        </td>
+        <td>
+          <p style="text-align: center;"><img alt="Launch HPE MyRoom" border="0" src="../assets/images/Images/RHEL Install 4.jpg" style="border: none;" title="Launch HPE MyRoom" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">More detail for RHEL 7, CentOS 7 and Fedora installs</span></td>
+        <td>
+          <p>• <span style="font-weight: bold;">Installing the .rpm on RHEL 7</span></p>
+          <p># install EPEL</p>
+          <p>sudo subscription-manager repos --enable=rhel-7-server-optional-rpms</p>
+          <p>sudo subscription-manager repos --enable=rhel-7-server-extras-rpms</p>
+          <p>sudo yum install -y https://download.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-9.noarch.rpm</p>
+          <p> </p>
+          <p>#Download .rpm package from the <a href="/Download" target="_blank" title="Download">MyRoom Download</a> page</p>
+          <p># Install MyRoom</p>
+          <p>sudo yum install -y hpmyroom&lt;version&gt;.x86_64.rpm</p>
+          <p> </p>
+          <p style="font-weight: bold;">• Installing the .rpm on CentOS 7</p>
+          <p># Install EPEL</p>
+          <p>sudo yum install -y epel-release</p>
+          <p> </p>
+          <p>#Download .rpm package from the <a href="/Download" target="_blank">MyRoom Download</a> page</p>
+          <p># Install MyRoom</p>
+          <p>sudo yum install -y hpmyroom&lt;version&gt;.x86_64.rpm</p>
+          <p> </p>
+          <p style="font-weight: bold;">• Installing the .rpm on Fedora</p>
+          <p>sudo dnf install -y hpmyroom&lt;version&gt;.x86_64.rpm</p>
+          <p> </p>
+          <p>I<span style="font-weight: bold;">nstalling the .rpm and dependencies manually</span></p>
+          <p>sudo rpm -Uvh \</p>
+          <p>  https://dl.fedoraproject.org/pub/epel/7/x86_64/l/libva-1.2.1-3.el7.x86_64.rpm \</p>
+          <p>  https://dl.fedoraproject.org/pub/epel/7/x86_64/l/libvdpau-0.9-1.el7.x86_64.rpm \</p>
+          <p>  https://mirror.centos.org/centos/7/os/x86_64/Packages/libpng12-1.2.50-10.el7.x86_64.rpm \</p>
+          <p>  /downloadfiles/hpmyroom&lt;version&gt;.x86_64.rpm</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span style="font-weight: bold;">Missing libraries errors</span></td>
+        <td>
+          <ol style="list-style: decimal;">
+            <li>If you get a missing libraries error while processing &#39;hpmyroom&#39;, run &#39;yum whatprovides */&lt;libraryname&gt;&#39; for each individual library to find a package that contains the library.</li>
+            <li>Install the package by running &#39;yum install &lt;packagename.rpm&gt;&#39;  (where &#39;packagename.rpm&#39; is an installer name).</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><span>NOTE: PulseAudio is required for Linux systems using MyRoom version 10.9 and higher. Go to the Sound settings on your Linux system. Explicitly select your audio device in both the Output and Input tabs. Verify your microphone volume is not set too low or muted. Test your device in Sound settings. Then proceed to test and adjust your settings in MyRoom as <a href="../New_HP_MyRoom/meet_with/Settings/Audio.htm" title="Audio/Video">here</a>.</span></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Back to <a href="install_linux_client_software.htm" title="Install Ubuntu Client Software">Install Ubuntu Client Software</a></td>
+        <td>
+          <p style="text-align: right;">Forward to <a href="../New_HP_MyRoom/client_update.htm" title="Client update">Client update</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+</body>
+</html>
