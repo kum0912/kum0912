@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="Android" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="iOS" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Linux" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Mac" flag="Exclude" op="AND"></tag></group>    </expr>

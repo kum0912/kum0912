@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>Table of Contents</title>
+<book navtitle="HPE MyRoom Help - Mac" condition="Others:Mac" href="../contents/HP_MyRoom_Mac/welcome_to_hp_myroom_macintosh.htm" format="html" processing-role="normal">
+  <page condition="Others:Mac" href="../contents/HP_MyRoom_Mac/Install_Mac_Client_Software.htm" format="html" processing-role="normal"></page>
+  <page condition="Others:Mac" href="../contents/HP_MyRoom_Mac/Installer.htm" format="html" processing-role="normal"></page>
+  <page navtitle="Mac install (cont&#39;d)" condition="Others:Mac" href="../contents/HP_MyRoom_Mac/mac_install_ii.htm" format="html" processing-role="normal"></page>
+</book>
+<book condition="Others:Linux" href="../contents/Linux/Welcome_to_HP_MyRoom_Linux.htm" format="html" processing-role="normal">
+  <page condition="Others:Linux" href="../contents/Linux/install_linux_client_software.htm" format="html" processing-role="normal"></page>
+  <page condition="Others:Linux" href="../contents/Linux/rhel_install.htm" format="html" processing-role="normal"></page>
+</book>
+<book navtitle="Welcome to HPE MyRoom Premium Help" condition="Others:Windows" href="../contents/New_HP_MyRoom/Welcome_to_HP_MyRoom_Premium.htm" format="html" processing-role="normal">
+  <page condition="Others:Windows" href="../contents/New_HP_MyRoom/Install_Product.htm" format="html" processing-role="normal"></page>
+  <page condition="Others:Windows" href="../contents/New_HP_MyRoom/Installation_Wizard.htm" format="html" processing-role="normal"></page>
+  <page condition="Others:Windows" href="../contents/New_HP_MyRoom/Installation_Wizard_(cont_d).htm" format="html" processing-role="normal"></page>
+  <page navtitle="Test your setup" condition="Others:Windows" href="../contents/New_HP_MyRoom/test_your_setup.htm" format="html" processing-role="normal"></page>
+</book>
+<page href="../contents/New_HP_MyRoom/client_update.htm" format="html" processing-role="normal"></page>
+<book href="../contents/New_HP_MyRoom/Create_Account.htm" format="html" processing-role="normal">
+  <page href="../contents/New_HP_MyRoom/Enter_Account_Details.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Confirm_Account_Details.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Validate_New_Account_Email.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Sign_In_Page.htm" format="html" processing-role="normal"></page>
+</book>
+<page href="../contents/New_HP_MyRoom/Use_Your_Account.htm" format="html" processing-role="normal"></page>
+<page href="../contents/New_HP_MyRoom/rooms_activity.htm" format="html" processing-role="normal"></page>
+<page href="../contents/New_HP_MyRoom/Products.htm" format="html" processing-role="normal"></page>
+<page navtitle="Add Product keys" href="../contents/New_HP_MyRoom/Convert_to_Premium.htm" format="html" processing-role="normal"></page>
+<page navtitle="When to use chat, meetings or events" href="../contents/New_HP_MyRoom/When_to_Use.htm" format="html" processing-role="normal"></page>
+<page href="../contents/New_HP_MyRoom/Presenter_vs._Participant.htm" format="html" processing-role="normal"></page>
+<page href="../contents/New_HP_MyRoom/Launch_HP_MyRoom_Premium.htm" format="html" processing-role="normal"></page>
+<book href="../contents/New_HP_MyRoom/Change_Status.htm" format="html" processing-role="normal">
+  <page href="../contents/New_HP_MyRoom/Customize_Status_Messages.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Results_of_Changes_to_Status_Messages.htm" format="html" processing-role="normal"></page>
+</book>
+<book navtitle="Contacts" href="../contents/New_HP_MyRoom/Main_Page.htm" format="html" processing-role="normal">
+  <page href="../contents/New_HP_MyRoom/Contacts_Right_Click.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Add_Contact.htm" format="html" processing-role="normal"></page>
+  <page navtitle="Delete contact" href="../contents/New_HP_MyRoom/Delete_a_Contact.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Add_a_Group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/move_to_the_group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Delete_a_Group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Rename_a_Group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Email.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Hide_Show_Pictures.htm" format="html" processing-role="normal"></page>
+</book>
+<book navtitle="Rooms" href="../contents/New_HP_MyRoom/Inside_HP_MyRoom_Rooms_Tab.htm" format="html" processing-role="normal">
+  <page href="../contents/New_HP_MyRoom/Rooms.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Entering_a_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Creating_a_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/add_room_to_favorites.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Deleting_a_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Renaming_a_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/add_a_room_group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/move_to_room_group.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/add_shared_rooms.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/granting_access_to_shared_rooms.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/users_of_shared_rooms.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/organize_shared_rooms.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/releasing_or_removing_access.htm" format="html" processing-role="normal"></page>
+  <book href="../contents/New_HP_MyRoom/Roles/Roles.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/Roles/Assign_Role.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Accept a role" href="../contents/New_HP_MyRoom/Roles/Accepting_a_Role.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Roles/Role_Error_Messages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Roles/Roles_and_Permissions.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page navtitle="Keys - Quick keys" href="../contents/New_HP_MyRoom/quick_key.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/presentation_keys.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Persistent_Keys.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/vrg_keys.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/key_permissions.htm" format="html" processing-role="normal"></page>
+</book>
+<book navtitle="Meetings" href="../contents/New_HP_MyRoom/Chat_With_a_Contact.htm" format="html" processing-role="normal">
+  <page href="../contents/New_HP_MyRoom/Hold_a_Quick_Chat.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/Drag_to_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/waiting_room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/myroom_assist.htm" format="html" processing-role="normal"></page>
+  <book navtitle="Events" href="../contents/New_HP_MyRoom/Events/Creating_an_Event.htm" format="html" processing-role="normal">
+    <page navtitle="Install Outlook add-in" condition="Others:Windows" href="../contents/New_HP_MyRoom/Events/use_outlook_to_create_an_event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/First_time_using_the_outlook_plug-in.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Schedule_your_meeting_in_outlook.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/change_outlook_event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/use_outlook_to_attend_event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/constraints_and_troubleshooting.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Sending_Event_Details.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Email_Event_Details.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Create_Calendar_Item.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Delete_Event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Modify_Event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_an_Event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_from_Sign_In_Page.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_from_Tray.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_an_Event_-_Participant.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_from_Sign_In_Page_-_Participant.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Attend_from_Tray_-_Participant.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Events/Extend_an_Event.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Event roles and permissions" href="../contents/New_HP_MyRoom/Events/Permissions_in_Events.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Large events" href="../contents/New_HP_MyRoom/Large_Events/Creating_a_Large_Event.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/Large_Events/Ordering_Event_Services.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Large_Events/Changing_a_Large_Event.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/Large_Events/managing_large_events.htm" format="html" processing-role="normal"></page>
+  </book>
+</book>
+<book navtitle="Rooms/Tools" href="../contents/New_HP_MyRoom/meet_with/Keyboard_Shortcuts.htm" format="html" processing-role="normal">
+  <page navtitle="Description of chat room" href="../contents/New_HP_MyRoom/meet_with/Description_of_Chat_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/meet_with/file_menu.htm" format="html" processing-role="normal"></page>
+  <book href="../contents/New_HP_MyRoom/meet_with/view_menu.htm" format="html" processing-role="normal">
+    <book navtitle="People panel" href="../contents/New_HP_MyRoom/meet_with/Show_Hide_Left_Panel.htm" format="html" processing-role="normal">
+      <page href="../contents/New_HP_MyRoom/meet_with/Tools_to_manage_people_and_room_features.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Content panel" href="../contents/New_HP_MyRoom/meet_with/Show_Hide_Content_Panel.htm" format="html" processing-role="normal">
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Navigation_Tools.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Esport_a_Whiteboard.htm" format="html" processing-role="normal"></page>
+      <book navtitle="Content menus - Tools" href="../contents/New_HP_MyRoom/meet_with/Annotation_Tools/Annotation_Tools.htm" format="html" processing-role="normal">
+        <page href="../contents/New_HP_MyRoom/meet_with/Annotation_Tools/Content_Menus_-_Pointers.htm" format="html" processing-role="normal"></page>
+        <page navtitle="Using annotation tools" href="../contents/New_HP_MyRoom/meet_with/Annotation_Tools/Using_Annotation_Tools.htm" format="html" processing-role="normal"></page>
+        <page navtitle="More annotation tools" href="../contents/New_HP_MyRoom/meet_with/Annotation_Tools/Erasing_Annotations.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/right_click_content_menu.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Using_Shared_Content.htm" format="html" processing-role="normal"></page>
+        <book navtitle="Add" href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Create_New_Content_Folder.htm" format="html" processing-role="normal">
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Profile.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Add_Message.htm" format="html" processing-role="normal"></page>
+          <book href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Notes.htm" format="html" processing-role="normal">
+            <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Notes_Tools.htm" format="html" processing-role="normal"></page>
+            <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Notes_Menus.htm" format="html" processing-role="normal"></page>
+            <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Notes_Menu_-_File.htm" format="html" processing-role="normal"></page>
+            <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Notes_Menu_-_Bullets.htm" format="html" processing-role="normal"></page>
+          </book>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Survey.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Tables.htm" format="html" processing-role="normal"></page>
+          <page navtitle="Cells, rows and columns" href="../contents/New_HP_MyRoom/meet_with/Content_Panel/rows_in_tables.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/task_list.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Timer.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/URLs.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/stamps.htm" format="html" processing-role="normal"></page>
+        </book>
+      </book>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/copy_content.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Rename_a_Whiteboard.htm" format="html" processing-role="normal"></page>
+      <page navtitle="Export content - Presenter" href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Exporting_Shared_Content.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Sharing_Content.htm" format="html" processing-role="normal"></page>
+      <page navtitle="Export content - Participant" href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Exporting_Content.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/_Manage_Shared_Content.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Back_Forward_Bookmark.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/start_page.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Delete_a_Whiteboard.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Content_Panel/Delete_All_Room_Content.htm" format="html" processing-role="normal"></page>
+      <book navtitle="Chat" href="../contents/New_HP_MyRoom/meet_with/Show_Hide_Chat_Panel.htm" format="html" processing-role="normal">
+        <page href="../contents/New_HP_MyRoom/meet_with/Chat_Options.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Chat_Area_Functions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Right_Click_in_a_Chat.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Right_Click_in_a_Meeting.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+  <book href="../contents/New_HP_MyRoom/meet_with/actions_menu.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/meet_with/Snap.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Sharing" href="../contents/New_HP_MyRoom/meet_with/Sharing.htm" format="html" processing-role="normal">
+      <page navtitle="Share notifications" href="../contents/New_HP_MyRoom/meet_with/share_notifications.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/share_application.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Sharing_with_Reverse_Control.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Shared_Desktop_View_by_Owner.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Shared_View_by_Viewer.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Request_Remote_Control.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/remote_control_and_windows_8.htm" format="html" processing-role="normal"></page>
+      <page navtitle="Copy/paste from one machine to another" href="../contents/New_HP_MyRoom/meet_with/Copy_from_one_machine_to_another.htm" format="html" processing-role="normal"></page>
+    </book>
+    <page href="../contents/New_HP_MyRoom/meet_with/Transfer_Files.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/File_Transfer_2.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Help" href="../contents/New_HP_MyRoom/meet_with/help_menu.htm" format="html" processing-role="normal">
+    <book navtitle="Settings" href="../contents/New_HP_MyRoom/meet_with/Settings/Personal_Information.htm" format="html" processing-role="normal">
+      <page navtitle="Audio/video" href="../contents/New_HP_MyRoom/meet_with/Settings/Audio.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Connection.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Profile_Picture.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Options.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Email_Address.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Password.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/Profile_Picture_Taken.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Settings/customization.htm" format="html" processing-role="normal"></page>
+    </book>
+    <page href="../contents/New_HP_MyRoom/meet_with/Documentation.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Trainingpage.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/email_support.htm" format="html" processing-role="normal"></page>
+    <page navtitle="Upload support log files" href="../contents/New_HP_MyRoom/meet_with/Send_Feedback.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/hpe_myroom_portal.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/About.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page href="../contents/New_HP_MyRoom/meet_with/see_more.htm" format="html" processing-role="normal"></page>
+  <book href="../contents/New_HP_MyRoom/meet_with/add_or_remove_buttons.htm" format="html" processing-role="normal">
+    <book href="../contents/New_HP_MyRoom/meet_with/Whiteboard.htm" format="html" processing-role="normal">
+      <page href="../contents/New_HP_MyRoom/meet_with/Whiteboard_Menus_-_File.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Whiteboard_Menus_-_Pointers.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <page href="../contents/New_HP_MyRoom/meet_with/Description_of_Event_Room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/meet_with/MyRoom_event_menu.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/meet_with/status_message.htm" format="html" processing-role="normal"></page>
+  <page navtitle="View menu - event" href="../contents/New_HP_MyRoom/meet_with/View_menu_-_event.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/meet_with/Questions.htm" format="html" processing-role="normal"></page>
+  <book href="../contents/New_HP_MyRoom/meet_with/invite_menu.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/meet_with/invite_contact.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/invite_by_email.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Presentation_key.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Invite_by_Persistent_Keys.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book href="../contents/New_HP_MyRoom/meet_with/Actions_menu_-_event.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/meet_with/Hand_Up.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Applaud.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Recording" href="../contents/New_HP_MyRoom/meet_with/Recording.htm" format="html" processing-role="normal">
+      <page href="../contents/New_HP_MyRoom/meet_with/play_a_recording.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Using the phone bridge" href="../contents/New_HP_MyRoom/meet_with/bridge.htm" format="html" processing-role="normal">
+      <page href="../contents/New_HP_MyRoom/meet_with/Skype_Bridge.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/InterCall.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/New_HP_MyRoom/meet_with/Bridge3.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="See more/See less - event" href="../contents/New_HP_MyRoom/meet_with/See_more-See_less-event.htm" format="html" processing-role="normal">
+    <page navtitle="Use a Quick key" href="../contents/New_HP_MyRoom/meet_with/Use_a_Quick_Key.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Add or remove buttons - event" href="../contents/New_HP_MyRoom/meet_with/addorremovebuttons-events.htm" format="html" processing-role="normal">
+      <page navtitle="People panel features in an event" href="../contents/New_HP_MyRoom/meet_with/People_Panel_Features.htm" format="html" processing-role="normal"></page>
+      <book navtitle="Tools to manage people and room features - event" href="../contents/New_HP_MyRoom/meet_with/Tools.htm" format="html" processing-role="normal">
+        <page href="../contents/New_HP_MyRoom/meet_with/grant_mic_video_for_all.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/control_participant_features.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/toolsmanage.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/mark_away.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/presenter_right_click.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Use_Microphone.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/New_HP_MyRoom/meet_with/Get_system_information.htm" format="html" processing-role="normal"></page>
+        <page navtitle="Make presenter/Make participant/View profile" href="../contents/New_HP_MyRoom/meet_with/Make_presenter_View_profile.htm" format="html" processing-role="normal"></page>
+        <page navtitle="Move to room..." href="../contents/New_HP_MyRoom/meet_with/Move_to_room.htm" format="html" processing-role="normal"></page>
+        <book href="../contents/New_HP_MyRoom/meet_with/Breakout_Rooms.htm" format="html" processing-role="normal">
+          <page href="../contents/New_HP_MyRoom/meet_with/moving_to_breakout_rooms.htm" format="html" processing-role="normal"></page>
+          <page href="../contents/New_HP_MyRoom/meet_with/send_a_message.htm" format="html" processing-role="normal"></page>
+        </book>
+        <page href="../contents/New_HP_MyRoom/meet_with/Eject.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+  <book href="../contents/New_HP_MyRoom/meet_with/Microphone_Speaker_Webcam.htm" format="html" processing-role="normal">
+    <page href="../contents/New_HP_MyRoom/meet_with/Video_Features.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/More_Video_Features.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Pause_Snap_PIP.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Call_from_a_Chat.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Audio_Message.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/New_HP_MyRoom/meet_with/Receive_Audio_Message.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page href="../contents/New_HP_MyRoom/meet_with/network_health_indicator.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/New_HP_MyRoom/meet_with/more_about_network_health.htm" format="html" processing-role="normal"></page>
+</book>
+<page href="../contents/New_HP_MyRoom/faqs.htm" format="html" processing-role="normal"></page>
+</map>

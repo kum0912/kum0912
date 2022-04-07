@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <name>iOS</name>
+      <path>../expressions/iOS.expn</path>
+    </conditional>
+    <toc>
+      <name>Mobile</name>
+      <path>../../toc/Mobile.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <brs type="array">
+      <brsitem>
+        <path>../browsesequence/iOS.brs</path>
+        <name>iOS</name>
+      </brsitem>
+    </brs>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <name>BSSCDefault</name>
+        <path>../mapfiles/BSSCDefault.ali</path>
+      </mapFilesitem>
+      <mapFilesitem>
+        <name>WidgetMax</name>
+        <path>../mapfiles/WidgetMax.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>HPE MyRoom Mobile</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/forbesh/Documents/iOS responsive/</outputPath>
+  <name>iOS</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Welcome_to_HPE_MyRoom_Android_Mobile</name>
+    <path>../../contents/Mobile/Welcome_to_HPE_MyRoom_Android_Mobile.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">16</lowercasenames>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context>description</context>
+    <contextLimit>100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <skin>
+    <path>../skins/MyRoom_screen/html5.skn</path>
+    <name>html5</name>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <use_thumbnails type="boolean">true</use_thumbnails>
+  <favicon>
+    <name>favicon</name>
+    <path>../../contents/assets/images/Mobile/favicon.ico</path>
+  </favicon>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>MyRoom iOS</name>
+    </serversStatusitem>
+  </serversStatus>
+  <republish type="boolean">true</republish>
+</preset>

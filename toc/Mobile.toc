@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>Table of Contents</title>
+<book navtitle="HPE MyRoom Mobile" format="html" processing-role="normal">
+  <page navtitle="Welcome to HPE MyRoom Mobile Help" href="../contents/Mobile/Welcome_to_HPE_MyRoom_Android_Mobile.htm" format="html" processing-role="normal"></page>
+  <page navtitle="Log in to MyRoom Mobile" href="../contents/Mobile/Log_in_to_HPE_MyRoom_Android_Mobile.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/HPE_MyRoom_Android_Tray.htm" format="html" processing-role="normal"></page>
+  <page navtitle="MyRoom Mobile Rooms tray menu" href="../contents/Mobile/HPE_MyRoom_Android_Tray_Menu.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Upload_Support_Logs_Android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Enter_a_Room_mobile.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Hand_Up_android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Quick_Key_android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/invite_to_room.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Chat_android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Content_android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/People_android.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Hands_up_android.htm" format="html" processing-role="normal"></page>
+  <page navtitle="Scan QR code" href="../contents/Mobile/scan_qr_code.htm" format="html" processing-role="normal"></page>
+  <page navtitle="Share screen" condition="Others:Android" href="../contents/Mobile/Share_screen.htm" format="html" processing-role="normal"></page>
+  <book navtitle="Settings" href="../contents/Mobile/Ringtone_android.htm" format="html" processing-role="normal">
+    <page navtitle="Play chat sound" href="../contents/Mobile/Ringtone_android.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/audio_output.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/hdvideo.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:Android" href="../contents/Mobile/usbvideo.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Annotation toolbar" href="../contents/Mobile/Show_edit_button.htm" format="html" processing-role="normal">
+      <page href="../contents/Mobile/Pointer.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Pencil.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Highlighter.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Square.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Circle.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Delete.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Eraser.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/Mobile/Color.htm" format="html" processing-role="normal"></page>
+    </book>
+    <page href="../contents/Mobile/translate_android_chat.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/selectlanguage.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Message_duration.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/androidnetworkhealth.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/hd_video.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page href="../contents/Mobile/Dragged_in_mobile.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Eject_from_room_mobile.htm" format="html" processing-role="normal"></page>
+  <book navtitle="MyRoom Mobile contacts tray More menu" format="html" processing-role="normal">
+    <page navtitle="MyRoom Mobile Contacts tray More menu" href="../contents/Mobile/MyRoom_Mobile_Contacts_menu.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Add_contact.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Add_contact_group.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Hide_offline_contacts.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Contact_pictures.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Mobile/Expand_all_groups.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page href="../contents/Mobile/MyRoom_Mobile_Contactss_tray_menu.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Mobile/Menu_in_chat.htm" format="html" processing-role="normal"></page>
+</book>
+</map>
