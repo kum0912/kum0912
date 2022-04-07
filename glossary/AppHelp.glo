@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="AppHelp">          
+<title>Glossary Definitions</title>        
+<glossentry id="Advanced_Encryption Standard 256-bit encryption">
+<glossterm>Advanced Encryption Standard 256-bit encryption</glossterm>
+<glossdef>Encrypted audio, video and desktop content for secure communication.</glossdef></glossentry>
+<glossentry id="AES">
+<glossterm>AES</glossterm>
+<glossdef>Encrypted audio, video and desktop content for secure communication.</glossdef></glossentry>
+<glossentry id="Center_viewing area">
+<glossterm>Center viewing area</glossterm>
+<glossdef>The area most prominent in the room where converted PowerPoint and images appear.</glossdef></glossentry>
+<glossentry id="Left_view area">
+<glossterm>Left view area</glossterm>
+<glossdef>Area to the left of the center viewing area where timers and surveys can run.</glossdef></glossentry>
+<glossentry id="MyRoom_Tray">
+<glossterm>MyRoom Tray</glossterm>
+<glossdef>MyRoom account used for quick access to rooms and contacts.</glossdef></glossentry>
+<glossentry id="Virtual_Room">
+<glossterm>Virtual Room</glossterm>
+<glossdef>Online equivalent of a physical room that is set up for meetings and or training sessions.</glossdef></glossentry></glossgroup>

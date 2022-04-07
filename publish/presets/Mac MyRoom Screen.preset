@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <name>NOT_Mac</name>
+      <path>../expressions/NOT_Mac.expn</path>
+    </conditional>
+    <toc>
+      <name>MyRoom_Premium</name>
+      <path>../../toc/MyRoom_Premium.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <brs type="array"></brs>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <name>BSSCDefault</name>
+        <path>../mapfiles/BSSCDefault.ali</path>
+      </mapFilesitem>
+      <mapFilesitem>
+        <name>WidgetMax</name>
+        <path>../mapfiles/WidgetMax.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>HPE MyRoom Mac</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/forbesh/Documents/generate mac myroom/</outputPath>
+  <name>Mac MyRoom Screen</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>welcome_to_hp_myroom_macintosh</name>
+    <path>../../contents/HP_MyRoom_Mac/welcome_to_hp_myroom_macintosh.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context>description</context>
+    <contextLimit>100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">true</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency>Monthly</changeFrequency>
+  </sitemap>
+  <skin>
+    <name>html5</name>
+    <path>../skins/MyRoom_screen/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <use_thumbnails type="boolean">false</use_thumbnails>
+  <favicon>
+    <name>favicon</name>
+    <path>../../favicon.ico</path>
+  </favicon>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>MyRoom Mac</name>
+    </serversStatusitem>
+  </serversStatus>
+  <republish type="boolean">false</republish>
+</preset>
